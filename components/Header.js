@@ -10,18 +10,21 @@ export default function Header() {
           </Link>
           
           {/* Desktop Navigation */}
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden md:flex space-x-6">
             <Link href="/neck-hump-causes" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
-              Neck Hump Guide
+              Neck Hump
+            </Link>
+            <Link href="/text-neck-syndrome" className="text-gray-700 hover:text-blue-600 transition-colors">
+              Text Neck
+            </Link>
+            <Link href="/buffalo-hump-vs-neck-hump" className="text-gray-700 hover:text-blue-600 transition-colors">
+              Buffalo Hump
+            </Link>
+            <Link href="/military-neck-cervical-lordosis" className="text-gray-700 hover:text-blue-600 transition-colors">
+              Military Neck
             </Link>
             <Link href="/posture-exercises" className="text-gray-700 hover:text-blue-600 transition-colors">
               Exercises
-            </Link>
-            <Link href="/desk-setup-guide" className="text-gray-700 hover:text-blue-600 transition-colors">
-              Tech Neck Prevention
-            </Link>
-            <Link href="/how-to-fix-posture-at-home" className="text-gray-700 hover:text-blue-600 transition-colors">
-              Recovery System
             </Link>
           </div>
           
