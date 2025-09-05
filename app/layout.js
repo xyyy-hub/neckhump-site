@@ -5,10 +5,10 @@ import Footer from '../components/Footer'
 export const metadata = {
   metadataBase: new URL('https://neckhump.com'),
   title: {
-    default: 'Posture Fix Pro - How to Fix Bad Posture at Home',
-    template: '%s | Posture Fix Pro'
+    default: 'Neck Hump Guide: Fix Forward Head Posture | NeckHump.com',
+    template: '%s | NeckHump.com'
   },
-  description: 'Learn how to fix bad posture, neck hump, and back pain with simple exercises and desk setup tips. Free guides for desk workers and gamers.',
+  description: 'Complete guide to fixing neck hump and forward head posture. Evidence-based exercises, ergonomic tips, and solutions for tech neck. Free expert resources.',
   keywords: ['posture', 'bad posture', 'neck hump', 'desk setup', 'posture exercises', 'back pain', 'forward head posture', 'ergonomics'],
   authors: [{ name: 'Posture Fix Pro' }],
   creator: 'Posture Fix Pro',
@@ -17,9 +17,9 @@ export const metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://neckhump.com',
-    siteName: 'Posture Fix Pro',
-    title: 'Posture Fix Pro - How to Fix Bad Posture at Home',
-    description: 'Learn how to fix bad posture, neck hump, and back pain with simple exercises and desk setup tips.',
+    siteName: 'NeckHump.com',
+    title: 'Neck Hump Guide: Fix Forward Head Posture | NeckHump.com',
+    description: 'Complete guide to fixing neck hump and forward head posture. Evidence-based exercises, ergonomic tips, and solutions for tech neck.',
     images: [
       {
         url: '/og-image.jpg',
@@ -31,8 +31,8 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Posture Fix Pro - How to Fix Bad Posture at Home',
-    description: 'Learn how to fix bad posture, neck hump, and back pain with simple exercises and desk setup tips.',
+    title: 'Neck Hump Guide: Fix Forward Head Posture | NeckHump.com',
+    description: 'Complete guide to fixing neck hump and forward head posture. Evidence-based exercises, ergonomic tips, and solutions for tech neck.',
     images: ['/og-image.jpg'],
   },
   robots: {
@@ -77,13 +77,13 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              "name": "Posture Fix Pro",
+              "name": "NeckHump.com",
               "url": "https://neckhump.com",
-              "logo": "https://your-domain.com/logo.png",
-              "description": "Learn how to fix bad posture, neck hump, and back pain with simple exercises and desk setup tips.",
+              "logo": "https://neckhump.com/logo.png",
+              "description": "Complete guide to fixing neck hump and forward head posture. Evidence-based exercises, ergonomic tips, and solutions for tech neck.",
               "sameAs": [
-                "https://twitter.com/your-handle",
-                "https://facebook.com/your-page"
+                "https://twitter.com/neckhump",
+                "https://facebook.com/neckhump"
               ]
             })
           }}

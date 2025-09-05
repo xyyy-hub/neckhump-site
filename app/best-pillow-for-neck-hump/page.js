@@ -1,4 +1,7 @@
 import { Metadata } from 'next'
+import Breadcrumbs from '../../components/Breadcrumbs'
+import ReadingProgress, { ArticleStats } from '../../components/ReadingProgress'
+import FAQSection from '../../components/FAQSection'
 
 export const metadata = {
   title: 'Best Pillow for Neck Hump: 7 Top Picks That Actually Work (2024)',
@@ -25,9 +28,36 @@ export const metadata = {
   },
 }
 
+// FAQ data for this article
+const pillowFAQs = [
+  {
+    question: "What's the best pillow material for neck hump?",
+    answer: "Memory foam and latex provide the best support for neck hump correction. Memory foam contours to your neck's natural curve while maintaining support, while latex offers responsive support with better temperature regulation."
+  },
+  {
+    question: "Should I use a high or low pillow for neck hump?",
+    answer: "The pillow height depends on your sleep position. Side sleepers need higher pillows (4-6 inches), back sleepers need medium height (3-4 inches), and stomach sleeping should be avoided entirely with neck hump issues."
+  },
+  {
+    question: "How long does it take to adjust to a new cervical pillow?",
+    answer: "Most people need 1-2 weeks to fully adjust to a new cervical support pillow. You may experience some initial discomfort as your neck adapts to the proper alignment, but this should improve within a few nights."
+  },
+  {
+    question: "Can the wrong pillow make neck hump worse?",
+    answer: "Yes, absolutely. Pillows that are too high, too soft, or lack proper cervical support can reinforce forward head posture and worsen neck hump over time. Your pillow choice directly impacts 6-8 hours of spinal alignment every night."
+  },
+  {
+    question: "Do I need a special pillowcase for orthopedic pillows?",
+    answer: "Most orthopedic pillows come with removable, washable covers. You can use regular pillowcases, but make sure they're not too tight as this can compress the pillow's supportive shape."
+  }
+]
+
 export default function BestPillowForNeckHumpPage() {
   return (
-    <div className="max-w-4xl mx-auto px-4 py-8">
+    <>
+      <ReadingProgress />
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <Breadcrumbs />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -61,6 +91,8 @@ export default function BestPillowForNeckHumpPage() {
             Best Pillow for Neck Hump: 7 Top Picks That Actually Work (2024)
           </h1>
           
+          <ArticleStats readTime={12} wordCount={2200} />
+          
           <div className="bg-blue-50 border-l-4 border-blue-400 p-6 mb-8">
             <p className="text-lg text-blue-800 font-medium">
               <strong>Quick Answer:</strong> The best pillows for neck hump support cervical alignment, reduce forward head posture, and maintain proper spinal curvature during sleep. Memory foam contour pillows and cervical support pillows consistently rank highest for neck hump correction.
@@ -69,7 +101,7 @@ export default function BestPillowForNeckHumpPage() {
 
           <div className="text-gray-600 mb-8">
             <p className="mb-2">By the NeckHump.com Research Team</p>
-            <p>Last updated: January 15, 2024 | 12 min read</p>
+            <p>Last updated: January 15, 2024</p>
           </div>
         </header>
 
@@ -562,6 +594,29 @@ export default function BestPillowForNeckHumpPage() {
           </p>
         </div>
       </article>
+
+      {/* FAQ Section with Schema */}
+      <FAQSection faqs={pillowFAQs} title="Pillow FAQs" />
+
+      {/* Related Articles */}
+      <section className="mb-16">
+        <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides</h2>
+        <div className="grid md:grid-cols-3 gap-6">
+          <a href="/how-to-sleep-with-neck-hump" className="block p-6 bg-white border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
+            <h3 className="font-semibold text-gray-900 mb-2">How to Sleep with Neck Hump</h3>
+            <p className="text-gray-600 text-sm">Complete positioning guide for better overnight recovery</p>
+          </a>
+          <a href="/neck-hump-exercises" className="block p-6 bg-white border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
+            <h3 className="font-semibold text-gray-900 mb-2">Neck Hump Exercises</h3>
+            <p className="text-gray-600 text-sm">Targeted exercises to accelerate your pillow results</p>
+          </a>
+          <a href="/ergonomic-workspace-neck-hump" className="block p-6 bg-white border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
+            <h3 className="font-semibold text-gray-900 mb-2">Ergonomic Workspace Setup</h3>
+            <p className="text-gray-600 text-sm">Prevent daytime forward head posture at work</p>
+          </a>
+        </div>
+      </section>
     </div>
+    </>
   )
 }

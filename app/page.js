@@ -56,22 +56,30 @@ export default function HomePage() {
           <h2 className="text-lg font-semibold text-gray-900 mb-4 text-center">
             Start Your Neck Hump Recovery Journey
           </h2>
-          <div className="grid md:grid-cols-2 gap-4">
-            <Link href="/neck-hump-causes" className="block p-4 bg-white rounded border hover:border-blue-300 transition-colors">
-              <h3 className="font-medium text-gray-900 mb-2">🔍 What Causes Neck Hump?</h3>
+          <div className="grid md:grid-cols-3 gap-4">
+            <Link href="/neck-hump-causes" className="block p-4 bg-white rounded border hover:border-blue-300 transition-colors group">
+              <h3 className="font-medium text-gray-900 mb-2 group-hover:text-blue-600">🔍 What Causes Neck Hump?</h3>
               <p className="text-sm text-gray-600">Understanding forward head posture, tech neck, and computer neck</p>
             </Link>
-            <Link href="/posture-exercises" className="block p-4 bg-white rounded border hover:border-blue-300 transition-colors">
-              <h3 className="font-medium text-gray-900 mb-2">💪 Neck Hump Exercises</h3>
+            <Link href="/neck-hump-exercises" className="block p-4 bg-white rounded border hover:border-blue-300 transition-colors group">
+              <h3 className="font-medium text-gray-900 mb-2 group-hover:text-blue-600">💪 Neck Hump Exercises</h3>
               <p className="text-sm text-gray-600">Targeted exercises to fix forward head posture</p>
             </Link>
-            <Link href="/desk-setup-guide" className="block p-4 bg-white rounded border hover:border-blue-300 transition-colors">
-              <h3 className="font-medium text-gray-900 mb-2">🖥️ Prevent Tech Neck</h3>
-              <p className="text-sm text-gray-600">Ergonomic setup to prevent computer neck problems</p>
+            <Link href="/best-pillow-for-neck-hump" className="block p-4 bg-white rounded border hover:border-blue-300 transition-colors group">
+              <h3 className="font-medium text-gray-900 mb-2 group-hover:text-blue-600">🛏️ Best Pillows</h3>
+              <p className="text-sm text-gray-600">Sleep support for neck hump recovery</p>
             </Link>
-            <Link href="/how-to-fix-posture-at-home" className="block p-4 bg-white rounded border hover:border-blue-300 transition-colors">
-              <h3 className="font-medium text-gray-900 mb-2">📚 Complete Recovery Plan</h3>
-              <p className="text-sm text-gray-600">Step-by-step system to fix neck hump permanently</p>
+            <Link href="/how-to-sleep-with-neck-hump" className="block p-4 bg-white rounded border hover:border-blue-300 transition-colors group">
+              <h3 className="font-medium text-gray-900 mb-2 group-hover:text-blue-600">😴 Sleep Tips</h3>
+              <p className="text-sm text-gray-600">Proper positioning for overnight recovery</p>
+            </Link>
+            <Link href="/ergonomic-workspace-neck-hump" className="block p-4 bg-white rounded border hover:border-blue-300 transition-colors group">
+              <h3 className="font-medium text-gray-900 mb-2 group-hover:text-blue-600">🖥️ Workspace Setup</h3>
+              <p className="text-sm text-gray-600">Ergonomic solutions for tech neck prevention</p>
+            </Link>
+            <Link href="/tech-neck-prevention-guide" className="block p-4 bg-white rounded border hover:border-blue-300 transition-colors group">
+              <h3 className="font-medium text-gray-900 mb-2 group-hover:text-blue-600">📱 Tech Neck Prevention</h3>
+              <p className="text-sm text-gray-600">Device usage and prevention strategies</p>
             </Link>
           </div>
         </div>
