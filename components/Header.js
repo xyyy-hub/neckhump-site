@@ -5,12 +5,9 @@ import { useState, useEffect } from 'react'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const [isClient, setIsClient] = useState(false)
-  
-  // Ensure client-side rendering
+  // Debug: Track when component mounts
   useEffect(() => {
-    setIsClient(true)
-    console.log('Header component mounted on client')
+    console.log('🟢 Header component mounted and hydrated!')
   }, [])
   
   // Debug function to verify state changes
@@ -31,7 +28,7 @@ export default function Header() {
     }, 100)
   }
   
-  console.log('🟡 Header render - isMenuOpen:', isMenuOpen, 'isClient:', isClient)
+  console.log('🟡 Header render - isMenuOpen:', isMenuOpen)
 
   const navLinks = [
     { href: "/neck-hump-causes", label: "Understanding", text: "Neck Hump Guide" },
@@ -42,21 +39,8 @@ export default function Header() {
     { href: "/text-neck-syndrome", label: "Related", text: "Text Neck" }
   ]
 
-  // Don't render interactive elements until client-side
-  if (!isClient) {
-    return (
-      <header className="bg-white border-b border-gray-200 sticky top-0 z-50 shadow-sm">
-        <nav className="max-w-6xl mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
-            <Link href="/" className="text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors">
-              NeckHump.com
-            </Link>
-            <div className="text-sm text-gray-500">Loading...</div>
-          </div>
-        </nav>
-      </header>
-    )
-  }
+  // Remove SSR/CSR split - this was causing the issue!
+  // The hamburger menu needs to render on both server and client
 
   return (
     <header className="bg-white border-b border-gray-200 sticky top-0 z-50 shadow-sm">
@@ -101,7 +85,7 @@ export default function Header() {
         
         {/* Mobile Menu - Extensive debugging */}
         <div className="md:hidden mt-2 px-4 py-2 bg-yellow-100 text-xs">
-          DEBUG INFO: isMenuOpen={isMenuOpen.toString()}, isClient={isClient.toString()}
+          DEBUG INFO: isMenuOpen={isMenuOpen.toString()}
         </div>
         
         {isMenuOpen && (
