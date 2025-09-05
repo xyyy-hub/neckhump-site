@@ -38,10 +38,11 @@ export default function Header() {
             ))}
           </div>
           
-          {/* Mobile Menu Button */}
+          {/* Mobile Menu Button - 44px touch target */}
           <button 
-            className="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors" 
+            className="md:hidden p-3 min-w-[44px] min-h-[44px] flex items-center justify-center rounded-lg hover:bg-gray-100 active:bg-gray-200 transition-colors" 
             aria-label="Toggle Menu"
+            aria-expanded={isMenuOpen}
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -54,19 +55,19 @@ export default function Header() {
           </button>
         </div>
         
-        {/* Mobile Menu */}
+        {/* Mobile Menu - Enhanced for touch */}
         {isMenuOpen && (
-          <div className="md:hidden mt-4 pb-4 border-t border-gray-200">
-            <div className="pt-4 space-y-3">
+          <div className="md:hidden mt-4 pb-4 border-t border-gray-200 animate-in slide-in-from-top-2 duration-200">
+            <div className="pt-4 space-y-2">
               {navLinks.map((link) => (
                 <Link 
                   key={link.href}
                   href={link.href}
-                  className="block px-4 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-colors"
+                  className="block px-4 py-3 min-h-[44px] text-gray-700 hover:text-blue-600 hover:bg-blue-50 active:bg-blue-100 rounded-lg transition-colors"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   <span className="text-xs text-gray-400 block">{link.label}</span>
-                  <span className="font-medium">{link.text}</span>
+                  <span className="font-medium text-base">{link.text}</span>
                 </Link>
               ))}
             </div>

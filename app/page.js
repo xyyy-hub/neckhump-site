@@ -16,25 +16,25 @@ export default function HomePage() {
     <div className="max-w-4xl mx-auto">
       {/* Neck Hump Specialist Header */}
       <header className="mb-16 py-8">
-        <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4 leading-tight">
+        <div className="text-center mb-8 px-4">
+          <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 leading-tight">
             The Complete Guide to Neck Hump
           </h1>
-          <p className="text-xl text-gray-600 mb-4">
+          <p className="text-lg sm:text-xl text-gray-600 mb-4">
             Everything you need to know about <strong>forward head posture</strong> and <strong>tech neck</strong>
           </p>
-          <p className="text-lg text-gray-600 leading-relaxed max-w-3xl mx-auto">
+          <p className="text-base sm:text-lg text-gray-600 leading-relaxed max-w-3xl mx-auto">
             Evidence-based resource covering causes, exercises, and solutions for neck hump. 
             Created specifically for desk workers, gamers, and anyone suffering from computer neck.
           </p>
         </div>
         
-        {/* Quick Self-Assessment */}
-        <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 rounded mb-8">
+        {/* Quick Self-Assessment - Mobile Optimized */}
+        <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 sm:p-6 rounded mb-8 mx-4">
           <h2 className="text-lg font-semibold text-yellow-800 mb-3">
             Do You Have a Neck Hump? Quick Check:
           </h2>
-          <div className="grid md:grid-cols-2 gap-4 text-sm">
+          <div className="grid sm:grid-cols-2 gap-4 text-sm">
             <ul className="space-y-2 text-yellow-700">
               <li>• Stand against a wall - does your head touch naturally?</li>
               <li>• Look at yourself from the side in photos</li>
@@ -51,12 +51,12 @@ export default function HomePage() {
           </p>
         </div>
         
-        {/* Neck-Focused Navigation */}
-        <div className="bg-gray-50 p-6 rounded-lg">
+        {/* Neck-Focused Navigation - Mobile Optimized */}
+        <div className="bg-gray-50 p-4 sm:p-6 rounded-lg mx-4">
           <h2 className="text-lg font-semibold text-gray-900 mb-4 text-center">
             Start Your Neck Hump Recovery Journey
           </h2>
-          <div className="grid md:grid-cols-3 gap-4">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             <Link href="/neck-hump-causes" className="block p-4 bg-white rounded border hover:border-blue-300 transition-colors group">
               <h3 className="font-medium text-gray-900 mb-2 group-hover:text-blue-600">🔍 What Causes Neck Hump?</h3>
               <p className="text-sm text-gray-600">Understanding forward head posture, tech neck, and computer neck</p>

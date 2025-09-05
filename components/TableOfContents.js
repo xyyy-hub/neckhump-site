@@ -28,11 +28,12 @@ export default function TableOfContents({ headings }) {
 
   return (
     <>
-      {/* Mobile TOC Toggle */}
+      {/* Mobile TOC Toggle - Optimized positioning */}
       <button
-        className="md:hidden fixed bottom-20 right-6 bg-blue-600 text-white p-3 rounded-full shadow-lg z-40 hover:bg-blue-700 transition-colors"
+        className="md:hidden fixed bottom-16 right-4 sm:bottom-20 sm:right-6 bg-blue-600 text-white p-3 min-w-[44px] min-h-[44px] flex items-center justify-center rounded-full shadow-lg z-40 hover:bg-blue-700 active:bg-blue-800 transition-colors"
         onClick={() => setIsVisible(!isVisible)}
         aria-label="Toggle Table of Contents"
+        aria-expanded={isVisible}
       >
         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h7" />
