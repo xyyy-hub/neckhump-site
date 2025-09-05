@@ -5,30 +5,32 @@ import { useState, useEffect } from 'react'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-  // Debug: Track when component mounts
+  const [clickCount, setClickCount] = useState(0)
+  
+  // Aggressive debugging
   useEffect(() => {
-    console.log('🟢 Header component mounted and hydrated!')
+    console.log('🚀 HEADER LOADED!!')
+    alert('Header component loaded!')
+    
+    // Test if JavaScript is working at all
+    const testDiv = document.createElement('div')
+    testDiv.innerHTML = 'JS WORKS!'
+    testDiv.style.cssText = 'position:fixed;top:100px;left:10px;background:red;color:white;padding:10px;z-index:9999;'
+    document.body.appendChild(testDiv)
+    
+    return () => {
+      if (document.body.contains(testDiv)) {
+        document.body.removeChild(testDiv)
+      }
+    }
   }, [])
   
-  // Debug function to verify state changes
-  const handleMenuToggle = (e) => {
-    e.preventDefault()
-    e.stopPropagation()
-    console.log('🔴 Button clicked! Current state:', isMenuOpen)
-    console.log('🔴 Event type:', e.type)
-    console.log('🔴 Target:', e.target)
-    
-    const newState = !isMenuOpen
-    setIsMenuOpen(newState)
-    console.log('🟢 New state set to:', newState)
-    
-    // Force re-render verification
-    setTimeout(() => {
-      console.log('🔵 State after timeout:', isMenuOpen)
-    }, 100)
+  const handleMenuToggle = () => {
+    console.log('🔥 BUTTON CLICKED!!!')
+    alert(`Button clicked! Count: ${clickCount + 1}`)
+    setClickCount(prev => prev + 1)
+    setIsMenuOpen(!isMenuOpen)
   }
-  
-  console.log('🟡 Header render - isMenuOpen:', isMenuOpen)
 
   const navLinks = [
     { href: "/neck-hump-causes", label: "Understanding", text: "Neck Hump Guide" },
@@ -65,22 +67,31 @@ export default function Header() {
             ))}
           </div>
           
-          {/* Mobile Menu Button - MAXIMUM DEBUG */}
-          <button 
-            className="md:hidden p-4 min-w-[60px] min-h-[60px] flex items-center justify-center rounded-lg border-4 border-red-500 text-white font-bold" 
-            onClick={handleMenuToggle}
-            onTouchStart={() => console.log('🟠 Touch start')}
-            onTouchEnd={() => console.log('🟠 Touch end')}
-            onMouseDown={() => console.log('🟠 Mouse down')}
-            onMouseUp={() => console.log('🟠 Mouse up')}
-            style={{ 
-              backgroundColor: isMenuOpen ? 'green' : 'red',
-              fontSize: '14px',
-              zIndex: 1000
-            }}
-          >
-            MENU
-          </button>
+          {/* GIANT TEST BUTTON */}
+          <div className="md:hidden">
+            <button 
+              onClick={handleMenuToggle}
+              style={{
+                position: 'fixed',
+                top: '200px',
+                right: '10px',
+                width: '100px',
+                height: '100px',
+                backgroundColor: 'red',
+                color: 'white',
+                fontSize: '16px',
+                fontWeight: 'bold',
+                border: '5px solid black',
+                borderRadius: '10px',
+                zIndex: 99999,
+                cursor: 'pointer'
+              }}
+            >
+              CLICK ME
+              <br/>
+              {clickCount}
+            </button>
+          </div>
         </div>
         
         {/* Mobile Menu - Extensive debugging */}
@@ -88,26 +99,27 @@ export default function Header() {
           DEBUG INFO: isMenuOpen={isMenuOpen.toString()}
         </div>
         
+        {/* GIANT OBVIOUS MENU */}
         {isMenuOpen && (
-          <div className="md:hidden mt-4 pb-4 border-t border-gray-200 bg-green-100 border-4 border-green-500">
-            <div className="pt-4 space-y-1">
-              <div className="text-lg text-red-600 px-4 font-bold">🎉 MENU IS VISIBLE!</div>
-              <div className="text-xs text-red-500 px-4">State: {isMenuOpen ? 'OPEN' : 'CLOSED'}</div>
-              {navLinks.map((link) => (
-                <Link 
-                  key={link.href}
-                  href={link.href}
-                  className="mobile-nav-item block px-4 py-3 min-h-[48px] text-gray-700 hover:text-blue-600 hover:bg-blue-50 active:bg-blue-100 rounded-lg transition-colors border border-red-200"
-                  onClick={() => {
-                    console.log('Nav link clicked:', link.text)
-                    setIsMenuOpen(false)
-                  }}
-                >
-                  <span className="text-xs text-gray-400 block">{link.label}</span>
-                  <span className="font-medium text-base">{link.text}</span>
-                </Link>
-              ))}
-            </div>
+          <div 
+            style={{
+              position: 'fixed',
+              top: '50px',
+              left: '10px',
+              right: '10px',
+              backgroundColor: 'lime',
+              border: '10px solid black',
+              padding: '20px',
+              zIndex: 99998,
+              fontSize: '20px',
+              fontWeight: 'bold'
+            }}
+          >
+            🎉 MENU IS OPEN! 🎉
+            <br/>
+            Click count: {clickCount}
+            <br/>
+            Menu state: {isMenuOpen.toString()}
           </div>
         )}
       </nav>
