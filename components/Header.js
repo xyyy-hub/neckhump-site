@@ -1,34 +1,12 @@
 'use client'
 
 import Link from 'next/link'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const [clickCount, setClickCount] = useState(0)
-  
-  // Aggressive debugging
-  useEffect(() => {
-    console.log('🚀 HEADER LOADED!!')
-    alert('Header component loaded!')
-    
-    // Test if JavaScript is working at all
-    const testDiv = document.createElement('div')
-    testDiv.innerHTML = 'JS WORKS!'
-    testDiv.style.cssText = 'position:fixed;top:100px;left:10px;background:red;color:white;padding:10px;z-index:9999;'
-    document.body.appendChild(testDiv)
-    
-    return () => {
-      if (document.body.contains(testDiv)) {
-        document.body.removeChild(testDiv)
-      }
-    }
-  }, [])
   
   const handleMenuToggle = () => {
-    console.log('🔥 BUTTON CLICKED!!!')
-    alert(`Button clicked! Count: ${clickCount + 1}`)
-    setClickCount(prev => prev + 1)
     setIsMenuOpen(!isMenuOpen)
   }
 
@@ -45,10 +23,7 @@ export default function Header() {
   // The hamburger menu needs to render on both server and client
 
   return (
-    <header 
-      className="bg-white border-b border-gray-200 sticky top-0 z-50 shadow-sm"
-      data-react-header="true"
-    >
+    <header className="bg-white border-b border-gray-200 sticky top-0 z-50 shadow-sm">
       <nav className="max-w-6xl mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors">
@@ -70,59 +45,40 @@ export default function Header() {
             ))}
           </div>
           
-          {/* GIANT TEST BUTTON */}
-          <div className="md:hidden">
-            <button 
-              onClick={handleMenuToggle}
-              style={{
-                position: 'fixed',
-                top: '200px',
-                right: '10px',
-                width: '100px',
-                height: '100px',
-                backgroundColor: 'red',
-                color: 'white',
-                fontSize: '16px',
-                fontWeight: 'bold',
-                border: '5px solid black',
-                borderRadius: '10px',
-                zIndex: 99999,
-                cursor: 'pointer'
-              }}
-            >
-              CLICK ME
-              <br/>
-              {clickCount}
-            </button>
-          </div>
-        </div>
-        
-        {/* Mobile Menu - Extensive debugging */}
-        <div className="md:hidden mt-2 px-4 py-2 bg-yellow-100 text-xs">
-          DEBUG INFO: isMenuOpen={isMenuOpen.toString()}
-        </div>
-        
-        {/* GIANT OBVIOUS MENU */}
-        {isMenuOpen && (
-          <div 
-            style={{
-              position: 'fixed',
-              top: '50px',
-              left: '10px',
-              right: '10px',
-              backgroundColor: 'lime',
-              border: '10px solid black',
-              padding: '20px',
-              zIndex: 99998,
-              fontSize: '20px',
-              fontWeight: 'bold'
-            }}
+          {/* Mobile Menu Button */}
+          <button 
+            className="md:hidden p-3 min-w-[44px] min-h-[44px] flex items-center justify-center rounded-lg hover:bg-gray-100 active:bg-gray-200 transition-colors" 
+            aria-label="Toggle Menu"
+            aria-expanded={isMenuOpen}
+            onClick={handleMenuToggle}
+            style={{ touchAction: 'manipulation' }}
           >
-            🎉 MENU IS OPEN! 🎉
-            <br/>
-            Click count: {clickCount}
-            <br/>
-            Menu state: {isMenuOpen.toString()}
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              {isMenuOpen ? (
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              ) : (
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+              )}
+            </svg>
+          </button>
+        </div>
+        
+        {/* Mobile Menu */}
+        {isMenuOpen && (
+          <div className="md:hidden mt-4 pb-4 border-t border-gray-200 bg-white shadow-lg">
+            <div className="pt-4 space-y-1">
+              {navLinks.map((link) => (
+                <Link 
+                  key={link.href}
+                  href={link.href}
+                  className="block px-4 py-3 min-h-[48px] text-gray-700 hover:text-blue-600 hover:bg-blue-50 active:bg-blue-100 rounded-lg transition-colors"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  <span className="text-xs text-gray-400 block">{link.label}</span>
+                  <span className="font-medium text-base">{link.text}</span>
+                </Link>
+              ))}
+            </div>
           </div>
         )}
       </nav>
