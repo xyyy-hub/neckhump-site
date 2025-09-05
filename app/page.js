@@ -139,22 +139,22 @@ export default function HomePage() {
           <div className="bg-white p-4 rounded">
             <div className="text-3xl font-bold text-blue-600 mb-2">66%</div>
             <p className="text-gray-700 text-sm">of computer users develop neck hump</p>
-            <p className="text-xs text-gray-500 mt-1">Source: Ergonomics Research</p>
+            <p className="text-xs text-gray-700 mt-1">Source: Ergonomics Research</p>
           </div>
           <div className="bg-white p-4 rounded">
             <div className="text-3xl font-bold text-blue-600 mb-2">4hrs</div>
             <p className="text-gray-700 text-sm">daily screen time increases forward head posture risk</p>
-            <p className="text-xs text-gray-500 mt-1">Source: Postural Studies</p>
+            <p className="text-xs text-gray-700 mt-1">Source: Postural Studies</p>
           </div>
           <div className="bg-white p-4 rounded">
             <div className="text-3xl font-bold text-blue-600 mb-2">60lbs</div>
             <p className="text-gray-700 text-sm">of pressure on neck with 60° head tilt</p>
-            <p className="text-xs text-gray-500 mt-1">Source: Spine Journal</p>
+            <p className="text-xs text-gray-700 mt-1">Source: Spine Journal</p>
           </div>
           <div className="bg-white p-4 rounded">
             <div className="text-3xl font-bold text-blue-600 mb-2">6-8</div>
             <p className="text-gray-700 text-sm">weeks for significant neck hump improvement</p>
-            <p className="text-xs text-gray-500 mt-1">Source: Physical Therapy Studies</p>
+            <p className="text-xs text-gray-700 mt-1">Source: Physical Therapy Studies</p>
           </div>
         </div>
         
@@ -274,12 +274,12 @@ function ArticleCard({ title, description, href, readTime, category, keywords, f
               {category}
             </span>
           )}
-          <span className="text-gray-500 text-xs">{readTime}</span>
+          <span className="text-gray-700 text-xs">{readTime}</span>
         </div>
         <h3 className="text-lg font-semibold text-gray-900 mb-3 leading-tight">{title}</h3>
         <p className="text-gray-600 mb-3 leading-relaxed text-sm">{description}</p>
         {keywords && (
-          <div className="text-xs text-gray-500 mb-3">
+          <div className="text-xs text-gray-700 mb-3">
             Covers: {keywords}
           </div>
         )}

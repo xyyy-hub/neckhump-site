@@ -27,7 +27,7 @@ export default function FAQSection({ faqs, title = "Frequently Asked Questions" 
                 {faq.question}
               </h3>
               <svg
-                className={`w-5 h-5 text-gray-500 transform transition-transform ${
+                className={`w-5 h-5 text-gray-700 transform transition-transform ${
                   openIndex === index ? 'rotate-180' : ''
                 }`}
                 fill="none"

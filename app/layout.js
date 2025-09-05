@@ -59,15 +59,26 @@ export default function RootLayout({ children }) {
         <link rel="canonical" href="https://neckhump.com" />
         <link rel="icon" href="/favicon.ico" />
         
-        {/* Google Analytics */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-MZT4VX3X7Q"></script>
+        {/* Preload critical resources */}
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+        
+        {/* Google Analytics - Deferred for performance */}
+        <script 
+          async 
+          src="https://www.googletagmanager.com/gtag/js?id=G-MZT4VX3X7Q"
+          defer
+        ></script>
         <script
+          defer
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'G-MZT4VX3X7Q');
+              gtag('config', 'G-MZT4VX3X7Q', {
+                'custom_map': {'custom_parameter': 'value'}
+              });
             `,
           }}
         />
