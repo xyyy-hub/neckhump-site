@@ -1,33 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Modern JavaScript for better performance
-  compiler: {
-    removeConsole: process.env.NODE_ENV === 'production',
-  },
-  
-  // Reduce bundle size
+  // Essential optimizations only
   swcMinify: true,
   
-  // Target modern browsers only
-  experimental: {
-    optimizeCss: true,
-    scrollRestoration: true,
-  },
-  
-  // Image optimization
-  images: {
-    formats: ['image/avif', 'image/webp'],
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920],
-    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-    minimumCacheTTL: 31536000, // 1 year
-  },
-  
-  // Performance optimizations
-  poweredByHeader: false,
-  reactStrictMode: true,
-  
-  // Compression
+  // Performance
   compress: true,
+  
+  // Essential optimizations only
+  poweredByHeader: false,
   
   async headers() {
     return [

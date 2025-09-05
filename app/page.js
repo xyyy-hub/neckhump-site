@@ -14,18 +14,14 @@ export const metadata = {
 export default function HomePage() {
   return (
     <div className="max-w-4xl mx-auto">
-      {/* Neck Hump Specialist Header */}
-      <header className="mb-16 py-8">
-        <div className="text-center mb-8 px-4">
-          <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 leading-tight">
+      {/* Neck Hump Specialist Header - Optimized for LCP */}
+      <header className="mb-12 py-6">
+        <div className="text-center mb-6 px-4">
+          <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3 leading-tight" style={{fontSize: 'clamp(1.875rem, 4vw, 2.25rem)'}}>
             The Complete Guide to Neck Hump
           </h1>
-          <p className="text-lg sm:text-xl text-gray-600 mb-4">
+          <p className="text-lg text-gray-600 mb-3 max-w-2xl mx-auto">
             Everything you need to know about <strong>forward head posture</strong> and <strong>tech neck</strong>
-          </p>
-          <p className="text-base sm:text-lg text-gray-600 leading-relaxed max-w-3xl mx-auto">
-            Evidence-based resource covering causes, exercises, and solutions for neck hump. 
-            Created specifically for desk workers, gamers, and anyone suffering from computer neck.
           </p>
         </div>
         

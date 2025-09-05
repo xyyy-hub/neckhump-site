@@ -62,59 +62,19 @@ export default function RootLayout({ children }) {
         <link rel="canonical" href="https://neckhump.com" />
         <link rel="icon" href="/favicon.ico" />
         
-        {/* Critical CSS inline */}
-        <style dangerouslySetInnerHTML={{
-          __html: `
-            body{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;line-height:1.6;color:#374151;margin:0;overflow-x:hidden}
-            header{background-color:#fff;border-bottom:1px solid #e5e7eb;position:sticky;top:0;z-index:50}
-            .max-w-6xl{max-width:72rem}
-            .mx-auto{margin-left:auto;margin-right:auto}
-            .px-4{padding-left:1rem;padding-right:1rem}
-            .py-4{padding-top:1rem;padding-bottom:1rem}
-            .flex{display:flex}
-            .items-center{align-items:center}
-            .justify-between{justify-content:space-between}
-            .text-2xl{font-size:1.5rem;line-height:2rem}
-            .font-bold{font-weight:700}
-            .text-blue-600{color:#2563eb}
-            .hidden{display:none}
-            @media(min-width:768px){.md\\:flex{display:flex}.md\\:hidden{display:none}}
-          `
-        }} />
+        {/* Minimal critical resources */}
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://www.google-analytics.com" />
         
-        {/* Preload critical resources */}
-        <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="" />
-        <link rel="preconnect" href="https://www.google-analytics.com" crossOrigin="" />
-        <link rel="dns-prefetch" href="//fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-        
-        {/* Google Analytics - Load after page interaction */}
+        {/* Google Analytics - Simple defer */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-MZT4VX3X7Q"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
-              // Defer GA until user interaction or after 3 seconds
-              let gaLoaded = false;
-              function loadGA() {
-                if (gaLoaded) return;
-                gaLoaded = true;
-                
-                const script = document.createElement('script');
-                script.async = true;
-                script.src = 'https://www.googletagmanager.com/gtag/js?id=G-MZT4VX3X7Q';
-                document.head.appendChild(script);
-                
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'G-MZT4VX3X7Q');
-              }
-              
-              // Load GA after user interaction or 3 seconds
-              const events = ['mousedown', 'mousemove', 'keypress', 'scroll', 'touchstart', 'click'];
-              events.forEach(event => {
-                window.addEventListener(event, loadGA, { once: true, passive: true });
-              });
-              setTimeout(loadGA, 3000);
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-MZT4VX3X7Q');
             `,
           }}
         />
