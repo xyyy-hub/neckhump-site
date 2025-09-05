@@ -22,7 +22,7 @@ export default function TextNeckPage() {
           Text neck affects 95% of smartphone users, causing forward head posture and chronic pain. 
           Learn the causes, symptoms, and proven recovery strategies for this modern health crisis.
         </p>
-        <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-500">
+        <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-700">
           <span>Last updated: December 2024</span>
           <span>•</span>
           <span>7 min read</span>

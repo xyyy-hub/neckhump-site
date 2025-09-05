@@ -22,7 +22,7 @@ export default function PostureExercisesPage() {
           Transform your posture with these simple exercises. No equipment needed—just 5 minutes 
           a day to strengthen weak muscles and stretch tight areas.
         </p>
-        <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-500">
+        <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-700">
           <span>Last updated: December 2024</span>
           <span>•</span>
           <span>4 min read</span>

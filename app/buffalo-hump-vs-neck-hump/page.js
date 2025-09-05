@@ -22,7 +22,7 @@ export default function BuffaloHumpPage() {
           While often confused, buffalo hump and neck hump are distinct conditions with different 
           causes and treatments. Learn how to identify which condition you have and the best approach for each.
         </p>
-        <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-500">
+        <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-700">
           <span>Last updated: December 2024</span>
           <span>•</span>
           <span>6 min read</span>

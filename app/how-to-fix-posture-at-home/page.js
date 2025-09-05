@@ -21,7 +21,7 @@ export default function FixPosturePage() {
         <p className="text-xl text-gray-600 mb-6 leading-relaxed max-w-3xl mx-auto">
           Poor posture affects 86% of desk workers. Here's how to fix it in 30 days without expensive equipment or complicated routines.
         </p>
-        <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-500">
+        <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-700">
           <span>Last updated: December 2024</span>
           <span>•</span>
           <span>8 min read</span>

@@ -23,7 +23,7 @@ export default function MilitaryNeckPage() {
           straightens, creating a rigid, military-like posture. Learn the causes, symptoms, and 
           evidence-based treatment approaches.
         </p>
-        <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-500">
+        <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-700">
           <span>Last updated: December 2024</span>
           <span>•</span>
           <span>8 min read</span>

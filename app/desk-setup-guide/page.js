@@ -22,7 +22,7 @@ export default function DeskSetupPage() {
           Your desk setup directly impacts your posture and health. Learn how to create an 
           ergonomic workspace that prevents pain and boosts productivity.
         </p>
-        <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-500">
+        <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-700">
           <span>Last updated: December 2024</span>
           <span>•</span>
           <span>5 min read</span>

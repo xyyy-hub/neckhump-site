@@ -8,6 +8,12 @@ const nextConfig = {
   // Reduce bundle size
   swcMinify: true,
   
+  // Target modern browsers only
+  experimental: {
+    optimizeCss: true,
+    scrollRestoration: true,
+  },
+  
   // Image optimization
   images: {
     formats: ['image/avif', 'image/webp'],
