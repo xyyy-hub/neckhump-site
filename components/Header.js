@@ -1,17 +1,37 @@
 'use client'
 
 import Link from 'next/link'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [isClient, setIsClient] = useState(false)
+  
+  // Ensure client-side rendering
+  useEffect(() => {
+    setIsClient(true)
+    console.log('Header component mounted on client')
+  }, [])
   
   // Debug function to verify state changes
-  const handleMenuToggle = () => {
-    console.log('Menu toggle clicked, current state:', isMenuOpen)
-    setIsMenuOpen(!isMenuOpen)
-    console.log('Menu state should now be:', !isMenuOpen)
+  const handleMenuToggle = (e) => {
+    e.preventDefault()
+    e.stopPropagation()
+    console.log('🔴 Button clicked! Current state:', isMenuOpen)
+    console.log('🔴 Event type:', e.type)
+    console.log('🔴 Target:', e.target)
+    
+    const newState = !isMenuOpen
+    setIsMenuOpen(newState)
+    console.log('🟢 New state set to:', newState)
+    
+    // Force re-render verification
+    setTimeout(() => {
+      console.log('🔵 State after timeout:', isMenuOpen)
+    }, 100)
   }
+  
+  console.log('🟡 Header render - isMenuOpen:', isMenuOpen, 'isClient:', isClient)
 
   const navLinks = [
     { href: "/neck-hump-causes", label: "Understanding", text: "Neck Hump Guide" },
@@ -21,6 +41,22 @@ export default function Header() {
     { href: "/ergonomic-workspace-neck-hump", label: "Workspace", text: "Ergonomics" },
     { href: "/text-neck-syndrome", label: "Related", text: "Text Neck" }
   ]
+
+  // Don't render interactive elements until client-side
+  if (!isClient) {
+    return (
+      <header className="bg-white border-b border-gray-200 sticky top-0 z-50 shadow-sm">
+        <nav className="max-w-6xl mx-auto px-4 py-4">
+          <div className="flex items-center justify-between">
+            <Link href="/" className="text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors">
+              NeckHump.com
+            </Link>
+            <div className="text-sm text-gray-500">Loading...</div>
+          </div>
+        </nav>
+      </header>
+    )
+  }
 
   return (
     <header className="bg-white border-b border-gray-200 sticky top-0 z-50 shadow-sm">
@@ -45,29 +81,34 @@ export default function Header() {
             ))}
           </div>
           
-          {/* Mobile Menu Button - 44px touch target with DEBUG */}
+          {/* Mobile Menu Button - MAXIMUM DEBUG */}
           <button 
-            className="md:hidden p-3 min-w-[44px] min-h-[44px] flex items-center justify-center rounded-lg hover:bg-gray-100 active:bg-gray-200 transition-colors border-2 border-red-500" 
-            aria-label="Toggle Menu"
-            aria-expanded={isMenuOpen}
+            className="md:hidden p-4 min-w-[60px] min-h-[60px] flex items-center justify-center rounded-lg border-4 border-red-500 text-white font-bold" 
             onClick={handleMenuToggle}
-            style={{ touchAction: 'manipulation', backgroundColor: isMenuOpen ? 'lightgreen' : 'lightcoral' }}
+            onTouchStart={() => console.log('🟠 Touch start')}
+            onTouchEnd={() => console.log('🟠 Touch end')}
+            onMouseDown={() => console.log('🟠 Mouse down')}
+            onMouseUp={() => console.log('🟠 Mouse up')}
+            style={{ 
+              backgroundColor: isMenuOpen ? 'green' : 'red',
+              fontSize: '14px',
+              zIndex: 1000
+            }}
           >
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              {isMenuOpen ? (
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              ) : (
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-              )}
-            </svg>
+            MENU
           </button>
         </div>
         
-        {/* Mobile Menu - Simplified approach for debugging */}
+        {/* Mobile Menu - Extensive debugging */}
+        <div className="md:hidden mt-2 px-4 py-2 bg-yellow-100 text-xs">
+          DEBUG INFO: isMenuOpen={isMenuOpen.toString()}, isClient={isClient.toString()}
+        </div>
+        
         {isMenuOpen && (
-          <div className="md:hidden mt-4 pb-4 border-t border-gray-200 bg-white">
+          <div className="md:hidden mt-4 pb-4 border-t border-gray-200 bg-green-100 border-4 border-green-500">
             <div className="pt-4 space-y-1">
-              <div className="text-xs text-red-500 px-4">DEBUG: Menu is open</div>
+              <div className="text-lg text-red-600 px-4 font-bold">🎉 MENU IS VISIBLE!</div>
+              <div className="text-xs text-red-500 px-4">State: {isMenuOpen ? 'OPEN' : 'CLOSED'}</div>
               {navLinks.map((link) => (
                 <Link 
                   key={link.href}
