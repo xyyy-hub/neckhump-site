@@ -10,23 +10,23 @@ export default function Header() {
           </Link>
           
           {/* Desktop Navigation */}
-          <div className="hidden md:flex space-x-6">
-            <Link href="/neck-hump-causes" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
-              Neck Hump
-            </Link>
-            <Link href="/text-neck-syndrome" className="text-gray-700 hover:text-blue-600 transition-colors">
-              Text Neck
-            </Link>
-            <Link href="/buffalo-hump-vs-neck-hump" className="text-gray-700 hover:text-blue-600 transition-colors">
-              Buffalo Hump
-            </Link>
-            <Link href="/military-neck-cervical-lordosis" className="text-gray-700 hover:text-blue-600 transition-colors">
-              Military Neck
-            </Link>
-            <Link href="/posture-exercises" className="text-gray-700 hover:text-blue-600 transition-colors">
-              Exercises
-            </Link>
-          </div>
+                      <div className="hidden md:flex space-x-6">
+              <Link href="/neck-hump-causes" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
+                Neck Hump
+              </Link>
+              <Link href="/neck-hump-exercises" className="text-gray-700 hover:text-blue-600 transition-colors">
+                Exercises
+              </Link>
+              <Link href="/best-pillow-for-neck-hump" className="text-gray-700 hover:text-blue-600 transition-colors">
+                Best Pillows
+              </Link>
+              <Link href="/how-to-sleep-with-neck-hump" className="text-gray-700 hover:text-blue-600 transition-colors">
+                Sleep Tips
+              </Link>
+              <Link href="/text-neck-syndrome" className="text-gray-700 hover:text-blue-600 transition-colors">
+                Text Neck
+              </Link>
+            </div>
           
           {/* Mobile Menu Button */}
           <button className="md:hidden p-2" aria-label="Menu">

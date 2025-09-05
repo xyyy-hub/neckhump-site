@@ -18,7 +18,7 @@ export default function sitemap() {
       url: `${baseUrl}/neck-hump-causes`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
-      priority: 0.8,
+      priority: 0.9,
     },
     {
       url: `${baseUrl}/desk-setup-guide`,
@@ -30,13 +30,25 @@ export default function sitemap() {
       url: `${baseUrl}/posture-exercises`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
-      priority: 0.8,
+      priority: 0.7,
     },
     {
-      url: `${baseUrl}/posture-back-pain`,
+      url: `${baseUrl}/neck-hump-exercises`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
-      priority: 0.7,
+      priority: 0.95,
+    },
+    {
+      url: `${baseUrl}/best-pillow-for-neck-hump`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/how-to-sleep-with-neck-hump`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.85,
     },
     {
       url: `${baseUrl}/text-neck-syndrome`,
