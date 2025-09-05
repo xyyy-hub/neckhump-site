@@ -40,10 +40,11 @@ export default function Header() {
           
           {/* Mobile Menu Button - 44px touch target */}
           <button 
-            className="md:hidden p-3 min-w-[44px] min-h-[44px] flex items-center justify-center rounded-lg hover:bg-gray-100 active:bg-gray-200 transition-colors" 
+            className="md:hidden p-3 min-w-[44px] min-h-[44px] flex items-center justify-center rounded-lg hover:bg-gray-100 active:bg-gray-200 transition-colors touch-manipulation" 
             aria-label="Toggle Menu"
             aria-expanded={isMenuOpen}
             onClick={() => setIsMenuOpen(!isMenuOpen)}
+            style={{ touchAction: 'manipulation' }}
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               {isMenuOpen ? (
@@ -55,15 +56,17 @@ export default function Header() {
           </button>
         </div>
         
-        {/* Mobile Menu - Enhanced for touch */}
-        {isMenuOpen && (
-          <div className="md:hidden mt-4 pb-4 border-t border-gray-200 animate-in slide-in-from-top-2 duration-200">
-            <div className="pt-4 space-y-2">
+        {/* Mobile Menu - Enhanced for touch with proper animations */}
+        <div className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${
+          isMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
+        }`}>
+          <div className="mt-4 pb-4 border-t border-gray-200">
+            <div className="pt-4 space-y-1">
               {navLinks.map((link) => (
                 <Link 
                   key={link.href}
                   href={link.href}
-                  className="block px-4 py-3 min-h-[44px] text-gray-700 hover:text-blue-600 hover:bg-blue-50 active:bg-blue-100 rounded-lg transition-colors"
+                  className="mobile-nav-item block px-4 py-3 min-h-[48px] text-gray-700 hover:text-blue-600 hover:bg-blue-50 active:bg-blue-100 rounded-lg transition-colors"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   <span className="text-xs text-gray-400 block">{link.label}</span>
@@ -72,7 +75,7 @@ export default function Header() {
               ))}
             </div>
           </div>
-        )}
+        </div>
       </nav>
     </header>
   )

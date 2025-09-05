@@ -3,6 +3,25 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Mobile navigation touch improvements */
+@layer components {
+  .tap-highlight-transparent {
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  /* Ensure mobile navigation works properly */
+  @media (max-width: 768px) {
+    .mobile-nav-item {
+      -webkit-tap-highlight-color: rgba(59, 130, 246, 0.1);
+      touch-action: manipulation;
+    }
+    
+    button {
+      touch-action: manipulation;
+    }
+  }
+}
+
 @layer base {
   html {
     scroll-behavior: smooth;
