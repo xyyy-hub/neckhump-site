@@ -95,13 +95,54 @@ export default function RootLayout({ children }) {
             })
           }}
         />
+        
+        {/* CRITICAL DEBUG: Test if ANY JavaScript works */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              console.log('🔥 LAYOUT SCRIPT LOADED');
+              alert('Layout JavaScript works!');
+              
+              // Test DOM manipulation
+              window.addEventListener('load', function() {
+                console.log('🟢 Window loaded');
+                const testDiv = document.createElement('div');
+                testDiv.innerHTML = 'LAYOUT JS WORKS!';
+                testDiv.style.cssText = 'position:fixed;top:10px;left:10px;background:blue;color:white;padding:10px;z-index:99999;';
+                document.body.appendChild(testDiv);
+              });
+            `,
+          }}
+        />
       </head>
       <body className="min-h-screen bg-gray-50">
+        {/* FALLBACK NAVIGATION - Non-React test */}
+        <div id="fallback-nav" style={{display: 'none', background: 'red', color: 'white', padding: '10px', textAlign: 'center'}}>
+          FALLBACK NAVIGATION - React is not loading!
+        </div>
+        
         <Header />
         <main className="max-w-6xl mx-auto px-4 py-8">
           {children}
         </main>
         <Footer />
+        
+        {/* Show fallback if React doesn't load */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              // Wait for React to load, if it doesn't, show fallback
+              setTimeout(function() {
+                // Check if React loaded by looking for our Header component
+                const headerLoaded = document.querySelector('[data-react-header]');
+                if (!headerLoaded) {
+                  console.log('🚨 React did not load - showing fallback');
+                  document.getElementById('fallback-nav').style.display = 'block';
+                }
+              }, 3000);
+            `,
+          }}
+        />
       </body>
     </html>
   )
