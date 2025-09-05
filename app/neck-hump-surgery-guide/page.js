@@ -111,7 +111,7 @@ export default function NeckHumpSurgeryGuidePage() {
                   <h4 className="font-semibold text-green-800 mb-2">Mild to Moderate Cervical Kyphosis</h4>
                   <ul className="text-green-700 text-sm space-y-1">
                     <li>• <strong>Cause:</strong> Minor structural changes, often reversible</li>
-                    <li>• <strong>Surgery criteria:</strong> Only if > 45 degrees and symptomatic</li>
+                    <li>• <strong>Surgery criteria:</strong> Only if {'>'} 45 degrees and symptomatic</li>
                     <li>• <strong>Conservative success rate:</strong> 70-85% stabilization</li>
                     <li>• <strong>Best approach:</strong> Physical therapy, bracing, activity modification</li>
                   </ul>
@@ -134,7 +134,7 @@ export default function NeckHumpSurgeryGuidePage() {
               
               <div className="space-y-4">
                 <div className="bg-white p-4 rounded-lg">
-                  <h4 className="font-semibold text-red-800 mb-2">Severe Cervical Kyphosis (> 45-50 degrees)</h4>
+                  <h4 className="font-semibold text-red-800 mb-2">Severe Cervical Kyphosis ({'>'} 45-50 degrees)</h4>
                   <ul className="text-red-700 text-sm space-y-1">
                     <li>• <strong>Symptoms:</strong> Neurological impairment, severe pain</li>
                     <li>• <strong>Surgery consideration:</strong> When conservative treatment fails</li>
@@ -191,7 +191,7 @@ export default function NeckHumpSurgeryGuidePage() {
                 <div className="bg-white p-4 rounded-lg">
                   <h4 className="font-semibold text-blue-800 mb-3">Structural Requirements:</h4>
                   <ul className="text-blue-700 text-sm space-y-1">
-                    <li>• Cervical kyphosis > 45 degrees (measured on X-ray)</li>
+                    <li>• Cervical kyphosis {'>'} 45 degrees (measured on X-ray)</li>
                     <li>• Progressive deformity despite treatment</li>
                     <li>• Bone abnormalities or fractures</li>
                     <li>• Failed fusion from previous surgery</li>
@@ -645,7 +645,7 @@ export default function NeckHumpSurgeryGuidePage() {
                       <h5 className="font-medium mb-2">Restrictions:</h5>
                       <ul className="text-sm space-y-1">
                         <li>• No driving (pain medications)</li>
-                        <li>• No lifting > 5-10 pounds</li>
+                        <li>• No lifting {'>'} 5-10 pounds</li>
                         <li>• Wear cervical collar 24/7</li>
                         <li>• No bending, twisting, or turning</li>
                         <li>• Sleep elevated on back only</li>
@@ -696,7 +696,7 @@ export default function NeckHumpSurgeryGuidePage() {
                     <div>
                       <h5 className="font-medium mb-2">Restrictions Still in Place:</h5>
                       <ul className="text-sm space-y-1">
-                        <li>• No lifting > 20 pounds</li>
+                        <li>• No lifting {'>'} 20 pounds</li>
                         <li>• No contact sports</li>
                         <li>• Avoid repetitive neck movements</li>
                         <li>• Continue ergonomic precautions</li>
@@ -1073,7 +1073,7 @@ export default function NeckHumpSurgeryGuidePage() {
             <div>
               <h3 className="text-lg font-semibold mb-2">How do I know if I need surgery for my neck hump?</h3>
               <p>
-                Surgery is typically only necessary if you have severe structural deformity (>45 degrees on X-ray), neurological symptoms, or significant functional impairment that hasn't improved with 6-12 months of conservative treatment. Most neck humps are postural and don't require surgery.
+                Surgery is typically only necessary if you have severe structural deformity ({'>'} 45 degrees on X-ray), neurological symptoms, or significant functional impairment that hasn't improved with 6-12 months of conservative treatment. Most neck humps are postural and don't require surgery.
               </p>
             </div>
 

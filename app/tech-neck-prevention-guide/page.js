@@ -231,7 +231,7 @@ export default function TechNeckPreventionGuidePage() {
                       <li>• Hold at eye level for short sessions</li>
                       <li>• Use external keyboard for extensive typing</li>
                       <li>• Avoid bed/couch use for work tasks</li>
-                    </li>
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -290,19 +290,19 @@ export default function TechNeckPreventionGuidePage() {
                       <div>
                         <h5 className="font-semibold text-amber-800 mb-2">Low-Risk Usage:</h5>
                         <ul className="text-amber-700 text-sm space-y-1">
-                          <li>• Smartphone: < 2 hours recreational</li>
-                          <li>• Computer work: < 6 hours with breaks</li>
-                          <li>• Tablet: < 1 hour recreational</li>
-                          <li>• TV/streaming: < 2 hours</li>
+                          <li>• Smartphone: {'<'} 2 hours recreational</li>
+                          <li>• Computer work: {'<'} 6 hours with breaks</li>
+                          <li>• Tablet: {'<'} 1 hour recreational</li>
+                          <li>• TV/streaming: {'<'} 2 hours</li>
                         </ul>
                       </div>
                       <div>
                         <h5 className="font-semibold text-red-800 mb-2">High-Risk Usage:</h5>
                         <ul className="text-red-700 text-sm space-y-1">
-                          <li>• Smartphone: > 4 hours daily</li>
-                          <li>• Computer: > 8 hours without breaks</li>
-                          <li>• Tablet: > 3 hours daily</li>
-                          <li>• Combined screen time: > 10 hours</li>
+                          <li>• Smartphone: {'>'} 4 hours daily</li>
+                          <li>• Computer: {'>'} 8 hours without breaks</li>
+                          <li>• Tablet: {'>'} 3 hours daily</li>
+                          <li>• Combined screen time: {'>'} 10 hours</li>
                         </ul>
                       </div>
                     </div>
@@ -699,9 +699,9 @@ export default function TechNeckPreventionGuidePage() {
                   <div>
                     <h5 className="font-medium mb-2">High-Risk Indicators:</h5>
                     <ul className="text-sm space-y-1">
-                      <li>□ Smartphone use > 4 hours daily</li>
-                      <li>□ Computer work > 6 hours daily</li>
-                      <li>□ Gaming > 2 hours daily</li>
+                      <li>□ Smartphone use {'>'} 4 hours daily</li>
+                      <li>□ Computer work {'>'} 6 hours daily</li>
+                      <li>□ Gaming {'>'} 2 hours daily</li>
                       <li>□ Frequent device use in bed</li>
                       <li>□ No regular breaks during screen time</li>
                     </ul>
