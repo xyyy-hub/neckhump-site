@@ -51,6 +51,12 @@ export default function sitemap() {
       priority: 0.85,
     },
     {
+      url: `${baseUrl}/dowagers-hump-vs-neck-hump`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
       url: `${baseUrl}/text-neck-syndrome`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
