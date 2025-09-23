@@ -65,7 +65,10 @@ export default function HomePage() {
               <p className="text-sm text-gray-600">Targeted exercises to fix forward head posture</p>
             </Link>
             <Link href="/best-pillow-for-neck-hump" className="block p-4 bg-white rounded border hover:border-blue-300 transition-colors group">
-              <h3 className="font-medium text-gray-900 mb-2 group-hover:text-blue-600">🛏️ Best Pillows</h3>
+            <Link href="/learn/complete-guide" className="block p-4 bg-white rounded border hover:border-blue-300 transition-colors group">
+              <h3 className="font-medium text-gray-900 mb-2 group-hover:text-blue-600">📚 Complete Guide</h3>
+              <p className="text-sm text-gray-600">Comprehensive neck hump treatment plan</p>
+            </Link>              <h3 className="font-medium text-gray-900 mb-2 group-hover:text-blue-600">🛏️ Best Pillows</h3>
               <p className="text-sm text-gray-600">Sleep support for neck hump recovery</p>
             </Link>
             <Link href="/how-to-sleep-with-neck-hump" className="block p-4 bg-white rounded border hover:border-blue-300 transition-colors group">
