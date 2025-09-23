@@ -1,16 +1,16 @@
-import Breadcrumbs from '../../../../components/Breadcrumbs'
+import Breadcrumbs from '../../../components/Breadcrumbs'
 
 export const metadata = {
   title: 'Upper Back Foam Rolling: Release Tension for Better Posture | Safety Guide',
   description: 'Learn safe upper back foam rolling techniques to release muscle tension and improve thoracic mobility. Complete guide with safety tips, proper form, and alternatives.',
   keywords: ['upper back foam rolling', 'thoracic spine foam rolling', 'foam roller exercises', 'upper back tension release', 'posture foam rolling'],
   alternates: {
-    canonical: 'https://neckhump.com/solutions/exercises/upper-back-foam-rolling',
+    canonical: 'https://neckhump.com/exercises/upper-back-foam-rolling',
   },
   openGraph: {
     title: 'Upper Back Foam Rolling: Release Tension for Better Posture | Safety Guide',
     description: 'Learn safe upper back foam rolling techniques to release muscle tension and improve thoracic mobility. Complete guide with safety tips.',
-    url: 'https://neckhump.com/solutions/exercises/upper-back-foam-rolling',
+    url: 'https://neckhump.com/exercises/upper-back-foam-rolling',
     siteName: 'NeckHump.com',
     locale: 'en_US',
     type: 'article',
@@ -55,7 +55,7 @@ export default function UpperBackFoamRollingPage() {
             "dateModified": "2025-09-23",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://neckhump.com/solutions/exercises/upper-back-foam-rolling"
+              "@id": "https://neckhump.com/exercises/upper-back-foam-rolling"
             }
           }),
         }}
@@ -570,15 +570,15 @@ export default function UpperBackFoamRollingPage() {
         <div className="bg-gray-50 p-8 rounded-lg mt-12">
           <h3 className="text-xl font-semibold text-gray-900 mb-6 text-center">Complete Your Mobility Routine</h3>
           <div className="grid md:grid-cols-3 gap-6">
-            <a href="/solutions/exercises/wall-angels" className="block text-center bg-white p-4 rounded-lg hover:shadow-md transition-shadow">
+            <a href="/exercises/wall-angels" className="block text-center bg-white p-4 rounded-lg hover:shadow-md transition-shadow">
               <div className="text-blue-600 font-semibold mb-1">Previous: Wall Angels</div>
               <div className="text-sm text-gray-600">Strengthen after releasing tension</div>
             </a>
-            <a href="/solutions/exercises/doorway-pec-stretch" className="block text-center bg-white p-4 rounded-lg hover:shadow-md transition-shadow">
+            <a href="/exercises/doorway-pec-stretch" className="block text-center bg-white p-4 rounded-lg hover:shadow-md transition-shadow">
               <div className="text-blue-600 font-semibold mb-1">Next: Doorway Pec Stretch</div>
               <div className="text-sm text-gray-600">Open tight chest muscles</div>
             </a>
-            <a href="/learn/complete-guide" className="block text-center bg-white p-4 rounded-lg hover:shadow-md transition-shadow">
+            <a href="/neck-hump-guide" className="block text-center bg-white p-4 rounded-lg hover:shadow-md transition-shadow">
               <div className="text-blue-600 font-semibold mb-1">Complete Guide</div>
               <div className="text-sm text-gray-600">Full neck hump treatment plan</div>
             </a>

@@ -1,16 +1,16 @@
-import Breadcrumbs from '../../../../components/Breadcrumbs'
+import Breadcrumbs from '../../../components/Breadcrumbs'
 
 export const metadata = {
   title: 'Y-T-W Raises: Comprehensive Upper Back Strengthening | Complete Guide',
   description: 'Master Y-T-W raises for complete upper back strengthening. Step-by-step guide with proper form, progressions, and modifications for fixing forward head posture.',
   keywords: ['Y-T-W raises', 'upper back strengthening', 'shoulder blade exercise', 'posture strengthening', 'rhomboid exercise'],
   alternates: {
-    canonical: 'https://neckhump.com/solutions/exercises/y-t-w-raises',
+    canonical: 'https://neckhump.com/exercises/y-t-w-raises',
   },
   openGraph: {
     title: 'Y-T-W Raises: Comprehensive Upper Back Strengthening | Complete Guide',
     description: 'Master Y-T-W raises for complete upper back strengthening. Step-by-Step guide with proper form and progressions.',
-    url: 'https://neckhump.com/solutions/exercises/y-t-w-raises',
+    url: 'https://neckhump.com/exercises/y-t-w-raises',
     siteName: 'NeckHump.com',
     locale: 'en_US',
     type: 'article',
@@ -55,7 +55,7 @@ export default function YTWRaisesPage() {
             "dateModified": "2025-09-23",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://neckhump.com/solutions/exercises/y-t-w-raises"
+              "@id": "https://neckhump.com/exercises/y-t-w-raises"
             }
           }),
         }}
@@ -678,11 +678,11 @@ export default function YTWRaisesPage() {
         <div className="bg-gray-50 p-8 rounded-lg mt-12">
           <h3 className="text-xl font-semibold text-gray-900 mb-6 text-center">Complete Your Comprehensive Routine</h3>
           <div className="grid md:grid-cols-3 gap-6">
-            <a href="/solutions/exercises/doorway-pec-stretch" className="block text-center bg-white p-4 rounded-lg hover:shadow-md transition-shadow">
+            <a href="/exercises/doorway-pec-stretch" className="block text-center bg-white p-4 rounded-lg hover:shadow-md transition-shadow">
               <div className="text-blue-600 font-semibold mb-1">Previous: Doorway Pec Stretch</div>
               <div className="text-sm text-gray-600">Stretch before strengthening</div>
             </a>
-            <a href="/learn/complete-guide" className="block text-center bg-white p-4 rounded-lg hover:shadow-md transition-shadow">
+            <a href="/neck-hump-guide" className="block text-center bg-white p-4 rounded-lg hover:shadow-md transition-shadow">
               <div className="text-blue-600 font-semibold mb-1">Complete Guide</div>
               <div className="text-sm text-gray-600">Full neck hump treatment plan</div>
             </a>

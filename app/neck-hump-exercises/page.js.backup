@@ -1,5 +1,4 @@
 import { Metadata } from 'next'
-import Link from 'next/link'
 import Breadcrumbs from '../../components/Breadcrumbs'
 
 export const metadata = {
@@ -978,7 +977,7 @@ export default function NeckHumpExercisesPage() {
           Detailed Exercise Instructions
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <Link href="/exercises/chin-tucks" className="block p-6 bg-white rounded-lg border hover:border-blue-300 transition-colors group">
+          <Link href="/solutions/exercises/chin-tucks" className="block p-6 bg-white rounded-lg border hover:border-blue-300 transition-colors group">
             <div className="text-center mb-4">
               <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-3">
                 <span className="text-2xl font-bold text-blue-600">1</span>
@@ -989,7 +988,7 @@ export default function NeckHumpExercisesPage() {
             <p className="text-xs text-blue-600 font-medium">View detailed instructions →</p>
           </Link>
 
-          <Link href="/exercises/wall-angels" className="block p-6 bg-white rounded-lg border hover:border-blue-300 transition-colors group">
+          <Link href="/solutions/exercises/wall-angels" className="block p-6 bg-white rounded-lg border hover:border-blue-300 transition-colors group">
             <div className="text-center mb-4">
               <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-3">
                 <span className="text-2xl font-bold text-green-600">2</span>
@@ -1000,7 +999,7 @@ export default function NeckHumpExercisesPage() {
             <p className="text-xs text-blue-600 font-medium">View detailed instructions →</p>
           </Link>
 
-          <Link href="/exercises/upper-back-foam-rolling" className="block p-6 bg-white rounded-lg border hover:border-blue-300 transition-colors group">
+          <Link href="/solutions/exercises/upper-back-foam-rolling" className="block p-6 bg-white rounded-lg border hover:border-blue-300 transition-colors group">
             <div className="text-center mb-4">
               <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-3">
                 <span className="text-2xl font-bold text-purple-600">3</span>
@@ -1011,7 +1010,7 @@ export default function NeckHumpExercisesPage() {
             <p className="text-xs text-blue-600 font-medium">View detailed instructions →</p>
           </Link>
 
-          <Link href="/exercises/doorway-pec-stretch" className="block p-6 bg-white rounded-lg border hover:border-blue-300 transition-colors group">
+          <Link href="/solutions/exercises/doorway-pec-stretch" className="block p-6 bg-white rounded-lg border hover:border-blue-300 transition-colors group">
             <div className="text-center mb-4">
               <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-3">
                 <span className="text-2xl font-bold text-orange-600">4</span>
@@ -1022,7 +1021,7 @@ export default function NeckHumpExercisesPage() {
             <p className="text-xs text-blue-600 font-medium">View detailed instructions →</p>
           </Link>
 
-          <Link href="/exercises/y-t-w-raises" className="block p-6 bg-white rounded-lg border hover:border-blue-300 transition-colors group">
+          <Link href="/solutions/exercises/y-t-w-raises" className="block p-6 bg-white rounded-lg border hover:border-blue-300 transition-colors group">
             <div className="text-center mb-4">
               <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-3">
                 <span className="text-2xl font-bold text-red-600">5</span>
@@ -1033,7 +1032,7 @@ export default function NeckHumpExercisesPage() {
             <p className="text-xs text-blue-600 font-medium">View detailed instructions →</p>
           </Link>
 
-          <Link href="/neck-hump-guide" className="block p-6 bg-blue-50 rounded-lg border border-blue-200 hover:border-blue-300 transition-colors group">
+          <Link href="/learn/complete-guide" className="block p-6 bg-blue-50 rounded-lg border border-blue-200 hover:border-blue-300 transition-colors group">
             <div className="text-center mb-4">
               <div className="w-16 h-16 bg-blue-200 rounded-full flex items-center justify-center mx-auto mb-3">
                 <span className="text-lg font-bold text-blue-700">📚</span>

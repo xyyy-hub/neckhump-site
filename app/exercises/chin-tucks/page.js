@@ -1,16 +1,16 @@
-import Breadcrumbs from '../../../../components/Breadcrumbs'
+import Breadcrumbs from '../../../components/Breadcrumbs'
 
 export const metadata = {
   title: 'Chin Tucks Exercise: Foundation Neck Hump Exercise | Step-by-Step Guide',
   description: 'Master the chin tuck exercise - the most effective foundation exercise for fixing neck hump. Complete step-by-step guide with proper form, common mistakes, and safety tips.',
   keywords: ['chin tuck exercise', 'neck hump exercise', 'forward head posture exercise', 'deep neck flexor exercise', 'chin tuck form'],
   alternates: {
-    canonical: 'https://neckhump.com/solutions/exercises/chin-tucks',
+    canonical: 'https://neckhump.com/exercises/chin-tucks',
   },
   openGraph: {
     title: 'Chin Tucks Exercise: Foundation Neck Hump Exercise | Step-by-Step Guide',
     description: 'Master the chin tuck exercise - the most effective foundation exercise for fixing neck hump. Complete step-by-step guide with proper form.',
-    url: 'https://neckhump.com/solutions/exercises/chin-tucks',
+    url: 'https://neckhump.com/exercises/chin-tucks',
     siteName: 'NeckHump.com',
     locale: 'en_US',
     type: 'article',
@@ -55,7 +55,7 @@ export default function ChinTucksPage() {
             "dateModified": "2025-09-23",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://neckhump.com/solutions/exercises/chin-tucks"
+              "@id": "https://neckhump.com/exercises/chin-tucks"
             }
           }),
         }}
@@ -478,11 +478,11 @@ export default function ChinTucksPage() {
         <div className="bg-gray-50 p-8 rounded-lg mt-12">
           <h3 className="text-xl font-semibold text-gray-900 mb-6 text-center">Complete Your Neck Hump Exercise Routine</h3>
           <div className="grid md:grid-cols-3 gap-6">
-            <a href="/solutions/exercises/wall-angels" className="block text-center bg-white p-4 rounded-lg hover:shadow-md transition-shadow">
+            <a href="/exercises/wall-angels" className="block text-center bg-white p-4 rounded-lg hover:shadow-md transition-shadow">
               <div className="text-blue-600 font-semibold mb-1">Next: Wall Angels</div>
               <div className="text-sm text-gray-600">Strengthen your upper back muscles</div>
             </a>
-            <a href="/learn/complete-guide" className="block text-center bg-white p-4 rounded-lg hover:shadow-md transition-shadow">
+            <a href="/neck-hump-guide" className="block text-center bg-white p-4 rounded-lg hover:shadow-md transition-shadow">
               <div className="text-blue-600 font-semibold mb-1">Complete Guide</div>
               <div className="text-sm text-gray-600">Full neck hump treatment plan</div>
             </a>

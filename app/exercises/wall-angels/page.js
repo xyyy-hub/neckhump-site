@@ -1,16 +1,16 @@
-import Breadcrumbs from '../../../../components/Breadcrumbs'
+import Breadcrumbs from '../../../components/Breadcrumbs'
 
 export const metadata = {
   title: 'Wall Angels Exercise: Strengthen Upper Back for Better Posture | Complete Guide',
   description: 'Master wall angels to strengthen your upper back and improve posture. Step-by-step instructions, proper form, progressions, and safety tips for fixing forward head posture.',
   keywords: ['wall angels exercise', 'upper back strengthening', 'posture exercise', 'shoulder blade exercise', 'wall slides'],
   alternates: {
-    canonical: 'https://neckhump.com/solutions/exercises/wall-angels',
+    canonical: 'https://neckhump.com/exercises/wall-angels',
   },
   openGraph: {
     title: 'Wall Angels Exercise: Strengthen Upper Back for Better Posture | Complete Guide',
     description: 'Master wall angels to strengthen your upper back and improve posture. Step-by-step instructions with proper form and progressions.',
-    url: 'https://neckhump.com/solutions/exercises/wall-angels',
+    url: 'https://neckhump.com/exercises/wall-angels',
     siteName: 'NeckHump.com',
     locale: 'en_US',
     type: 'article',
@@ -55,7 +55,7 @@ export default function WallAngelsPage() {
             "dateModified": "2025-09-23",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://neckhump.com/solutions/exercises/wall-angels"
+              "@id": "https://neckhump.com/exercises/wall-angels"
             }
           }),
         }}
@@ -562,15 +562,15 @@ export default function WallAngelsPage() {
         <div className="bg-gray-50 p-8 rounded-lg mt-12">
           <h3 className="text-xl font-semibold text-gray-900 mb-6 text-center">Continue Building Your Upper Back Strength</h3>
           <div className="grid md:grid-cols-3 gap-6">
-            <a href="/solutions/exercises/chin-tucks" className="block text-center bg-white p-4 rounded-lg hover:shadow-md transition-shadow">
+            <a href="/exercises/chin-tucks" className="block text-center bg-white p-4 rounded-lg hover:shadow-md transition-shadow">
               <div className="text-blue-600 font-semibold mb-1">Previous: Chin Tucks</div>
               <div className="text-sm text-gray-600">Start with the foundation exercise</div>
             </a>
-            <a href="/solutions/exercises/upper-back-foam-rolling" className="block text-center bg-white p-4 rounded-lg hover:shadow-md transition-shadow">
+            <a href="/exercises/upper-back-foam-rolling" className="block text-center bg-white p-4 rounded-lg hover:shadow-md transition-shadow">
               <div className="text-blue-600 font-semibold mb-1">Next: Upper Back Release</div>
               <div className="text-sm text-gray-600">Release tension and improve mobility</div>
             </a>
-            <a href="/learn/complete-guide" className="block text-center bg-white p-4 rounded-lg hover:shadow-md transition-shadow">
+            <a href="/neck-hump-guide" className="block text-center bg-white p-4 rounded-lg hover:shadow-md transition-shadow">
               <div className="text-blue-600 font-semibold mb-1">Complete Guide</div>
               <div className="text-sm text-gray-600">Full neck hump treatment plan</div>
             </a>

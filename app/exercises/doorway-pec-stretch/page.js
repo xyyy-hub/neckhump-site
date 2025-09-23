@@ -1,16 +1,16 @@
-import Breadcrumbs from '../../../../components/Breadcrumbs'
+import Breadcrumbs from '../../../components/Breadcrumbs'
 
 export const metadata = {
   title: 'Doorway Pec Stretch: Open Tight Chest Muscles for Better Posture | Guide',
   description: 'Master the doorway pec stretch to release tight chest muscles that pull shoulders forward. Complete positioning guide with variations and safety tips for neck hump relief.',
   keywords: ['doorway pec stretch', 'chest stretch', 'pectoralis stretch', 'shoulder stretch', 'doorway stretch'],
   alternates: {
-    canonical: 'https://neckhump.com/solutions/exercises/doorway-pec-stretch',
+    canonical: 'https://neckhump.com/exercises/doorway-pec-stretch',
   },
   openGraph: {
     title: 'Doorway Pec Stretch: Open Tight Chest Muscles for Better Posture | Guide',
     description: 'Master the doorway pec stretch to release tight chest muscles that pull shoulders forward. Complete positioning guide with variations.',
-    url: 'https://neckhump.com/solutions/exercises/doorway-pec-stretch',
+    url: 'https://neckhump.com/exercises/doorway-pec-stretch',
     siteName: 'NeckHump.com',
     locale: 'en_US',
     type: 'article',
@@ -55,7 +55,7 @@ export default function DoorwayPecStretchPage() {
             "dateModified": "2025-09-23",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://neckhump.com/solutions/exercises/doorway-pec-stretch"
+              "@id": "https://neckhump.com/exercises/doorway-pec-stretch"
             }
           }),
         }}
@@ -671,15 +671,15 @@ export default function DoorwayPecStretchPage() {
         <div className="bg-gray-50 p-8 rounded-lg mt-12">
           <h3 className="text-xl font-semibold text-gray-900 mb-6 text-center">Complete Your Posture Correction Routine</h3>
           <div className="grid md:grid-cols-3 gap-6">
-            <a href="/solutions/exercises/upper-back-foam-rolling" className="block text-center bg-white p-4 rounded-lg hover:shadow-md transition-shadow">
+            <a href="/exercises/upper-back-foam-rolling" className="block text-center bg-white p-4 rounded-lg hover:shadow-md transition-shadow">
               <div className="text-blue-600 font-semibold mb-1">Previous: Upper Back Release</div>
               <div className="text-sm text-gray-600">Prepare with myofascial release</div>
             </a>
-            <a href="/solutions/exercises/y-t-w-raises" className="block text-center bg-white p-4 rounded-lg hover:shadow-md transition-shadow">
+            <a href="/exercises/y-t-w-raises" className="block text-center bg-white p-4 rounded-lg hover:shadow-md transition-shadow">
               <div className="text-blue-600 font-semibold mb-1">Next: Y-T-W Raises</div>
               <div className="text-sm text-gray-600">Strengthen after stretching</div>
             </a>
-            <a href="/solutions/exercises/chin-tucks" className="block text-center bg-white p-4 rounded-lg hover:shadow-md transition-shadow">
+            <a href="/exercises/chin-tucks" className="block text-center bg-white p-4 rounded-lg hover:shadow-md transition-shadow">
               <div className="text-blue-600 font-semibold mb-1">Combine with Chin Tucks</div>
               <div className="text-sm text-gray-600">Foundation neck exercise</div>
             </a>
