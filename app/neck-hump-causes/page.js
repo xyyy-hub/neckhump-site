@@ -1,9 +1,13 @@
 import Link from 'next/link'
+import Breadcrumbs from '../../components/Breadcrumbs'
 
 export const metadata = {
-  title: 'Neck Hump: Causes, Prevention & How to Fix Forward Head Posture',
+  title: 'Neck Hump Causes: Why You Have Forward Head Posture',
   description: 'Learn what causes neck hump (forward head posture), how to prevent it, and proven exercises to fix it. Complete guide for desk workers and gamers.',
   keywords: ['neck hump', 'forward head posture', 'tech neck', 'dowagers hump', 'neck exercises', 'cervical lordosis'],
+  alternates: {
+    canonical: 'https://neckhump.com/neck-hump-causes',
+  },
   openGraph: {
     title: 'Neck Hump: Causes, Prevention & How to Fix Forward Head Posture',
     description: 'Learn what causes neck hump and proven exercises to fix forward head posture permanently.',
@@ -13,7 +17,10 @@ export const metadata = {
 
 export default function NeckHumpPage() {
   return (
-    <article className="max-w-4xl mx-auto">
+    <div className="max-w-4xl mx-auto">
+      <Breadcrumbs />
+      
+      <article>
       <header className="mb-12 text-center">
         <h1 className="text-4xl font-bold text-gray-900 mb-6 leading-tight">
           Why Do I Have a Neck Hump? Causes & How to Fix It
@@ -315,5 +322,6 @@ export default function NeckHumpPage() {
         }}
       />
     </article>
+    </div>
   )
 }

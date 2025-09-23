@@ -1,9 +1,12 @@
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Neck Hump: Complete Guide to Forward Head Posture | NeckHump.com',
+  title: 'Neck Hump: Complete Guide to Forward Head Posture',
   description: 'The definitive resource for neck hump (forward head posture). Learn causes, exercises, and solutions. Evidence-based information for tech neck and computer posture.',
   keywords: ['neck hump', 'forward head posture', 'tech neck', 'computer neck', 'neck hump exercises', 'how to fix neck hump', 'cervical lordosis', 'dowagers hump'],
+  alternates: {
+    canonical: 'https://neckhump.com',
+  },
   openGraph: {
     title: 'Neck Hump: Complete Guide to Forward Head Posture',
     description: 'The definitive resource for understanding and fixing neck hump. Evidence-based solutions for forward head posture.',

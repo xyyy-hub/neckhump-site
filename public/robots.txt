@@ -15,7 +15,7 @@ Allow: /
 # Disallow: /
 
 # Important pages
-Sitemap: https://your-domain.com/sitemap.xml
+Sitemap: https://neckhump.com/sitemap.xml
 
 # Crawl-delay for courtesy
 Crawl-delay: 1

@@ -1,9 +1,13 @@
 import { Metadata } from 'next'
+import Breadcrumbs from '../../components/Breadcrumbs'
 
 export const metadata = {
-  title: '10 Neck Hump Exercises That Actually Work (Step-by-Step Guide)',
+  title: '10 Neck Hump Exercises That Actually Work (2024 Guide)',
   description: 'Proven neck hump exercises to reduce forward head posture. Complete workout routine with instructions, timing, and progression tips. Start seeing results in 2 weeks.',
   keywords: ['neck hump exercises', 'forward head posture exercises', 'tech neck exercises', 'cervical lordosis exercises', 'neck strengthening exercises', 'posture correction exercises'],
+  alternates: {
+    canonical: 'https://neckhump.com/neck-hump-exercises',
+  },
   openGraph: {
     title: '10 Neck Hump Exercises That Actually Work (Step-by-Step Guide)',
     description: 'Proven neck hump exercises to reduce forward head posture. Complete workout routine with instructions, timing, and progression tips. Start seeing results in 2 weeks.',
@@ -54,6 +58,8 @@ export default function NeckHumpExercisesPage() {
           }),
         }}
       />
+
+      <Breadcrumbs />
 
       <article className="article-content">
         <header className="mb-12">
