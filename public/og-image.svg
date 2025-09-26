@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#eff6ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dbeafe;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  
+  <!-- Header brand area -->
+  <rect x="0" y="0" width="1200" height="100" fill="white" opacity="0.8"/>
+  
+  <!-- Logo area -->
+  <g transform="translate(60, 20)">
+    <rect width="60" height="60" rx="8" fill="url(#accentGradient)"/>
+    <circle cx="30" cy="25" r="8" fill="white"/>
+    <path d="M30 40 Q35 45 40 50" stroke="white" stroke-width="3" fill="none"/>
+    <path d="M30 40 Q25 45 20 50" stroke="white" stroke-width="3" fill="none"/>
+  </g>
+  
+  <!-- Brand text -->
+  <text x="140" y="50" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#1f2937">
+    NeckHump.com
+  </text>
+  <text x="140" y="75" font-family="Arial, sans-serif" font-size="18" fill="#6b7280">
+    The Complete Guide to Forward Head Posture
+  </text>
+  
+  <!-- Main headline -->
+  <text x="60" y="200" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#1f2937">
+    Fix Your Neck Hump
+  </text>
+  <text x="60" y="280" font-family="Arial, sans-serif" font-size="48" font-weight="normal" fill="#374151">
+    Evidence-Based Solutions for
+  </text>
+  <text x="60" y="340" font-family="Arial, sans-serif" font-size="48" font-weight="normal" fill="#374151">
+    Forward Head Posture
+  </text>
+  
+  <!-- Key benefits -->
+  <g transform="translate(60, 420)">
+    <rect width="8" height="8" rx="4" fill="url(#accentGradient)"/>
+    <text x="20" y="12" font-family="Arial, sans-serif" font-size="24" fill="#4b5563">
+      Targeted exercises that actually work
+    </text>
+  </g>
+  
+  <g transform="translate(60, 460)">
+    <rect width="8" height="8" rx="4" fill="url(#accentGradient)"/>
+    <text x="20" y="12" font-family="Arial, sans-serif" font-size="24" fill="#4b5563">
+      Ergonomic workspace solutions
+    </text>
+  </g>
+  
+  <g transform="translate(60, 500)">
+    <rect width="8" height="8" rx="4" fill="url(#accentGradient)"/>
+    <text x="20" y="12" font-family="Arial, sans-serif" font-size="24" fill="#4b5563">
+      Tech neck prevention strategies
+    </text>
+  </g>
+  
+  <!-- Illustration area -->
+  <g transform="translate(700, 180)">
+    <!-- Simple neck/spine illustration -->
+    <circle cx="100" cy="100" r="80" fill="white" stroke="#e5e7eb" stroke-width="2"/>
+    <path d="M60 80 Q100 60 140 80 Q140 120 100 140 Q60 120 60 80 Z" 
+          fill="url(#accentGradient)" opacity="0.1"/>
+    <path d="M100 70 L100 130" stroke="url(#accentGradient)" stroke-width="4"/>
+    <circle cx="100" cy="80" r="6" fill="url(#accentGradient)"/>
+    <circle cx="100" cy="100" r="6" fill="url(#accentGradient)"/>
+    <circle cx="100" cy="120" r="6" fill="url(#accentGradient)"/>
+  </g>
+  
+  <!-- Website URL -->
+  <text x="60" y="580" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="url(#accentGradient)">
+    neckhump.com
+  </text>
+</svg>

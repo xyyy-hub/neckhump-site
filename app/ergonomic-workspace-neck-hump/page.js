@@ -1,12 +1,12 @@
 import { Metadata } from 'next'
 
 export const metadata = {
-  title: 'Ergonomic Workspace Setup to Fix Neck Hump: Complete Guide 2024',
-  description: 'Transform your workspace to prevent and reduce neck hump. Expert ergonomic setup guide with equipment recommendations, positioning tips, and workspace design principles.',
+  title: 'Ergonomic Workspace for Tech Neck: Monitor Height & Setup',
+  description: 'Your desk setup checklist: monitor height, chair, keyboard, micro-breaks, and habits to reduce forward head posture and strain.',
   keywords: ['ergonomic workspace setup', 'desk setup for neck hump', 'ergonomic office setup', 'computer workstation ergonomics', 'desk ergonomics', 'workspace design'],
   openGraph: {
-    title: 'Ergonomic Workspace Setup to Fix Neck Hump: Complete Guide 2024',
-    description: 'Transform your workspace to prevent and reduce neck hump. Expert ergonomic setup guide with equipment recommendations, positioning tips, and workspace design principles.',
+    title: 'Ergonomic Workspace for Tech Neck: Monitor Height & Setup',
+    description: 'Your desk setup checklist: monitor height, chair, keyboard, micro-breaks, and habits to reduce forward head posture and strain.',
     url: 'https://neckhump.com/ergonomic-workspace-neck-hump',
     siteName: 'NeckHump.com',
     locale: 'en_US',

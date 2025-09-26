@@ -36,12 +36,14 @@ export default function ChinTucksPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
+            "@graph": [
+              {
+                "@type": "Article",
             "headline": "Chin Tucks Exercise: Foundation Neck Hump Exercise Guide",
             "description": "Master the chin tuck exercise - the most effective foundation exercise for fixing neck hump. Complete step-by-step guide with proper form, common mistakes, and safety tips.",
             "author": {
               "@type": "Person",
-              "name": "Thomas Xu"
+              "name": "Team Posture"
             },
             "publisher": {
               "@type": "Organization",
@@ -57,6 +59,54 @@ export default function ChinTucksPage() {
               "@type": "WebPage",
               "@id": "https://neckhump.com/exercises/chin-tucks"
             }
+              },
+              {
+                "@type": "HowTo",
+                "name": "How to Perform Chin Tucks Exercise",
+                "description": "Step-by-step instructions for performing chin tucks to fix forward head posture and neck hump",
+                "image": "https://neckhump.com/exercises/chin-tucks-illustration.svg",
+                "totalTime": "PT2M",
+                "performTime": "PT2M",
+                "supply": [
+                  {
+                    "@type": "HowToSupply",
+                    "name": "No equipment needed"
+                  }
+                ],
+                "tool": [
+                  {
+                    "@type": "HowToTool", 
+                    "name": "Wall (optional for feedback)"
+                  }
+                ],
+                "step": [
+                  {
+                    "@type": "HowToStep",
+                    "name": "Starting Position",
+                    "text": "Sit or stand with your back straight and shoulders relaxed. Keep your eyes looking straight ahead and breathe normally.",
+                    "image": "https://neckhump.com/exercises/chin-tucks-step1.svg"
+                  },
+                  {
+                    "@type": "HowToStep", 
+                    "name": "Initiate Movement",
+                    "text": "Gently draw your chin back and in, as if making a double chin. Movement should be small and controlled, about 1-2 inches.",
+                    "image": "https://neckhump.com/exercises/chin-tucks-step2.svg"
+                  },
+                  {
+                    "@type": "HowToStep",
+                    "name": "Hold Position", 
+                    "text": "Hold the tucked position for 5-10 seconds while maintaining normal breathing. Feel a gentle stretch at the base of your skull.",
+                    "image": "https://neckhump.com/exercises/chin-tucks-step3.svg"
+                  },
+                  {
+                    "@type": "HowToStep",
+                    "name": "Return and Repeat",
+                    "text": "Slowly return to starting position and repeat for 10 repetitions. Perform 2-3 sets throughout the day.",
+                    "image": "https://neckhump.com/exercises/chin-tucks-step4.svg"
+                  }
+                ]
+              }
+            ]
           }),
         }}
       />

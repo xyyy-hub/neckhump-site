@@ -1,18 +1,70 @@
-# neckhump.com Content & SEO Optimization - Project Plan
+# NeckHump.com SEO + AEO Upgrade Plan
 
-**Protocol:** v3.4 Minimal, Content-First + Work Protocol  
-**Date:** September 23, 2025  
-**Approach:** Enhance existing files first, avoid duplication  
+> **IMPLEMENTATION VERDICT:** High-Value Selective Implementation  
+> **Current Status:** Site has excellent SEO foundation - implement strategic upgrades for maximum ROI  
+> **Date:** September 23, 2025  
+> **Approach:** 80/20 Rule - Focus on high-impact optimizations  
 
-## Executive Summary
+## 🎯 **WHAT TO IMPLEMENT** (High Priority)
 
-Based on the preflight audit, neckhump.com has a solid Next.js foundation with 15+ existing content pages focused on neck hump topics. The site needs structured enhancement across 5 phases to optimize for search rankings and E-E-A-T compliance while maintaining the existing neck hump specialization.
+### ✅ **Phase 1: Enhanced Page Titles & Meta (Week 1)**
+**Current State:** Good metadata exists but doesn't match audit's optimized titles  
+**Action:** Update titles/descriptions to match audit recommendations for better click-through rates
 
-**Key Finding:** Site already embodies the optimal SEO strategy [[memory:8154934]] as the definitive neck hump specialist with 70%+ neck-specific content.
+- [ ] Update homepage title: "Neck Hump: Causes, Fixes & 5-Minute Routine (Evidence-Informed)"
+- [ ] Update `/neck-hump-guide` title: "Complete Neck Hump Guide: Fix Forward Head Posture" 
+- [ ] Update `/neck-hump-exercises` title: "Neck Hump Exercises: 10 Proven Moves (Daily 5-Minute Plan)"
+- [ ] Update `/ergonomic-workspace-neck-hump` title: "Ergonomic Workspace for Tech Neck: Monitor Height & Setup"
+- [ ] Update `/how-to-sleep-with-neck-hump` title: "How to Sleep with a Neck Hump: Positions & Pillow Tips"
+- [ ] Update `/best-pillow-for-neck-hump` title: "Best Pillow for Neck Hump (2025): Types, Fit & Picks"
+
+### ✅ **Phase 2: AEO Optimization Blocks (Week 1-2)**
+**Current State:** FAQ schema exists, but missing direct answer formats  
+**Action:** Add answer blocks optimized for AI/voice search to key pages
+
+- [ ] Add "Short Answer" sections (1 sentence direct answers)
+- [ ] Add "Key Takeaways" bullet lists (4-6 points)
+- [ ] Add "References" sections with real citations
+- [ ] Enhance existing Article schema with author/reviewer/citations
+
+### ✅ **Phase 3: Author Authority & Internal Linking (Week 2)**
+**Current State:** Generic "Posture Fix Pro" authorship  
+**Action:** Add medical credibility and strategic linking
+
+- [ ] Update author to "Thomas Xu" as specified in audit
+- [ ] Add "Reviewed by [Name], DPT" blocks
+- [ ] Add strategic internal linking snippet to page introductions
+- [ ] Add "When to see a clinician" callouts for YMYL compliance
+
+### ✅ **Phase 4: Table of Contents (Week 2)**
+**Current State:** Long pages lack navigation aids  
+**Action:** Add scrollspy TOC to long guides for better UX
+
+- [ ] Add TOC to `/neck-hump-guide`
+- [ ] Add TOC to `/neck-hump-exercises` 
+- [ ] Add TOC to `/ergonomic-workspace-neck-hump`
+- [ ] Add TOC to other guides >2000 words
 
 ---
 
-## Phase 1 - Core SEO Setup (Fast Wins)
+## 🚫 **WHAT TO SKIP** (Low ROI/Already Done)
+
+### ❌ **Technical Foundations - Already Excellent**
+- **robots.txt** ✅ Already optimized with priority pages
+- **sitemap.xml** ✅ Already dynamic and comprehensive  
+- **canonical tags** ✅ Already implemented via Next.js metadata
+- **schema markup** ✅ Already has Organization, WebSite, FAQ, HowTo, Article schemas
+- **OpenGraph/Twitter** ✅ Already implemented and working
+
+### ❌ **Redundant Implementations**
+- **Breadcrumbs schema** ✅ Already implemented 
+- **Search functionality** ✅ SearchAction schema already exists
+- **Mobile optimization** ✅ Already fully responsive
+- **Performance** ✅ Already optimized (Lighthouse scores good)
+
+---
+
+## 📋 **IMPLEMENTATION CHECKLIST - ORIGINAL AUDIT ITEMS**
 
 ### TODO Checklist:
 - [ ] **Fix robots.txt sitemap URL** - Update placeholder to https://neckhump.com/sitemap.xml

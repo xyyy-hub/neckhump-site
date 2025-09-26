@@ -41,7 +41,7 @@ export default function YTWRaisesPage() {
             "description": "Master Y-T-W raises for complete upper back strengthening. Step-by-step guide with proper form, progressions, and modifications for fixing forward head posture.",
             "author": {
               "@type": "Person",
-              "name": "Thomas Xu"
+              "name": "Team Posture"
             },
             "publisher": {
               "@type": "Organization",

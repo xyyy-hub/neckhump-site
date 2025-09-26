@@ -41,7 +41,7 @@ export default function DoorwayPecStretchPage() {
             "description": "Master the doorway pec stretch to release tight chest muscles that pull shoulders forward. Complete positioning guide with variations and safety tips for neck hump relief.",
             "author": {
               "@type": "Person",
-              "name": "Thomas Xu"
+              "name": "Team Posture"
             },
             "publisher": {
               "@type": "Organization",

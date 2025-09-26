@@ -41,7 +41,7 @@ export default function UpperBackFoamRollingPage() {
             "description": "Learn safe upper back foam rolling techniques to release muscle tension and improve thoracic mobility. Complete guide with safety tips, proper form, and alternatives.",
             "author": {
               "@type": "Person",
-              "name": "Thomas Xu"
+              "name": "Team Posture"
             },
             "publisher": {
               "@type": "Organization",

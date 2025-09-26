@@ -1,20 +1,29 @@
 User-agent: *
 Allow: /
 
-# Block AI crawlers if desired (optional)
+# Priority pages for crawling
+Allow: /neck-hump-exercises
+Allow: /neck-hump-causes
+Allow: /learn
+Allow: /solutions
+Allow: /neck-hump-guide
+
+# Block AI crawlers (optional - uncomment if needed)
 # User-agent: GPTBot
 # Disallow: /
-
 # User-agent: ChatGPT-User
 # Disallow: /
-
 # User-agent: CCBot
 # Disallow: /
-
 # User-agent: anthropic-ai
 # Disallow: /
 
-# Important pages
+# Block development and admin paths
+Disallow: /_next/
+Disallow: /api/
+Disallow: /.well-known/
+
+# Important resources
 Sitemap: https://neckhump.com/sitemap.xml
 
 # Crawl-delay for courtesy

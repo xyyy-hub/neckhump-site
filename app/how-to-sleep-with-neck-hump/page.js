@@ -1,12 +1,12 @@
 import { Metadata } from 'next'
 
 export const metadata = {
-  title: 'How to Sleep with Neck Hump: 5 Positions That Actually Help (2024)',
-  description: 'Learn the best sleeping positions, techniques, and setups for neck hump relief. Expert tips for better sleep quality while correcting forward head posture.',
+  title: 'How to Sleep with a Neck Hump: Positions & Pillow Tips',
+  description: 'Side/back positions, pillow choices, and pain-free sleep habits. Decision tree + FAQs; what helps vs. what doesn\'t.',
   keywords: ['how to sleep with neck hump', 'sleeping positions for neck hump', 'neck hump sleep tips', 'forward head posture sleep', 'cervical lordosis sleep position'],
   openGraph: {
-    title: 'How to Sleep with Neck Hump: 5 Positions That Actually Help (2024)',
-    description: 'Learn the best sleeping positions, techniques, and setups for neck hump relief. Expert tips for better sleep quality while correcting forward head posture.',
+    title: 'How to Sleep with a Neck Hump: Positions & Pillow Tips',
+    description: 'Side/back positions, pillow choices, and pain-free sleep habits. Decision tree + FAQs; what helps vs. what doesn\'t.',
     url: 'https://neckhump.com/how-to-sleep-with-neck-hump',
     siteName: 'NeckHump.com',
     locale: 'en_US',
