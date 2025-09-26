@@ -13,10 +13,10 @@ export default function Header() {
   const navLinks = [
     { href: "/neck-hump-guide", label: "Complete Guide", text: "Complete Guide" },
     { href: "/neck-hump-exercises", label: "Exercises", text: "Exercise Library" },
+    { href: "/posture-exercises", label: "Office Breaks", text: "Quick Routine" },
     { href: "/neck-hump-causes", label: "Understanding", text: "Causes & Info" },
     { href: "/best-pillow-for-neck-hump", label: "Products", text: "Best Pillows" },
-    { href: "/ergonomic-workspace-neck-hump", label: "Workspace", text: "Ergonomics" },
-    { href: "/how-to-sleep-with-neck-hump", label: "Tips", text: "Sleep Tips" }
+    { href: "/ergonomic-workspace-neck-hump", label: "Workspace", text: "Ergonomics" }
   ]
 
   return (

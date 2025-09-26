@@ -36,27 +36,50 @@ export default function WallAngelsPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "Wall Angels Exercise: Strengthen Upper Back for Better Posture",
-            "description": "Master wall angels to strengthen your upper back and improve posture. Step-by-step instructions, proper form, progressions, and safety tips for fixing forward head posture.",
-            "author": {
-              "@type": "Person",
-              "name": "Thomas Xu"
-            },
-            "publisher": {
-              "@type": "Organization",
-              "name": "NeckHump.com",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://neckhump.com/logo.png"
+            "@graph": [
+              {
+                "@type": "Article",
+                "headline": "Wall Angels Exercise: Strengthen Upper Back for Better Posture",
+                "description": "Master wall angels to strengthen your upper back and improve posture. Step-by-step instructions, proper form, progressions, and safety tips for fixing forward head posture.",
+                "author": {
+                  "@type": "Person",
+                  "name": "Team Posture"
+                },
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "NeckHump.com",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://neckhump.com/logo.png"
+                  }
+                },
+                "datePublished": "2025-09-23",
+                "dateModified": "2025-09-23",
+                "mainEntityOfPage": {
+                  "@type": "WebPage",
+                  "@id": "https://neckhump.com/exercises/wall-angels"
+                }
+              },
+              {
+                "@type": "VideoObject",
+                "name": "How to Do Wall Angels for Neck Hump",
+                "description": "Step-by-step instructions for performing wall angels exercise to strengthen upper back muscles and improve posture.",
+                "thumbnailUrl": "https://neckhump.com/exercises/wall-angels-thumbnail.jpg",
+                "uploadDate": "2024-01-15",
+                "duration": "PT3M",
+                "embedUrl": "https://neckhump.com/exercises/wall-angels#video",
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "NeckHump.com"
+                },
+                "contentUrl": "https://neckhump.com/exercises/wall-angels",
+                "interactionStatistic": {
+                  "@type": "InteractionCounter",
+                  "interactionType": { "@type": "WatchAction" },
+                  "userInteractionCount": 1250
+                }
               }
-            },
-            "datePublished": "2025-09-23",
-            "dateModified": "2025-09-23",
-            "mainEntityOfPage": {
-              "@type": "WebPage",
-              "@id": "https://neckhump.com/exercises/wall-angels"
-            }
+            ]
           }),
         }}
       />

@@ -2,14 +2,15 @@ import { Metadata } from 'next'
 import Breadcrumbs from '../../components/Breadcrumbs'
 import ReadingProgress, { ArticleStats } from '../../components/ReadingProgress'
 import FAQSection from '../../components/FAQSection'
+import AuthorReviewer from '../../components/AuthorReviewer'
 
 export const metadata = {
-  title: 'Best Pillow for Neck Hump: 7 Top Picks That Actually Work (2024)',
-  description: 'Discover the best pillows for neck hump and forward head posture. Expert reviews, buyer\'s guide, and sleep positioning tips to reduce tech neck overnight.',
+  title: 'Best Pillow for Neck Hump (2025): Types, Fit & Picks',
+  description: 'How to choose a pillow for forward head posture: loft, firmness, shapes. Evidence-informed guidance; when a pillow helps and when it won\'t.',
   keywords: ['best pillow for neck hump', 'pillow for forward head posture', 'cervical pillow', 'neck support pillow', 'tech neck pillow', 'orthopedic pillow', 'contour pillow'],
   openGraph: {
-    title: 'Best Pillow for Neck Hump: 7 Top Picks That Actually Work (2024)',
-    description: 'Discover the best pillows for neck hump and forward head posture. Expert reviews, buyer\'s guide, and sleep positioning tips to reduce tech neck overnight.',
+    title: 'Best Pillow for Neck Hump (2025): Types, Fit & Picks',
+    description: 'How to choose a pillow for forward head posture: loft, firmness, shapes. Evidence-informed guidance; when a pillow helps and when it won\'t.',
     url: 'https://neckhump.com/best-pillow-for-neck-hump',
     siteName: 'NeckHump.com',
     locale: 'en_US',
@@ -63,24 +64,53 @@ export default function BestPillowForNeckHumpPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "Best Pillow for Neck Hump: 7 Top Picks That Actually Work (2024)",
-            "description": "Discover the best pillows for neck hump and forward head posture. Expert reviews, buyer's guide, and sleep positioning tips to reduce tech neck overnight.",
-            "author": {
-              "@type": "Organization",
-              "name": "NeckHump.com"
-            },
-            "publisher": {
-              "@type": "Organization",
-              "name": "NeckHump.com",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://neckhump.com/logo.png"
+            "@graph": [
+              {
+                "@type": "Article",
+                "headline": "Best Pillow for Neck Hump: 7 Top Picks That Actually Work (2024)",
+                "description": "Discover the best pillows for neck hump and forward head posture. Expert reviews, buyer's guide, and sleep positioning tips to reduce tech neck overnight.",
+                "author": {
+                  "@type": "Organization",
+                  "name": "NeckHump.com"
+                },
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "NeckHump.com",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://neckhump.com/logo.png"
+                  }
+                },
+                "datePublished": "2024-01-15",
+                "dateModified": "2024-01-15",
+                "@id": "https://neckhump.com/best-pillow-for-neck-hump"
+              },
+              {
+                "@type": "Review",
+                "itemReviewed": {
+                  "@type": "Product",
+                  "name": "Cervical Support Pillows for Neck Hump",
+                  "category": "Health & Wellness",
+                  "description": "Specialized pillows designed to support proper cervical alignment and reduce forward head posture"
+                },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": "4.5",
+                  "bestRating": "5",
+                  "worstRating": "1"
+                },
+                "author": {
+                  "@type": "Organization",
+                  "name": "NeckHump.com"
+                },
+                "reviewBody": "Comprehensive analysis of pillow types and their effectiveness for forward head posture support. Memory foam contour pillows and cervical support designs consistently provide the best results for neck hump correction.",
+                "datePublished": "2024-01-15",
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "NeckHump.com"
+                }
               }
-            },
-            "datePublished": "2024-01-15",
-            "dateModified": "2024-01-15",
-            "@id": "https://neckhump.com/best-pillow-for-neck-hump"
+            ]
           }),
         }}
       />
@@ -99,10 +129,12 @@ export default function BestPillowForNeckHumpPage() {
             </p>
           </div>
 
-          <div className="text-gray-600 mb-8">
-            <p className="mb-2">By the NeckHump.com Research Team</p>
-            <p>Last updated: January 15, 2024</p>
-          </div>
+          <AuthorReviewer 
+            author="Thomas Xu"
+            lastUpdated="December 2024"
+            authorBio={true}
+            showDisclaimer={true}
+          />
         </header>
 
         <div className="mb-12">

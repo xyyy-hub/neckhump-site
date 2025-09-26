@@ -41,4 +41,10 @@ module.exports = {
   plugins: [
     require('@tailwindcss/typography'),
   ],
+  // Add CSS optimization for better performance
+  corePlugins: {
+    preflight: true,
+  },
+  // Enable JIT mode for faster builds (automatic in Tailwind v3+)
+  mode: 'jit',
 }

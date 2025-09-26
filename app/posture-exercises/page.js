@@ -1,12 +1,12 @@
 import Link from 'next/link'
 
 export const metadata = {
-  title: '5-Minute Posture Exercises: Daily Routine to Fix Bad Posture',
-  description: 'Simple posture exercises you can do anywhere. Strengthen your core, stretch tight muscles, and improve posture in just 5 minutes daily.',
-  keywords: ['posture exercises', 'posture stretches', 'core strengthening', 'neck exercises', 'back exercises', 'daily routine'],
+  title: '5-Minute Office Posture Break Routine | Desk-Friendly Exercises',
+  description: 'Quick posture exercises you can do at your desk during work breaks. No equipment needed - perfect for busy professionals and remote workers.',
+  keywords: ['office posture exercises', 'desk break exercises', 'workplace posture', 'computer break exercises', 'office worker stretches', 'desk yoga'],
   openGraph: {
-    title: '5-Minute Posture Exercises: Daily Routine to Fix Bad Posture',
-    description: 'Simple posture exercises you can do anywhere to strengthen and stretch in just 5 minutes daily.',
+    title: '5-Minute Office Posture Break Routine | Desk-Friendly Exercises',
+    description: 'Quick posture exercises you can do at your desk during work breaks. No equipment needed - perfect for busy professionals.',
     url: 'https://neckhump.com/posture-exercises',
   },
 }
@@ -16,11 +16,11 @@ export default function PostureExercisesPage() {
     <article className="max-w-4xl mx-auto">
       <header className="mb-12 text-center">
         <h1 className="text-4xl font-bold text-gray-900 mb-6 leading-tight">
-          5-Minute Posture Exercises: Daily Routine to Fix Bad Posture
+          5-Minute Office Posture Break Routine
         </h1>
         <p className="text-xl text-gray-600 mb-6 leading-relaxed max-w-3xl mx-auto">
-          Transform your posture with these simple exercises. No equipment needed—just 5 minutes 
-          a day to strengthen weak muscles and stretch tight areas.
+          Desk-friendly exercises you can do during work breaks. No equipment needed—just 5 minutes 
+          to improve posture and reduce tension throughout your workday.
         </p>
         <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-700">
           <span>Last updated: December 2024</span>
@@ -33,36 +33,55 @@ export default function PostureExercisesPage() {
 
       <div className="article-content">
         <p className="text-lg text-gray-700 mb-6">
-          The best posture exercise routine is one you'll actually do. These 5 exercises target 
-          the most common posture problems and can be done anywhere—at home, in the office, 
-          or while traveling.
+          Perfect for busy professionals, these office-friendly exercises combat the effects of prolonged sitting 
+          and computer work. All exercises can be done in business attire without getting on the floor.
         </p>
 
-        <div className="bg-green-50 p-6 rounded-lg mb-8">
-          <h2 className="text-lg font-semibold text-green-800 mb-4">Quick Start Guide</h2>
-          <div className="grid md:grid-cols-2 gap-4 text-green-700">
+        <div className="bg-blue-50 p-6 rounded-lg mb-8">
+          <h2 className="text-lg font-semibold text-blue-800 mb-4">Perfect for Office Workers</h2>
+          <div className="grid md:grid-cols-2 gap-4 text-blue-700">
             <div>
-              <h3 className="font-semibold mb-2">Perfect For:</h3>
+              <h3 className="font-semibold mb-2">Ideal For:</h3>
               <ul className="space-y-1">
-                <li>• Desk workers & remote employees</li>
-                <li>• Gamers & students</li>
-                <li>• Anyone with forward head posture</li>
-                <li>• People with rounded shoulders</li>
+                <li>• Remote workers & office employees</li>
+                <li>• Video conference breaks</li>
+                <li>• Between meetings</li>
+                <li>• Standing desk users</li>
+                <li>• Business attire friendly</li>
               </ul>
             </div>
             <div>
-              <h3 className="font-semibold mb-2">What You'll Need:</h3>
+              <h3 className="font-semibold mb-2">Office Benefits:</h3>
               <ul className="space-y-1">
-                <li>• 5 minutes of time</li>
-                <li>• Small floor space</li>
-                <li>• Wall (for some exercises)</li>
-                <li>• No equipment required!</li>
+                <li>• Can be done in business attire</li>
+                <li>• No lying down required</li>
+                <li>• Silent exercises only</li>
+                <li>• Instant energy boost</li>
+                <li>• No equipment needed</li>
               </ul>
             </div>
           </div>
         </div>
 
-        <h2>The Complete 5-Minute Routine</h2>
+        <div className="bg-gray-50 p-6 rounded-lg mb-8">
+          <h2 className="text-lg font-semibold text-gray-800 mb-4">Why This Routine Works for Office Workers</h2>
+          <div className="grid md:grid-cols-3 gap-4 text-gray-700 text-sm">
+            <div>
+              <h3 className="font-semibold mb-2">🕐 Time-Efficient</h3>
+              <p>Designed for busy schedules - fits perfectly between meetings or during coffee breaks</p>
+            </div>
+            <div>
+              <h3 className="font-semibold mb-2">👔 Professional Setting</h3>
+              <p>All exercises can be done in work clothes without getting on the floor or changing outfits</p>
+            </div>
+            <div>
+              <h3 className="font-semibold mb-2">🔇 Office-Quiet</h3>
+              <p>Silent movements that won't disturb colleagues or draw unwanted attention</p>
+            </div>
+          </div>
+        </div>
+
+        <h2>The Complete 5-Minute Office Break Routine</h2>
         <p>
           Do these exercises in order, every morning or whenever you feel tight. Each exercise 
           takes about 1 minute, for a total of 5 minutes.
@@ -385,8 +404,8 @@ export default function PostureExercisesPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "5-Minute Posture Exercises: Daily Routine to Fix Bad Posture",
-            "description": "Simple posture exercises you can do anywhere. Strengthen your core, stretch tight muscles, and improve posture in just 5 minutes daily.",
+            "headline": "5-Minute Office Posture Break Routine | Desk-Friendly Exercises",
+            "description": "Quick posture exercises you can do at your desk during work breaks. No equipment needed - perfect for busy professionals and remote workers.",
             "author": {
               "@type": "Person",
               "name": "Posture Fix Pro"

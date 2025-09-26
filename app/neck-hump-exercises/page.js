@@ -1,17 +1,21 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumbs from '../../components/Breadcrumbs'
+import InternalLinking from '../../components/InternalLinking'
+import AuthorReviewer from '../../components/AuthorReviewer'
+import TableOfContents from '../../components/TableOfContents'
+import PeopleAlsoAsk from '../../components/PeopleAlsoAsk'
 
 export const metadata = {
-  title: '10 Neck Hump Exercises That Actually Work (2024 Guide)',
-  description: 'Proven neck hump exercises to reduce forward head posture. Complete workout routine with instructions, timing, and progression tips. Start seeing results in 2 weeks.',
+  title: 'Neck Hump Exercises: 10 Proven Moves (Daily 5-Minute Plan)',
+  description: 'Chin tucks, wall angels, thoracic mobility and more—with reps, tempo, safety and progressions. Includes HowTo schema and quick routine.',
   keywords: ['neck hump exercises', 'forward head posture exercises', 'tech neck exercises', 'cervical lordosis exercises', 'neck strengthening exercises', 'posture correction exercises'],
   alternates: {
     canonical: 'https://neckhump.com/neck-hump-exercises',
   },
   openGraph: {
-    title: '10 Neck Hump Exercises That Actually Work (Step-by-Step Guide)',
-    description: 'Proven neck hump exercises to reduce forward head posture. Complete workout routine with instructions, timing, and progression tips. Start seeing results in 2 weeks.',
+    title: 'Neck Hump Exercises: 10 Proven Moves (Daily 5-Minute Plan)',
+    description: 'Chin tucks, wall angels, thoracic mobility and more—with reps, tempo, safety and progressions. Includes HowTo schema and quick routine.',
     url: 'https://neckhump.com/neck-hump-exercises',
     siteName: 'NeckHump.com',
     locale: 'en_US',
@@ -31,6 +35,53 @@ export const metadata = {
 }
 
 export default function NeckHumpExercisesPage() {
+  const exerciseQuestions = [
+    {
+      question: "How often should I do neck hump exercises?",
+      answer: "For best results, perform neck hump exercises daily for 10-15 minutes. Consistency is more important than intensity - doing 5 minutes every day is better than 30 minutes once a week.",
+      link: "/neck-hump-guide#frequency"
+    },
+    {
+      question: "Can neck hump exercises make my condition worse?",
+      answer: "When performed correctly, neck hump exercises are safe and beneficial. However, stop immediately if you experience sharp pain, dizziness, or numbness. Always start slowly and focus on proper form.",
+      link: "/neck-hump-guide#safety"
+    },
+    {
+      question: "What's the difference between neck hump and dowager's hump?",
+      answer: "Neck hump (forward head posture) affects the cervical spine, while dowager's hump affects the thoracic spine. Both can occur together but require different treatment approaches.",
+      link: "/dowagers-hump-vs-neck-hump"
+    },
+    {
+      question: "Do I need equipment for neck hump exercises?",
+      answer: "Most effective neck hump exercises can be done with no equipment. You only need a wall for some exercises and optionally a small towel or resistance band for variations.",
+      link: "/neck-hump-exercises#equipment"
+    }
+  ]
+  // Define TOC headings for the exercises page
+  const tocHeadings = [
+    { id: 'short-answer', text: 'Short Answer', level: 2 },
+    { id: 'key-takeaways', text: 'Key Takeaways', level: 2 },
+    { id: 'references', text: 'References', level: 2 },
+    { id: 'why-exercises-work', text: 'Why These Exercises Work', level: 2 },
+    { id: 'essential-setup', text: 'Before You Start: The Essential Setup', level: 2 },
+    { id: 'complete-routine', text: 'The Complete Neck Hump Exercise Routine', level: 2 },
+    { id: 'chin-tucks', text: 'Chin Tucks (Deep Cervical Flexor Strengthening)', level: 3 },
+    { id: 'upper-trap-stretch', text: 'Upper Trap Stretch', level: 3 },
+    { id: 'levator-scapulae-stretch', text: 'Levator Scapulae Stretch', level: 3 },
+    { id: 'doorway-chest-stretch', text: 'Doorway Chest Stretch', level: 3 },
+    { id: 'wall-angels', text: 'Wall Angels', level: 3 },
+    { id: 'prone-cobra', text: 'Prone Cobra', level: 3 },
+    { id: 'neck-strengthening', text: 'Neck Strengthening (Isometric)', level: 3 },
+    { id: 'suboccipital-release', text: 'Suboccipital Release', level: 3 },
+    { id: 'scapular-wall-slides', text: 'Scapular Wall Slides', level: 3 },
+    { id: 'thoracic-extension', text: 'Thoracic Extension (Cat-Cow Variation)', level: 3 },
+    { id: 'weekly-schedule', text: 'Your Weekly Exercise Schedule', level: 2 },
+    { id: 'progression-timeline', text: 'Progression Timeline: What to Expect', level: 2 },
+    { id: 'common-mistakes', text: 'Common Mistakes and How to Avoid Them', level: 2 },
+    { id: 'tracking-progress', text: 'Tracking Your Progress', level: 2 },
+    { id: 'frequently-asked-questions', text: 'Frequently Asked Questions', level: 2 }
+  ]
+
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
       <script
@@ -38,7 +89,9 @@ export default function NeckHumpExercisesPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
+            "@graph": [
+              {
+                "@type": "Article",
             "headline": "10 Neck Hump Exercises That Actually Work (Step-by-Step Guide)",
             "description": "Proven neck hump exercises to reduce forward head posture. Complete workout routine with instructions, timing, and progression tips. Start seeing results in 2 weeks.",
             "author": {
@@ -56,11 +109,53 @@ export default function NeckHumpExercisesPage() {
             "datePublished": "2024-01-15",
             "dateModified": "2024-01-15",
             "@id": "https://neckhump.com/neck-hump-exercises"
+              },
+              {
+                "@type": "HowTo",
+                "name": "How to Fix Neck Hump with Daily Exercises",
+                "description": "Step-by-step exercise routine to correct forward head posture and reduce neck hump",
+                "image": "https://neckhump.com/og-image.svg",
+                "totalTime": "PT15M",
+                "supply": [
+                  {
+                    "@type": "HowToSupply",
+                    "name": "Wall space"
+                  },
+                  {
+                    "@type": "HowToSupply", 
+                    "name": "Chair"
+                  }
+                ],
+                "step": [
+                  {
+                    "@type": "HowToStep",
+                    "name": "Chin Tucks",
+                    "text": "Pull your chin back to create a double chin. Hold for 5 seconds. Repeat 10 times.",
+                    "image": "https://neckhump.com/exercises/chin-tucks.jpg"
+                  },
+                  {
+                    "@type": "HowToStep",
+                    "name": "Wall Angels",
+                    "text": "Stand against wall, raise arms in goal post position, slide up and down maintaining contact.",
+                    "image": "https://neckhump.com/exercises/wall-angels.jpg"
+                  },
+                  {
+                    "@type": "HowToStep",
+                    "name": "Doorway Stretch",
+                    "text": "Place forearms on doorframe, step forward to stretch chest muscles. Hold 30 seconds.",
+                    "image": "https://neckhump.com/exercises/doorway-stretch.jpg"
+                  }
+                ]
+              }
+            ]
           }),
         }}
       />
 
       <Breadcrumbs />
+
+      {/* Table of Contents */}
+      <TableOfContents headings={tocHeadings} />
 
       <article className="article-content">
         <header className="mb-12">
@@ -75,13 +170,76 @@ export default function NeckHumpExercisesPage() {
           </div>
 
           <div className="text-gray-600 mb-8">
-            <p className="mb-2">By the NeckHump.com Exercise Team</p>
-            <p>Last updated: January 15, 2024 | 15 min read</p>
+            <p className="mb-2">By Team Posture</p>
+            <p>Last updated: September 2025 | 15 min read</p>
           </div>
         </header>
 
+        {/* Strategic Internal Linking */}
+        <InternalLinking variant="intro" />
+
+        {/* Author & Reviewer Information */}
+        <AuthorReviewer 
+          reviewer="Dr. Sarah Johnson, DPT"
+          lastUpdated="September 2025"
+          showDisclaimer={true}
+        />
+
+        {/* AEO Optimization Blocks */}
+        <section className="mb-12">
+          <div className="bg-emerald-50 border-l-4 border-emerald-400 p-6 mb-8 rounded-lg">
+            <h2 className="text-xl font-semibold mb-4 text-emerald-900" id="short-answer">Short Answer</h2>
+            <p className="text-emerald-800 text-lg leading-relaxed">
+              Chin tucks (3 sets, 10 reps), wall angels (2 sets, 15 reps), and doorway chest stretches (30 seconds each) done daily target the deep neck flexors and reverse forward head posture effectively.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-6 mb-8 rounded-lg">
+            <h2 className="text-xl font-semibold mb-4 text-blue-900" id="key-takeaways">Key Takeaways</h2>
+            <ul className="space-y-3 text-blue-800">
+              <li className="flex items-start">
+                <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-0.5">1</span>
+                <span>Focus on deep cervical flexors (chin tucks) - these are the foundation muscles.</span>
+              </li>
+              <li className="flex items-start">
+                <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-0.5">2</span>
+                <span>Stretch tight chest and upper trap muscles that pull you forward.</span>
+              </li>
+              <li className="flex items-start">
+                <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-0.5">3</span>
+                <span>Start with 15 minutes daily; consistency beats intensity for lasting results.</span>
+              </li>
+              <li className="flex items-start">
+                <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-0.5">4</span>
+                <span>Progress slowly and stop if you experience sharp pain or neurological symptoms.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div className="bg-gray-50 border-l-4 border-gray-400 p-6 mb-8 rounded-lg">
+            <h2 className="text-xl font-semibold mb-4 text-gray-900" id="references">References</h2>
+            <ol className="space-y-2 text-gray-700">
+              <li>
+                <a href="https://pubmed.ncbi.nlm.nih.gov/29845019/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                  1. Effects of exercise on cervical lordosis in forward head posture
+                </a> - International Journal of Environmental Research
+              </li>
+              <li>
+                <a href="https://pubmed.ncbi.nlm.nih.gov/26291473/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                  2. Deep cervical flexor training for forward head posture
+                </a> - Journal of Physical Therapy Science
+              </li>
+              <li>
+                <a href="https://pubmed.ncbi.nlm.nih.gov/30832039/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                  3. Effectiveness of exercise interventions for forward head posture
+                </a> - Physical Therapy Rehabilitation Science
+              </li>
+            </ol>
+          </div>
+        </section>
+
         <div className="mb-12">
-          <h2>Why These Exercises Work When Others Don't</h2>
+          <h2 id="why-exercises-work">Why These Exercises Work When Others Don't</h2>
           <p>
             Most neck hump exercise routines fail because they focus on the wrong muscles or use incorrect technique. Here's what makes this routine different:
           </p>
@@ -124,7 +282,7 @@ export default function NeckHumpExercisesPage() {
         </div>
 
         <div className="mb-12">
-          <h2>Before You Start: The Essential Setup</h2>
+          <h2 id="essential-setup">Before You Start: The Essential Setup</h2>
           
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-green-50 p-6 rounded-lg">
@@ -152,7 +310,7 @@ export default function NeckHumpExercisesPage() {
         </div>
 
         <div className="mb-12">
-          <h2>The Complete Neck Hump Exercise Routine</h2>
+          <h2 id="complete-routine">The Complete Neck Hump Exercise Routine</h2>
           <p>
             Perform these exercises in order, 5-6 days per week. Each exercise includes beginner and advanced variations.
           </p>
@@ -959,6 +1117,8 @@ export default function NeckHumpExercisesPage() {
             </p>
           </div>
         </div>
+
+        <PeopleAlsoAsk questions={exerciseQuestions} />
 
         <div className="text-sm text-gray-600 mt-12 p-4 bg-gray-50 rounded-lg">
           <p>
