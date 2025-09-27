@@ -4,6 +4,9 @@ export const metadata = {
   title: 'How to Fix Posture at Home: Complete Guide (2024)',
   description: 'Learn how to fix bad posture at home with simple exercises, desk setup tips, and daily habits. Perfect for desk workers and gamers. No equipment needed.',
   keywords: ['how to fix posture', 'bad posture', 'posture exercises', 'desk posture', 'forward head posture', 'posture correction'],
+  alternates: {
+    canonical: 'https://www.neckhump.com/how-to-fix-posture-at-home',
+  },
   openGraph: {
     title: 'How to Fix Posture at Home: Complete Guide (2024)',
     description: 'Learn how to fix bad posture at home with simple exercises, desk setup tips, and daily habits.',

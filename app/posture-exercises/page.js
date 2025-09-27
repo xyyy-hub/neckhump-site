@@ -4,6 +4,9 @@ export const metadata = {
   title: '5-Minute Office Posture Break Routine | Desk-Friendly Exercises',
   description: 'Quick posture exercises you can do at your desk during work breaks. No equipment needed - perfect for busy professionals and remote workers.',
   keywords: ['office posture exercises', 'desk break exercises', 'workplace posture', 'computer break exercises', 'office worker stretches', 'desk yoga'],
+  alternates: {
+    canonical: 'https://www.neckhump.com/posture-exercises',
+  },
   openGraph: {
     title: '5-Minute Office Posture Break Routine | Desk-Friendly Exercises',
     description: 'Quick posture exercises you can do at your desk during work breaks. No equipment needed - perfect for busy professionals.',

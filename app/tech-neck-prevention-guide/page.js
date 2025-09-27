@@ -4,6 +4,9 @@ export const metadata = {
   title: 'Tech Neck Prevention: Complete Guide to Stop Phone & Computer Neck Pain',
   description: 'Prevent tech neck before it starts. Evidence-based strategies for smartphone use, computer work, and digital device ergonomics. Protect your neck in the digital age.',
   keywords: ['tech neck prevention', 'smartphone neck pain prevention', 'computer neck strain', 'digital device ergonomics', 'phone posture', 'screen time neck health'],
+  alternates: {
+    canonical: 'https://www.neckhump.com/tech-neck-prevention-guide',
+  },
   openGraph: {
     title: 'Tech Neck Prevention: Complete Guide to Stop Phone & Computer Neck Pain',
     description: 'Prevent tech neck before it starts. Evidence-based strategies for smartphone use, computer work, and digital device ergonomics. Protect your neck in the digital age.',

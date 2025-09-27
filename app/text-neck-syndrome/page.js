@@ -4,6 +4,9 @@ export const metadata = {
   title: 'Text Neck Syndrome: Causes, Symptoms & Complete Recovery Guide 2024',
   description: 'Learn about text neck syndrome from smartphone use. Discover causes, symptoms, exercises, and prevention strategies. Evidence-based guide for the digital age.',
   keywords: ['text neck', 'text neck syndrome', 'smartphone posture', 'phone neck', 'digital neck pain', 'tech neck prevention'],
+  alternates: {
+    canonical: 'https://www.neckhump.com/text-neck-syndrome',
+  },
   openGraph: {
     title: 'Text Neck Syndrome: Complete Recovery Guide 2024',
     description: 'Comprehensive guide to understanding and fixing text neck from smartphone and device use.',

@@ -4,6 +4,9 @@ export const metadata = {
   title: 'Perfect Desk Setup Guide: Ergonomic Workspace for Better Posture',
   description: 'Learn how to set up your desk ergonomically to prevent neck pain, back pain, and improve posture. Complete guide for remote workers and gamers.',
   keywords: ['desk setup', 'ergonomic workspace', 'desk ergonomics', 'monitor height', 'office ergonomics', 'workstation setup'],
+  alternates: {
+    canonical: 'https://www.neckhump.com/desk-setup-guide',
+  },
   openGraph: {
     title: 'Perfect Desk Setup Guide: Ergonomic Workspace for Better Posture',
     description: 'Learn how to set up your desk ergonomically to prevent neck pain and improve posture.',

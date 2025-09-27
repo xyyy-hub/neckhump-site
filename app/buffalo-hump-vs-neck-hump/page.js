@@ -4,6 +4,9 @@ export const metadata = {
   title: 'Buffalo Hump vs Neck Hump: Differences, Causes & Treatment Guide',
   description: 'Learn the key differences between buffalo hump and neck hump. Understand causes, medical conditions, and treatment options for both conditions.',
   keywords: ['buffalo hump', 'neck hump difference', 'dowagers hump', 'cervical kyphosis', 'cushing syndrome', 'lipodystrophy'],
+  alternates: {
+    canonical: 'https://www.neckhump.com/buffalo-hump-vs-neck-hump',
+  },
   openGraph: {
     title: 'Buffalo Hump vs Neck Hump: Complete Comparison Guide',
     description: 'Understand the differences between buffalo hump and neck hump, their causes, and treatment approaches.',

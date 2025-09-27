@@ -4,6 +4,9 @@ export const metadata = {
   title: 'Ergonomic Workspace for Tech Neck: Monitor Height & Setup',
   description: 'Your desk setup checklist: monitor height, chair, keyboard, micro-breaks, and habits to reduce forward head posture and strain.',
   keywords: ['ergonomic workspace setup', 'desk setup for neck hump', 'ergonomic office setup', 'computer workstation ergonomics', 'desk ergonomics', 'workspace design'],
+  alternates: {
+    canonical: 'https://www.neckhump.com/ergonomic-workspace-neck-hump',
+  },
   openGraph: {
     title: 'Ergonomic Workspace for Tech Neck: Monitor Height & Setup',
     description: 'Your desk setup checklist: monitor height, chair, keyboard, micro-breaks, and habits to reduce forward head posture and strain.',

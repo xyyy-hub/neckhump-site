@@ -4,6 +4,9 @@ export const metadata = {
   title: 'Military Neck (Loss of Cervical Lordosis): Causes, Symptoms & Treatment',
   description: 'Learn about military neck (straight neck syndrome), loss of cervical lordosis, causes from poor posture and trauma. Evidence-based treatment guide.',
   keywords: ['military neck', 'cervical lordosis', 'straight neck syndrome', 'loss of cervical curve', 'neck straightening', 'cervical kyphosis'],
+  alternates: {
+    canonical: 'https://www.neckhump.com/military-neck-cervical-lordosis',
+  },
   openGraph: {
     title: 'Military Neck: Complete Guide to Cervical Lordosis Loss',
     description: 'Comprehensive guide to military neck condition, causes, symptoms, and treatment options.',

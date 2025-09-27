@@ -4,6 +4,9 @@ export const metadata = {
   title: 'How to Sleep with a Neck Hump: Positions & Pillow Tips',
   description: 'Side/back positions, pillow choices, and pain-free sleep habits. Decision tree + FAQs; what helps vs. what doesn\'t.',
   keywords: ['how to sleep with neck hump', 'sleeping positions for neck hump', 'neck hump sleep tips', 'forward head posture sleep', 'cervical lordosis sleep position'],
+  alternates: {
+    canonical: 'https://www.neckhump.com/how-to-sleep-with-neck-hump',
+  },
   openGraph: {
     title: 'How to Sleep with a Neck Hump: Positions & Pillow Tips',
     description: 'Side/back positions, pillow choices, and pain-free sleep habits. Decision tree + FAQs; what helps vs. what doesn\'t.',

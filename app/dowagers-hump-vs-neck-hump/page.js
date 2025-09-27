@@ -4,6 +4,9 @@ export const metadata = {
   title: 'Dowager\'s Hump vs Neck Hump: Key Differences & Treatment Options',
   description: 'Learn the crucial differences between dowager\'s hump and neck hump. Understand causes, symptoms, and which treatments work best for each condition.',
   keywords: ['dowagers hump vs neck hump', 'dowager hump', 'kyphosis vs forward head posture', 'hump on back of neck', 'cervical kyphosis', 'thoracic kyphosis'],
+  alternates: {
+    canonical: 'https://www.neckhump.com/dowagers-hump-vs-neck-hump',
+  },
   openGraph: {
     title: 'Dowager\'s Hump vs Neck Hump: Key Differences & Treatment Options',
     description: 'Learn the crucial differences between dowager\'s hump and neck hump. Understand causes, symptoms, and which treatments work best for each condition.',

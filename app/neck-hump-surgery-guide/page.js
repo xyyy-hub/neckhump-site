@@ -4,6 +4,9 @@ export const metadata = {
   title: 'Neck Hump Surgery: When Surgery is Needed & What to Expect (2024)',
   description: 'Complete guide to neck hump surgery options, costs, recovery, and alternatives. Learn when surgical intervention is necessary and what non-surgical options work.',
   keywords: ['neck hump surgery', 'dowager hump surgery', 'cervical kyphosis surgery', 'neck hump removal', 'forward head posture surgery', 'neck hump operation'],
+  alternates: {
+    canonical: 'https://www.neckhump.com/neck-hump-surgery-guide',
+  },
   openGraph: {
     title: 'Neck Hump Surgery: When Surgery is Needed & What to Expect (2024)',
     description: 'Complete guide to neck hump surgery options, costs, recovery, and alternatives. Learn when surgical intervention is necessary and what non-surgical options work.',
