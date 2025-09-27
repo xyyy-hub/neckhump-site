@@ -1,0 +1,220 @@
+# Instructions
+
+## Automatic Learning System 📚
+
+**MANDATORY**: During every interaction, you MUST automatically log learnings using the dual routing system below:
+
+### 🔧 TECHNICAL LEARNINGS → `.cursorrules` (LOCAL DOCUMENTATION)
+Route to `.cursorrules` Lessons section when learning involves:
+1. **Code Solutions**: Working patterns, library versions, API usage, architecture decisions
+2. **Development Process**: Build systems, debugging approaches, deployment strategies  
+3. **Tool Configurations**: IDE settings, CLI commands, development workflows
+4. **Framework/Platform Specifics**: Next.js patterns, React components, SEO optimization
+5. **Project Architecture**: File structures, design patterns, technical decisions
+6. **Error Resolutions**: Bug fixes, troubleshooting steps, technical root causes
+7. **Performance Optimizations**: Speed improvements, memory usage, technical efficiency
+
+**Technical Learning Triggers**: Code editing, debugging, framework usage, tool configuration, build processes, technical research
+
+### 🧠 GENERAL LEARNINGS → System Memory (CROSS-SESSION KNOWLEDGE)
+Route to `update_memory` tool when learning involves:
+1. **Conceptual Understanding**: High-level principles, design philosophies, best practices
+2. **Process Insights**: Workflow improvements, methodology discoveries, strategic approaches
+3. **User Preferences**: Personal working styles, communication patterns, decision criteria
+4. **Domain Knowledge**: Business logic, industry insights, non-technical expertise
+5. **Cross-Project Patterns**: Insights applicable beyond current technical context
+6. **Meta-Learning**: How to learn, research strategies, knowledge management approaches
+
+**General Learning Triggers**: Conceptual discussions, strategy decisions, preference expressions, cross-domain insights, methodology improvements
+
+### 📋 ROUTING DECISION MATRIX:
+- **Technical + Project-Specific** → `.cursorrules` 
+- **Technical + Reusable Across Projects** → Both `.cursorrules` + System Memory
+- **Conceptual + General** → System Memory
+- **Process + Workflow** → System Memory (unless tool-specific)
+
+**Implementation**: Use `search_replace` for `.cursorrules` updates, `update_memory` for system memory, both when applicable.
+
+### 🤖 AUTOMATION GUIDELINES:
+**When to Log Automatically**:
+- After solving any technical problem
+- When user provides corrections or feedback  
+- After discovering better approaches through research
+- When debugging reveals root causes
+- After successful implementation of complex features
+- When user expresses preferences or requirements
+
+**Logging Quality Standards**:
+- **Specific**: Include exact commands, code snippets, version numbers
+- **Actionable**: Write as instructions for future reference
+- **Categorized**: Use consistent section headers and formatting
+- **Contextual**: Include why something works, not just what works
+- **Searchable**: Use keywords and clear titles for easy retrieval
+
+**Learning Signal Detection**:
+- User says "this doesn't work" → Log technical solution when fixed
+- User provides specific feedback → Log preference/requirement to system memory
+- Error occurs and gets resolved → Log debugging approach to `.cursorrules`
+- Research leads to better approach → Log insight to appropriate location
+- User corrects misunderstanding → Log conceptual learning to system memory
+
+## Task Management & Scratchpad
+
+You should also use the `.cursorrules` file as a Scratchpad to organize your thoughts. Especially when you receive a new task, you should first review the content of the Scratchpad, clear old different task if necessary, first explain the task, and plan the steps you need to take to complete the task. You can use todo markers to indicate the progress, e.g.
+[X] Task 1
+[ ] Task 2
+
+Also update the progress of the task in the Scratchpad when you finish a subtask.
+Especially when you finished a milestone, it will help to improve your depth of task accomplishment to use the Scratchpad to reflect and plan.
+The goal is to help you maintain a big picture as well as the progress of the task. Always refer to the Scratchpad when you plan the next step.
+
+# Tools
+
+Note all the tools are in python3. So in the case you need to do batch processing, you can always consult the python files and write your own script.
+
+## Screenshot Verification
+
+The screenshot verification workflow allows you to capture screenshots of web pages and verify their appearance using LLMs. The following tools are available:
+
+1. Screenshot Capture:
+```bash
+python3 tools/screenshot_utils.py URL [--output OUTPUT] [--width WIDTH] [--height HEIGHT]
+```
+
+2. LLM Verification with Images:
+```bash
+python3 tools/llm_api.py --prompt "Your verification question" --provider {openai|anthropic} --image path/to/screenshot.png
+```
+
+Example workflow:
+```python
+from screenshot_utils import take_screenshot_sync
+from llm_api import query_llm
+
+# Take a screenshot
+screenshot_path = take_screenshot_sync('https://example.com', 'screenshot.png')
+
+# Verify with LLM
+response = query_llm(
+    "What is the background color and title of this webpage?",
+    provider="openai",  # or "anthropic"
+    image_path=screenshot_path
+)
+print(response)
+```
+
+## LLM
+
+You always have an LLM at your side to help you with the task. For simple tasks, you could invoke the LLM by running the following command:
+```
+python3 ./tools/llm_api.py --prompt "What is the capital of France?" --provider "anthropic"
+```
+
+The LLM API supports multiple providers:
+- OpenAI (default, model: gpt-4o)
+- Azure OpenAI (model: configured via AZURE_OPENAI_MODEL_DEPLOYMENT in .env file, defaults to gpt-4o-ms)
+- DeepSeek (model: deepseek-chat)
+- Anthropic (model: claude-3-sonnet-20240229)
+- Gemini (model: gemini-pro)
+- Local LLM (model: Qwen/Qwen2.5-32B-Instruct-AWQ)
+
+But usually it's a better idea to check the content of the file and use the APIs in the `tools/llm_api.py` file to invoke the LLM if needed.
+
+## Web browser
+
+You could use the `tools/web_scraper.py` file to scrape the web.
+```bash
+python3 ./tools/web_scraper.py --max-concurrent 3 URL1 URL2 URL3
+```
+This will output the content of the web pages.
+
+## Search engine
+
+You could use the `tools/search_engine.py` file to search the web.
+```bash
+python3 ./tools/search_engine.py "your search keywords"
+```
+This will output the search results in the following format:
+```
+URL: https://example.com
+Title: This is the title of the search result
+Snippet: This is a snippet of the search result
+```
+If needed, you can further use the `web_scraper.py` file to scrape the web page content.
+
+# Lessons
+
+## User Specified Lessons
+
+- This is a Next.js website about neck posture and posture correction
+- The site focuses on providing comprehensive guides for fixing neck hump and forward head posture
+- Content includes exercises, ergonomic advice, product recommendations, and educational articles
+- SEO optimization is important for this health/wellness content site
+- All pages should have proper canonical URLs pointing to www.neckhump.com
+
+## Cursor learned
+
+- For search results, ensure proper handling of different character encodings (UTF-8) for international queries
+- When using seaborn styles in matplotlib, use 'seaborn-v0_8' instead of 'seaborn' as the style name due to recent seaborn version changes
+- Use 'gpt-4o' as the model name for OpenAI's GPT-4 with vision capabilities
+- When searching for recent news, use the current year (2025) instead of previous years, or simply use the "recent" keyword to get the latest information
+
+## Next.js & SEO Lessons
+
+### Sitemap Management
+- **Complete Coverage Required**: All pages must be included in sitemap.js - missing pages cause GSC "No referring sitemaps detected" errors
+- **URL Consistency Critical**: All canonical URLs, structured data, and sitemap entries must use consistent domain format (www.neckhump.com)
+- **JSON-LD Structured Data**: Must use same domain format as canonical URLs to prevent dual referring page signals in GSC
+
+### Google Search Console Issues Resolution
+- **Mixed www/non-www URLs**: Causes multiple referring page entries and SEO confusion
+- **Missing Sitemap Entries**: Pages not in sitemap.js won't be discovered by search engines properly
+- **Structured Data Consistency**: JSON-LD @id and url fields must match canonical URL format exactly
+
+### Performance Optimization Patterns
+- **Core Web Vitals Focus**: FCP (<1.2s), LCP (<2.5s), Speed Index (<3.4s) are primary metrics
+- **Simplification Strategy**: Remove complexity that doesn't measurably improve Core Web Vitals
+- **Browser-Native Optimizations**: Trust framework optimizations (Tailwind, Next.js) over custom solutions
+
+# Scratchpad
+
+## Current Project Status
+
+### Posture Site - SEO & Technical Optimization
+
+**Project Overview**: 
+Complete Next.js website for neck posture correction with 25 pages of health/wellness content.
+
+**Recent Accomplishments**:
+[X] Fixed sitemap completeness - added missing /neck-hump-guide page (now 25/25 pages)
+[X] Resolved URL consistency issues - all JSON-LD structured data now uses www.neckhump.com
+[X] Eliminated dual referring page signals in Google Search Console
+[X] Deployed all sitemap and URL consistency fixes to production
+[X] Implemented devin.cursorrules setup for enhanced AI capabilities
+
+**Current State**:
+- ✅ **Sitemap**: Complete with all 25 pages included
+- ✅ **URL Consistency**: All canonicals, structured data, and sitemap use www.neckhump.com
+- ✅ **SEO Foundation**: Proper canonical URLs, meta tags, and structured data
+- ✅ **Advanced AI Tools**: devin.cursorrules setup with web scraping, LLM integration, and screenshot verification
+- ✅ **devin.cursorrules Implementation**: Complete setup with all essential tools and Python utilities
+
+**Next Potential Tasks**:
+- [ ] Monitor GSC for resolution of "No referring sitemaps detected" issues (24-48 hours)
+- [ ] Performance optimization if Core Web Vitals need improvement
+- [ ] Content updates or new page development
+- [ ] Advanced SEO features (schema markup enhancements, etc.)
+
+**Development Tools Available**:
+- ✅ Web scraping via tools/web_scraper.py
+- ✅ Search engine integration via tools/search_engine.py  
+- ✅ LLM API access via tools/llm_api.py
+- ✅ Screenshot verification via tools/screenshot_utils.py
+- ✅ Automatic learning and documentation system
+- ✅ Python dependencies listed in requirements.txt
+- ✅ Environment configuration example (.env.example)
+
+**Technical Lessons Learned**:
+- Sitemap completeness is critical for proper search engine discovery
+- URL consistency across all SEO elements prevents confusion and ranking issues
+- devin.cursorrules provides powerful AI enhancement capabilities for complex development tasks
