@@ -1,5 +1,5 @@
 export default function AuthorReviewer({ 
-  author = "Thomas Xu", 
+  author = "Team Posture", 
   reviewer = null, 
   lastUpdated = null,
   showDisclaimer = true,

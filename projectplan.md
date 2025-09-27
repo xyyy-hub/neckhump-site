@@ -31,7 +31,7 @@
 **Current State:** Generic "Posture Fix Pro" authorship  
 **Action:** Add medical credibility and strategic linking
 
-- [ ] Update author to "Thomas Xu" as specified in audit
+- [ ] Update author to "Team Posture" as specified in audit
 - [ ] Add "Reviewed by [Name], DPT" blocks
 - [ ] Add strategic internal linking snippet to page introductions
 - [ ] Add "When to see a clinician" callouts for YMYL compliance

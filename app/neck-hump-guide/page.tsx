@@ -199,7 +199,7 @@ export default function CompleteGuidePage() {
 
         {/* Author & Reviewer Information */}
         <AuthorReviewer 
-          author="Thomas Xu"
+          author="Team Posture"
           reviewer="Dr. Sarah Johnson, DPT"
           lastUpdated="September 2025"
           authorBio={true}

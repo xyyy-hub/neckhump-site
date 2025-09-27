@@ -130,7 +130,7 @@ export default function BestPillowForNeckHumpPage() {
           </div>
 
           <AuthorReviewer 
-            author="Thomas Xu"
+            author="Team Posture"
             lastUpdated="December 2024"
             authorBio={true}
             showDisclaimer={true}

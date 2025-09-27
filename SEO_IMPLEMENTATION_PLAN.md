@@ -698,7 +698,7 @@ export default function ComparisonTable({ title, items, criteria }) {
 
 ```javascript
 export default function AuthorReviewer({ 
-  author = "Thomas Xu", 
+  author = "Team Posture", 
   reviewer, 
   lastUpdated, 
   showDisclaimer = true,
