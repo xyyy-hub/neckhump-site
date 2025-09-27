@@ -7,7 +7,7 @@ export const metadata = {
   openGraph: {
     title: 'Perfect Desk Setup Guide: Ergonomic Workspace for Better Posture',
     description: 'Learn how to set up your desk ergonomically to prevent neck pain and improve posture.',
-    url: 'https://neckhump.com/desk-setup-guide',
+    url: 'https://www.neckhump.com/desk-setup-guide',
   },
 }
 

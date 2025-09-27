@@ -5,12 +5,12 @@ export const metadata = {
   description: 'Master the chin tuck exercise - the most effective foundation exercise for fixing neck hump. Complete step-by-step guide with proper form, common mistakes, and safety tips.',
   keywords: ['chin tuck exercise', 'neck hump exercise', 'forward head posture exercise', 'deep neck flexor exercise', 'chin tuck form'],
   alternates: {
-    canonical: 'https://neckhump.com/exercises/chin-tucks',
+    canonical: 'https://www.neckhump.com/exercises/chin-tucks',
   },
   openGraph: {
     title: 'Chin Tucks Exercise: Foundation Neck Hump Exercise | Step-by-Step Guide',
     description: 'Master the chin tuck exercise - the most effective foundation exercise for fixing neck hump. Complete step-by-step guide with proper form.',
-    url: 'https://neckhump.com/exercises/chin-tucks',
+    url: 'https://www.neckhump.com/exercises/chin-tucks',
     siteName: 'NeckHump.com',
     locale: 'en_US',
     type: 'article',

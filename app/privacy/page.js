@@ -4,7 +4,7 @@ export const metadata = {
   title: 'Privacy Policy | NeckHump.com',
   description: 'Privacy policy for NeckHump.com - how we collect, use, and protect your personal information.',
   alternates: {
-    canonical: 'https://neckhump.com/privacy',
+    canonical: 'https://www.neckhump.com/privacy',
   },
   robots: {
     index: true,

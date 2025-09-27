@@ -7,7 +7,7 @@ export const metadata = {
   openGraph: {
     title: '5-Minute Office Posture Break Routine | Desk-Friendly Exercises',
     description: 'Quick posture exercises you can do at your desk during work breaks. No equipment needed - perfect for busy professionals.',
-    url: 'https://neckhump.com/posture-exercises',
+    url: 'https://www.neckhump.com/posture-exercises',
   },
 }
 

@@ -7,7 +7,7 @@ export const metadata = {
   openGraph: {
     title: 'How to Fix Posture at Home: Complete Guide (2024)',
     description: 'Learn how to fix bad posture at home with simple exercises, desk setup tips, and daily habits.',
-    url: 'https://neckhump.com/how-to-fix-posture-at-home',
+    url: 'https://www.neckhump.com/how-to-fix-posture-at-home',
   },
 }
 

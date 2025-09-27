@@ -6,12 +6,12 @@ export const metadata = {
   description: 'Learn what causes neck hump (forward head posture), how to prevent it, and proven exercises to fix it. Complete guide for desk workers and gamers.',
   keywords: ['neck hump', 'forward head posture', 'tech neck', 'dowagers hump', 'neck exercises', 'cervical lordosis'],
   alternates: {
-    canonical: 'https://neckhump.com/neck-hump-causes',
+    canonical: 'https://www.neckhump.com/neck-hump-causes',
   },
   openGraph: {
     title: 'Neck Hump: Causes, Prevention & How to Fix Forward Head Posture',
     description: 'Learn what causes neck hump and proven exercises to fix forward head posture permanently.',
-    url: 'https://neckhump.com/neck-hump-causes',
+    url: 'https://www.neckhump.com/neck-hump-causes',
   },
 }
 

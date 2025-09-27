@@ -7,7 +7,7 @@ export const metadata = {
   openGraph: {
     title: 'Dowager\'s Hump vs Neck Hump: Key Differences & Treatment Options',
     description: 'Learn the crucial differences between dowager\'s hump and neck hump. Understand causes, symptoms, and which treatments work best for each condition.',
-    url: 'https://neckhump.com/dowagers-hump-vs-neck-hump',
+    url: 'https://www.neckhump.com/dowagers-hump-vs-neck-hump',
     siteName: 'NeckHump.com',
     locale: 'en_US',
     type: 'article',

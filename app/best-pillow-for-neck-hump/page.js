@@ -8,10 +8,13 @@ export const metadata = {
   title: 'Best Pillow for Neck Hump (2025): Types, Fit & Picks',
   description: 'How to choose a pillow for forward head posture: loft, firmness, shapes. Evidence-informed guidance; when a pillow helps and when it won\'t.',
   keywords: ['best pillow for neck hump', 'pillow for forward head posture', 'cervical pillow', 'neck support pillow', 'tech neck pillow', 'orthopedic pillow', 'contour pillow'],
+  alternates: {
+    canonical: 'https://www.neckhump.com/best-pillow-for-neck-hump',
+  },
   openGraph: {
     title: 'Best Pillow for Neck Hump (2025): Types, Fit & Picks',
     description: 'How to choose a pillow for forward head posture: loft, firmness, shapes. Evidence-informed guidance; when a pillow helps and when it won\'t.',
-    url: 'https://neckhump.com/best-pillow-for-neck-hump',
+    url: 'https://www.neckhump.com/best-pillow-for-neck-hump',
     siteName: 'NeckHump.com',
     locale: 'en_US',
     type: 'article',

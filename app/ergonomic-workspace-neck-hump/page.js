@@ -7,7 +7,7 @@ export const metadata = {
   openGraph: {
     title: 'Ergonomic Workspace for Tech Neck: Monitor Height & Setup',
     description: 'Your desk setup checklist: monitor height, chair, keyboard, micro-breaks, and habits to reduce forward head posture and strain.',
-    url: 'https://neckhump.com/ergonomic-workspace-neck-hump',
+    url: 'https://www.neckhump.com/ergonomic-workspace-neck-hump',
     siteName: 'NeckHump.com',
     locale: 'en_US',
     type: 'article',

@@ -7,7 +7,7 @@ export const metadata = {
   openGraph: {
     title: 'How to Sleep with a Neck Hump: Positions & Pillow Tips',
     description: 'Side/back positions, pillow choices, and pain-free sleep habits. Decision tree + FAQs; what helps vs. what doesn\'t.',
-    url: 'https://neckhump.com/how-to-sleep-with-neck-hump',
+    url: 'https://www.neckhump.com/how-to-sleep-with-neck-hump',
     siteName: 'NeckHump.com',
     locale: 'en_US',
     type: 'article',

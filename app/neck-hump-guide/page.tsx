@@ -9,12 +9,12 @@ export const metadata = {
   description: 'Understand neck hump causes, timelines, red flags, and a practical plan (exercises + ergonomics + sleep). Short answer, key takeaways, references.',
   keywords: ['complete neck hump guide', 'forward head posture guide', 'neck hump treatment', 'tech neck guide', 'posture correction guide'],
   alternates: {
-    canonical: 'https://neckhump.com/neck-hump-guide',
+    canonical: 'https://www.neckhump.com/neck-hump-guide',
   },
   openGraph: {
     title: 'Complete Neck Hump Guide: Fix Forward Head Posture',
     description: 'Understand neck hump causes, timelines, red flags, and a practical plan (exercises + ergonomics + sleep). Short answer, key takeaways, references.',
-    url: 'https://neckhump.com/neck-hump-guide',
+    url: 'https://www.neckhump.com/neck-hump-guide',
     siteName: 'NeckHump.com',
     locale: 'en_US',
     type: 'article',

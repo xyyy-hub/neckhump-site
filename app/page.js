@@ -7,12 +7,12 @@ export const metadata = {
   description: 'Clear, step-by-step help for neck hump/forward head posture: causes, exercises, ergonomics, sleep tips. Reviewed by professionals; quick answers + references.',
   keywords: ['neck hump', 'forward head posture', 'tech neck', 'computer neck', 'neck hump exercises', 'how to fix neck hump', 'cervical lordosis', 'dowagers hump'],
   alternates: {
-    canonical: 'https://neckhump.com',
+    canonical: 'https://www.neckhump.com',
   },
   openGraph: {
     title: 'Neck Hump: Causes, Fixes & 5-Minute Routine (Evidence-Informed)',
     description: 'Clear, step-by-step help for neck hump/forward head posture: causes, exercises, ergonomics, sleep tips. Reviewed by professionals; quick answers + references.',
-    url: 'https://neckhump.com',
+    url: 'https://www.neckhump.com',
   },
 }
 

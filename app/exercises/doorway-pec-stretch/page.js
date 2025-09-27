@@ -5,12 +5,12 @@ export const metadata = {
   description: 'Master the doorway pec stretch to release tight chest muscles that pull shoulders forward. Complete positioning guide with variations and safety tips for neck hump relief.',
   keywords: ['doorway pec stretch', 'chest stretch', 'pectoralis stretch', 'shoulder stretch', 'doorway stretch'],
   alternates: {
-    canonical: 'https://neckhump.com/exercises/doorway-pec-stretch',
+    canonical: 'https://www.neckhump.com/exercises/doorway-pec-stretch',
   },
   openGraph: {
     title: 'Doorway Pec Stretch: Open Tight Chest Muscles for Better Posture | Guide',
     description: 'Master the doorway pec stretch to release tight chest muscles that pull shoulders forward. Complete positioning guide with variations.',
-    url: 'https://neckhump.com/exercises/doorway-pec-stretch',
+    url: 'https://www.neckhump.com/exercises/doorway-pec-stretch',
     siteName: 'NeckHump.com',
     locale: 'en_US',
     type: 'article',

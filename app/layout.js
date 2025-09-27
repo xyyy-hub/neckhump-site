@@ -5,7 +5,7 @@ import Script from 'next/script'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 
 export const metadata = {
-  metadataBase: new URL('https://neckhump.com'),
+  metadataBase: new URL('https://www.neckhump.com'),
   title: {
     default: 'Neck Hump Guide: Fix Forward Head Posture | NeckHump.com',
     template: '%s | NeckHump.com'
@@ -18,7 +18,7 @@ export const metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://neckhump.com',
+    url: 'https://www.neckhump.com',
     siteName: 'NeckHump.com',
     title: 'Neck Hump Guide: Fix Forward Head Posture | NeckHump.com',
     description: 'Complete guide to fixing neck hump and forward head posture. Evidence-based exercises, ergonomic tips, and solutions for tech neck.',

@@ -7,7 +7,7 @@ export const metadata = {
   openGraph: {
     title: 'Buffalo Hump vs Neck Hump: Complete Comparison Guide',
     description: 'Understand the differences between buffalo hump and neck hump, their causes, and treatment approaches.',
-    url: 'https://neckhump.com/buffalo-hump-vs-neck-hump',
+    url: 'https://www.neckhump.com/buffalo-hump-vs-neck-hump',
   },
 }
 

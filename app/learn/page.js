@@ -6,12 +6,12 @@ export const metadata = {
   description: 'Comprehensive learning center for neck hump, forward head posture, and tech neck. Expert guides, anatomy explanations, and evidence-based information.',
   keywords: ['neck hump education', 'forward head posture learning', 'tech neck anatomy', 'cervical spine education', 'posture science'],
   alternates: {
-    canonical: 'https://neckhump.com/learn',
+    canonical: 'https://www.neckhump.com/learn',
   },
   openGraph: {
     title: 'Learn About Neck Hump & Forward Head Posture | Education Hub',
     description: 'Comprehensive learning center for neck hump, forward head posture, and tech neck. Expert guides, anatomy explanations, and evidence-based information.',
-    url: 'https://neckhump.com/learn',
+    url: 'https://www.neckhump.com/learn',
   },
 }
 

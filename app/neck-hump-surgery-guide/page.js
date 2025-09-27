@@ -7,7 +7,7 @@ export const metadata = {
   openGraph: {
     title: 'Neck Hump Surgery: When Surgery is Needed & What to Expect (2024)',
     description: 'Complete guide to neck hump surgery options, costs, recovery, and alternatives. Learn when surgical intervention is necessary and what non-surgical options work.',
-    url: 'https://neckhump.com/neck-hump-surgery-guide',
+    url: 'https://www.neckhump.com/neck-hump-surgery-guide',
     siteName: 'NeckHump.com',
     locale: 'en_US',
     type: 'article',

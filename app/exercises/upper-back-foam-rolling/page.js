@@ -5,12 +5,12 @@ export const metadata = {
   description: 'Learn safe upper back foam rolling techniques to release muscle tension and improve thoracic mobility. Complete guide with safety tips, proper form, and alternatives.',
   keywords: ['upper back foam rolling', 'thoracic spine foam rolling', 'foam roller exercises', 'upper back tension release', 'posture foam rolling'],
   alternates: {
-    canonical: 'https://neckhump.com/exercises/upper-back-foam-rolling',
+    canonical: 'https://www.neckhump.com/exercises/upper-back-foam-rolling',
   },
   openGraph: {
     title: 'Upper Back Foam Rolling: Release Tension for Better Posture | Safety Guide',
     description: 'Learn safe upper back foam rolling techniques to release muscle tension and improve thoracic mobility. Complete guide with safety tips.',
-    url: 'https://neckhump.com/exercises/upper-back-foam-rolling',
+    url: 'https://www.neckhump.com/exercises/upper-back-foam-rolling',
     siteName: 'NeckHump.com',
     locale: 'en_US',
     type: 'article',

@@ -19,6 +19,9 @@ const nextConfig = {
     optimizePackageImports: ['@tailwindcss/typography'],
   },
   
+  // Note: Vercel handles www redirects at the domain level
+  // No Next.js redirects needed since Vercel redirects neckhump.com → www.neckhump.com
+
   async headers() {
     return [
       {

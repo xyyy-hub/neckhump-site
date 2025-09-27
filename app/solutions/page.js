@@ -6,12 +6,12 @@ export const metadata = {
   description: 'Comprehensive solutions for neck hump and forward head posture. Exercises, products, lifestyle changes, and treatment options for lasting posture improvement.',
   keywords: ['neck hump solutions', 'forward head posture treatment', 'tech neck fixes', 'posture correction methods', 'neck hump exercises'],
   alternates: {
-    canonical: 'https://neckhump.com/solutions',
+    canonical: 'https://www.neckhump.com/solutions',
   },
   openGraph: {
     title: 'Neck Hump Solutions: Complete Treatment & Recovery Center',
     description: 'Comprehensive solutions for neck hump and forward head posture. Exercises, products, lifestyle changes, and treatment options for lasting posture improvement.',
-    url: 'https://neckhump.com/solutions',
+    url: 'https://www.neckhump.com/solutions',
   },
 }
 

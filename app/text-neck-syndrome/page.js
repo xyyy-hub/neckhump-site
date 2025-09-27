@@ -7,7 +7,7 @@ export const metadata = {
   openGraph: {
     title: 'Text Neck Syndrome: Complete Recovery Guide 2024',
     description: 'Comprehensive guide to understanding and fixing text neck from smartphone and device use.',
-    url: 'https://neckhump.com/text-neck-syndrome',
+    url: 'https://www.neckhump.com/text-neck-syndrome',
   },
 }
 

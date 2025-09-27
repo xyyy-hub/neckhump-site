@@ -11,12 +11,12 @@ export const metadata = {
   description: 'Chin tucks, wall angels, thoracic mobility and more—with reps, tempo, safety and progressions. Includes HowTo schema and quick routine.',
   keywords: ['neck hump exercises', 'forward head posture exercises', 'tech neck exercises', 'cervical lordosis exercises', 'neck strengthening exercises', 'posture correction exercises'],
   alternates: {
-    canonical: 'https://neckhump.com/neck-hump-exercises',
+    canonical: 'https://www.neckhump.com/neck-hump-exercises',
   },
   openGraph: {
     title: 'Neck Hump Exercises: 10 Proven Moves (Daily 5-Minute Plan)',
     description: 'Chin tucks, wall angels, thoracic mobility and more—with reps, tempo, safety and progressions. Includes HowTo schema and quick routine.',
-    url: 'https://neckhump.com/neck-hump-exercises',
+    url: 'https://www.neckhump.com/neck-hump-exercises',
     siteName: 'NeckHump.com',
     locale: 'en_US',
     type: 'article',

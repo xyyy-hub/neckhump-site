@@ -5,12 +5,12 @@ export const metadata = {
   description: 'Master Y-T-W raises for complete upper back strengthening. Step-by-step guide with proper form, progressions, and modifications for fixing forward head posture.',
   keywords: ['Y-T-W raises', 'upper back strengthening', 'shoulder blade exercise', 'posture strengthening', 'rhomboid exercise'],
   alternates: {
-    canonical: 'https://neckhump.com/exercises/y-t-w-raises',
+    canonical: 'https://www.neckhump.com/exercises/y-t-w-raises',
   },
   openGraph: {
     title: 'Y-T-W Raises: Comprehensive Upper Back Strengthening | Complete Guide',
     description: 'Master Y-T-W raises for complete upper back strengthening. Step-by-Step guide with proper form and progressions.',
-    url: 'https://neckhump.com/exercises/y-t-w-raises',
+    url: 'https://www.neckhump.com/exercises/y-t-w-raises',
     siteName: 'NeckHump.com',
     locale: 'en_US',
     type: 'article',

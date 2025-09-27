@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = 'https://neckhump.com'
+  const baseUrl = 'https://www.neckhump.com'
   
   return [
     {

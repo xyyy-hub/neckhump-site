@@ -5,12 +5,12 @@ export const metadata = {
   description: 'Master wall angels to strengthen your upper back and improve posture. Step-by-step instructions, proper form, progressions, and safety tips for fixing forward head posture.',
   keywords: ['wall angels exercise', 'upper back strengthening', 'posture exercise', 'shoulder blade exercise', 'wall slides'],
   alternates: {
-    canonical: 'https://neckhump.com/exercises/wall-angels',
+    canonical: 'https://www.neckhump.com/exercises/wall-angels',
   },
   openGraph: {
     title: 'Wall Angels Exercise: Strengthen Upper Back for Better Posture | Complete Guide',
     description: 'Master wall angels to strengthen your upper back and improve posture. Step-by-step instructions with proper form and progressions.',
-    url: 'https://neckhump.com/exercises/wall-angels',
+    url: 'https://www.neckhump.com/exercises/wall-angels',
     siteName: 'NeckHump.com',
     locale: 'en_US',
     type: 'article',

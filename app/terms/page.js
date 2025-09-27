@@ -4,7 +4,7 @@ export const metadata = {
   title: 'Terms of Service | NeckHump.com',
   description: 'Terms of service and user agreement for NeckHump.com educational content.',
   alternates: {
-    canonical: 'https://neckhump.com/terms',
+    canonical: 'https://www.neckhump.com/terms',
   },
   robots: {
     index: true,

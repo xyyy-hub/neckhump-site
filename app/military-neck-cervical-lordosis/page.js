@@ -7,7 +7,7 @@ export const metadata = {
   openGraph: {
     title: 'Military Neck: Complete Guide to Cervical Lordosis Loss',
     description: 'Comprehensive guide to military neck condition, causes, symptoms, and treatment options.',
-    url: 'https://neckhump.com/military-neck-cervical-lordosis',
+    url: 'https://www.neckhump.com/military-neck-cervical-lordosis',
   },
 }
 
