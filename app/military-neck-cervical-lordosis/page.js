@@ -409,14 +409,14 @@ export default function MilitaryNeckPage() {
               "name": "NeckHump.com",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://neckhump.com/logo.png"
+                "url": "https://www.neckhump.com/logo.png"
               }
             },
             "datePublished": "2024-12-01",
             "dateModified": "2024-12-01",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://neckhump.com/military-neck-cervical-lordosis"
+              "@id": "https://www.neckhump.com/military-neck-cervical-lordosis"
             }
           })
         }}

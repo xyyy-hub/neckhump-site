@@ -39,6 +39,12 @@ export default function sitemap() {
       priority: 0.95,
     },
     {
+      url: `${baseUrl}/neck-hump-guide`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.95,
+    },
+    {
       url: `${baseUrl}/best-pillow-for-neck-hump`,
       lastModified: new Date(),
       changeFrequency: 'monthly',

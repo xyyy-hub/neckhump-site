@@ -425,7 +425,7 @@ export default function PostureExercisesPage() {
             "dateModified": "2024-12-01",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://neckhump.com/posture-exercises"
+              "@id": "https://www.neckhump.com/posture-exercises"
             }
           })
         }}

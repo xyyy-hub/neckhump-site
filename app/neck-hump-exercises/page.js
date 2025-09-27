@@ -103,12 +103,12 @@ export default function NeckHumpExercisesPage() {
               "name": "NeckHump.com",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://neckhump.com/logo.png"
+                "url": "https://www.neckhump.com/logo.png"
               }
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-01-15",
-            "@id": "https://neckhump.com/neck-hump-exercises"
+            "@id": "https://www.neckhump.com/neck-hump-exercises"
               },
               {
                 "@type": "HowTo",

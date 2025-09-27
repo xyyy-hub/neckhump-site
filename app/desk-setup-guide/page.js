@@ -355,7 +355,7 @@ export default function DeskSetupPage() {
             "dateModified": "2024-12-01",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://neckhump.com/desk-setup-guide"
+              "@id": "https://www.neckhump.com/desk-setup-guide"
             }
           })
         }}

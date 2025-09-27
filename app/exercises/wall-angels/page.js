@@ -50,14 +50,14 @@ export default function WallAngelsPage() {
                   "name": "NeckHump.com",
                   "logo": {
                     "@type": "ImageObject",
-                    "url": "https://neckhump.com/logo.png"
+                    "url": "https://www.neckhump.com/logo.png"
                   }
                 },
                 "datePublished": "2025-09-23",
                 "dateModified": "2025-09-23",
                 "mainEntityOfPage": {
                   "@type": "WebPage",
-                  "@id": "https://neckhump.com/exercises/wall-angels"
+                  "@id": "https://www.neckhump.com/exercises/wall-angels"
                 }
               },
               {

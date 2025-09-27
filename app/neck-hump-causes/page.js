@@ -316,7 +316,7 @@ export default function NeckHumpPage() {
             "dateModified": "2024-12-01",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://neckhump.com/neck-hump-causes"
+              "@id": "https://www.neckhump.com/neck-hump-causes"
             }
           })
         }}

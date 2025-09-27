@@ -48,12 +48,12 @@ export default function TechNeckPreventionGuidePage() {
               "name": "NeckHump.com",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://neckhump.com/logo.png"
+                "url": "https://www.neckhump.com/logo.png"
               }
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-01-15",
-            "@id": "https://neckhump.com/tech-neck-prevention-guide"
+            "@id": "https://www.neckhump.com/tech-neck-prevention-guide"
           }),
         }}
       />

@@ -48,12 +48,12 @@ export default function HowToSleepWithNeckHumpPage() {
               "name": "NeckHump.com",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://neckhump.com/logo.png"
+                "url": "https://www.neckhump.com/logo.png"
               }
             },
             "datePublished": "2024-01-15",
             "dateModified": "2024-01-15",
-            "@id": "https://neckhump.com/how-to-sleep-with-neck-hump"
+            "@id": "https://www.neckhump.com/how-to-sleep-with-neck-hump"
           }),
         }}
       />

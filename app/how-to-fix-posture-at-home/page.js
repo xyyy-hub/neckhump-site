@@ -278,7 +278,7 @@ export default function FixPosturePage() {
             "dateModified": "2024-12-01",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://neckhump.com/how-to-fix-posture-at-home"
+              "@id": "https://www.neckhump.com/how-to-fix-posture-at-home"
             }
           })
         }}

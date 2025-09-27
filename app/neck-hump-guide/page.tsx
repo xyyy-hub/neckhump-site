@@ -99,14 +99,14 @@ export default function CompleteGuidePage() {
                   "name": "NeckHump.com",
                   "logo": {
                     "@type": "ImageObject",
-                    "url": "https://neckhump.com/logo.png"
+                    "url": "https://www.neckhump.com/logo.png"
                   }
                 },
                 "datePublished": "2025-09-23",
                 "dateModified": "2025-09-23",
                 "mainEntityOfPage": {
                   "@type": "WebPage",
-                  "@id": "https://neckhump.com/neck-hump-guide"
+                  "@id": "https://www.neckhump.com/neck-hump-guide"
                 }
               },
               {

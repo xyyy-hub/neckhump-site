@@ -84,12 +84,12 @@ export default function RootLayout({ children }) {
               "@graph": [
                 {
                   "@type": "Organization",
-                  "@id": "https://neckhump.com/#organization",
+                  "@id": "https://www.neckhump.com/#organization",
                   "name": "NeckHump.com",
-                  "url": "https://neckhump.com",
+                  "url": "https://www.neckhump.com",
                   "logo": {
                     "@type": "ImageObject",
-                    "url": "https://neckhump.com/logo.svg",
+                    "url": "https://www.neckhump.com/logo.svg",
                     "width": "200",
                     "height": "60"
                   },
@@ -101,12 +101,12 @@ export default function RootLayout({ children }) {
                 },
                 {
                   "@type": "WebSite",
-                  "@id": "https://neckhump.com/#website",
-                  "url": "https://neckhump.com",
+                  "@id": "https://www.neckhump.com/#website",
+                  "url": "https://www.neckhump.com",
                   "name": "NeckHump.com - Complete Neck Hump & Forward Head Posture Guide",
                   "description": "The definitive resource for understanding and fixing neck hump. Evidence-based solutions for forward head posture and tech neck.",
                   "publisher": {
-                    "@id": "https://neckhump.com/#organization"
+                    "@id": "https://www.neckhump.com/#organization"
                   },
                   "potentialAction": {
                     "@type": "SearchAction",
