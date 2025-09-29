@@ -176,6 +176,14 @@ If needed, you can further use the `web_scraper.py` file to scrape the web page 
 - **Simplification Strategy**: Remove complexity that doesn't measurably improve Core Web Vitals
 - **Browser-Native Optimizations**: Trust framework optimizations (Tailwind, Next.js) over custom solutions
 
+### Project Template System Implementation
+- **Template Structure**: Global template at `/Users/thxu/Desktop/cursor-workspace/.project-template/` with tools/, .cursorrules, requirements.txt, env.example
+- **Setup Scripts**: Both Python (cross-platform) and Bash versions for new project initialization
+- **Placeholder System**: Template .cursorrules uses placeholders like [PROJECT_NAME], [PROJECT_TYPE] for customization
+- **Automatic Learning Integration**: New projects inherit dual-routing learning system (technical → .cursorrules, general → system memory)
+- **Directory Structure**: Template copies tools/ directory, requirements.txt, and customized .cursorrules to new projects
+- **Cross-Platform Support**: Python script handles Windows/Mac/Linux differences in file permissions and paths
+
 # Scratchpad
 
 ## Current Project Status
@@ -205,6 +213,12 @@ Complete Next.js website for neck posture correction with 25 pages of health/wel
 - [ ] Content updates or new page development
 - [ ] Advanced SEO features (schema markup enhancements, etc.)
 
+**Global Template System Setup**:
+[X] Created global project template system at `/Users/thxu/Desktop/cursor-workspace/.project-template/`
+[X] Automatic learning system now available for all future projects
+[X] Python and Bash setup scripts for easy project initialization
+[X] Cross-platform compatibility with Windows/Mac/Linux support
+
 **Development Tools Available**:
 - ✅ Web scraping via tools/web_scraper.py
 - ✅ Search engine integration via tools/search_engine.py  
@@ -218,3 +232,9 @@ Complete Next.js website for neck posture correction with 25 pages of health/wel
 - Sitemap completeness is critical for proper search engine discovery
 - URL consistency across all SEO elements prevents confusion and ranking issues
 - devin.cursorrules provides powerful AI enhancement capabilities for complex development tasks
+- Global template system enables consistent AI tooling across all future projects
+- Automatic learning systems prevent repeated mistakes and accelerate development
+- Cross-platform setup scripts ensure tools work on Windows, Mac, and Linux environments
+- **Table of Contents Implementation**: TOC components require exact ID matching between heading elements and navigation links. Missing IDs cause broken sidebar navigation - every heading referenced in TOC array must have corresponding `id` attribute
+- **Sidebar Layout Issues**: Fixed sidebars need adequate bottom padding (pb-32) on main content to prevent covering bottom content during scroll. Use semantic anchor links (#heading-id) for smooth navigation
+- **UI/UX Debugging Workflow**: 1) Verify TOC headings array matches actual content structure, 2) Ensure all headings have proper id attributes, 3) Test with browser inspector for missing anchors, 4) Add bottom padding to prevent content overlap

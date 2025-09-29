@@ -83,7 +83,7 @@ export default function NeckHumpExercisesPage() {
   ]
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-8">
+    <div className="max-w-4xl mx-auto px-4 py-8 pb-32">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -320,7 +320,7 @@ export default function NeckHumpExercisesPage() {
             <div className="border-2 border-emerald-300 rounded-lg p-6 bg-emerald-50">
               <div className="flex items-center mb-4">
                 <span className="bg-emerald-600 text-white rounded-full w-10 h-10 flex items-center justify-center text-lg font-bold mr-4">1</span>
-                <h3 className="text-2xl font-bold text-emerald-900">Chin Tucks (Deep Cervical Flexor Strengthening)</h3>
+                <h3 className="text-2xl font-bold text-emerald-900" id="chin-tucks">Chin Tucks (Deep Cervical Flexor Strengthening)</h3>
               </div>
               
               <div className="mb-4">
@@ -387,7 +387,7 @@ export default function NeckHumpExercisesPage() {
             <div className="border border-gray-200 rounded-lg p-6">
               <div className="flex items-center mb-4">
                 <span className="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center text-lg font-bold mr-4">2</span>
-                <h3 className="text-2xl font-bold text-gray-900">Upper Trap Stretch</h3>
+                <h3 className="text-2xl font-bold text-gray-900" id="upper-trap-stretch">Upper Trap Stretch</h3>
               </div>
 
               <p className="mb-4">
@@ -441,7 +441,7 @@ export default function NeckHumpExercisesPage() {
             <div className="border border-gray-200 rounded-lg p-6">
               <div className="flex items-center mb-4">
                 <span className="bg-green-600 text-white rounded-full w-10 h-10 flex items-center justify-center text-lg font-bold mr-4">3</span>
-                <h3 className="text-2xl font-bold text-gray-900">Levator Scapulae Stretch</h3>
+                <h3 className="text-2xl font-bold text-gray-900" id="levator-scapulae-stretch">Levator Scapulae Stretch</h3>
               </div>
 
               <p className="mb-4">
@@ -485,7 +485,7 @@ export default function NeckHumpExercisesPage() {
             <div className="border border-gray-200 rounded-lg p-6">
               <div className="flex items-center mb-4">
                 <span className="bg-purple-600 text-white rounded-full w-10 h-10 flex items-center justify-center text-lg font-bold mr-4">4</span>
-                <h3 className="text-2xl font-bold text-gray-900">Doorway Chest Stretch</h3>
+                <h3 className="text-2xl font-bold text-gray-900" id="doorway-chest-stretch">Doorway Chest Stretch</h3>
               </div>
 
               <p className="mb-4">
@@ -534,7 +534,7 @@ export default function NeckHumpExercisesPage() {
             <div className="border border-gray-200 rounded-lg p-6">
               <div className="flex items-center mb-4">
                 <span className="bg-red-600 text-white rounded-full w-10 h-10 flex items-center justify-center text-lg font-bold mr-4">5</span>
-                <h3 className="text-2xl font-bold text-gray-900">Wall Angels</h3>
+                <h3 className="text-2xl font-bold text-gray-900" id="wall-angels">Wall Angels</h3>
               </div>
 
               <p className="mb-4">
@@ -586,7 +586,7 @@ export default function NeckHumpExercisesPage() {
             <div className="border border-gray-200 rounded-lg p-6">
               <div className="flex items-center mb-4">
                 <span className="bg-indigo-600 text-white rounded-full w-10 h-10 flex items-center justify-center text-lg font-bold mr-4">6</span>
-                <h3 className="text-2xl font-bold text-gray-900">Prone Cobra</h3>
+                <h3 className="text-2xl font-bold text-gray-900" id="prone-cobra">Prone Cobra</h3>
               </div>
 
               <p className="mb-4">
@@ -648,7 +648,7 @@ export default function NeckHumpExercisesPage() {
             <div className="border border-gray-200 rounded-lg p-6">
               <div className="flex items-center mb-4">
                 <span className="bg-teal-600 text-white rounded-full w-10 h-10 flex items-center justify-center text-lg font-bold mr-4">7</span>
-                <h3 className="text-2xl font-bold text-gray-900">Neck Strengthening (Isometric)</h3>
+                <h3 className="text-2xl font-bold text-gray-900" id="neck-strengthening">Neck Strengthening (Isometric)</h3>
               </div>
 
               <p className="mb-4">
@@ -705,7 +705,7 @@ export default function NeckHumpExercisesPage() {
             <div className="border border-gray-200 rounded-lg p-6">
               <div className="flex items-center mb-4">
                 <span className="bg-pink-600 text-white rounded-full w-10 h-10 flex items-center justify-center text-lg font-bold mr-4">8</span>
-                <h3 className="text-2xl font-bold text-gray-900">Suboccipital Release</h3>
+                <h3 className="text-2xl font-bold text-gray-900" id="suboccipital-release">Suboccipital Release</h3>
               </div>
 
               <p className="mb-4">
@@ -750,7 +750,7 @@ export default function NeckHumpExercisesPage() {
             <div className="border border-gray-200 rounded-lg p-6">
               <div className="flex items-center mb-4">
                 <span className="bg-yellow-600 text-white rounded-full w-10 h-10 flex items-center justify-center text-lg font-bold mr-4">9</span>
-                <h3 className="text-2xl font-bold text-gray-900">Scapular Wall Slides</h3>
+                <h3 className="text-2xl font-bold text-gray-900" id="scapular-wall-slides">Scapular Wall Slides</h3>
               </div>
 
               <p className="mb-4">
@@ -802,7 +802,7 @@ export default function NeckHumpExercisesPage() {
             <div className="border border-gray-200 rounded-lg p-6">
               <div className="flex items-center mb-4">
                 <span className="bg-gray-600 text-white rounded-full w-10 h-10 flex items-center justify-center text-lg font-bold mr-4">10</span>
-                <h3 className="text-2xl font-bold text-gray-900">Thoracic Extension (Cat-Cow Variation)</h3>
+                <h3 className="text-2xl font-bold text-gray-900" id="thoracic-extension">Thoracic Extension (Cat-Cow Variation)</h3>
               </div>
 
               <p className="mb-4">
@@ -845,7 +845,7 @@ export default function NeckHumpExercisesPage() {
         </div>
 
         <div className="mb-12">
-          <h2>Your Weekly Exercise Schedule</h2>
+          <h2 id="weekly-schedule">Your Weekly Exercise Schedule</h2>
           <p>
             Consistency beats intensity. Here's how to structure your routine for maximum effectiveness:
           </p>
@@ -908,7 +908,7 @@ export default function NeckHumpExercisesPage() {
         </div>
 
         <div className="mb-12">
-          <h2>Progression Timeline: What to Expect</h2>
+          <h2 id="progression-timeline">Progression Timeline: What to Expect</h2>
           <p>
             Understanding the timeline helps maintain motivation and set realistic expectations:
           </p>
@@ -957,7 +957,7 @@ export default function NeckHumpExercisesPage() {
         </div>
 
         <div className="mb-12">
-          <h2>Common Mistakes and How to Avoid Them</h2>
+          <h2 id="common-mistakes">Common Mistakes and How to Avoid Them</h2>
           
           <div className="space-y-6">
             <div className="bg-red-50 border border-red-200 rounded-lg p-6">
@@ -1013,7 +1013,7 @@ export default function NeckHumpExercisesPage() {
         </div>
 
         <div className="mb-12">
-          <h2>Tracking Your Progress</h2>
+          <h2 id="tracking-progress">Tracking Your Progress</h2>
           <p>
             Monitoring improvement helps maintain motivation and identify what's working:
           </p>
@@ -1053,7 +1053,7 @@ export default function NeckHumpExercisesPage() {
         </div>
 
         <div className="mb-12">
-          <h2>Frequently Asked Questions</h2>
+          <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
           
           <div className="space-y-6">
             <div>
