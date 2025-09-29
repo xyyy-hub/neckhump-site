@@ -206,8 +206,10 @@ Complete Next.js website for neck posture correction with 25 pages of health/wel
 - ✅ **SEO Foundation**: Proper canonical URLs, meta tags, and structured data
 - ✅ **Advanced AI Tools**: devin.cursorrules setup with web scraping, LLM integration, and screenshot verification
 - ✅ **devin.cursorrules Implementation**: Complete setup with all essential tools and Python utilities
+- ✅ **TOC Issue Fix**: Desktop Table of Contents now hides when scrolling past article content
 
 **Next Potential Tasks**:
+- [ ] Deploy TOC fix to production
 - [ ] Monitor GSC for resolution of "No referring sitemaps detected" issues (24-48 hours)
 - [ ] Performance optimization if Core Web Vitals need improvement
 - [ ] Content updates or new page development
@@ -238,3 +240,4 @@ Complete Next.js website for neck posture correction with 25 pages of health/wel
 - **Table of Contents Implementation**: TOC components require exact ID matching between heading elements and navigation links. Missing IDs cause broken sidebar navigation - every heading referenced in TOC array must have corresponding `id` attribute
 - **Sidebar Layout Issues**: Fixed sidebars need adequate bottom padding (pb-32) on main content to prevent covering bottom content during scroll. Use semantic anchor links (#heading-id) for smooth navigation
 - **UI/UX Debugging Workflow**: 1) Verify TOC headings array matches actual content structure, 2) Ensure all headings have proper id attributes, 3) Test with browser inspector for missing anchors, 4) Add bottom padding to prevent content overlap
+- **TOC Scroll Behavior**: Fixed-position TOCs should hide when users scroll past article content to prevent floating over footer/bottom sections. Use scroll listener with getBoundingClientRect() to detect when article bottom passes viewport threshold. Add transition-opacity for smooth hide/show animation
