@@ -63,6 +63,20 @@ export default function HomePage() {
           })
         }}
       />
+      {/* Medical Authority Banner */}
+      <div className="bg-gray-50 border-b border-gray-200 py-3 px-4 mb-8">
+        <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between text-sm text-gray-700 gap-2">
+          <div className="flex items-center gap-2">
+            <span className="font-medium">Medically reviewed by Dr. Sarah Johnson, DPT</span>
+          </div>
+          <div className="flex items-center gap-4 text-gray-600">
+            <span>Last updated: September 2025</span>
+            <span className="hidden sm:inline">•</span>
+            <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium">Evidence-Based</span>
+          </div>
+        </div>
+      </div>
+
       {/* Neck Hump Specialist Header - Optimized for LCP */}
       <header className="mb-12 py-6">
         <div className="text-center mb-6 px-4">
@@ -75,23 +89,23 @@ export default function HomePage() {
         </div>
         
         {/* Quick Self-Assessment - Mobile Optimized */}
-        <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 sm:p-6 rounded mb-8 mx-4">
-          <h2 className="text-lg font-semibold text-yellow-800 mb-3">
-            Do You Have a Neck Hump? Quick Check:
+        <div className="bg-blue-50 border-l-4 border-blue-400 p-4 sm:p-6 rounded mb-8 mx-4">
+          <h2 className="text-lg font-semibold text-gray-900 mb-3">
+            Do You Have a Neck Hump? Quick Self-Assessment:
           </h2>
           <div className="grid sm:grid-cols-2 gap-4 text-sm">
-            <ul className="space-y-2 text-yellow-700">
+            <ul className="space-y-2 text-gray-700">
               <li>• Stand against a wall - does your head touch naturally?</li>
               <li>• Look at yourself from the side in photos</li>
               <li>• Do you get headaches by end of workday?</li>
             </ul>
-            <ul className="space-y-2 text-yellow-700">
+            <ul className="space-y-2 text-gray-700">
               <li>• Is your head forward of your shoulders?</li>
               <li>• Do people tell you to "stand up straighter"?</li>
               <li>• Neck stiffness when you wake up?</li>
             </ul>
           </div>
-          <p className="text-yellow-800 mt-3 font-medium text-sm">
+          <p className="text-gray-800 mt-3 font-medium text-sm">
             If you answered yes to 2+ questions, you likely have forward head posture.
           </p>
         </div>
@@ -99,35 +113,35 @@ export default function HomePage() {
         {/* Neck-Focused Navigation - Mobile Optimized */}
         <div className="bg-gray-50 p-4 sm:p-6 rounded-lg mx-4">
           <h2 className="text-lg font-semibold text-gray-900 mb-4 text-center">
-            Start Your Neck Hump Recovery Journey
+            Essential Information About Neck Hump
           </h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            <Link href="/neck-hump-causes" className="block p-4 bg-white rounded border hover:border-blue-300 transition-colors group">
-              <h3 className="font-medium text-gray-900 mb-2 group-hover:text-blue-600">🔍 What Causes Neck Hump?</h3>
+            <Link href="/neck-hump-causes" className="block p-4 bg-white rounded border border-gray-200 hover:border-blue-400 transition-colors group">
+              <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-600">What Causes Neck Hump?</h3>
               <p className="text-sm text-gray-600">Understanding forward head posture, tech neck, and computer neck</p>
             </Link>
-            <Link href="/neck-hump-exercises" className="block p-4 bg-white rounded border hover:border-blue-300 transition-colors group">
-              <h3 className="font-medium text-gray-900 mb-2 group-hover:text-blue-600">💪 Neck Hump Exercises</h3>
+            <Link href="/neck-hump-exercises" className="block p-4 bg-white rounded border border-gray-200 hover:border-blue-400 transition-colors group">
+              <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-600">Neck Hump Exercises</h3>
               <p className="text-sm text-gray-600">Targeted exercises to fix forward head posture</p>
             </Link>
-            <Link href="/best-pillow-for-neck-hump" className="block p-4 bg-white rounded border hover:border-blue-300 transition-colors group">
-              <h3 className="font-medium text-gray-900 mb-2 group-hover:text-blue-600">🛏️ Best Pillows</h3>
+            <Link href="/best-pillow-for-neck-hump" className="block p-4 bg-white rounded border border-gray-200 hover:border-blue-400 transition-colors group">
+              <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-600">Best Pillows for Neck Hump</h3>
               <p className="text-sm text-gray-600">Sleep support for neck hump recovery</p>
             </Link>
-            <Link href="/neck-hump-guide" className="block p-4 bg-white rounded border hover:border-blue-300 transition-colors group">
-              <h3 className="font-medium text-gray-900 mb-2 group-hover:text-blue-600">📚 Complete Guide</h3>
+            <Link href="/neck-hump-guide" className="block p-4 bg-white rounded border border-gray-200 hover:border-blue-400 transition-colors group">
+              <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-600">Complete Guide</h3>
               <p className="text-sm text-gray-600">Comprehensive neck hump treatment plan</p>
             </Link>
-            <Link href="/how-to-sleep-with-neck-hump" className="block p-4 bg-white rounded border hover:border-blue-300 transition-colors group">
-              <h3 className="font-medium text-gray-900 mb-2 group-hover:text-blue-600">😴 Sleep Tips</h3>
+            <Link href="/how-to-sleep-with-neck-hump" className="block p-4 bg-white rounded border border-gray-200 hover:border-blue-400 transition-colors group">
+              <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-600">Sleep Tips</h3>
               <p className="text-sm text-gray-600">Proper positioning for overnight recovery</p>
             </Link>
-            <Link href="/ergonomic-workspace-neck-hump" className="block p-4 bg-white rounded border hover:border-blue-300 transition-colors group">
-              <h3 className="font-medium text-gray-900 mb-2 group-hover:text-blue-600">🖥️ Workspace Setup</h3>
+            <Link href="/ergonomic-workspace-neck-hump" className="block p-4 bg-white rounded border border-gray-200 hover:border-blue-400 transition-colors group">
+              <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-600">Workspace Setup</h3>
               <p className="text-sm text-gray-600">Ergonomic solutions for tech neck prevention</p>
             </Link>
-            <Link href="/tech-neck-prevention-guide" className="block p-4 bg-white rounded border hover:border-blue-300 transition-colors group">
-              <h3 className="font-medium text-gray-900 mb-2 group-hover:text-blue-600">📱 Tech Neck Prevention</h3>
+            <Link href="/tech-neck-prevention-guide" className="block p-4 bg-white rounded border border-gray-200 hover:border-blue-400 transition-colors group">
+              <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-600">Tech Neck Prevention</h3>
               <p className="text-sm text-gray-600">Device usage and prevention strategies</p>
             </Link>
           </div>

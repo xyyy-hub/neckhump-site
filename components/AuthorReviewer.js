@@ -18,35 +18,43 @@ export default function AuthorReviewer({
   })
 
   return (
-    <aside className="byline bg-gray-50 border border-gray-200 rounded-lg p-6 mb-8">
+    <aside className="byline bg-white border border-gray-300 rounded-lg p-6 mb-8 shadow-sm">
       <div className="space-y-4">
+        {/* Medical Review Badge */}
+        {reviewer && (
+          <div className="flex items-center gap-2 mb-3">
+            <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-xs font-medium">✓ Medically Reviewed</span>
+            <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs font-medium">Evidence-Based</span>
+          </div>
+        )}
+        
         <div className="grid md:grid-cols-2 gap-4">
           <div>
-            <p className="text-sm text-gray-600 mb-2">
-              <strong className="text-gray-900">Author:</strong> {author}
+            <p className="text-sm text-gray-700 mb-2">
+              <strong className="text-gray-900">Written by:</strong> {author}
             </p>
             {authorBio && (
               <p className="text-xs text-gray-600">
-                Health content writer specializing in posture and ergonomics. 
-                5+ years researching evidence-based posture correction methods.
+                Health content specialist with expertise in posture correction and ergonomics. 
+                Content based on current research and clinical guidelines.
               </p>
             )}
           </div>
           
           {reviewer && (
             <div>
-              <p className="text-sm text-gray-600 mb-2">
-                <strong className="text-gray-900">Medical Review:</strong> {reviewer}
+              <p className="text-sm text-gray-700 mb-2">
+                <strong className="text-gray-900">Reviewed by:</strong> {reviewer}
               </p>
               <p className="text-xs text-gray-600">
-                Licensed healthcare professional with expertise in postural rehabilitation 
-                and musculoskeletal disorders.
+                Licensed healthcare professional specializing in postural rehabilitation 
+                and musculoskeletal health.
               </p>
             </div>
           )}
         </div>
         
-        <div className="flex flex-wrap gap-4 text-xs text-gray-600 pt-2 border-t border-gray-300">
+        <div className="flex flex-wrap gap-4 text-xs text-gray-600 pt-3 border-t border-gray-200">
           <span><strong>Last updated:</strong> {lastUpdated || currentDate}</span>
           <span><strong>Next review:</strong> {nextReviewDate}</span>
         </div>
@@ -54,8 +62,8 @@ export default function AuthorReviewer({
         {showDisclaimer && (
           <div className="mt-4 pt-4 border-t border-gray-200">
             <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded">
-              <p className="text-sm text-amber-800">
-                <strong>When to see a clinician:</strong> If you have severe pain, numbness/tingling, weakness, trauma history, or symptoms that worsen—seek qualified care from a healthcare professional.
+              <p className="text-sm text-gray-800">
+                <strong>⚠️ When to See a Healthcare Provider:</strong> Seek professional medical care if you experience severe pain, numbness, tingling, weakness, or if your symptoms worsen despite self-care measures.
               </p>
             </div>
           </div>

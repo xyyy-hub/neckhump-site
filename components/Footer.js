@@ -8,12 +8,18 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">NeckHump.com</h3>
             <p className="text-gray-300 mb-4">
-              Educational resource providing evidence-based information about forward head posture, 
+              Evidence-based health information about forward head posture, 
               neck hump, and postural problems affecting desk workers.
             </p>
-            <p className="text-gray-400 text-sm">
-              Content based on research from physical therapy, ergonomics, and movement science literature.
-            </p>
+            <div className="space-y-2 text-sm">
+              <div className="flex items-center gap-2 text-gray-400">
+                <span className="bg-blue-900 text-blue-200 px-2 py-1 rounded text-xs">Evidence-Based</span>
+                <span className="bg-green-900 text-green-200 px-2 py-1 rounded text-xs">Medically Reviewed</span>
+              </div>
+              <p className="text-gray-400 text-sm">
+                Content reviewed by licensed healthcare professionals.
+              </p>
+            </div>
           </div>
           
           <div>
@@ -43,13 +49,16 @@ export default function Footer() {
           </div>
           
           <div>
-            <h4 className="font-semibold mb-4">Important</h4>
-            <div className="text-gray-300 text-sm space-y-2">
+            <h4 className="font-semibold mb-4">Medical Disclaimer</h4>
+            <div className="text-gray-300 text-sm space-y-3">
               <p>
-                <strong>Medical Disclaimer:</strong> This information is for educational purposes only and is not a substitute for professional medical advice.
+                <strong>For Educational Purposes Only:</strong> This content provides general health information and is not a substitute for professional medical diagnosis, treatment, or advice.
               </p>
               <p>
-                Always consult with a healthcare professional before starting any exercise program or if you experience persistent pain.
+                <strong>Consult Healthcare Professionals:</strong> Always seek the advice of qualified healthcare providers before starting any exercise program, especially if you have existing medical conditions or experience persistent pain.
+              </p>
+              <p className="text-gray-400 text-xs">
+                Individual results may vary. Information is based on current research but should not replace personalized medical care.
               </p>
             </div>
           </div>
