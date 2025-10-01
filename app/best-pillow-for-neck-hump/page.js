@@ -151,7 +151,7 @@ export default function BestPillowForNeckHumpPage() {
 
         <div className="mb-12">
           <h2>What Makes a Pillow "Neck Hump Friendly"?</h2>
-          <p>Not all pillows are created equal when it comes to neck hump correction. Here's what actually matters:</p>
+          <p>Not all pillows are created equal when it comes to neck hump correction. The key is maintaining neutral alignment between your head and spine. Here's what actually matters:</p>
           
           <div className="bg-gray-50 p-6 rounded-lg mt-6">
             <h3 className="text-xl font-semibold mb-4">The 5 Essential Features:</h3>
@@ -159,34 +159,89 @@ export default function BestPillowForNeckHumpPage() {
               <li className="flex items-start">
                 <span className="bg-green-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-0.5">1</span>
                 <div>
-                  <strong>Cervical Support:</strong> Maintains the natural curve of your neck (cervical lordosis)
+                  <strong>Cervical Support:</strong> Maintains the natural curve of your neck (cervical lordosis) while you sleep
                 </div>
               </li>
               <li className="flex items-start">
                 <span className="bg-green-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-0.5">2</span>
                 <div>
-                  <strong>Proper Height:</strong> Keeps your head aligned with your spine (not too high or low)
+                  <strong>Proper Loft (Height):</strong> Keeps your head aligned with your spine - not tilted up or down
                 </div>
               </li>
               <li className="flex items-start">
                 <span className="bg-green-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-0.5">3</span>
                 <div>
-                  <strong>Consistent Support:</strong> Doesn't compress or lose shape during the night
+                  <strong>Appropriate Firmness:</strong> Provides support without being too soft (causes sinking) or too firm (creates pressure points)
                 </div>
               </li>
               <li className="flex items-start">
                 <span className="bg-green-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-0.5">4</span>
                 <div>
-                  <strong>Side/Back Sleep Compatibility:</strong> Works well in multiple sleeping positions
+                  <strong>Responsive Materials:</strong> Conforms to your unique anatomy while maintaining consistent support
                 </div>
               </li>
               <li className="flex items-start">
                 <span className="bg-green-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-0.5">5</span>
                 <div>
-                  <strong>Quality Materials:</strong> Memory foam or latex that provides both support and comfort
+                  <strong>Durability:</strong> Maintains its shape and support over time without flattening or developing indentations
                 </div>
               </li>
             </ul>
+          </div>
+        </div>
+
+        <div className="mb-12">
+          <h2>Understanding Pillow Materials: The Science Behind Support</h2>
+          <p>
+            The filling material of your pillow directly impacts how well it supports neck hump correction. Here's a comprehensive breakdown of each option:
+          </p>
+
+          <div className="space-y-6 mt-6">
+            <div className="border-l-4 border-blue-500 pl-6 bg-blue-50 p-4">
+              <h3 className="text-lg font-semibold mb-3 text-blue-900">Memory Foam (Polyurethane)</h3>
+              <p className="text-blue-800 mb-3">
+                <strong>How it works:</strong> Memory foam responds to body heat and pressure, molding to the exact contours of your head and neck. This creates custom support that reduces pressure points.
+              </p>
+              <p className="text-blue-800 mb-2"><strong>Best for:</strong> Side and back sleepers who need conforming support</p>
+              <p className="text-blue-800 mb-2"><strong>Consider:</strong> Can retain heat, so look for gel-infused or ventilated options if you sleep hot</p>
+              <p className="text-blue-800"><strong>Lifespan:</strong> 2-3 years before losing shape</p>
+            </div>
+
+            <div className="border-l-4 border-green-500 pl-6 bg-green-50 p-4">
+              <h3 className="text-lg font-semibold mb-3 text-green-900">Latex Foam (Natural Rubber)</h3>
+              <p className="text-green-800 mb-3">
+                <strong>How it works:</strong> Made from rubber tree sap, latex is more responsive and "springy" than memory foam. It provides firm support while still contouring to your neck's curve.
+              </p>
+              <p className="text-green-800 mb-2"><strong>Best for:</strong> Those who want firm support with better temperature regulation</p>
+              <p className="text-green-800 mb-2"><strong>Consider:</strong> More expensive but naturally cooling and hypoallergenic</p>
+              <p className="text-green-800"><strong>Lifespan:</strong> 3-4 years with proper care</p>
+            </div>
+
+            <div className="border-l-4 border-yellow-500 pl-6 bg-yellow-50 p-4">
+              <h3 className="text-lg font-semibold mb-3 text-yellow-900">Down & Down Alternative</h3>
+              <p className="text-yellow-800 mb-3">
+                <strong>How it works:</strong> Down (from geese/ducks) or synthetic alternatives are soft and moldable but offer less structural support than foam options.
+              </p>
+              <p className="text-yellow-800 mb-2"><strong>Best for:</strong> Stomach and back sleepers who need lower loft</p>
+              <p className="text-yellow-800 mb-2"><strong>Consider:</strong> Requires regular fluffing and may not provide enough support for severe neck hump</p>
+              <p className="text-yellow-800"><strong>Lifespan:</strong> 1-2 years before significant flattening</p>
+            </div>
+
+            <div className="border-l-4 border-purple-500 pl-6 bg-purple-50 p-4">
+              <h3 className="text-lg font-semibold mb-3 text-purple-900">Shredded Foam (Memory Foam or Latex)</h3>
+              <p className="text-purple-800 mb-3">
+                <strong>How it works:</strong> Small pieces of foam allow for adjustability - you can add or remove fill to customize loft and firmness.
+              </p>
+              <p className="text-purple-800 mb-2"><strong>Best for:</strong> Those who want customizable support or sleep in multiple positions</p>
+              <p className="text-purple-800 mb-2"><strong>Consider:</strong> May shift during the night and require occasional redistribution</p>
+              <p className="text-purple-800"><strong>Lifespan:</strong> 2-3 years depending on material quality</p>
+            </div>
+          </div>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-6 mt-6">
+            <p className="text-amber-900">
+              <strong>Expert Tip:</strong> Memory foam pillows generally do a better job conforming to your anatomy than down or standard polyfill options. For neck hump correction, prioritize materials that maintain their shape and provide consistent support throughout the night.
+            </p>
           </div>
         </div>
 
@@ -213,20 +268,9 @@ export default function BestPillowForNeckHumpPage() {
               <p className="mb-4">
                 <strong>Why it works:</strong> The contoured design specifically supports cervical curvature while keeping your head from tilting forward. The lower center allows your neck to rest in its natural curve.
               </p>
-              <div className="bg-green-50 p-4 rounded-lg mb-4">
+              <div className="bg-green-50 p-4 rounded-lg">
                 <p className="text-green-800"><strong>✓ Pros:</strong> Excellent cervical support, maintains spine alignment, reduces morning stiffness</p>
                 <p className="text-red-800 mt-2"><strong>✗ Cons:</strong> Adjustment period required, not ideal for stomach sleepers</p>
-              </div>
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <p className="font-semibold text-gray-900 mb-3">Top Examples:</p>
-                <div className="space-y-2">
-                  <a href="https://www.amazon.com/dp/B08L3Y5Q5G" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
-                    → DONAMA Cervical Memory Foam Pillow (~$45) - Ergonomic contour design
-                  </a>
-                  <a href="https://www.amazon.com/dp/B07ZQ5S3Y2" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
-                    → Elviros Cervical Memory Foam Pillow (~$50) - Adjustable height options
-                  </a>
-                </div>
               </div>
             </div>
 
@@ -249,20 +293,9 @@ export default function BestPillowForNeckHumpPage() {
               <p className="mb-4">
                 <strong>Why it works:</strong> Allows you to customize height and firmness by adding or removing foam layers. Perfect for finding your optimal neck position.
               </p>
-              <div className="bg-green-50 p-4 rounded-lg mb-4">
+              <div className="bg-green-50 p-4 rounded-lg">
                 <p className="text-green-800"><strong>✓ Pros:</strong> Highly customizable, works for all sleep positions, gradual adjustment possible</p>
                 <p className="text-red-800 mt-2"><strong>✗ Cons:</strong> More expensive, requires experimentation to find optimal setup</p>
-              </div>
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <p className="font-semibold text-gray-900 mb-3">Top Examples:</p>
-                <div className="space-y-2">
-                  <a href="https://www.amazon.com/dp/B00EINBSEW" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
-                    → Coop Home Goods Original Pillow (~$70) - Fully adjustable shredded memory foam
-                  </a>
-                  <a href="https://www.amazon.com/dp/B07W7X2K3P" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
-                    → DreamyBlue Premium Pillow (~$60) - Add/remove fill for custom height
-                  </a>
-                </div>
               </div>
             </div>
 
@@ -285,20 +318,9 @@ export default function BestPillowForNeckHumpPage() {
               <p className="mb-4">
                 <strong>Why it works:</strong> Provides excellent support while staying cooler than memory foam. Maintains shape and support over time.
               </p>
-              <div className="bg-green-50 p-4 rounded-lg mb-4">
+              <div className="bg-green-50 p-4 rounded-lg">
                 <p className="text-green-800"><strong>✓ Pros:</strong> Excellent durability, natural materials, temperature regulation</p>
                 <p className="text-red-800 mt-2"><strong>✗ Cons:</strong> Higher cost, firmer feel may require adjustment</p>
-              </div>
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <p className="font-semibold text-gray-900 mb-3">Top Examples:</p>
-                <div className="space-y-2">
-                  <a href="https://www.amazon.com/dp/B00X52Y3QY" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
-                    → OrganicTextiles Natural Latex Pillow (~$90) - 100% organic latex
-                  </a>
-                  <a href="https://www.amazon.com/dp/B07F2N6PL3" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
-                    → PureTree Organic Latex Pillow (~$85) - Natural Talalay latex
-                  </a>
-                </div>
               </div>
             </div>
 
@@ -321,20 +343,9 @@ export default function BestPillowForNeckHumpPage() {
               <p className="mb-4">
                 <strong>Why it works:</strong> Hypoallergenic fiber fill provides good support at affordable prices. Great for those allergic to down or foam who still need neck support.
               </p>
-              <div className="bg-green-50 p-4 rounded-lg mb-4">
+              <div className="bg-green-50 p-4 rounded-lg">
                 <p className="text-green-800"><strong>✓ Pros:</strong> Budget-friendly, hypoallergenic, machine washable, soft feel</p>
                 <p className="text-red-800 mt-2"><strong>✗ Cons:</strong> Less durable than foam, may flatten over time, needs fluffing</p>
-              </div>
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <p className="font-semibold text-gray-900 mb-3">Top Examples:</p>
-                <div className="space-y-2">
-                  <a href="https://www.amazon.com/dp/B01LYNW421" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
-                    → Beckham Hotel Collection Gel Pillow (~$50) - Premium gel fiber fill
-                  </a>
-                  <a href="https://www.amazon.com/dp/B073726R5M" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
-                    → Amazon Basics Down Alternative Pillow (~$30) - Hypoallergenic support
-                  </a>
-                </div>
               </div>
             </div>
 
@@ -357,20 +368,9 @@ export default function BestPillowForNeckHumpPage() {
               <p className="mb-4">
                 <strong>Why it works:</strong> Combines cervical support with temperature regulation. Prevents overheating that can disrupt sleep quality.
               </p>
-              <div className="bg-green-50 p-4 rounded-lg mb-4">
+              <div className="bg-green-50 p-4 rounded-lg">
                 <p className="text-green-800"><strong>✓ Pros:</strong> Temperature regulation, good support, comfortable feel</p>
                 <p className="text-red-800 mt-2"><strong>✗ Cons:</strong> Cooling effect may diminish over time, moderate price point</p>
-              </div>
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <p className="font-semibold text-gray-900 mb-3">Top Examples:</p>
-                <div className="space-y-2">
-                  <a href="https://www.amazon.com/dp/B00MWTJ9OA" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
-                    → Classic Brands Cool Gel Pillow (~$55) - Gel-infused memory foam
-                  </a>
-                  <a href="https://www.amazon.com/dp/B01N6H2A0A" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
-                    → WEEKENDER Gel Memory Foam Pillow (~$50) - Ventilated design
-                  </a>
-                </div>
               </div>
             </div>
 
@@ -393,20 +393,9 @@ export default function BestPillowForNeckHumpPage() {
               <p className="mb-4">
                 <strong>Why it works:</strong> Advanced cooling materials and natural fibers provide excellent temperature regulation while maintaining proper cervical support throughout the night.
               </p>
-              <div className="bg-green-50 p-4 rounded-lg mb-4">
+              <div className="bg-green-50 p-4 rounded-lg">
                 <p className="text-green-800"><strong>✓ Pros:</strong> Superior temperature control, natural materials, premium quality</p>
                 <p className="text-red-800 mt-2"><strong>✗ Cons:</strong> Higher price point, premium materials require special care</p>
-              </div>
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <p className="font-semibold text-gray-900 mb-3">Top Examples:</p>
-                <div className="space-y-2">
-                  <a href="https://www.amazon.com/dp/B072J7PTFB" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
-                    → Snuggle-Pedic Bamboo Pillow (~$75) - Ultra-luxury shredded foam
-                  </a>
-                  <a href="https://www.amazon.com/dp/B00A7Z0WQ0" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
-                    → TEMPUR-Cloud Breeze Pillow (~$150) - Dual cooling technology
-                  </a>
-                </div>
               </div>
             </div>
 
@@ -429,21 +418,68 @@ export default function BestPillowForNeckHumpPage() {
               <p className="mb-4">
                 <strong>Why it works:</strong> GOTS-certified organic materials provide natural support without chemicals or synthetic materials. Great for sensitive sleepers and environmental consciousness.
               </p>
-              <div className="bg-green-50 p-4 rounded-lg mb-4">
+              <div className="bg-green-50 p-4 rounded-lg">
                 <p className="text-green-800"><strong>✓ Pros:</strong> Chemical-free, sustainable materials, natural support, hypoallergenic</p>
                 <p className="text-red-800 mt-2"><strong>✗ Cons:</strong> Premium pricing, limited availability, firmer feel</p>
               </div>
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <p className="font-semibold text-gray-900 mb-3">Top Examples:</p>
-                <div className="space-y-2">
-                  <a href="https://www.amazon.com/dp/B07FYSXPT1" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
-                    → Naturepedic Organic Latex Pillow (~$99) - Adjustable dual-sided design
-                  </a>
-                  <a href="https://www.amazon.com/dp/B07F2N6PL3" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
-                    → Avocado Green Pillow (~$89) - Natural latex and kapok fill
-                  </a>
-                </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="mb-12">
+          <h2>Pillow Loft & Firmness: The Critical Factor Most People Get Wrong</h2>
+          <p>
+            Your sleeping position determines the ideal pillow height (loft) and firmness you need. Getting this wrong can actually worsen neck hump. Here's the science:
+          </p>
+
+          <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg mt-6 mb-8">
+            <h3 className="text-xl font-semibold mb-4 text-indigo-900">Understanding Pillow Loft</h3>
+            <div className="grid md:grid-cols-3 gap-4">
+              <div className="bg-white p-4 rounded-lg">
+                <h4 className="font-semibold text-indigo-800 mb-2">Low Loft</h4>
+                <p className="text-sm text-gray-700 mb-2">≤ 3 inches thick</p>
+                <p className="text-sm text-gray-600">Best for: Stomach sleepers</p>
               </div>
+              <div className="bg-white p-4 rounded-lg">
+                <h4 className="font-semibold text-indigo-800 mb-2">Medium Loft</h4>
+                <p className="text-sm text-gray-700 mb-2">3-5 inches thick</p>
+                <p className="text-sm text-gray-600">Best for: Back sleepers</p>
+              </div>
+              <div className="bg-white p-4 rounded-lg">
+                <h4 className="font-semibold text-indigo-800 mb-2">High Loft</h4>
+                <p className="text-sm text-gray-700 mb-2">≥ 5 inches thick</p>
+                <p className="text-sm text-gray-600">Best for: Side sleepers</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="space-y-6">
+            <div className="border-l-4 border-indigo-500 pl-6">
+              <h3 className="text-lg font-semibold mb-3 text-indigo-900">Side Sleepers (Need High Loft + Medium-Firm to Firm)</h3>
+              <p className="mb-3">
+                <strong>Why:</strong> The gap between your shoulder and head requires more height to keep your neck aligned with your spine. If your pillow is too low, your head tilts down toward the mattress, straining your neck.
+              </p>
+              <p className="mb-2"><strong>Body Type Consideration:</strong></p>
+              <ul className="list-disc list-inside text-gray-700 space-y-1">
+                <li>Broad shoulders? You need 5-6 inches of loft</li>
+                <li>Narrow shoulders? 4-5 inches may be sufficient</li>
+              </ul>
+            </div>
+
+            <div className="border-l-4 border-blue-500 pl-6">
+              <h3 className="text-lg font-semibold mb-3 text-blue-900">Back Sleepers (Need Medium Loft + Medium-Soft to Medium-Firm)</h3>
+              <p className="mb-3">
+                <strong>Why:</strong> Your head needs moderate elevation to maintain the natural cervical curve. Too high pushes your chin toward your chest (worsening forward head posture), too low causes your head to tilt back.
+              </p>
+              <p className="mb-2"><strong>The Sweet Spot:</strong> Your ears should align directly over your shoulders when viewed from the side.</p>
+            </div>
+
+            <div className="border-l-4 border-yellow-500 pl-6">
+              <h3 className="text-lg font-semibold mb-3 text-yellow-900">Stomach Sleepers (Need Low Loft + Soft to Medium)</h3>
+              <p className="mb-3">
+                <strong>Important:</strong> Stomach sleeping is the worst position for neck hump. If you must sleep this way, use the thinnest pillow possible or consider no pillow at all.
+              </p>
+              <p className="text-amber-800"><strong>Better Alternative:</strong> Train yourself to sleep on your side with proper pillow support instead.</p>
             </div>
           </div>
         </div>
