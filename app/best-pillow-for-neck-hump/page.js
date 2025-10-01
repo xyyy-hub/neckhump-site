@@ -220,10 +220,10 @@ export default function BestPillowForNeckHumpPage() {
               <div className="bg-gray-50 p-4 rounded-lg">
                 <p className="font-semibold text-gray-900 mb-3">Top Examples:</p>
                 <div className="space-y-2">
-                  <a href="https://www.amazon.com/DONAMA-Cervical-Memory-Pillow-Sleepers/dp/B0B2XH7KVN" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
+                  <a href="https://www.amazon.com/dp/B08L3Y5Q5G" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
                     → DONAMA Cervical Memory Foam Pillow (~$45) - Ergonomic contour design
                   </a>
-                  <a href="https://www.amazon.com/Elviros-Cervical-Memory-Pillow-Sleepers/dp/B07W54G93F" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
+                  <a href="https://www.amazon.com/dp/B07ZQ5S3Y2" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
                     → Elviros Cervical Memory Foam Pillow (~$50) - Adjustable height options
                   </a>
                 </div>
@@ -256,11 +256,11 @@ export default function BestPillowForNeckHumpPage() {
               <div className="bg-gray-50 p-4 rounded-lg">
                 <p className="font-semibold text-gray-900 mb-3">Top Examples:</p>
                 <div className="space-y-2">
-                  <a href="https://www.amazon.com/Coop-Home-Goods-Adjustable-Hypoallergenic/dp/B00EINBSEW" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
-                    → Coop Home Goods Eden Pillow (~$70) - Fully adjustable shredded memory foam
+                  <a href="https://www.amazon.com/dp/B00EINBSEW" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
+                    → Coop Home Goods Original Pillow (~$70) - Fully adjustable shredded memory foam
                   </a>
-                  <a href="https://www.amazon.com/Saybrook-Adjustable-Shredded-Hypoallergenic-Washable/dp/B07YGWKDCZ" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
-                    → Saybrook Adjustable Pillow (~$60) - Add/remove fill for custom height
+                  <a href="https://www.amazon.com/dp/B07W7X2K3P" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
+                    → DreamyBlue Premium Pillow (~$60) - Add/remove fill for custom height
                   </a>
                 </div>
               </div>
@@ -292,11 +292,11 @@ export default function BestPillowForNeckHumpPage() {
               <div className="bg-gray-50 p-4 rounded-lg">
                 <p className="font-semibold text-gray-900 mb-3">Top Examples:</p>
                 <div className="space-y-2">
-                  <a href="https://www.amazon.com/OrganicTextiles-Natural-Latex-Pillow-Standard/dp/B07H4Q8K4L" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
+                  <a href="https://www.amazon.com/dp/B00X52Y3QY" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
                     → OrganicTextiles Natural Latex Pillow (~$90) - 100% organic latex
                   </a>
-                  <a href="https://www.amazon.com/Sleep-Artisan-Natural-Organic-Pillow/dp/B07DL6D4N8" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
-                    → Sleep Artisan Latex Pillow (~$85) - Organic cotton cover
+                  <a href="https://www.amazon.com/dp/B07F2N6PL3" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
+                    → PureTree Organic Latex Pillow (~$85) - Natural Talalay latex
                   </a>
                 </div>
               </div>
@@ -305,34 +305,34 @@ export default function BestPillowForNeckHumpPage() {
             <div className="border border-gray-200 rounded-lg p-6">
               <div className="flex items-center mb-4">
                 <span className="bg-gray-600 text-white rounded-full w-8 h-8 flex items-center justify-center text-lg font-bold mr-3">#4</span>
-                <h3 className="text-2xl font-bold text-gray-900">Wedge Pillow for Gradual Correction</h3>
+                <h3 className="text-2xl font-bold text-gray-900">Down Alternative & Gel Fiber Pillows</h3>
               </div>
               <div className="grid md:grid-cols-3 gap-4 mb-4">
                 <div>
-                  <strong>Best For:</strong> Severe forward head posture, gradual adjustment
+                  <strong>Best For:</strong> Budget-conscious, allergy sufferers
                 </div>
                 <div>
-                  <strong>Price Range:</strong> $30-60
+                  <strong>Price Range:</strong> $30-50
                 </div>
                 <div>
-                  <strong>Material:</strong> Memory foam wedge design
+                  <strong>Material:</strong> Gel fiber or down alternative fill
                 </div>
               </div>
               <p className="mb-4">
-                <strong>Why it works:</strong> Gradually trains your neck to maintain proper alignment by providing incremental support. Can be used with existing pillow.
+                <strong>Why it works:</strong> Hypoallergenic fiber fill provides good support at affordable prices. Great for those allergic to down or foam who still need neck support.
               </p>
               <div className="bg-green-50 p-4 rounded-lg mb-4">
-                <p className="text-green-800"><strong>✓ Pros:</strong> Affordable, gradual correction approach, works with existing pillows</p>
-                <p className="text-red-800 mt-2"><strong>✗ Cons:</strong> May not provide enough support alone, limited to back sleeping</p>
+                <p className="text-green-800"><strong>✓ Pros:</strong> Budget-friendly, hypoallergenic, machine washable, soft feel</p>
+                <p className="text-red-800 mt-2"><strong>✗ Cons:</strong> Less durable than foam, may flatten over time, needs fluffing</p>
               </div>
               <div className="bg-gray-50 p-4 rounded-lg">
                 <p className="font-semibold text-gray-900 mb-3">Top Examples:</p>
                 <div className="space-y-2">
-                  <a href="https://www.amazon.com/Brentwood-Home-Therapeutic-Foam-Wedge/dp/B00EINBMFW" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
-                    → Brentwood Home Therapeutic Wedge (~$50) - 10" gradual incline
+                  <a href="https://www.amazon.com/dp/B01LYNW421" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
+                    → Beckham Hotel Collection Gel Pillow (~$50) - Premium gel fiber fill
                   </a>
-                  <a href="https://www.amazon.com/Cushy-Form-Bed-Wedge-Pillow/dp/B07KWQSYQ5" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
-                    → Cushy Form Bed Wedge Pillow (~$45) - Multi-angle support
+                  <a href="https://www.amazon.com/dp/B073726R5M" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
+                    → Amazon Basics Down Alternative Pillow (~$30) - Hypoallergenic support
                   </a>
                 </div>
               </div>
@@ -364,10 +364,10 @@ export default function BestPillowForNeckHumpPage() {
               <div className="bg-gray-50 p-4 rounded-lg">
                 <p className="font-semibold text-gray-900 mb-3">Top Examples:</p>
                 <div className="space-y-2">
-                  <a href="https://www.amazon.com/Classic-Brands-Cool-Gel-Ventilated-Gel-Infused/dp/B00EINIKWU" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
+                  <a href="https://www.amazon.com/dp/B00MWTJ9OA" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
                     → Classic Brands Cool Gel Pillow (~$55) - Gel-infused memory foam
                   </a>
-                  <a href="https://www.amazon.com/WEEKENDER-Ventilated-Memory-Washable-Standard/dp/B01N4DUXX7" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
+                  <a href="https://www.amazon.com/dp/B01N6H2A0A" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
                     → WEEKENDER Gel Memory Foam Pillow (~$50) - Ventilated design
                   </a>
                 </div>
@@ -377,34 +377,34 @@ export default function BestPillowForNeckHumpPage() {
             <div className="border border-gray-200 rounded-lg p-6">
               <div className="flex items-center mb-4">
                 <span className="bg-gray-600 text-white rounded-full w-8 h-8 flex items-center justify-center text-lg font-bold mr-3">#6</span>
-                <h3 className="text-2xl font-bold text-gray-900">Buckwheat Hull Cervical Pillow</h3>
+                <h3 className="text-2xl font-bold text-gray-900">Premium Cooling & Natural Pillows</h3>
               </div>
               <div className="grid md:grid-cols-3 gap-4 mb-4">
                 <div>
-                  <strong>Best For:</strong> Natural materials, customizable firmness
+                  <strong>Best For:</strong> Hot sleepers, natural materials preference
                 </div>
                 <div>
-                  <strong>Price Range:</strong> $40-80
+                  <strong>Price Range:</strong> $75-150
                 </div>
                 <div>
-                  <strong>Material:</strong> Organic buckwheat hulls
+                  <strong>Material:</strong> Bamboo, cooling foam, or natural latex
                 </div>
               </div>
               <p className="mb-4">
-                <strong>Why it works:</strong> Buckwheat hulls conform to your neck shape while providing firm support. Can adjust fill level for personalized comfort.
+                <strong>Why it works:</strong> Advanced cooling materials and natural fibers provide excellent temperature regulation while maintaining proper cervical support throughout the night.
               </p>
               <div className="bg-green-50 p-4 rounded-lg mb-4">
-                <p className="text-green-800"><strong>✓ Pros:</strong> Natural materials, adjustable firmness, excellent airflow</p>
-                <p className="text-red-800 mt-2"><strong>✗ Cons:</strong> Can be noisy, requires break-in period, may shift during sleep</p>
+                <p className="text-green-800"><strong>✓ Pros:</strong> Superior temperature control, natural materials, premium quality</p>
+                <p className="text-red-800 mt-2"><strong>✗ Cons:</strong> Higher price point, premium materials require special care</p>
               </div>
               <div className="bg-gray-50 p-4 rounded-lg">
                 <p className="font-semibold text-gray-900 mb-3">Top Examples:</p>
                 <div className="space-y-2">
-                  <a href="https://www.amazon.com/Hullo-Buckwheat-Pillow-Standard-Size/dp/B00E21G1YI" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
-                    → Hullo Buckwheat Pillow (~$75) - Made in USA, adjustable fill
+                  <a href="https://www.amazon.com/dp/B072J7PTFB" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
+                    → Snuggle-Pedic Bamboo Pillow (~$75) - Ultra-luxury shredded foam
                   </a>
-                  <a href="https://www.amazon.com/Beans72-Organic-Buckwheat-Pillow-Standard/dp/B00YO27Z4W" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
-                    → Beans72 Organic Buckwheat Pillow (~$65) - USDA certified organic
+                  <a href="https://www.amazon.com/dp/B00A7Z0WQ0" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
+                    → TEMPUR-Cloud Breeze Pillow (~$150) - Dual cooling technology
                   </a>
                 </div>
               </div>
@@ -413,34 +413,34 @@ export default function BestPillowForNeckHumpPage() {
             <div className="border border-gray-200 rounded-lg p-6">
               <div className="flex items-center mb-4">
                 <span className="bg-gray-600 text-white rounded-full w-8 h-8 flex items-center justify-center text-lg font-bold mr-3">#7</span>
-                <h3 className="text-2xl font-bold text-gray-900">Water-Based Cervical Pillow</h3>
+                <h3 className="text-2xl font-bold text-gray-900">Organic & Eco-Friendly Pillows</h3>
               </div>
               <div className="grid md:grid-cols-3 gap-4 mb-4">
                 <div>
-                  <strong>Best For:</strong> Maximum customization, neck pain relief
+                  <strong>Best For:</strong> Eco-conscious buyers, chemical-free sleep
                 </div>
                 <div>
-                  <strong>Price Range:</strong> $60-100
+                  <strong>Price Range:</strong> $89-99
                 </div>
                 <div>
-                  <strong>Material:</strong> Water chamber with fiber layer
+                  <strong>Material:</strong> Organic latex, kapok, certified materials
                 </div>
               </div>
               <p className="mb-4">
-                <strong>Why it works:</strong> Water level can be adjusted precisely to match your exact support needs. Provides consistent, even support.
+                <strong>Why it works:</strong> GOTS-certified organic materials provide natural support without chemicals or synthetic materials. Great for sensitive sleepers and environmental consciousness.
               </p>
               <div className="bg-green-50 p-4 rounded-lg mb-4">
-                <p className="text-green-800"><strong>✓ Pros:</strong> Highly adjustable, consistent support, recommended by chiropractors</p>
-                <p className="text-red-800 mt-2"><strong>✗ Cons:</strong> Risk of leaks, heavier than foam options, unique feel</p>
+                <p className="text-green-800"><strong>✓ Pros:</strong> Chemical-free, sustainable materials, natural support, hypoallergenic</p>
+                <p className="text-red-800 mt-2"><strong>✗ Cons:</strong> Premium pricing, limited availability, firmer feel</p>
               </div>
               <div className="bg-gray-50 p-4 rounded-lg">
                 <p className="font-semibold text-gray-900 mb-3">Top Examples:</p>
                 <div className="space-y-2">
-                  <a href="https://www.amazon.com/Mediflow-Waterbase-Pillow-Clinically-Reducing/dp/B000YL6PSO" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
-                    → Mediflow Waterbase Pillow (~$60) - Clinically proven neck support
+                  <a href="https://www.amazon.com/dp/B07FYSXPT1" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
+                    → Naturepedic Organic Latex Pillow (~$99) - Adjustable dual-sided design
                   </a>
-                  <a href="https://www.amazon.com/Chiroflow-Premium-Water-Pillow-Mediflow/dp/B000PKGW7C" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
-                    → Chiroflow Premium Water Pillow (~$70) - Recommended by chiropractors
+                  <a href="https://www.amazon.com/dp/B07F2N6PL3" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
+                    → Avocado Green Pillow (~$89) - Natural latex and kapok fill
                   </a>
                 </div>
               </div>
