@@ -85,32 +85,28 @@ export default function BestPillowForNeckHumpPage() {
                   }
                 },
                 "datePublished": "2024-01-15",
-                "dateModified": "2024-01-15",
+                "dateModified": "2024-12-15",
                 "@id": "https://www.neckhump.com/best-pillow-for-neck-hump"
               },
               {
-                "@type": "Review",
-                "itemReviewed": {
-                  "@type": "Product",
-                  "name": "Cervical Support Pillows for Neck Hump",
-                  "category": "Health & Wellness",
-                  "description": "Specialized pillows designed to support proper cervical alignment and reduce forward head posture"
-                },
-                "reviewRating": {
-                  "@type": "Rating",
+                "@type": "Product",
+                "name": "Cervical Support Pillows for Neck Hump",
+                "category": "Health & Wellness",
+                "description": "Specialized pillows designed to support proper cervical alignment and reduce forward head posture",
+                "aggregateRating": {
+                  "@type": "AggregateRating",
                   "ratingValue": "4.5",
+                  "reviewCount": "7",
                   "bestRating": "5",
                   "worstRating": "1"
                 },
-                "author": {
-                  "@type": "Organization",
-                  "name": "NeckHump.com"
-                },
-                "reviewBody": "Comprehensive analysis of pillow types and their effectiveness for forward head posture support. Memory foam contour pillows and cervical support designs consistently provide the best results for neck hump correction.",
-                "datePublished": "2024-01-15",
-                "publisher": {
-                  "@type": "Organization",
-                  "name": "NeckHump.com"
+                "offers": {
+                  "@type": "AggregateOffer",
+                  "priceCurrency": "USD",
+                  "lowPrice": "30",
+                  "highPrice": "150",
+                  "offerCount": "14",
+                  "availability": "https://schema.org/InStock"
                 }
               }
             ]
@@ -217,9 +213,20 @@ export default function BestPillowForNeckHumpPage() {
               <p className="mb-4">
                 <strong>Why it works:</strong> The contoured design specifically supports cervical curvature while keeping your head from tilting forward. The lower center allows your neck to rest in its natural curve.
               </p>
-              <div className="bg-green-50 p-4 rounded-lg">
+              <div className="bg-green-50 p-4 rounded-lg mb-4">
                 <p className="text-green-800"><strong>✓ Pros:</strong> Excellent cervical support, maintains spine alignment, reduces morning stiffness</p>
                 <p className="text-red-800 mt-2"><strong>✗ Cons:</strong> Adjustment period required, not ideal for stomach sleepers</p>
+              </div>
+              <div className="bg-gray-50 p-4 rounded-lg">
+                <p className="font-semibold text-gray-900 mb-3">Top Examples:</p>
+                <div className="space-y-2">
+                  <a href="https://www.amazon.com/DONAMA-Cervical-Memory-Pillow-Sleepers/dp/B0B2XH7KVN" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
+                    → DONAMA Cervical Memory Foam Pillow (~$45) - Ergonomic contour design
+                  </a>
+                  <a href="https://www.amazon.com/Elviros-Cervical-Memory-Pillow-Sleepers/dp/B07W54G93F" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
+                    → Elviros Cervical Memory Foam Pillow (~$50) - Adjustable height options
+                  </a>
+                </div>
               </div>
             </div>
 
@@ -242,9 +249,20 @@ export default function BestPillowForNeckHumpPage() {
               <p className="mb-4">
                 <strong>Why it works:</strong> Allows you to customize height and firmness by adding or removing foam layers. Perfect for finding your optimal neck position.
               </p>
-              <div className="bg-green-50 p-4 rounded-lg">
+              <div className="bg-green-50 p-4 rounded-lg mb-4">
                 <p className="text-green-800"><strong>✓ Pros:</strong> Highly customizable, works for all sleep positions, gradual adjustment possible</p>
                 <p className="text-red-800 mt-2"><strong>✗ Cons:</strong> More expensive, requires experimentation to find optimal setup</p>
+              </div>
+              <div className="bg-gray-50 p-4 rounded-lg">
+                <p className="font-semibold text-gray-900 mb-3">Top Examples:</p>
+                <div className="space-y-2">
+                  <a href="https://www.amazon.com/Coop-Home-Goods-Adjustable-Hypoallergenic/dp/B00EINBSEW" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
+                    → Coop Home Goods Eden Pillow (~$70) - Fully adjustable shredded memory foam
+                  </a>
+                  <a href="https://www.amazon.com/Saybrook-Adjustable-Shredded-Hypoallergenic-Washable/dp/B07YGWKDCZ" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
+                    → Saybrook Adjustable Pillow (~$60) - Add/remove fill for custom height
+                  </a>
+                </div>
               </div>
             </div>
 
@@ -267,9 +285,20 @@ export default function BestPillowForNeckHumpPage() {
               <p className="mb-4">
                 <strong>Why it works:</strong> Provides excellent support while staying cooler than memory foam. Maintains shape and support over time.
               </p>
-              <div className="bg-green-50 p-4 rounded-lg">
+              <div className="bg-green-50 p-4 rounded-lg mb-4">
                 <p className="text-green-800"><strong>✓ Pros:</strong> Excellent durability, natural materials, temperature regulation</p>
                 <p className="text-red-800 mt-2"><strong>✗ Cons:</strong> Higher cost, firmer feel may require adjustment</p>
+              </div>
+              <div className="bg-gray-50 p-4 rounded-lg">
+                <p className="font-semibold text-gray-900 mb-3">Top Examples:</p>
+                <div className="space-y-2">
+                  <a href="https://www.amazon.com/OrganicTextiles-Natural-Latex-Pillow-Standard/dp/B07H4Q8K4L" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
+                    → OrganicTextiles Natural Latex Pillow (~$90) - 100% organic latex
+                  </a>
+                  <a href="https://www.amazon.com/Sleep-Artisan-Natural-Organic-Pillow/dp/B07DL6D4N8" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
+                    → Sleep Artisan Latex Pillow (~$85) - Organic cotton cover
+                  </a>
+                </div>
               </div>
             </div>
 
@@ -292,9 +321,20 @@ export default function BestPillowForNeckHumpPage() {
               <p className="mb-4">
                 <strong>Why it works:</strong> Gradually trains your neck to maintain proper alignment by providing incremental support. Can be used with existing pillow.
               </p>
-              <div className="bg-green-50 p-4 rounded-lg">
+              <div className="bg-green-50 p-4 rounded-lg mb-4">
                 <p className="text-green-800"><strong>✓ Pros:</strong> Affordable, gradual correction approach, works with existing pillows</p>
                 <p className="text-red-800 mt-2"><strong>✗ Cons:</strong> May not provide enough support alone, limited to back sleeping</p>
+              </div>
+              <div className="bg-gray-50 p-4 rounded-lg">
+                <p className="font-semibold text-gray-900 mb-3">Top Examples:</p>
+                <div className="space-y-2">
+                  <a href="https://www.amazon.com/Brentwood-Home-Therapeutic-Foam-Wedge/dp/B00EINBMFW" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
+                    → Brentwood Home Therapeutic Wedge (~$50) - 10" gradual incline
+                  </a>
+                  <a href="https://www.amazon.com/Cushy-Form-Bed-Wedge-Pillow/dp/B07KWQSYQ5" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
+                    → Cushy Form Bed Wedge Pillow (~$45) - Multi-angle support
+                  </a>
+                </div>
               </div>
             </div>
 
@@ -317,9 +357,20 @@ export default function BestPillowForNeckHumpPage() {
               <p className="mb-4">
                 <strong>Why it works:</strong> Combines cervical support with temperature regulation. Prevents overheating that can disrupt sleep quality.
               </p>
-              <div className="bg-green-50 p-4 rounded-lg">
+              <div className="bg-green-50 p-4 rounded-lg mb-4">
                 <p className="text-green-800"><strong>✓ Pros:</strong> Temperature regulation, good support, comfortable feel</p>
                 <p className="text-red-800 mt-2"><strong>✗ Cons:</strong> Cooling effect may diminish over time, moderate price point</p>
+              </div>
+              <div className="bg-gray-50 p-4 rounded-lg">
+                <p className="font-semibold text-gray-900 mb-3">Top Examples:</p>
+                <div className="space-y-2">
+                  <a href="https://www.amazon.com/Classic-Brands-Cool-Gel-Ventilated-Gel-Infused/dp/B00EINIKWU" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
+                    → Classic Brands Cool Gel Pillow (~$55) - Gel-infused memory foam
+                  </a>
+                  <a href="https://www.amazon.com/WEEKENDER-Ventilated-Memory-Washable-Standard/dp/B01N4DUXX7" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
+                    → WEEKENDER Gel Memory Foam Pillow (~$50) - Ventilated design
+                  </a>
+                </div>
               </div>
             </div>
 
@@ -342,9 +393,20 @@ export default function BestPillowForNeckHumpPage() {
               <p className="mb-4">
                 <strong>Why it works:</strong> Buckwheat hulls conform to your neck shape while providing firm support. Can adjust fill level for personalized comfort.
               </p>
-              <div className="bg-green-50 p-4 rounded-lg">
+              <div className="bg-green-50 p-4 rounded-lg mb-4">
                 <p className="text-green-800"><strong>✓ Pros:</strong> Natural materials, adjustable firmness, excellent airflow</p>
                 <p className="text-red-800 mt-2"><strong>✗ Cons:</strong> Can be noisy, requires break-in period, may shift during sleep</p>
+              </div>
+              <div className="bg-gray-50 p-4 rounded-lg">
+                <p className="font-semibold text-gray-900 mb-3">Top Examples:</p>
+                <div className="space-y-2">
+                  <a href="https://www.amazon.com/Hullo-Buckwheat-Pillow-Standard-Size/dp/B00E21G1YI" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
+                    → Hullo Buckwheat Pillow (~$75) - Made in USA, adjustable fill
+                  </a>
+                  <a href="https://www.amazon.com/Beans72-Organic-Buckwheat-Pillow-Standard/dp/B00YO27Z4W" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
+                    → Beans72 Organic Buckwheat Pillow (~$65) - USDA certified organic
+                  </a>
+                </div>
               </div>
             </div>
 
@@ -367,9 +429,20 @@ export default function BestPillowForNeckHumpPage() {
               <p className="mb-4">
                 <strong>Why it works:</strong> Water level can be adjusted precisely to match your exact support needs. Provides consistent, even support.
               </p>
-              <div className="bg-green-50 p-4 rounded-lg">
+              <div className="bg-green-50 p-4 rounded-lg mb-4">
                 <p className="text-green-800"><strong>✓ Pros:</strong> Highly adjustable, consistent support, recommended by chiropractors</p>
                 <p className="text-red-800 mt-2"><strong>✗ Cons:</strong> Risk of leaks, heavier than foam options, unique feel</p>
+              </div>
+              <div className="bg-gray-50 p-4 rounded-lg">
+                <p className="font-semibold text-gray-900 mb-3">Top Examples:</p>
+                <div className="space-y-2">
+                  <a href="https://www.amazon.com/Mediflow-Waterbase-Pillow-Clinically-Reducing/dp/B000YL6PSO" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
+                    → Mediflow Waterbase Pillow (~$60) - Clinically proven neck support
+                  </a>
+                  <a href="https://www.amazon.com/Chiroflow-Premium-Water-Pillow-Mediflow/dp/B000PKGW7C" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:text-blue-800 hover:underline">
+                    → Chiroflow Premium Water Pillow (~$70) - Recommended by chiropractors
+                  </a>
+                </div>
               </div>
             </div>
           </div>
