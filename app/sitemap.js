@@ -335,5 +335,78 @@ export default function sitemap() {
       changeFrequency: 'monthly',
       priority: 0.6,
     },
+    // New help center articles
+    {
+      url: `${baseUrl}/help/exercises-safety/exercises-safe-during-pregnancy`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/help/exercises-safety/neck-exercises-with-arthritis`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/help/exercises-safety/forward-head-posture-after-whiplash`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/help/exercises-safety/forward-head-posture-with-arthritis`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/help/exercises-safety/neck-exercises-after-whiplash`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/help/timeline-questions/when-to-increase-exercise-difficulty`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/help/timeline-questions/realistic-timeline-severe-neck-hump`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/help/timeline-questions/how-often-should-i-do-exercises`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/help/specific-situations/posture-exercises-for-seniors`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/help/product-questions/pillow-height-for-side-sleepers`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/help/product-questions/budget-pillow-alternatives`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/help/product-questions/foam-roller-size-guide`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
   ]
 }
