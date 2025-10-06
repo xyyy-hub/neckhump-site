@@ -1,8 +1,9 @@
 import Link from 'next/link'
+import PeopleAlsoAsk from '../../components/PeopleAlsoAsk'
 
 export const metadata = {
   title: 'Military Neck (Loss of Cervical Lordosis): Causes, Symptoms & Treatment',
-  description: 'Learn about military neck (straight neck syndrome), loss of cervical lordosis, causes from poor posture and trauma. Evidence-based treatment guide.',
+  description: 'What is military neck? Loss of cervical lordosis where the natural C-shaped curve of the neck straightens or reverses, creating a rigid, upright posture. Caused by forward head posture, trauma, or degenerative changes. Symptoms include neck stiffness, chronic pain, and reduced range of motion. Treatment: chin tucks, strengthening exercises, and postural correction.',
   keywords: ['military neck', 'cervical lordosis', 'straight neck syndrome', 'loss of cervical curve', 'neck straightening', 'cervical kyphosis'],
   alternates: {
     canonical: 'https://www.neckhump.com/military-neck-cervical-lordosis',
@@ -34,6 +35,33 @@ export default function MilitaryNeckPage() {
           <span>Medical guide</span>
         </div>
       </header>
+
+      {/* AEO Optimization Blocks */}
+      <section className="mb-12">
+        {/* 1. Short Answer Block */}
+        <div className="bg-emerald-50 border-l-4 border-emerald-400 p-6 mb-8 rounded-lg">
+          <h2 className="text-xl font-semibold mb-4 text-emerald-900" id="short-answer">
+            Short Answer
+          </h2>
+          <p className="text-emerald-800 text-lg leading-relaxed">
+            What is military neck? Loss of cervical lordosis where the natural C-shaped curve of the neck straightens or reverses, creating a rigid, upright posture. Caused by forward head posture, trauma, or degenerative changes. Symptoms include neck stiffness, chronic pain, and reduced range of motion. Treatment: chin tucks, strengthening exercises, and postural correction.
+          </p>
+        </div>
+
+        {/* 2. Key Takeaways Block */}
+        <div className="bg-blue-50 border-l-4 border-blue-400 p-6 mb-8 rounded-lg">
+          <h2 className="text-xl font-semibold mb-4 text-blue-900" id="key-takeaways">
+            Key Takeaways
+          </h2>
+          <ul className="text-blue-800 space-y-2">
+            <li>• <strong>Definition:</strong> Loss of natural cervical curve (20-40 degrees) creating straight neck</li>
+            <li>• <strong>Primary causes:</strong> Forward head posture, whiplash injury, degenerative changes</li>
+            <li>• <strong>Common symptoms:</strong> Neck stiffness, chronic pain, headaches, reduced mobility</li>
+            <li>• <strong>Treatment approach:</strong> Physical therapy, strengthening exercises, postural training</li>
+            <li>• <strong>Recovery timeline:</strong> 2-4 weeks for pain reduction, 3-6 months for structural improvement</li>
+          </ul>
+        </div>
+      </section>
 
       <div className="article-content">
         <p className="text-lg text-gray-700 mb-6">
@@ -389,6 +417,35 @@ export default function MilitaryNeckPage() {
             </Link>
           </div>
         </div>
+
+        {/* People Also Ask Section */}
+        <PeopleAlsoAsk questions={[
+          {
+            question: "What is military neck and how is it different from normal neck posture?",
+            answer: "Military neck is loss of cervical lordosis where the natural C-shaped curve (20-40 degrees) straightens or reverses, creating a rigid, upright posture. Normal neck has a gentle inward curve that distributes weight, absorbs shock, and protects nerves. Military neck reduces shock absorption and increases nerve compression risk.",
+            link: "/help/symptom-questions/military-neck-vs-normal-neck"
+          },
+          {
+            question: "What causes military neck?",
+            answer: "Primary causes include forward head posture from computer/smartphone use, whiplash injuries from car accidents or sports, degenerative changes from aging, and muscle imbalances. Forward head posture is the most common cause, creating muscle imbalances that gradually straighten the cervical curve.",
+            link: "/help/cause-questions/military-neck-causes"
+          },
+          {
+            question: "Can military neck be reversed?",
+            answer: "Yes, military neck can often be reversed with proper treatment. Early intervention has the best results - 2-4 weeks for pain reduction, 3-6 months for structural improvement. Treatment includes chin tucks, strengthening exercises, postural training, and ergonomic modifications.",
+            link: "/help/timeline-questions/military-neck-reversal"
+          },
+          {
+            question: "What exercises help fix military neck?",
+            answer: "Chin tucks (10 reps, hold 5 seconds), neck retractions, deep neck flexor strengthening, and upper trap stretches are most effective. Do these 3 times daily. For strengthening, add supine head lifts and cervical extension exercises. Focus on restoring the natural curve through consistent practice.",
+            link: "/neck-hump-exercises"
+          },
+          {
+            question: "How long does it take to recover from military neck?",
+            answer: "Recovery timeline varies: Week 1-2 for pain reduction and initial mobility, Week 3-6 for strength gains and postural awareness, Week 7-12 for functional improvements, 3-6 months for structural adaptations and curve improvement, 6+ months for long-term maintenance.",
+            link: "/help/timeline-questions/military-neck-recovery-time"
+          }
+        ]} />
       </div>
 
       {/* Schema markup */}

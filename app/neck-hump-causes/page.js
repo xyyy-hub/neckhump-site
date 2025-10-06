@@ -1,9 +1,10 @@
 import Link from 'next/link'
 import Breadcrumbs from '../../components/Breadcrumbs'
+import PeopleAlsoAsk from '../../components/PeopleAlsoAsk'
 
 export const metadata = {
   title: 'Neck Hump Causes: Why You Have Forward Head Posture',
-  description: 'Learn what causes neck hump (forward head posture), how to prevent it, and proven exercises to fix it. Complete guide for desk workers and gamers.',
+  description: 'What causes neck hump? Forward head posture from prolonged computer/smartphone use (66% of people), muscle imbalances (tight upper traps, weak deep neck flexors), poor sleep positions, and age-related changes. Every inch head moves forward adds 10 pounds of neck stress. Treatment: chin tucks, ergonomic setup, and strengthening exercises.',
   keywords: ['neck hump', 'forward head posture', 'tech neck', 'dowagers hump', 'neck exercises', 'cervical lordosis'],
   alternates: {
     canonical: 'https://www.neckhump.com/neck-hump-causes',
@@ -37,6 +38,33 @@ export default function NeckHumpPage() {
           <span>Evidence-based guide</span>
         </div>
       </header>
+
+      {/* AEO Optimization Blocks */}
+      <section className="mb-12">
+        {/* 1. Short Answer Block */}
+        <div className="bg-emerald-50 border-l-4 border-emerald-400 p-6 mb-8 rounded-lg">
+          <h2 className="text-xl font-semibold mb-4 text-emerald-900" id="short-answer">
+            Short Answer
+          </h2>
+          <p className="text-emerald-800 text-lg leading-relaxed">
+            What causes neck hump? Forward head posture from prolonged computer/smartphone use (66% of people), muscle imbalances (tight upper traps, weak deep neck flexors), poor sleep positions, and age-related changes. Every inch head moves forward adds 10 pounds of neck stress. Treatment: chin tucks, ergonomic setup, and strengthening exercises.
+          </p>
+        </div>
+
+        {/* 2. Key Takeaways Block */}
+        <div className="bg-blue-50 border-l-4 border-blue-400 p-6 mb-8 rounded-lg">
+          <h2 className="text-xl font-semibold mb-4 text-blue-900" id="key-takeaways">
+            Key Takeaways
+          </h2>
+          <ul className="text-blue-800 space-y-2">
+            <li>• <strong>Primary cause:</strong> Prolonged computer/smartphone use creates forward head posture</li>
+            <li>• <strong>Muscle imbalances:</strong> Tight upper traps and weak deep neck flexors</li>
+            <li>• <strong>Sleep position matters:</strong> Too many pillows push head forward</li>
+            <li>• <strong>Progressive condition:</strong> Gets worse without intervention</li>
+            <li>• <strong>Treatable:</strong> 80-90% improvement with proper exercises and ergonomics</li>
+          </ul>
+        </div>
+      </section>
 
       <div className="article-content">
         <p className="text-lg text-gray-700 mb-6">
@@ -289,6 +317,35 @@ export default function NeckHumpPage() {
             </Link>
           </div>
         </div>
+
+        {/* People Also Ask Section */}
+        <PeopleAlsoAsk questions={[
+          {
+            question: "What are the main causes of neck hump?",
+            answer: "The main causes are prolonged computer/smartphone use (66% of people), muscle imbalances from poor posture, sleep positions with too many pillows, and age-related changes. Forward head posture from looking down at devices is the most common cause, creating muscle imbalances that worsen over time.",
+            link: "/help/cause-questions/neck-hump-main-causes"
+          },
+          {
+            question: "Can neck hump be reversed?",
+            answer: "Yes, neck hump can often be reversed with proper treatment. 80-90% of people see significant improvement with exercises like chin tucks, ergonomic workspace setup, and strengthening weak muscles. Early intervention has the best results, but even chronic cases can improve with consistent treatment.",
+            link: "/help/timeline-questions/neck-hump-reversal-time"
+          },
+          {
+            question: "How long does it take to fix neck hump?",
+            answer: "Most people see initial improvement in 2-4 weeks with consistent daily practice. Significant posture changes typically take 3-6 months. The key is consistency - 5 minutes daily beats 30 minutes once a week. Early intervention leads to faster recovery.",
+            link: "/help/timeline-questions/neck-hump-fix-time"
+          },
+          {
+            question: "What exercises help fix neck hump?",
+            answer: "Chin tucks (10 reps, hold 5 seconds), neck retractions, shoulder blade squeezes, and upper trap stretches are most effective. Do these every 30 minutes during device use. For strengthening, add supine head lifts and wall angels to your daily routine.",
+            link: "/neck-hump-exercises"
+          },
+          {
+            question: "Is neck hump the same as dowager's hump?",
+            answer: "No, they're different conditions. Neck hump (forward head posture) is primarily postural and affects the cervical spine. Dowager's hump (kyphosis) affects the thoracic spine and is often related to osteoporosis. Both can occur together and have similar treatment approaches.",
+            link: "/help/symptom-questions/neck-hump-vs-dowagers-hump"
+          }
+        ]} />
       </div>
 
       {/* Schema markup */}

@@ -1,8 +1,9 @@
 import Link from 'next/link'
+import PeopleAlsoAsk from '../../components/PeopleAlsoAsk'
 
 export const metadata = {
   title: 'Buffalo Hump vs Neck Hump: Differences, Causes & Treatment Guide',
-  description: 'Learn the key differences between buffalo hump and neck hump. Understand causes, medical conditions, and treatment options for both conditions.',
+  description: 'What\'s the difference between buffalo hump and neck hump? Buffalo hump is fat accumulation from medical conditions, while neck hump is forward head posture from muscle imbalances. Learn how to identify which condition you have and the right treatment approach.',
   keywords: ['buffalo hump', 'neck hump difference', 'dowagers hump', 'cervical kyphosis', 'cushing syndrome', 'lipodystrophy'],
   alternates: {
     canonical: 'https://www.neckhump.com/buffalo-hump-vs-neck-hump',
@@ -25,6 +26,26 @@ export default function BuffaloHumpPage() {
           While often confused, buffalo hump and neck hump are distinct conditions with different 
           causes and treatments. Learn how to identify which condition you have and the best approach for each.
         </p>
+
+        {/* AEO Short Answer Block */}
+        <div className="bg-emerald-50 border-l-4 border-emerald-400 p-6 mb-6">
+          <h2 className="text-lg font-semibold text-emerald-900 mb-3">What's the difference between buffalo hump and neck hump?</h2>
+          <p className="text-emerald-800">
+            Buffalo hump is a medical condition caused by fat accumulation at the base of the neck (C7-T1) due to hormonal imbalances or medications, while neck hump is a postural condition where the head sits forward of the shoulders due to muscle imbalances and poor posture habits.
+          </p>
+        </div>
+
+        {/* AEO Key Takeaways Block */}
+        <div className="bg-blue-50 border-l-4 border-blue-400 p-6 mb-8">
+          <h3 className="text-lg font-semibold text-blue-900 mb-4">Key Takeaways</h3>
+          <ul className="space-y-2 text-blue-800">
+            <li>• <strong>Location matters:</strong> Buffalo hump is at the base of neck/shoulders, neck hump is upper neck area</li>
+            <li>• <strong>Cause determines treatment:</strong> Buffalo hump needs medical intervention, neck hump responds to exercises</li>
+            <li>• <strong>Onset speed:</strong> Buffalo hump can develop rapidly (weeks), neck hump develops gradually (months/years)</li>
+            <li>• <strong>Reversibility:</strong> Buffalo hump may be permanent, neck hump is highly correctable</li>
+            <li>• <strong>Medical urgency:</strong> Buffalo hump often indicates underlying health issues requiring medical attention</li>
+          </ul>
+        </div>
         <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-700">
           <span>Last updated: December 2024</span>
           <span>•</span>
@@ -324,6 +345,32 @@ export default function BuffaloHumpPage() {
           </div>
         </div>
       </div>
+
+      {/* People Also Ask Section */}
+      <PeopleAlsoAsk 
+        questions={[
+          {
+            question: "How can I tell if I have buffalo hump or neck hump?",
+            answer: "Buffalo hump is soft, fatty tissue at the base of your neck/shoulders that doesn't improve with posture correction. Neck hump is a forward head position that improves when you pull your head back. Buffalo hump often comes with weight gain and medical symptoms."
+          },
+          {
+            question: "Can buffalo hump be reversed with exercise?",
+            answer: "Buffalo hump typically cannot be reversed with exercise alone since it's caused by fat accumulation from medical conditions or medications. Treatment requires addressing the underlying cause (hormonal imbalances, medication adjustments) rather than just exercise."
+          },
+          {
+            question: "Is neck hump always fixable?",
+            answer: "Neck hump (forward head posture) is highly correctable in most cases, especially when caught early. With proper exercises, ergonomic improvements, and postural awareness, most people see significant improvement within 6-12 weeks."
+          },
+          {
+            question: "What causes buffalo hump to develop?",
+            answer: "Buffalo hump is primarily caused by Cushing's syndrome (excess cortisol), long-term corticosteroid use, HIV medications, or other medical conditions that cause fat redistribution. It's not caused by poor posture or lifestyle factors."
+          },
+          {
+            question: "When should I see a doctor for a neck hump?",
+            answer: "See a doctor if your hump developed rapidly (weeks), is accompanied by weight gain or other symptoms, or if you're over 50 with new spinal curvature. For gradual-onset postural issues, try conservative treatment first but consult a doctor if no improvement after 6-8 weeks."
+          }
+        ]}
+      />
 
       {/* Schema markup */}
       <script

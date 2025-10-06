@@ -1,8 +1,9 @@
 import { Metadata } from 'next'
+import PeopleAlsoAsk from '../../components/PeopleAlsoAsk'
 
 export const metadata = {
   title: 'Dowager\'s Hump vs Neck Hump: Key Differences & Treatment Options',
-  description: 'Learn the crucial differences between dowager\'s hump and neck hump. Understand causes, symptoms, and which treatments work best for each condition.',
+  description: 'What\'s the difference between dowager\'s hump and neck hump? Dowager\'s hump is structural spinal curvature in the upper back, while neck hump is forward head posture. Learn how to identify which condition you have and the right treatment approach for each.',
   keywords: ['dowagers hump vs neck hump', 'dowager hump', 'kyphosis vs forward head posture', 'hump on back of neck', 'cervical kyphosis', 'thoracic kyphosis'],
   alternates: {
     canonical: 'https://www.neckhump.com/dowagers-hump-vs-neck-hump',
@@ -64,10 +65,24 @@ export default function DowagersHumpVsNeckHumpPage() {
             Dowager's Hump vs Neck Hump: Key Differences & Treatment Options
           </h1>
           
-          <div className="bg-amber-50 border-l-4 border-amber-400 p-6 mb-8">
-            <p className="text-lg text-amber-800 font-medium">
-              <strong>Quick Answer:</strong> Dowager's hump occurs in the upper back (thoracic spine) and involves actual bone curvature, while neck hump is a forward head posture issue affecting the cervical spine. Location, causes, and treatments differ significantly between these conditions.
+          {/* AEO Short Answer Block */}
+          <div className="bg-emerald-50 border-l-4 border-emerald-400 p-6 mb-6">
+            <h2 className="text-lg font-semibold text-emerald-900 mb-3">What's the difference between dowager's hump and neck hump?</h2>
+            <p className="text-emerald-800">
+              Dowager's hump is a structural spinal condition in the upper back (thoracic spine) involving bone curvature, while neck hump is a postural condition where the head sits forward of the shoulders. Dowager's hump requires medical management, while neck hump responds well to exercises and ergonomic changes.
             </p>
+          </div>
+
+          {/* AEO Key Takeaways Block */}
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-6 mb-8">
+            <h3 className="text-lg font-semibold text-blue-900 mb-4">Key Takeaways</h3>
+            <ul className="space-y-2 text-blue-800">
+              <li>• <strong>Location difference:</strong> Dowager's hump is in upper back (T1-T12), neck hump is at base of neck (C7-T1)</li>
+              <li>• <strong>Structural vs postural:</strong> Dowager's hump involves bone changes, neck hump is muscle imbalance</li>
+              <li>• <strong>Age factors:</strong> Dowager's hump typically affects 50+, neck hump can occur at any age</li>
+              <li>• <strong>Reversibility:</strong> Dowager's hump has limited reversal, neck hump is highly correctable</li>
+              <li>• <strong>Treatment approach:</strong> Dowager's hump needs medical management, neck hump responds to exercise therapy</li>
+            </ul>
           </div>
 
           <div className="text-gray-600 mb-8">
@@ -676,6 +691,32 @@ export default function DowagersHumpVsNeckHumpPage() {
           </p>
         </div>
       </article>
+
+      {/* People Also Ask Section */}
+      <PeopleAlsoAsk 
+        questions={[
+          {
+            question: "Can dowager's hump be reversed with exercise?",
+            answer: "True dowager's hump involving structural spinal changes typically cannot be fully reversed with exercise alone. However, exercises can help manage symptoms, improve posture within structural limitations, and prevent further progression. The goal is stabilization rather than reversal."
+          },
+          {
+            question: "How can I tell if I have dowager's hump or neck hump?",
+            answer: "Dowager's hump is in the upper back area (around bra line level) and appears structural/fixed even when trying to stand straight. Neck hump is at the base of the neck, improves when you pull your head back, and is more about head position than back curvature."
+          },
+          {
+            question: "Is neck hump always fixable?",
+            answer: "Neck hump (forward head posture) is highly correctable in most cases, especially when caught early. With proper exercises, ergonomic improvements, and postural awareness, most people see significant improvement within 6-12 weeks and can achieve near-complete correction."
+          },
+          {
+            question: "What causes dowager's hump to develop?",
+            answer: "Dowager's hump is primarily caused by osteoporosis (weakened bones leading to compression fractures), aging-related disc degeneration, genetic factors, hormonal changes (especially in postmenopausal women), and chronic diseases affecting bone health."
+          },
+          {
+            question: "When should I see a doctor for a spinal hump?",
+            answer: "See a doctor immediately if you have sudden onset, severe pain, neurological symptoms, or breathing difficulties. Schedule evaluation if you're over 50 with new curvature, have osteoporosis risk factors, or no improvement after 6-8 weeks of conservative treatment."
+          }
+        ]}
+      />
     </div>
   )
 }

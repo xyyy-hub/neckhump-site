@@ -1,8 +1,9 @@
 import { Metadata } from 'next'
+import PeopleAlsoAsk from '../../components/PeopleAlsoAsk'
 
 export const metadata = {
   title: 'Neck Hump Surgery: When Surgery is Needed & What to Expect (2024)',
-  description: 'Complete guide to neck hump surgery options, costs, recovery, and alternatives. Learn when surgical intervention is necessary and what non-surgical options work.',
+  description: 'When is neck hump surgery needed? Surgery is rarely necessary - only for severe structural deformities (>45 degrees), neurological symptoms, or failed conservative treatment after 6-12 months. 85-90% of cases improve with exercise, ergonomics, and physical therapy. Surgery costs $35,000-$190,000.',
   keywords: ['neck hump surgery', 'dowager hump surgery', 'cervical kyphosis surgery', 'neck hump removal', 'forward head posture surgery', 'neck hump operation'],
   alternates: {
     canonical: 'https://www.neckhump.com/neck-hump-surgery-guide',
@@ -75,6 +76,33 @@ export default function NeckHumpSurgeryGuidePage() {
             <p>Last updated: January 15, 2024 | 20 min read</p>
           </div>
         </header>
+
+        {/* AEO Optimization Blocks */}
+        <section className="mb-12">
+          {/* 1. Short Answer Block */}
+          <div className="bg-emerald-50 border-l-4 border-emerald-400 p-6 mb-8 rounded-lg">
+            <h2 className="text-xl font-semibold mb-4 text-emerald-900" id="short-answer">
+              Short Answer
+            </h2>
+            <p className="text-emerald-800 text-lg leading-relaxed">
+              When is neck hump surgery needed? Surgery is rarely necessary - only for severe structural deformities (>45 degrees), neurological symptoms, or failed conservative treatment after 6-12 months. 85-90% of cases improve with exercise, ergonomics, and physical therapy. Surgery costs $35,000-$190,000 and has 60-85% success rates.
+            </p>
+          </div>
+
+          {/* 2. Key Takeaways Block */}
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-6 mb-8 rounded-lg">
+            <h2 className="text-xl font-semibold mb-4 text-blue-900" id="key-takeaways">
+              Key Takeaways
+            </h2>
+            <ul className="text-blue-800 space-y-2">
+              <li>• <strong>Surgery is last resort:</strong> 85-90% of cases improve with conservative treatment</li>
+              <li>• <strong>Criteria for surgery:</strong> Severe deformity (>45°), neurological symptoms, failed conservative treatment</li>
+              <li>• <strong>Cost range:</strong> $35,000-$190,000 depending on procedure complexity</li>
+              <li>• <strong>Success rates:</strong> 60-85% for symptom relief and functional improvement</li>
+              <li>• <strong>Recovery time:</strong> 6-12 months for full recovery with significant restrictions</li>
+            </ul>
+          </div>
+        </section>
 
         <div className="mb-12">
           <h2>The Truth About Neck Hump Surgery</h2>
@@ -1142,6 +1170,35 @@ export default function NeckHumpSurgeryGuidePage() {
             and all surgery carries inherent risks. Always obtain multiple medical opinions before proceeding with any surgical intervention.
           </p>
         </div>
+
+        {/* People Also Ask Section */}
+        <PeopleAlsoAsk questions={[
+          {
+            question: "How do I know if I need surgery for my neck hump?",
+            answer: "Surgery is typically only necessary if you have severe structural deformity (>45 degrees on X-ray), neurological symptoms, or significant functional impairment that hasn't improved with 6-12 months of conservative treatment. Most neck humps are postural and don't require surgery.",
+            link: "/help/symptom-questions/neck-hump-surgery-criteria"
+          },
+          {
+            question: "Can surgery completely fix my neck hump?",
+            answer: "Surgery can improve structural deformities and relieve symptoms, but rarely achieves perfect correction. Expect 50-80% improvement in deformity and 70-90% improvement in symptoms if you're a good surgical candidate. Perfect cosmetic results are uncommon.",
+            link: "/help/timeline-questions/neck-hump-surgery-results"
+          },
+          {
+            question: "What's the success rate of neck hump surgery?",
+            answer: "Success rates vary by procedure and condition. Single-level ACDF has 85-95% success rates for appropriate candidates. Complex deformity corrections have 60-80% success rates. Success is measured by symptom relief and functional improvement, not just cosmetic appearance.",
+            link: "/help/timeline-questions/neck-hump-surgery-success-rates"
+          },
+          {
+            question: "How long is the recovery from neck hump surgery?",
+            answer: "Initial recovery takes 6-12 weeks, but full recovery can take 6-12 months. Expect significant activity restrictions for the first 6 weeks, gradual return to normal activities by 3 months, and maximum improvement by 12 months.",
+            link: "/help/timeline-questions/neck-hump-surgery-recovery-time"
+          },
+          {
+            question: "Will my insurance cover neck hump surgery?",
+            answer: "Insurance typically covers surgery for structural deformities with neurological symptoms or significant functional impairment, but not for purely cosmetic concerns. Pre-authorization is usually required, and you'll need documentation of failed conservative treatment.",
+            link: "/help/product-questions/neck-hump-surgery-insurance"
+          }
+        ]} />
       </article>
     </div>
   )
