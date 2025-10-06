@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
-import Breadcrumbs from '../../components/Breadcrumbs'
+import Breadcrumbs from '../../../components/Breadcrumbs'
 
 export const metadata = {
   title: 'Exercises & Safety: Neck Hump Exercises with Medical Conditions',

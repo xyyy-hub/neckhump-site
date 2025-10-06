@@ -13,6 +13,7 @@ export default function Header() {
   const navLinks = [
     { href: "/neck-hump-guide", label: "Complete Guide", text: "Complete Guide" },
     { href: "/neck-hump-exercises", label: "Exercises", text: "Exercise Library" },
+    { href: "/help", label: "Help Center", text: "Help Center" },
     { href: "/posture-exercises", label: "Office Breaks", text: "Quick Routine" },
     { href: "/neck-hump-causes", label: "Understanding", text: "Causes & Info" },
     { href: "/best-pillow-for-neck-hump", label: "Products", text: "Best Pillows" },

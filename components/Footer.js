@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white py-12 mt-16">
       <div className="max-w-6xl mx-auto px-4">
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-4 gap-8">
           <div>
             <h3 className="text-xl font-bold mb-4">NeckHump.com</h3>
             <p className="text-gray-300 mb-4">
@@ -43,6 +43,52 @@ export default function Footer() {
               <li>
                 <Link href="/how-to-fix-posture-at-home" className="hover:text-white transition-colors">
                   Comprehensive Guide
+                </Link>
+              </li>
+              <li>
+                <Link href="/help" className="hover:text-white transition-colors">
+                  Help Center
+                </Link>
+              </li>
+              <li>
+                <Link href="/learn" className="hover:text-white transition-colors">
+                  Learning Hub
+                </Link>
+              </li>
+              <li>
+                <Link href="/solutions" className="hover:text-white transition-colors">
+                  Treatment Solutions
+                </Link>
+              </li>
+            </ul>
+          </div>
+          
+          <div>
+            <h4 className="font-semibold mb-4">Exercise Library</h4>
+            <ul className="space-y-2 text-gray-300">
+              <li>
+                <Link href="/exercises/chin-tucks" className="hover:text-white transition-colors">
+                  Chin Tucks
+                </Link>
+              </li>
+              <li>
+                <Link href="/exercises/wall-angels" className="hover:text-white transition-colors">
+                  Wall Angels
+                </Link>
+              </li>
+              <li>
+                <Link href="/exercises/doorway-pec-stretch" className="hover:text-white transition-colors">
+                  Doorway Stretch
+                </Link>
+              </li>
+              <li>
+                <Link href="/exercises/upper-back-foam-rolling" className="hover:text-white transition-colors">
+                  Foam Rolling
+                </Link>
+              </li>
+              <li>
+                <Link href="/exercises/y-t-w-raises" className="hover:text-white transition-colors">
+                  Y-T-W Raises
                 </Link>
               </li>
             </ul>

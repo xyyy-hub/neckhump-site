@@ -149,6 +149,97 @@ export default function HomePage() {
         </div>
       </header>
 
+      {/* Additional Resources Navigation */}
+      <div className="bg-white border border-gray-200 p-4 sm:p-6 rounded-lg mx-4 mb-8">
+        <h2 className="text-lg font-semibold text-gray-900 mb-4 text-center">
+          More Resources & Help
+        </h2>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <Link href="/help" className="block p-4 bg-blue-50 rounded border border-blue-200 hover:border-blue-400 transition-colors group">
+            <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-600">Help Center</h3>
+            <p className="text-sm text-gray-600">Get specific answers to your questions</p>
+          </Link>
+          <Link href="/learn" className="block p-4 bg-white rounded border border-gray-200 hover:border-blue-400 transition-colors group">
+            <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-600">Learn</h3>
+            <p className="text-sm text-gray-600">Educational content about neck hump</p>
+          </Link>
+          <Link href="/solutions" className="block p-4 bg-white rounded border border-gray-200 hover:border-blue-400 transition-colors group">
+            <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-600">Solutions</h3>
+            <p className="text-sm text-gray-600">Complete treatment approaches</p>
+          </Link>
+          <Link href="/how-to-fix-posture-at-home" className="block p-4 bg-white rounded border border-gray-200 hover:border-blue-400 transition-colors group">
+            <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-600">Fix Posture at Home</h3>
+            <p className="text-sm text-gray-600">Complete home treatment plan</p>
+          </Link>
+          <Link href="/posture-exercises" className="block p-4 bg-white rounded border border-gray-200 hover:border-blue-400 transition-colors group">
+            <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-600">Posture Exercises</h3>
+            <p className="text-sm text-gray-600">Office-friendly exercise routines</p>
+          </Link>
+          <Link href="/desk-setup-guide" className="block p-4 bg-white rounded border border-gray-200 hover:border-blue-400 transition-colors group">
+            <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-600">Desk Setup Guide</h3>
+            <p className="text-sm text-gray-600">Ergonomic workspace setup</p>
+          </Link>
+        </div>
+      </div>
+
+      {/* Exercise Library Navigation */}
+      <div className="bg-white border border-gray-200 p-4 sm:p-6 rounded-lg mx-4 mb-8">
+        <h2 className="text-lg font-semibold text-gray-900 mb-4 text-center">
+          Individual Exercise Guides
+        </h2>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <Link href="/exercises/chin-tucks" className="block p-4 bg-white rounded border border-gray-200 hover:border-blue-400 transition-colors group">
+            <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-600">Chin Tucks</h3>
+            <p className="text-sm text-gray-600">Foundation neck exercise</p>
+          </Link>
+          <Link href="/exercises/wall-angels" className="block p-4 bg-white rounded border border-gray-200 hover:border-blue-400 transition-colors group">
+            <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-600">Wall Angels</h3>
+            <p className="text-sm text-gray-600">Upper back strengthening</p>
+          </Link>
+          <Link href="/exercises/doorway-pec-stretch" className="block p-4 bg-white rounded border border-gray-200 hover:border-blue-400 transition-colors group">
+            <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-600">Doorway Stretch</h3>
+            <p className="text-sm text-gray-600">Chest muscle release</p>
+          </Link>
+          <Link href="/exercises/upper-back-foam-rolling" className="block p-4 bg-white rounded border border-gray-200 hover:border-blue-400 transition-colors group">
+            <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-600">Foam Rolling</h3>
+            <p className="text-sm text-gray-600">Upper back mobility</p>
+          </Link>
+          <Link href="/exercises/y-t-w-raises" className="block p-4 bg-white rounded border border-gray-200 hover:border-blue-400 transition-colors group">
+            <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-600">Y-T-W Raises</h3>
+            <p className="text-sm text-gray-600">Shoulder blade strengthening</p>
+          </Link>
+        </div>
+      </div>
+
+      {/* Comparison & Medical Pages */}
+      <div className="bg-white border border-gray-200 p-4 sm:p-6 rounded-lg mx-4 mb-8">
+        <h2 className="text-lg font-semibold text-gray-900 mb-4 text-center">
+          Understanding Different Conditions
+        </h2>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <Link href="/dowagers-hump-vs-neck-hump" className="block p-4 bg-white rounded border border-gray-200 hover:border-blue-400 transition-colors group">
+            <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-600">Dowager's vs Neck Hump</h3>
+            <p className="text-sm text-gray-600">Understanding the differences</p>
+          </Link>
+          <Link href="/buffalo-hump-vs-neck-hump" className="block p-4 bg-white rounded border border-gray-200 hover:border-blue-400 transition-colors group">
+            <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-600">Buffalo vs Neck Hump</h3>
+            <p className="text-sm text-gray-600">Condition comparison</p>
+          </Link>
+          <Link href="/military-neck-cervical-lordosis" className="block p-4 bg-white rounded border border-gray-200 hover:border-blue-400 transition-colors group">
+            <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-600">Military Neck</h3>
+            <p className="text-sm text-gray-600">Cervical lordosis information</p>
+          </Link>
+          <Link href="/text-neck-syndrome" className="block p-4 bg-white rounded border border-gray-200 hover:border-blue-400 transition-colors group">
+            <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-600">Text Neck Syndrome</h3>
+            <p className="text-sm text-gray-600">Smartphone-related posture</p>
+          </Link>
+          <Link href="/neck-hump-surgery-guide" className="block p-4 bg-white rounded border border-gray-200 hover:border-blue-400 transition-colors group">
+            <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-600">Surgery Guide</h3>
+            <p className="text-sm text-gray-600">When surgery is considered</p>
+          </Link>
+        </div>
+      </div>
+
       {/* AEO Optimization Blocks */}
       <section className="mb-16 mx-4">
         <div className="bg-emerald-50 border-l-4 border-emerald-400 p-6 mb-8 rounded-lg">

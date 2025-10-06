@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import HelpArticle from '../../../components/HelpArticle'
+import HelpArticle from '../../../../components/HelpArticle'
 
 export const metadata = {
   title: 'Can I Do Chin Tucks with Herniated Disc? Safety Guide',
