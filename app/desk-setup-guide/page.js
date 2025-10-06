@@ -1,8 +1,9 @@
 import Link from 'next/link'
+import PeopleAlsoAsk from '../../components/PeopleAlsoAsk'
 
 export const metadata = {
   title: 'Perfect Desk Setup Guide: Ergonomic Workspace for Better Posture',
-  description: 'Learn how to set up your desk ergonomically to prevent neck pain, back pain, and improve posture. Complete guide for remote workers and gamers.',
+  description: 'How to set up desk ergonomically? Position monitor top at eye level, keep elbows at 90°, feet flat on floor, back against chair support. Use 20-20-20 rule for breaks. Prevents 54% of work-related musculoskeletal disorders.',
   keywords: ['desk setup', 'ergonomic workspace', 'desk ergonomics', 'monitor height', 'office ergonomics', 'workstation setup'],
   alternates: {
     canonical: 'https://www.neckhump.com/desk-setup-guide',
@@ -33,6 +34,48 @@ export default function DeskSetupPage() {
           <span>Practical guide</span>
         </div>
       </header>
+
+      {/* AEO Optimization Blocks */}
+      <section className="mb-12">
+        {/* 1. Short Answer Block */}
+        <div className="bg-emerald-50 border-l-4 border-emerald-400 p-6 mb-8 rounded-lg">
+          <h2 className="text-xl font-semibold mb-4 text-emerald-900" id="short-answer">
+            Short Answer
+          </h2>
+          <p className="text-emerald-800 text-lg leading-relaxed">
+            How to set up desk ergonomically? Position monitor top at eye level, keep elbows at 90°, feet flat on floor, back against chair support. Use 20-20-20 rule (every 20 minutes, look 20 feet away for 20 seconds). Prevents 54% of work-related musculoskeletal disorders.
+          </p>
+        </div>
+
+        {/* 2. Key Takeaways Block */}
+        <div className="bg-blue-50 border-l-4 border-blue-400 p-6 mb-8 rounded-lg">
+          <h2 className="text-xl font-semibold mb-4 text-blue-900" id="key-takeaways">
+            Key Takeaways
+          </h2>
+          <ul className="space-y-3 text-blue-800">
+            <li className="flex items-start">
+              <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-0.5">1</span>
+              <span><strong>Monitor height is critical:</strong> Top of screen at eye level prevents forward head posture and neck strain</span>
+            </li>
+            <li className="flex items-start">
+              <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-0.5">2</span>
+              <span><strong>90-degree rule:</strong> Elbows, hips, and knees should all be at 90-degree angles for optimal posture</span>
+            </li>
+            <li className="flex items-start">
+              <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-0.5">3</span>
+              <span><strong>Movement breaks essential:</strong> Take 2-minute breaks every 30 minutes to prevent muscle fatigue</span>
+            </li>
+            <li className="flex items-start">
+              <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-0.5">4</span>
+              <span><strong>Laptop users need external accessories:</strong> External monitor, keyboard, and mouse prevent neck and wrist strain</span>
+            </li>
+            <li className="flex items-start">
+              <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-0.5">5</span>
+              <span><strong>Budget solutions work:</strong> Stack books for monitor height, use rolled towel for lumbar support</span>
+            </li>
+          </ul>
+        </div>
+      </section>
 
       <div className="article-content">
         <p className="text-lg text-gray-700 mb-6">
@@ -329,6 +372,60 @@ export default function DeskSetupPage() {
           </div>
         </div>
       </div>
+
+      {/* People Also Ask Section */}
+      <PeopleAlsoAsk questions={[
+        {
+          question: "What's the ideal monitor height for desk setup?",
+          answer: "The top of your monitor should be at or slightly below eye level. This prevents forward head posture and neck strain. For most people, this means the monitor should be 20-24 inches from your eyes and positioned so you look slightly down at it.",
+          link: "/help/product-questions/monitor-height-calculator"
+        },
+        {
+          question: "How do I set up a laptop ergonomically?",
+          answer: "Use an external monitor, keyboard, and mouse. Position the external monitor at eye level, place the laptop to the side or below the monitor, and use the external keyboard and mouse at proper heights. This prevents neck and wrist strain from the laptop's fixed design.",
+          link: "/help/specific-situations/laptop-ergonomic-setup"
+        },
+        {
+          question: "What's the best chair for desk work?",
+          answer: "Choose a chair with adjustable height, lumbar support, and armrests. Your feet should be flat on the floor, knees at 90 degrees, and back supported. The chair should allow you to sit back fully with your shoulders relaxed.",
+          link: "/help/product-questions/best-ergonomic-chair-under-200"
+        },
+        {
+          question: "How often should I take breaks from desk work?",
+          answer: "Follow the 20-20-20 rule: every 20 minutes, look at something 20 feet away for 20 seconds. Take a 2-minute movement break every 30 minutes, and a longer break every hour. This prevents eye strain and muscle fatigue.",
+          link: "/help/timeline-questions/desk-break-schedule"
+        },
+        {
+          question: "Can I fix my desk setup without buying expensive equipment?",
+          answer: "Yes! Stack books under your monitor to raise it to eye level, use a rolled towel for lumbar support, place a box under your feet if needed, and use a clipboard as a document holder. These DIY solutions can be very effective.",
+          link: "/help/product-questions/budget-desk-setup-alternatives"
+        },
+        {
+          question: "What's the proper keyboard and mouse position?",
+          answer: "Keep your keyboard and mouse at the same height, with your elbows at 90 degrees and shoulders relaxed. The keyboard should be 4-6 inches from the desk edge, and the mouse should be close to the keyboard to prevent reaching.",
+          link: "/help/product-questions/keyboard-mouse-positioning"
+        },
+        {
+          question: "Is a standing desk better than sitting?",
+          answer: "The best approach is alternating between sitting and standing. Start with 30 minutes standing, 30 minutes sitting. Use an anti-fatigue mat and ensure your monitor and keyboard are at proper heights when standing.",
+          link: "/help/product-questions/standing-desk-vs-sitting"
+        },
+        {
+          question: "How do I know if my desk setup is causing pain?",
+          answer: "Common signs include neck pain, shoulder tension, wrist pain, lower back pain, and headaches. If you experience these symptoms regularly during or after work, your desk setup likely needs adjustment.",
+          link: "/help/troubleshooting/desk-setup-causing-pain"
+        },
+        {
+          question: "What lighting is best for computer work?",
+          answer: "Use ambient lighting that's about 1/3 the brightness of your screen. Position your monitor perpendicular to windows to avoid glare. Consider a blue light filter, especially in the evening, to reduce eye strain.",
+          link: "/help/product-questions/desk-lighting-setup"
+        },
+        {
+          question: "How long does it take to adjust to a new desk setup?",
+          answer: "Most people notice immediate relief from obvious pain points. Full adjustment takes 1-2 weeks as your body adapts to new positions. You should see significant improvement in posture and pain within 2-4 weeks.",
+          link: "/help/timeline-questions/desk-setup-adjustment-time"
+        }
+      ]} />
 
       {/* Schema markup */}
       <script

@@ -1,8 +1,9 @@
 import { Metadata } from 'next'
+import PeopleAlsoAsk from '../../components/PeopleAlsoAsk'
 
 export const metadata = {
   title: 'How to Sleep with a Neck Hump: Positions & Pillow Tips',
-  description: 'Side/back positions, pillow choices, and pain-free sleep habits. Decision tree + FAQs; what helps vs. what doesn\'t.',
+  description: 'How to sleep with neck hump? Sleep on back with cervical support pillow or side with 4-6 inch pillow height. Avoid stomach sleeping completely. Reduces morning stiffness 60-80% and improves neck hump over 6-12 weeks.',
   keywords: ['how to sleep with neck hump', 'sleeping positions for neck hump', 'neck hump sleep tips', 'forward head posture sleep', 'cervical lordosis sleep position'],
   alternates: {
     canonical: 'https://www.neckhump.com/how-to-sleep-with-neck-hump',
@@ -64,11 +65,47 @@ export default function HowToSleepWithNeckHumpPage() {
             How to Sleep with Neck Hump: 5 Positions That Actually Help (2024)
           </h1>
           
-          <div className="bg-green-50 border-l-4 border-green-400 p-6 mb-8">
-            <p className="text-lg text-green-800 font-medium">
-              <strong>Quick Answer:</strong> The best sleeping positions for neck hump are back sleeping with cervical support and side sleeping with proper pillow height. Avoid stomach sleeping, which worsens forward head posture. Proper setup can reduce morning stiffness by 60-80%.
-            </p>
-          </div>
+          {/* AEO Optimization Blocks */}
+          <section className="mb-12">
+            {/* 1. Short Answer Block */}
+            <div className="bg-emerald-50 border-l-4 border-emerald-400 p-6 mb-8 rounded-lg">
+              <h2 className="text-xl font-semibold mb-4 text-emerald-900" id="short-answer">
+                Short Answer
+              </h2>
+              <p className="text-emerald-800 text-lg leading-relaxed">
+                How to sleep with neck hump? Sleep on your back with cervical support pillow or on your side with proper pillow height (4-6 inches). Avoid stomach sleeping completely. Proper positioning can reduce morning stiffness by 60-80% and improve neck hump over 6-12 weeks.
+              </p>
+            </div>
+
+            {/* 2. Key Takeaways Block */}
+            <div className="bg-blue-50 border-l-4 border-blue-400 p-6 mb-8 rounded-lg">
+              <h2 className="text-xl font-semibold mb-4 text-blue-900" id="key-takeaways">
+                Key Takeaways
+              </h2>
+              <ul className="space-y-3 text-blue-800">
+                <li className="flex items-start">
+                  <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-0.5">1</span>
+                  <span><strong>Back sleeping is best:</strong> Maintains natural spine alignment and supports cervical curve with proper pillow</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-0.5">2</span>
+                  <span><strong>Side sleeping works with proper height:</strong> Use 4-6 inch pillow to fill shoulder-to-neck gap</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-0.5">3</span>
+                  <span><strong>Never sleep on stomach:</strong> Forces 90° neck rotation and worsens forward head posture</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-0.5">4</span>
+                  <span><strong>Transition takes 2-4 weeks:</strong> Expect discomfort initially, but new position becomes natural</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-0.5">5</span>
+                  <span><strong>Combine with daily exercises:</strong> Sleep positioning works best with daytime posture correction</span>
+                </li>
+              </ul>
+            </div>
+          </section>
 
           <div className="text-gray-600 mb-8">
             <p className="mb-2">By the NeckHump.com Research Team</p>
@@ -574,6 +611,60 @@ export default function HowToSleepWithNeckHumpPage() {
             </div>
           </div>
         </div>
+
+        {/* People Also Ask Section */}
+        <PeopleAlsoAsk questions={[
+          {
+            question: "What's the best pillow for neck hump when sleeping?",
+            answer: "Use a cervical support pillow or memory foam contour pillow that maintains your neck's natural curve. For side sleepers, choose 4-6 inch height. For back sleepers, use a pillow with lower center section for neck support.",
+            link: "/best-pillow-for-neck-hump"
+          },
+          {
+            question: "Can I sleep on my side with neck hump?",
+            answer: "Yes, side sleeping is fine with proper pillow height. Use a 4-6 inch pillow to fill the gap between your shoulder and neck. Your head should be neutral, not tilted up or down. Place a pillow between your knees for alignment.",
+            link: "/help/specific-situations/side-sleeping-neck-hump"
+          },
+          {
+            question: "How long does it take to adjust to new sleep position?",
+            answer: "Most people need 2-4 weeks to fully adjust to a new sleep position. Expect some discomfort initially, but this improves as your body adapts. Use physical barriers like body pillows to help maintain position.",
+            link: "/help/timeline-questions/sleep-position-adjustment-time"
+          },
+          {
+            question: "Why does stomach sleeping worsen neck hump?",
+            answer: "Stomach sleeping forces your neck to rotate 90 degrees for 6-8 hours, flattening the natural cervical curve and creating muscle imbalances. This directly worsens forward head posture and neck hump.",
+            link: "/help/troubleshooting/why-stomach-sleeping-bad"
+          },
+          {
+            question: "Should I use multiple pillows for neck hump?",
+            answer: "No, avoid stacking multiple pillows as this pushes your head too far forward. Use one properly sized cervical support pillow instead. Multiple pillows can actually worsen forward head posture.",
+            link: "/help/troubleshooting/multiple-pillows-neck-hump"
+          },
+          {
+            question: "Can sleep position alone fix neck hump?",
+            answer: "Sleep positioning is crucial but rarely sufficient alone. Combine proper sleep posture with daily stretching exercises, ergonomic workspace setup, and postural awareness throughout the day for best results.",
+            link: "/how-to-fix-posture-at-home"
+          },
+          {
+            question: "What if I keep rolling onto my stomach while sleeping?",
+            answer: "Use physical barriers like body pillows, try the tennis ball method (tape tennis balls to your front), or ask a partner to help reposition you. Most people naturally stay in position after 3-4 weeks of practice.",
+            link: "/help/troubleshooting/rolling-stomach-sleep"
+          },
+          {
+            question: "Is it normal to have neck pain when changing sleep positions?",
+            answer: "Mild discomfort is normal during the 2-4 week adjustment period. However, if you experience severe pain, numbness, or tingling, stop and consult a healthcare provider. Sharp pain is not normal.",
+            link: "/help/troubleshooting/neck-pain-new-sleep-position"
+          },
+          {
+            question: "Can I use a regular pillow for neck hump?",
+            answer: "Regular pillows often lack proper cervical support and may worsen neck hump. Cervical support pillows or memory foam contour pillows are specifically designed to maintain proper neck alignment during sleep.",
+            link: "/help/product-questions/regular-vs-cervical-pillow"
+          },
+          {
+            question: "How do I know if my pillow height is correct?",
+            answer: "For side sleepers, your head should be neutral (not tilted up or down) and your nose should align with your body center. For back sleepers, your ears should align over your shoulders when viewed from the side.",
+            link: "/help/product-questions/pillow-height-calculator"
+          }
+        ]} />
 
         <div className="mb-12">
           <h2>Frequently Asked Questions</h2>

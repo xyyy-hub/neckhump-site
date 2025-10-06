@@ -1,8 +1,9 @@
 import { Metadata } from 'next'
+import PeopleAlsoAsk from '../../components/PeopleAlsoAsk'
 
 export const metadata = {
   title: 'Ergonomic Workspace for Tech Neck: Monitor Height & Setup',
-  description: 'Your desk setup checklist: monitor height, chair, keyboard, micro-breaks, and habits to reduce forward head posture and strain.',
+  description: 'How to set up ergonomic workspace for neck hump? Position monitor top at eye level, keep elbows at 90°, feet flat on floor, back against chair support. Use 20-20-20 rule for breaks. Prevents 54% of work-related musculoskeletal disorders.',
   keywords: ['ergonomic workspace setup', 'desk setup for neck hump', 'ergonomic office setup', 'computer workstation ergonomics', 'desk ergonomics', 'workspace design'],
   alternates: {
     canonical: 'https://www.neckhump.com/ergonomic-workspace-neck-hump',
@@ -75,6 +76,33 @@ export default function ErgonomicWorkspaceNeckHumpPage() {
             <p>Last updated: January 15, 2024 | 18 min read</p>
           </div>
         </header>
+
+        {/* AEO Optimization Blocks */}
+        <section className="mb-12">
+          {/* 1. Short Answer Block */}
+          <div className="bg-emerald-50 border-l-4 border-emerald-400 p-6 mb-8 rounded-lg">
+            <h2 className="text-xl font-semibold mb-4 text-emerald-900" id="short-answer">
+              Short Answer
+            </h2>
+            <p className="text-emerald-800 text-lg leading-relaxed">
+              How to set up ergonomic workspace for neck hump? Position monitor top at eye level, keep elbows at 90°, feet flat on floor, back against chair support. Use 20-20-20 rule for breaks. Prevents 54% of work-related musculoskeletal disorders and reduces forward head posture by 40-60% within 8 weeks.
+            </p>
+          </div>
+
+          {/* 2. Key Takeaways Block */}
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-6 mb-8 rounded-lg">
+            <h2 className="text-xl font-semibold mb-4 text-blue-900" id="key-takeaways">
+              Key Takeaways
+            </h2>
+            <ul className="text-blue-800 space-y-2">
+              <li>• <strong>Monitor height is critical:</strong> Top of screen at eye level prevents forward head posture</li>
+              <li>• <strong>Chair setup matters:</strong> Proper lumbar support and armrest height reduce neck strain</li>
+              <li>• <strong>Keyboard positioning:</strong> Elbows at 90° with shoulders relaxed prevents hunching</li>
+              <li>• <strong>Regular breaks essential:</strong> 20-20-20 rule (every 20 minutes, look 20 feet away for 20 seconds)</li>
+              <li>• <strong>Laptop users need external peripherals:</strong> Built-in screen too low, requires external keyboard/mouse</li>
+            </ul>
+          </div>
+        </section>
 
         <div className="mb-12">
           <h2>Why 90% of Workspaces Create Neck Hump</h2>
@@ -1034,6 +1062,35 @@ export default function ErgonomicWorkspaceNeckHumpPage() {
             or complex workplace requirements.
           </p>
         </div>
+
+        {/* People Also Ask Section */}
+        <PeopleAlsoAsk questions={[
+          {
+            question: "What's the ideal monitor height for preventing neck hump?",
+            answer: "The top of your monitor should be at or slightly below eye level when sitting upright. This prevents the downward head tilt that creates neck hump. For most people, this means the monitor should be 20-24 inches from your eyes and positioned so you look slightly down at it.",
+            link: "/help/product-questions/monitor-height-calculator"
+          },
+          {
+            question: "How do I set up a laptop ergonomically to prevent neck strain?",
+            answer: "Use an external monitor, keyboard, and mouse. Position the external monitor at eye level, place the laptop to the side or below the monitor, and use the external keyboard and mouse at proper heights. This prevents neck and wrist strain from the laptop's built-in screen and keyboard.",
+            link: "/help/product-questions/laptop-ergonomic-setup"
+          },
+          {
+            question: "What chair adjustments prevent forward head posture?",
+            answer: "Adjust seat height so feet are flat on floor, set lumbar support to fit your lower back curve, position armrests so shoulders are relaxed with elbows at 90°, and angle backrest slightly reclined (100-110°). This creates a stable base that prevents slumping and forward head posture.",
+            link: "/help/product-questions/ergonomic-chair-setup"
+          },
+          {
+            question: "How often should I take breaks from computer work?",
+            answer: "Follow the 20-20-20 rule: every 20 minutes, look at something 20 feet away for 20 seconds. Take a 5-10 minute break every hour to stand, stretch, and walk around. This prevents muscle fatigue and maintains postural awareness throughout your workday.",
+            link: "/help/timeline-questions/break-frequency-computer-work"
+          },
+          {
+            question: "Can I fix my workspace setup without buying expensive equipment?",
+            answer: "Yes! Start with free adjustments: stack books under your monitor, use a rolled towel for lumbar support, adjust your chair height, and reorganize your desk. These basic changes can reduce neck strain by 50-70% before investing in ergonomic equipment.",
+            link: "/help/product-questions/budget-ergonomic-solutions"
+          }
+        ]} />
       </article>
     </div>
   )

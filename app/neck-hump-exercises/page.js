@@ -8,7 +8,7 @@ import PeopleAlsoAsk from '../../components/PeopleAlsoAsk'
 
 export const metadata = {
   title: 'Neck Hump Exercises: 10 Proven Moves (Daily 5-Minute Plan)',
-  description: 'Chin tucks, wall angels, thoracic mobility and more—with reps, tempo, safety and progressions. Includes HowTo schema and quick routine.',
+  description: 'What are the best neck hump exercises? Chin tucks (3 sets, 10 reps), wall angels (2 sets, 15 reps), and doorway chest stretches (30 seconds each) done daily. Targets deep neck flexors and reverses forward head posture effectively.',
   keywords: ['neck hump exercises', 'forward head posture exercises', 'tech neck exercises', 'cervical lordosis exercises', 'neck strengthening exercises', 'posture correction exercises'],
   alternates: {
     canonical: 'https://www.neckhump.com/neck-hump-exercises',

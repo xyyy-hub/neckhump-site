@@ -176,6 +176,58 @@ If needed, you can further use the `web_scraper.py` file to scrape the web page 
 - **Simplification Strategy**: Remove complexity that doesn't measurably improve Core Web Vitals
 - **Browser-Native Optimizations**: Trust framework optimizations (Tailwind, Next.js) over custom solutions
 
+### Answer Engine Optimization (AEO) - October 2025
+- **AEO Definition**: Optimizing to show up in LLM responses (ChatGPT, Claude, Perplexity, Gemini)
+- **Core Mechanism**: LLMs use RAG (Retrieval Augmented Generation) = web search + summarization of citations
+- **Key Difference from SEO**: Need to be mentioned in MULTIPLE citations, not just rank #1
+- **Long-Tail is Back**: Average ChatGPT query is ~25 words vs ~6 words for Google
+- **Early-Stage Advantage**: No domain authority required - can win immediately via citations (Reddit, YouTube, blogs)
+- **Quality Requirement**: 100% AI-generated content doesn't work (~10-12% of indexed content). AI-assisted (human-edited) works great
+- **Information Gain Principle**: Must say something others haven't said, avoid being too "typical" (signals rewritten content)
+
+### AEO 7-Step Playbook (Health/Wellness Sites)
+1. **Question Research**: Convert SEO keywords to natural questions. Mine from: sales calls, support tickets, Reddit threads
+2. **Answer Tracking**: Use tracking tools to measure "share of voice" across ChatGPT, Perplexity, Gemini. Must run same question multiple times (answers vary)
+3. **Citation Analysis**: Identify who shows up now: YouTube, Reddit, Quora, affiliates (Dot Dash Meredith, Forbes), health blogs
+4. **On-Site Content**: Answer ALL follow-up questions. Focus on: symptoms, exercises, causes, treatments, product recommendations, success stories. Help center is critical
+5. **Reddit Strategy**: Create authentic account, identify as site owner, give genuinely useful answers in relevant threads (posture, back pain, ergonomics subreddits)
+6. **YouTube Videos**: Create videos for specific health questions (e.g., "How to fix forward head posture at home", "Best neck hump exercises for beginners")
+7. **Rigorous Testing**: 100 questions control group, 100 test group. Track 2 weeks before/after. Compare. Reproduce 10x before trusting results
+
+### AEO Content Requirements
+- **Topic-Based**: Each page targets thousands of related questions, not single keywords
+- **Comprehensive Follow-ups**: Must answer: symptoms, causes, treatments, exercises, products, timeframes, alternatives, when to see doctor
+- **Help Center Optimization**: Move from subdomain to subdirectory. Cover long-tail questions (specific use cases, combinations, special situations)
+- **Cross-Linking**: Aggressive internal linking between related articles and help center pages
+- **Original Research**: Studies, data, case studies increase citation likelihood
+- **Medical Authority Signals**: Reviewer credentials, last updated dates, evidence-based badges (already implemented)
+
+### AEO Attribution Challenge
+- Users see answer in ChatGPT → open new tab → type brand name → come via "Google branded search" or "direct traffic"
+- Cannot rely on referral traffic alone
+- Must ask "How did you hear about us?" post-conversion
+- Multi-touch attribution critical (50+ touchpoints typical for health decisions)
+
+### Health/Wellness Citation Targets
+- **Tier 1 Affiliates**: Healthline, WebMD, Medical News Today, Verywell Health
+- **Tier 2 Health Blogs**: Smaller health blogs, physiotherapy sites, ergonomics experts
+- **Reddit**: r/posture, r/backpain, r/Ergonomics, r/flexibility
+- **YouTube**: Physical therapists, chiropractors, ergonomics experts creating exercise videos
+- **Quora**: Health and wellness questions about posture, neck pain, ergonomics
+
+### AEO Conversion Quality
+- LLM traffic converts 6x better than Google search traffic (Webflow case study)
+- Users are highly primed from conversation with AI
+- Strong intent signal - they've asked multiple follow-up questions
+- If you're the recommended answer, trust is pre-established
+
+### What Doesn't Work in AEO
+- ❌ 100% AI-generated content (gets filtered out)
+- ❌ Fake Reddit accounts and spam (community policing effective)
+- ❌ Only focusing on ranking #1 (need multiple citation mentions)
+- ❌ Ignoring long-tail questions (huge opportunity missed)
+- ❌ Subdomain help centers (less authority than subdirectories)
+
 ### Project Template System Implementation
 - **Template Structure**: Global template at `/Users/thxu/Desktop/cursor-workspace/.project-template/` with tools/, .cursorrules, requirements.txt, env.example
 - **Setup Scripts**: Both Python (cross-platform) and Bash versions for new project initialization
@@ -209,6 +261,16 @@ Complete Next.js website for neck posture correction with 25 pages of health/wel
 - ✅ **TOC Issue Fix**: Desktop Table of Contents now hides when scrolling past article content
 
 **Next Potential Tasks**:
+- [X] Complete comprehensive AEO content audit (identified critical gaps)
+- [X] Create implementation brief for on-site optimization (AEO_IMPLEMENTATION_BRIEF.md)
+- [ ] Implement AEO (Answer Engine Optimization) strategy - ON-SITE ONLY
+  - [ ] PHASE 1: Build help center with 60 long-tail articles (Weeks 1-2)
+  - [ ] PHASE 2: Optimize existing 25 pages with AEO blocks (Weeks 3-4)
+  - [ ] PHASE 3: Create 8 comparison pages (Week 5)
+  - [ ] PHASE 4: Enhance internal linking network (Week 6)
+  - [ ] PHASE 5: Meta optimization + tracking (Week 7)
+  - [ ] Future: Answer tracking tool to monitor "share of voice" across LLMs
+  - [ ] Future: Add "How did you hear about us?" survey for attribution
 - [ ] Deploy UX/UI medical redesign to production
 - [ ] Monitor user engagement metrics after UX changes
 - [ ] Monitor GSC for resolution of "No referring sitemaps detected" issues (24-48 hours)

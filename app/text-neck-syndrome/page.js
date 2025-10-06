@@ -1,8 +1,9 @@
 import Link from 'next/link'
+import PeopleAlsoAsk from '../../components/PeopleAlsoAsk'
 
 export const metadata = {
   title: 'Text Neck Syndrome: Causes, Symptoms & Complete Recovery Guide 2024',
-  description: 'Learn about text neck syndrome from smartphone use. Discover causes, symptoms, exercises, and prevention strategies. Evidence-based guide for the digital age.',
+  description: 'What is text neck syndrome? A repetitive strain injury from prolonged smartphone/device use where head tilts forward 45-60°, creating 27-60 pounds of pressure on neck muscles. Symptoms include neck pain, headaches, and forward head posture. Treatment: hold devices at eye level, take breaks every 20 minutes, and do chin tuck exercises daily.',
   keywords: ['text neck', 'text neck syndrome', 'smartphone posture', 'phone neck', 'digital neck pain', 'tech neck prevention'],
   alternates: {
     canonical: 'https://www.neckhump.com/text-neck-syndrome',
@@ -33,6 +34,33 @@ export default function TextNeckPage() {
           <span>Evidence-based guide</span>
         </div>
       </header>
+
+      {/* AEO Optimization Blocks */}
+      <section className="mb-12">
+        {/* 1. Short Answer Block */}
+        <div className="bg-emerald-50 border-l-4 border-emerald-400 p-6 mb-8 rounded-lg">
+          <h2 className="text-xl font-semibold mb-4 text-emerald-900" id="short-answer">
+            Short Answer
+          </h2>
+          <p className="text-emerald-800 text-lg leading-relaxed">
+            What is text neck syndrome? A repetitive strain injury from prolonged smartphone/device use where head tilts forward 45-60°, creating 27-60 pounds of pressure on neck muscles. Symptoms include neck pain, headaches, and forward head posture. Treatment: hold devices at eye level, take breaks every 20 minutes, and do chin tuck exercises daily.
+          </p>
+        </div>
+
+        {/* 2. Key Takeaways Block */}
+        <div className="bg-blue-50 border-l-4 border-blue-400 p-6 mb-8 rounded-lg">
+          <h2 className="text-xl font-semibold mb-4 text-blue-900" id="key-takeaways">
+            Key Takeaways
+          </h2>
+          <ul className="text-blue-800 space-y-2">
+            <li>• <strong>95% of smartphone users</strong> show signs of text neck syndrome</li>
+            <li>• <strong>Head forward 60° creates 60 pounds</strong> of pressure on neck muscles</li>
+            <li>• <strong>Prevention is key:</strong> Hold devices at eye level, not looking down</li>
+            <li>• <strong>Early symptoms reversible:</strong> Neck pain, headaches, shoulder tension</li>
+            <li>• <strong>Treatment includes:</strong> Posture correction, strengthening exercises, and device positioning</li>
+          </ul>
+        </div>
+      </section>
 
       <div className="article-content">
         {/* Introduction with alarming statistics */}
@@ -304,6 +332,35 @@ export default function TextNeckPage() {
             </Link>
           </div>
         </div>
+
+        {/* People Also Ask Section */}
+        <PeopleAlsoAsk questions={[
+          {
+            question: "What are the first signs of text neck syndrome?",
+            answer: "Early signs include neck pain and stiffness after phone use, tension headaches at the base of your skull, shoulder blade pain, and upper back ache. You may also notice eye strain and difficulty focusing. These symptoms typically appear within weeks of heavy device use.",
+            link: "/help/symptom-questions/text-neck-early-signs"
+          },
+          {
+            question: "How long does it take to recover from text neck?",
+            answer: "Recovery timeline varies: immediate relief with proper positioning (week 1), reduced daily pain and stiffness (weeks 2-4), improved strength and mobility (weeks 6-8), and significant postural improvements (week 12+). Early intervention leads to faster recovery.",
+            link: "/help/timeline-questions/text-neck-recovery-time"
+          },
+          {
+            question: "Can text neck cause permanent damage?",
+            answer: "Yes, if left untreated, text neck can cause permanent structural changes including loss of cervical curve (military neck), disc degeneration, reduced lung capacity up to 30%, and chronic pain. Early intervention prevents these long-term consequences.",
+            link: "/help/symptom-questions/text-neck-permanent-damage"
+          },
+          {
+            question: "What exercises help fix text neck?",
+            answer: "Chin tucks (10 reps, hold 5 seconds each), neck retractions, shoulder blade squeezes, and upper trap stretches are most effective. Do these every 30 minutes during device use. For strengthening, add supine head lifts and wall angels to your daily routine.",
+            link: "/neck-hump-exercises"
+          },
+          {
+            question: "How do I hold my phone to prevent text neck?",
+            answer: "Hold your phone at eye level instead of looking down at it. Use both hands for support, take breaks every 10-15 minutes, and use voice-to-text when possible. Avoid single-hand texting and never use your phone while lying down.",
+            link: "/help/product-questions/phone-positioning-prevent-text-neck"
+          }
+        ]} />
       </div>
 
       {/* Schema markup */}
