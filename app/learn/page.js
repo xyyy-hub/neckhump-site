@@ -1,9 +1,10 @@
 import Link from 'next/link'
 import Breadcrumbs from '../../components/Breadcrumbs'
+import PeopleAlsoAsk from '../../components/PeopleAlsoAsk'
 
 export const metadata = {
   title: 'Learn About Neck Hump & Forward Head Posture | Complete Education Hub',
-  description: 'Comprehensive learning center for neck hump, forward head posture, and tech neck. Expert guides, anatomy explanations, and evidence-based information.',
+  description: 'What should you learn about neck hump? Understanding forward head posture anatomy, causes (computer use, smartphone usage), and evidence-based solutions helps you make informed treatment decisions. Learn the science behind neck hump prevention and correction.',
   keywords: ['neck hump education', 'forward head posture learning', 'tech neck anatomy', 'cervical spine education', 'posture science'],
   alternates: {
     canonical: 'https://www.neckhump.com/learn',
@@ -34,6 +35,26 @@ export default function LearnPage() {
           Understand the science behind neck hump, learn about anatomy, causes, and 
           evidence-based solutions from medical professionals and research studies.
         </p>
+
+        {/* AEO Short Answer Block */}
+        <div className="bg-emerald-50 border-l-4 border-emerald-400 p-6 mb-6 mt-8">
+          <h2 className="text-lg font-semibold text-emerald-900 mb-3">What should I learn about neck hump?</h2>
+          <p className="text-emerald-800">
+            Learn that neck hump (forward head posture) is caused by muscle imbalances from prolonged computer use and smartphone usage. Understanding the anatomy, causes, and evidence-based solutions helps you make informed decisions about treatment and prevention.
+          </p>
+        </div>
+
+        {/* AEO Key Takeaways Block */}
+        <div className="bg-blue-50 border-l-4 border-blue-400 p-6 mb-8">
+          <h3 className="text-lg font-semibold text-blue-900 mb-4">Key Learning Points</h3>
+          <ul className="space-y-2 text-blue-800">
+            <li>• <strong>Anatomy matters:</strong> Understanding cervical spine structure helps explain why neck hump develops</li>
+            <li>• <strong>Modern lifestyle impact:</strong> Technology use and poor ergonomics are primary causes of forward head posture</li>
+            <li>• <strong>Evidence-based solutions:</strong> Research shows exercises, ergonomics, and lifestyle changes are most effective</li>
+            <li>• <strong>Early intervention:</strong> Learning about neck hump early prevents permanent structural changes</li>
+            <li>• <strong>Professional guidance:</strong> Understanding when to seek medical help is crucial for proper treatment</li>
+          </ul>
+        </div>
       </header>
 
       {/* Quick Learning Path */}
@@ -206,6 +227,32 @@ export default function LearnPage() {
           Start with Complete Guide →
         </Link>
       </section>
+
+      {/* People Also Ask Section */}
+      <PeopleAlsoAsk 
+        questions={[
+          {
+            question: "What should I learn first about neck hump?",
+            answer: "Start by learning what neck hump actually is (forward head posture), its main causes (computer use, smartphone usage), and basic anatomy. Understanding these fundamentals helps you make informed decisions about treatment and prevention strategies."
+          },
+          {
+            question: "Is neck hump education important for treatment?",
+            answer: "Yes, education is crucial for effective treatment. Understanding the anatomy, causes, and evidence-based solutions helps you choose the right exercises, ergonomic improvements, and lifestyle changes. Knowledge empowers you to make informed decisions about your recovery."
+          },
+          {
+            question: "What anatomy should I understand for neck hump?",
+            answer: "Learn about the cervical spine (neck vertebrae), cervical lordosis (natural neck curve), and key muscle groups like deep neck flexors, upper traps, and suboccipital muscles. Understanding these helps explain why certain exercises and treatments work."
+          },
+          {
+            question: "How does modern lifestyle cause neck hump?",
+            answer: "Modern lifestyle causes neck hump through prolonged computer use (looking down at screens), smartphone usage (text neck), poor ergonomic setups, and sedentary behavior. These activities create muscle imbalances that pull the head forward over time."
+          },
+          {
+            question: "When should I seek professional help for neck hump?",
+            answer: "Seek professional help if you experience severe pain, numbness or tingling in arms/hands, sudden onset after injury, or no improvement after 6 weeks of consistent exercise. These symptoms may indicate nerve compression or other conditions requiring medical attention."
+          }
+        ]}
+      />
     </div>
   )
 }

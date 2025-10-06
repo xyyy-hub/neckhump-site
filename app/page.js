@@ -1,10 +1,11 @@
 import Link from 'next/link'
 import InternalLinking from '../components/InternalLinking'
 import AuthorReviewer from '../components/AuthorReviewer'
+import PeopleAlsoAsk from '../components/PeopleAlsoAsk'
 
 export const metadata = {
   title: 'Neck Hump: Causes, Fixes & 5-Minute Routine (Evidence-Informed)',
-  description: 'Clear, step-by-step help for neck hump/forward head posture: causes, exercises, ergonomics, sleep tips. Reviewed by professionals; quick answers + references.',
+  description: 'How do you fix neck hump? Daily exercises (chin tucks, wall angels), proper ergonomics, and sleep positioning can correct forward head posture in 6-12 weeks. Learn the complete evidence-based approach to neck hump treatment.',
   keywords: ['neck hump', 'forward head posture', 'tech neck', 'computer neck', 'neck hump exercises', 'how to fix neck hump', 'cervical lordosis', 'dowagers hump'],
   alternates: {
     canonical: 'https://www.neckhump.com',
@@ -386,6 +387,32 @@ export default function HomePage() {
           />
         </div>
       </section>
+
+      {/* People Also Ask Section */}
+      <PeopleAlsoAsk 
+        questions={[
+          {
+            question: "How long does it take to fix neck hump?",
+            answer: "Most people see initial improvements within 2-4 weeks of consistent daily exercises. Significant correction typically occurs within 6-12 weeks. The timeline depends on severity, consistency of practice, and whether you also address ergonomic and sleep factors."
+          },
+          {
+            question: "Can neck hump be completely reversed?",
+            answer: "Yes, neck hump (forward head posture) can be significantly improved or completely corrected in most cases, especially when caught early. The key is consistent daily exercises, proper ergonomics, and addressing the underlying muscle imbalances that caused the condition."
+          },
+          {
+            question: "What causes neck hump to develop?",
+            answer: "Neck hump is primarily caused by prolonged computer use, smartphone usage, poor ergonomics, and muscle imbalances from modern lifestyle. The main culprits are looking down at screens for hours daily, poor workspace setup, and weak deep neck flexor muscles."
+          },
+          {
+            question: "Are neck hump exercises safe to do at home?",
+            answer: "Yes, most neck hump exercises are safe to do at home when performed correctly. Start with gentle movements like chin tucks and wall angels. If you experience severe pain, numbness, or tingling, stop and consult a healthcare professional."
+          },
+          {
+            question: "What's the difference between neck hump and dowager's hump?",
+            answer: "Neck hump (forward head posture) is a postural condition where the head sits forward of the shoulders, while dowager's hump is a structural spinal condition in the upper back involving bone curvature. Neck hump is highly correctable with exercises, while dowager's hump requires medical management."
+          }
+        ]}
+      />
     </div>
   )
 }
