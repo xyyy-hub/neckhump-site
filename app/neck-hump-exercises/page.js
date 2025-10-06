@@ -146,6 +146,59 @@ export default function NeckHumpExercisesPage() {
                     "image": "https://neckhump.com/exercises/doorway-stretch.jpg"
                   }
                 ]
+              },
+              {
+                "@type": "FAQPage",
+                "mainEntity": [
+                  {
+                    "@type": "Question",
+                    "name": "How long should I do these exercises each day?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "For best results, aim for 15-30 minutes daily. You can split this into shorter sessions (5 minutes, 3 times per day) or do it all at once. Consistency is more important than duration."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "When will I see visible improvement in my neck hump?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Most people notice reduced stiffness within 1-2 weeks. Visible improvement typically begins around week 4-6 and becomes more pronounced by week 8-12. Take monthly photos to track progress."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Can I do these exercises if I have neck pain?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "For mild discomfort, these exercises often help reduce pain. However, if you have severe pain, recent injury, or neurological symptoms (numbness, tingling), consult a healthcare provider before starting."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "What's the difference between neck hump and dowager's hump?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Neck hump (forward head posture) affects the cervical spine and is caused by muscle imbalances. Dowager's hump affects the thoracic spine and is often related to osteoporosis. Both can occur together but require different treatment approaches."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Can neck hump exercises help with headaches?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes, many people find that neck hump exercises reduce tension headaches and cervicogenic headaches. The exercises improve blood flow and reduce muscle tension in the neck and upper back, which are common causes of headaches."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "How long does it take to completely fix neck hump?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Complete correction typically takes 3-6 months of consistent exercise, depending on severity and individual factors. However, most people see significant improvement within 8-12 weeks. Maintenance exercises are recommended long-term to prevent recurrence."
+                    }
+                  }
+                ]
               }
             ]
           }),
@@ -1097,6 +1150,69 @@ export default function NeckHumpExercisesPage() {
                 Yes, these exercises are excellent for prevention when combined with good ergonomics and posture awareness. Many people use them as a maintenance routine even after correcting their neck hump.
               </p>
             </div>
+
+            <div>
+              <h3 className="text-lg font-semibold mb-2">What's the difference between neck hump and dowager's hump?</h3>
+              <p>
+                Neck hump (forward head posture) affects the cervical spine and is caused by muscle imbalances. Dowager's hump affects the thoracic spine and is often related to osteoporosis. Both can occur together but require different treatment approaches.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-semibold mb-2">Can neck hump exercises help with headaches?</h3>
+              <p>
+                Yes, many people find that neck hump exercises reduce tension headaches and cervicogenic headaches. The exercises improve blood flow and reduce muscle tension in the neck and upper back, which are common causes of headaches.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-semibold mb-2">How do I know if my neck hump is getting better?</h3>
+              <p>
+                Track progress with monthly side-view photos, measure how close your head can get to a wall while standing straight, monitor morning stiffness levels, and note improvements in neck range of motion. Others may also comment on your improved posture.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-semibold mb-2">Are there any exercises I should avoid with neck hump?</h3>
+              <p>
+                Avoid exercises that involve heavy overhead lifting, extreme neck extension, or movements that cause sharp pain. Also avoid exercises that require you to look up for extended periods, as this can worsen forward head posture.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-semibold mb-2">Can I do neck hump exercises while pregnant?</h3>
+              <p>
+                Most neck hump exercises are safe during pregnancy, but avoid exercises that require lying flat after the first trimester. Focus on seated and standing exercises, and always consult your healthcare provider before starting any exercise routine during pregnancy.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-semibold mb-2">What if exercises make my neck pain worse?</h3>
+              <p>
+                Stop immediately if exercises increase pain. This may indicate you're doing too much too soon, using poor form, or have an underlying condition that needs medical attention. Start with gentler exercises and progress slowly.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-semibold mb-2">How long does it take to completely fix neck hump?</h3>
+              <p>
+                Complete correction typically takes 3-6 months of consistent exercise, depending on severity and individual factors. However, most people see significant improvement within 8-12 weeks. Maintenance exercises are recommended long-term to prevent recurrence.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-semibold mb-2">Can neck hump exercises help with sleep quality?</h3>
+              <p>
+                Yes, improved neck alignment and reduced muscle tension from these exercises often lead to better sleep quality. Many people report less neck pain when waking up and improved comfort while sleeping.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-semibold mb-2">Should I use equipment like resistance bands for neck hump exercises?</h3>
+              <p>
+                Most effective neck hump exercises require no equipment. However, light resistance bands can be helpful for advanced users to add variety and challenge. Start with bodyweight exercises and add equipment only when you've mastered the basics.
+              </p>
+            </div>
           </div>
         </div>
 
@@ -1119,6 +1235,53 @@ export default function NeckHumpExercisesPage() {
         </div>
 
         <PeopleAlsoAsk questions={exerciseQuestions} />
+
+        {/* Enhanced Related Questions Section for AEO */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Questions About Neck Hump Exercises</h2>
+          
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-blue-50 p-6 rounded-lg">
+              <h3 className="text-lg font-semibold text-blue-900 mb-3">Exercise Safety & Modifications</h3>
+              <ul className="space-y-2 text-blue-800">
+                <li><a href="/help/troubleshooting/chin-tucks-causing-dizziness" className="hover:underline">Can chin tucks cause dizziness?</a></li>
+                <li><a href="/help/troubleshooting/exercises-making-neck-pain-worse" className="hover:underline">What if exercises make my neck pain worse?</a></li>
+                <li><a href="/help/troubleshooting/headaches-after-posture-exercises" className="hover:underline">Why do I get headaches after posture exercises?</a></li>
+                <li><a href="/help/troubleshooting/neck-stiffness-after-exercises" className="hover:underline">Is neck stiffness after exercises normal?</a></li>
+              </ul>
+            </div>
+
+            <div className="bg-green-50 p-6 rounded-lg">
+              <h3 className="text-lg font-semibold text-green-900 mb-3">Specific Situations</h3>
+              <ul className="space-y-2 text-green-800">
+                <li><a href="/help/specific-situations/posture-exercises-seniors-over-65" className="hover:underline">Safe exercises for seniors over 65</a></li>
+                <li><a href="/help/specific-situations/neck-hump-exercises-pregnant-women" className="hover:underline">Pregnancy-safe neck exercises</a></li>
+                <li><a href="/help/specific-situations/neck-exercises-wheelchair-users" className="hover:underline">Adapted exercises for wheelchair users</a></li>
+                <li><a href="/help/specific-situations/neck-hump-exercises-office-workers" className="hover:underline">Desk-friendly exercises for office workers</a></li>
+              </ul>
+            </div>
+
+            <div className="bg-purple-50 p-6 rounded-lg">
+              <h3 className="text-lg font-semibold text-purple-900 mb-3">Equipment & Products</h3>
+              <ul className="space-y-2 text-purple-800">
+                <li><a href="/help/product-questions/best-exercise-bands-neck-exercises" className="hover:underline">Best exercise bands for neck exercises</a></li>
+                <li><a href="/help/product-questions/foam-roller-size-guide-neck" className="hover:underline">Foam roller size guide for neck</a></li>
+                <li><a href="/help/product-questions/best-ergonomic-chairs-neck-hump" className="hover:underline">Best ergonomic chairs for neck hump</a></li>
+                <li><a href="/help/product-questions/best-pillow-height-side-sleepers" className="hover:underline">Best pillow height for side sleepers</a></li>
+              </ul>
+            </div>
+
+            <div className="bg-orange-50 p-6 rounded-lg">
+              <h3 className="text-lg font-semibold text-orange-900 mb-3">Timeline & Progress</h3>
+              <ul className="space-y-2 text-orange-800">
+                <li><a href="/help/troubleshooting/no-improvement-after-8-weeks" className="hover:underline">No improvement after 8 weeks of exercises</a></li>
+                <li><a href="/help/troubleshooting/neck-pain-after-sleeping" className="hover:underline">Neck pain after sleeping</a></li>
+                <li><a href="/help/troubleshooting/neck-pain-when-looking-down" className="hover:underline">Neck pain when looking down</a></li>
+                <li><a href="/how-to-fix-posture-at-home" className="hover:underline">How to fix posture at home</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
 
         <div className="text-sm text-gray-600 mt-12 p-4 bg-gray-50 rounded-lg">
           <p>

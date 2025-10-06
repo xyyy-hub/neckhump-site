@@ -18,6 +18,89 @@ export const metadata = {
 export default function FixPosturePage() {
   return (
     <article className="max-w-4xl mx-auto">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "Article",
+                "headline": "How to Fix Posture at Home: Complete Guide (2024)",
+                "description": "Learn how to fix bad posture at home with simple exercises, desk setup tips, and daily habits. See results in 2-4 weeks.",
+                "author": {
+                  "@type": "Organization",
+                  "name": "NeckHump.com"
+                },
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "NeckHump.com",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.neckhump.com/logo.png"
+                  }
+                },
+                "datePublished": "2024-01-15",
+                "dateModified": "2024-01-15",
+                "@id": "https://www.neckhump.com/how-to-fix-posture-at-home"
+              },
+              {
+                "@type": "FAQPage",
+                "mainEntity": [
+                  {
+                    "@type": "Question",
+                    "name": "How long does it take to fix bad posture?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Most people see noticeable improvement in 2-4 weeks with consistent daily exercises. Significant posture changes typically occur within 6-8 weeks, while complete correction may take 3-6 months depending on severity and individual factors."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Can you fix posture without equipment?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes, most effective posture exercises require no equipment. Bodyweight exercises like chin tucks, wall slides, hip flexor stretches, and glute bridges can significantly improve posture. A wall, chair, and floor are all you need to get started."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "What causes bad posture?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Bad posture is typically caused by prolonged sitting, poor ergonomics, weak core and back muscles, tight chest and hip flexors, stress, and lack of movement. Desk work, phone use, and sedentary lifestyle are major contributing factors."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "How often should I do posture exercises?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Aim for 5-15 minutes of posture exercises daily for best results. Consistency is more important than intensity - doing 5 minutes every day is better than 30 minutes once a week. You can also break it into smaller sessions throughout the day."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Can bad posture cause health problems?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes, poor posture can lead to back pain, neck pain, headaches, reduced lung capacity, digestive issues, and increased risk of injury. It can also cause muscle imbalances, joint problems, and chronic pain conditions."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "What's the best desk setup for good posture?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Position your monitor at eye level, keep your feet flat on the floor, maintain 90-degree angles at elbows and knees, use a chair with lumbar support, and keep your keyboard and mouse close to your body. Take breaks every hour to stand and move."
+                    }
+                  }
+                ]
+              }
+            ]
+          }),
+        }}
+      />
       <header className="mb-12 text-center">
         <h1 className="text-4xl font-bold text-gray-900 mb-6 leading-tight">
           How to Fix Posture at Home: Complete Guide
@@ -295,6 +378,83 @@ export default function FixPosturePage() {
           </div>
         </div>
       </div>
+
+      {/* Comprehensive FAQ Section for AEO */}
+      <section className="mb-12">
+        <h2 className="text-2xl font-bold text-gray-900 mb-6">Frequently Asked Questions About Fixing Posture at Home</h2>
+        
+        <div className="space-y-6">
+          <div>
+            <h3 className="text-lg font-semibold mb-2">How long does it take to fix bad posture?</h3>
+            <p>
+              Most people see noticeable improvement in 2-4 weeks with consistent daily exercises. Significant posture changes typically occur within 6-8 weeks, while complete correction may take 3-6 months depending on severity and individual factors. Consistency is more important than intensity.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold mb-2">Can you fix posture without equipment?</h3>
+            <p>
+              Yes, most effective posture exercises require no equipment. Bodyweight exercises like chin tucks, wall slides, hip flexor stretches, and glute bridges can significantly improve posture. A wall, chair, and floor are all you need to get started.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold mb-2">What causes bad posture?</h3>
+            <p>
+              Bad posture is typically caused by prolonged sitting, poor ergonomics, weak core and back muscles, tight chest and hip flexors, stress, and lack of movement. Desk work, phone use, and sedentary lifestyle are major contributing factors.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold mb-2">How often should I do posture exercises?</h3>
+            <p>
+              Aim for 5-15 minutes of posture exercises daily for best results. Consistency is more important than intensity - doing 5 minutes every day is better than 30 minutes once a week. You can also break it into smaller sessions throughout the day.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold mb-2">Can bad posture cause health problems?</h3>
+            <p>
+              Yes, poor posture can lead to back pain, neck pain, headaches, reduced lung capacity, digestive issues, and increased risk of injury. It can also cause muscle imbalances, joint problems, and chronic pain conditions.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold mb-2">What's the best desk setup for good posture?</h3>
+            <p>
+              Position your monitor at eye level, keep your feet flat on the floor, maintain 90-degree angles at elbows and knees, use a chair with lumbar support, and keep your keyboard and mouse close to your body. Take breaks every hour to stand and move.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold mb-2">Can posture exercises help with back pain?</h3>
+            <p>
+              Yes, posture exercises often reduce back pain by strengthening supporting muscles and improving alignment. However, if you have severe or persistent pain, consult a healthcare provider before starting any exercise program.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold mb-2">Is it normal to feel sore after posture exercises?</h3>
+            <p>
+              Mild muscle soreness is normal when starting posture exercises, especially in previously weak muscles. However, sharp pain, numbness, or tingling are warning signs to stop and consult a professional.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold mb-2">Can teenagers fix their posture?</h3>
+            <p>
+              Absolutely! Teenagers can often fix posture faster than adults because their bodies are still developing. Focus on awareness, daily stretching, and limiting screen time. Early intervention prevents long-term problems.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold mb-2">What if posture exercises make my pain worse?</h3>
+            <p>
+              Stop immediately if exercises increase pain. This may indicate you're doing too much too soon, using incorrect form, or have an underlying issue. Start with gentler stretches and consider professional guidance.
+            </p>
+          </div>
+        </div>
+      </section>
 
       {/* People Also Ask Section */}
       <PeopleAlsoAsk questions={[
