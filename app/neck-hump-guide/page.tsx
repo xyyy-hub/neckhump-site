@@ -553,6 +553,125 @@ export default function CompleteGuidePage() {
           </div>
         </section>
 
+        <section id="ergonomic-setup" className="mb-12">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">Ergonomic Workspace Setup</h2>
+          
+          <div className="space-y-6">
+            <div className="bg-blue-50 border-l-4 border-blue-400 p-6 rounded-lg">
+              <h3 className="text-xl font-semibold text-blue-900 mb-4">Monitor Position</h3>
+              <ul className="space-y-2 text-blue-800">
+                <li><strong>Eye Level:</strong> Top of monitor should be at or slightly below eye level</li>
+                <li><strong>Distance:</strong> 20-26 inches from your eyes (arm's length)</li>
+                <li><strong>Angle:</strong> Slight downward tilt (10-20 degrees) to reduce neck strain</li>
+                <li><strong>Multiple Monitors:</strong> Center your primary monitor, secondary monitors at same height</li>
+              </ul>
+            </div>
+
+            <div className="bg-green-50 border-l-4 border-green-400 p-6 rounded-lg">
+              <h3 className="text-xl font-semibold text-green-900 mb-4">Chair & Desk Setup</h3>
+              <ul className="space-y-2 text-green-800">
+                <li><strong>Chair Height:</strong> Feet flat on floor, knees at 90-degree angle</li>
+                <li><strong>Back Support:</strong> Lumbar support in natural curve of lower back</li>
+                <li><strong>Armrests:</strong> Elbows at 90 degrees, shoulders relaxed</li>
+                <li><strong>Desk Height:</strong> Elbows at 90 degrees when typing</li>
+                <li><strong>Keyboard Position:</strong> Close to body, wrists straight</li>
+              </ul>
+            </div>
+
+            <div className="bg-purple-50 border-l-4 border-purple-400 p-6 rounded-lg">
+              <h3 className="text-xl font-semibold text-purple-900 mb-4">Daily Habits</h3>
+              <ul className="space-y-2 text-purple-800">
+                <li><strong>Micro-breaks:</strong> Every 30 minutes, look away from screen for 20 seconds</li>
+                <li><strong>Posture Checks:</strong> Set hourly reminders to check your posture</li>
+                <li><strong>Standing Breaks:</strong> Stand and stretch every hour</li>
+                <li><strong>Phone Position:</strong> Hold phone at eye level, not in lap</li>
+                <li><strong>Document Holder:</strong> Use a document holder to keep papers at eye level</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="mt-8 p-6 bg-gray-50 rounded-lg">
+            <h3 className="text-lg font-semibold text-gray-900 mb-3">Quick Ergonomic Checklist</h3>
+            <div className="grid md:grid-cols-2 gap-4 text-sm">
+              <ul className="space-y-2 text-gray-700">
+                <li>✅ Monitor at eye level</li>
+                <li>✅ Feet flat on floor</li>
+                <li>✅ Back supported</li>
+                <li>✅ Elbows at 90 degrees</li>
+              </ul>
+              <ul className="space-y-2 text-gray-700">
+                <li>✅ Wrists straight when typing</li>
+                <li>✅ Shoulders relaxed</li>
+                <li>✅ Head balanced over shoulders</li>
+                <li>✅ Regular breaks scheduled</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section id="prevention-tips" className="mb-12">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">Prevention Tips</h2>
+          
+          <div className="space-y-6">
+            <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 rounded-lg">
+              <h3 className="text-xl font-semibold text-yellow-900 mb-4">Smartphone & Device Usage</h3>
+              <ul className="space-y-2 text-yellow-800">
+                <li><strong>Hold at Eye Level:</strong> Bring phone up to your face, don't look down</li>
+                <li><strong>Use Voice Commands:</strong> Reduce typing and scrolling time</li>
+                <li><strong>Take Breaks:</strong> Every 15-20 minutes of phone use</li>
+                <li><strong>Texting Position:</strong> Hold phone with both hands, elbows supported</li>
+                <li><strong>Reading Position:</strong> Use a phone stand or prop against something</li>
+              </ul>
+            </div>
+
+            <div className="bg-red-50 border-l-4 border-red-400 p-6 rounded-lg">
+              <h3 className="text-xl font-semibold text-red-900 mb-4">Workplace Prevention</h3>
+              <ul className="space-y-2 text-red-800">
+                <li><strong>Laptop Users:</strong> Use external keyboard and monitor, or laptop stand</li>
+                <li><strong>Desk Organization:</strong> Keep frequently used items within easy reach</li>
+                <li><strong>Lighting:</strong> Ensure adequate lighting to avoid leaning forward</li>
+                <li><strong>Phone Calls:</strong> Use headset instead of cradling phone between ear and shoulder</li>
+                <li><strong>Meeting Setup:</strong> Adjust chair and screen height in conference rooms</li>
+              </ul>
+            </div>
+
+            <div className="bg-indigo-50 border-l-4 border-indigo-400 p-6 rounded-lg">
+              <h3 className="text-xl font-semibold text-indigo-900 mb-4">Lifestyle Prevention</h3>
+              <ul className="space-y-2 text-indigo-800">
+                <li><strong>Sleep Position:</strong> Use proper pillow height, avoid stomach sleeping</li>
+                <li><strong>Exercise Routine:</strong> Regular neck and upper back strengthening</li>
+                <li><strong>Stress Management:</strong> High stress increases muscle tension</li>
+                <li><strong>Hydration:</strong> Dehydration can cause muscle stiffness</li>
+                <li><strong>Regular Movement:</strong> Avoid staying in one position for too long</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="mt-8 p-6 bg-gray-50 rounded-lg">
+            <h3 className="text-lg font-semibold text-gray-900 mb-3">Early Warning Signs</h3>
+            <div className="grid md:grid-cols-2 gap-4">
+              <div>
+                <h4 className="font-semibold text-gray-900 mb-2">Physical Signs:</h4>
+                <ul className="space-y-1 text-sm text-gray-700">
+                  <li>• Morning neck stiffness</li>
+                  <li>• Headaches at end of day</li>
+                  <li>• Shoulder tension</li>
+                  <li>• Jaw clenching</li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-semibold text-gray-900 mb-2">Behavioral Signs:</h4>
+                <ul className="space-y-1 text-sm text-gray-700">
+                  <li>• Leaning forward to read</li>
+                  <li>• Squinting at screen</li>
+                  <li>• Frequent posture adjustments</li>
+                  <li>• Avoiding certain activities</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Safety Callout */}
         <aside className="safety bg-yellow-50 border border-yellow-300 p-6 rounded-lg mb-8">
           <h3 className="font-semibold text-yellow-900 mb-3">⚠️ Don't DIY if you notice:</h3>
