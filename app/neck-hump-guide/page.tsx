@@ -3,10 +3,11 @@ import InternalLinking from '../../components/InternalLinking'
 import AuthorReviewer from '../../components/AuthorReviewer'
 import TableOfContents from '../../components/TableOfContents'
 import Citations from '../../components/Citations'
+import PeopleAlsoAsk from '../../components/PeopleAlsoAsk'
 
 export const metadata = {
   title: 'Complete Neck Hump Guide: Fix Forward Head Posture',
-  description: 'Understand neck hump causes, timelines, red flags, and a practical plan (exercises + ergonomics + sleep). Short answer, key takeaways, references.',
+  description: 'How do you fix neck hump? Forward head posture can be corrected with daily exercises (chin tucks, wall angels), proper ergonomics, and sleep positioning. Most people see improvement in 2-4 weeks with consistent practice.',
   keywords: ['complete neck hump guide', 'forward head posture guide', 'neck hump treatment', 'tech neck guide', 'posture correction guide'],
   alternates: {
     canonical: 'https://www.neckhump.com/neck-hump-guide',
@@ -588,6 +589,32 @@ export default function CompleteGuidePage() {
           <p><strong>Medical Disclaimer:</strong> This information is for educational purposes only and is not intended as medical advice. Always consult with a healthcare professional before starting any exercise program, especially if you have existing neck injuries or chronic conditions.</p>
         </div>
       </article>
+
+      {/* People Also Ask Section */}
+      <PeopleAlsoAsk 
+        questions={[
+          {
+            question: "How long does it take to fix neck hump?",
+            answer: "Most people notice initial improvements within 2-4 weeks of consistent daily exercises. Significant correction typically occurs within 6-12 weeks. The timeline depends on severity, consistency of practice, and whether you also address ergonomic and sleep factors."
+          },
+          {
+            question: "Can neck hump be completely reversed?",
+            answer: "Yes, neck hump (forward head posture) can be significantly improved or completely corrected in most cases, especially when caught early. The key is consistent daily exercises, proper ergonomics, and addressing the underlying muscle imbalances that caused the condition."
+          },
+          {
+            question: "What exercises are most effective for neck hump?",
+            answer: "The most effective exercises are chin tucks (strengthens deep neck flexors), wall angels (strengthens upper back), doorway pec stretches (releases tight chest), and upper trap stretches. These target the specific muscle imbalances that cause forward head posture."
+          },
+          {
+            question: "Is neck hump caused by poor posture?",
+            answer: "Neck hump is primarily caused by prolonged computer use, smartphone usage, poor ergonomics, and muscle imbalances from modern lifestyle. While poor posture habits contribute, the condition develops from specific activities like looking down at screens for hours daily."
+          },
+          {
+            question: "When should I see a doctor for neck hump?",
+            answer: "See a doctor if you experience severe pain, numbness or tingling in arms/hands, sudden onset after injury, or no improvement after 6 weeks of consistent exercise. These symptoms may indicate nerve compression or other conditions requiring medical attention."
+          }
+        ]}
+      />
     </div>
   )
 }
