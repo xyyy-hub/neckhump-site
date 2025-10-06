@@ -80,7 +80,7 @@ export default function CompleteGuidePage() {
   ]
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-8">
+    <div className="max-w-4xl mx-auto px-4 py-8 xl:ml-80">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
