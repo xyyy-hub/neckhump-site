@@ -18,6 +18,8 @@ export const metadata = {
   },
 }
 
+// Force dynamic rendering to avoid static generation issues
+
 export default function PostureExercisesRemoteWorkersPage() {
   const shortAnswer = "Remote workers can maintain good posture by: 1) Setting up an ergonomic home office, 2) Doing hourly posture exercises, 3) Taking regular breaks to walk around, 4) Using a standing desk or laptop stand, 5) Doing desk-friendly stretches, 6) Creating a consistent routine. Focus on exercises you can do at your home workstation without disrupting your work flow."
 
@@ -387,3 +389,5 @@ export default function PostureExercisesRemoteWorkersPage() {
     />
   )
 }
+
+// Force dynamic rendering to avoid static generation issues

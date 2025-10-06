@@ -18,6 +18,8 @@ export const metadata = {
   },
 }
 
+// Force dynamic rendering to avoid static generation issues
+
 export default function HeadachesAfterPostureExercisesPage() {
   const shortAnswer = "Headaches after posture exercises are usually tension headaches caused by muscle strain, poor form, or overexertion. To prevent them: 1) Start with gentle movements, 2) Check your form, 3) Stay hydrated, 4) Breathe normally during exercises, 5) Progress slowly. If headaches are severe, persistent, or accompanied by other symptoms, see a doctor immediately."
 
@@ -313,3 +315,5 @@ export default function HeadachesAfterPostureExercisesPage() {
     />
   )
 }
+
+// Force dynamic rendering to avoid static generation issues

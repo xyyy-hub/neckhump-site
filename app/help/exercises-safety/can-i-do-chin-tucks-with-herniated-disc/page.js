@@ -18,6 +18,8 @@ export const metadata = {
   },
 }
 
+// Force dynamic rendering to avoid static generation issues
+
 export default function ChinTucksHerniatedDiscPage() {
   const shortAnswer = "Yes, you can do chin tucks with a herniated disc, but with important modifications. Gentle chin tucks (5-second holds, 5-10 reps) are generally safe for C5-C6 and C6-C7 herniations. Avoid if you experience numbness, tingling, or shooting pain down your arms."
 

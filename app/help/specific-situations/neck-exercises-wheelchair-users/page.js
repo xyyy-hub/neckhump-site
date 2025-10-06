@@ -18,6 +18,8 @@ export const metadata = {
   },
 }
 
+// Force dynamic rendering to avoid static generation issues
+
 export default function NeckExercisesWheelchairUsersPage() {
   const shortAnswer = "Wheelchair users can do adapted neck exercises: 1) Seated chin tucks with back support, 2) Gentle neck stretches in all directions, 3) Shoulder blade squeezes, 4) Seated wall angels, 5) Isometric neck exercises. Focus on exercises that work within wheelchair constraints and don't require standing. Always consult your healthcare provider before starting any exercise program."
 
@@ -308,3 +310,5 @@ export default function NeckExercisesWheelchairUsersPage() {
     />
   )
 }
+
+// Force dynamic rendering to avoid static generation issues

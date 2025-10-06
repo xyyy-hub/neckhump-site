@@ -18,6 +18,8 @@ export const metadata = {
   },
 }
 
+// Force dynamic rendering to avoid static generation issues
+
 export default function BestExerciseBandsNeckExercisesPage() {
   const shortAnswer = "For neck exercises, choose resistance bands with light to medium resistance (5-15 pounds). Best options: 1) Light resistance bands (5-10 lbs) for beginners, 2) Medium resistance bands (10-15 lbs) for intermediate users, 3) Loop bands for isometric exercises, 4) Tube bands with handles for pulling exercises. Avoid heavy resistance bands that can strain neck muscles."
 
@@ -330,3 +332,5 @@ export default function BestExerciseBandsNeckExercisesPage() {
     />
   )
 }
+
+// Force dynamic rendering to avoid static generation issues

@@ -18,6 +18,8 @@ export const metadata = {
   },
 }
 
+// Force dynamic rendering to avoid static generation issues
+
 export default function NeckPainAfterSleepingPage() {
   const shortAnswer = "Neck pain after sleeping is usually caused by poor pillow support, incorrect sleep posture, or an unsupportive mattress. To fix it: 1) Use a properly sized pillow that keeps your head aligned with your spine, 2) Sleep on your back or side (avoid stomach sleeping), 3) Do gentle morning stretches, 4) Consider a cervical pillow or memory foam pillow, 5) Check your mattress firmness. If pain persists, see a doctor."
 
@@ -352,3 +354,5 @@ export default function NeckPainAfterSleepingPage() {
     />
   )
 }
+
+// Force dynamic rendering to avoid static generation issues

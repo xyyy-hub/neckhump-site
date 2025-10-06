@@ -30,6 +30,8 @@ export const metadata = {
   },
 }
 
+// Force dynamic rendering to avoid static generation issues
+
 export default function BudgetPillowAlternativesPage() {
   const breadcrumbs = [
     { name: 'Home', href: '/' },
@@ -171,3 +173,5 @@ export default function BudgetPillowAlternativesPage() {
     </div>
   )
 }
+
+// Force dynamic rendering to avoid static generation issues

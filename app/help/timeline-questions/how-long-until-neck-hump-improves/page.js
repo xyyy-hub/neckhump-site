@@ -18,6 +18,8 @@ export const metadata = {
   },
 }
 
+// Force dynamic rendering to avoid static generation issues
+
 export default function NeckHumpTimelinePage() {
   const shortAnswer = "Most people notice reduced stiffness within 1-2 weeks, visible improvement around week 4-6, and significant change by week 8-12 with consistent daily exercises. Severe cases may take 3-6 months for substantial improvement."
 

@@ -18,6 +18,8 @@ export const metadata = {
   },
 }
 
+// Force dynamic rendering to avoid static generation issues
+
 export default function BestPillowSideSleepersPage() {
   const shortAnswer = "For side sleepers, choose a medium to firm pillow (4-6 inches thick) that fills the gap between your head and shoulder. Best options: 1) Memory foam pillows with cervical support, 2) Latex pillows with medium firmness, 3) Down alternative pillows with adjustable loft, 4) Contoured pillows designed for side sleeping. Avoid thin pillows that don't provide enough support or thick pillows that push your head up."
 
@@ -352,3 +354,5 @@ export default function BestPillowSideSleepersPage() {
     />
   )
 }
+
+// Force dynamic rendering to avoid static generation issues

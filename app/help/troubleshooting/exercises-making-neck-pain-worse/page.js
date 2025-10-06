@@ -18,6 +18,8 @@ export const metadata = {
   },
 }
 
+// Force dynamic rendering to avoid static generation issues
+
 export default function ExercisesMakingNeckPainWorsePage() {
   const shortAnswer = "If neck exercises are making your pain worse, common causes include: incorrect form, exercises too intense, underlying conditions, or muscle imbalances. Stop immediately if pain increases, reduce intensity, check your form, and consider gentler alternatives. If pain persists or worsens, see a doctor to rule out serious conditions like herniated discs or nerve compression."
 
@@ -311,3 +313,5 @@ export default function ExercisesMakingNeckPainWorsePage() {
     />
   )
 }
+
+// Force dynamic rendering to avoid static generation issues

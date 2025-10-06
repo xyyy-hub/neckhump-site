@@ -18,6 +18,8 @@ export const metadata = {
   },
 }
 
+// Force dynamic rendering to avoid static generation issues
+
 export default function NeckStiffnessAfterExercisesPage() {
   const shortAnswer = "Neck stiffness after exercises is usually normal and indicates your muscles are adapting. To reduce stiffness: 1) Warm up properly before exercises, 2) Cool down with gentle stretches, 3) Apply heat or ice, 4) Stay hydrated, 5) Progress slowly, 6) Get adequate rest. If stiffness is severe, persistent, or accompanied by pain, see a doctor."
 
@@ -329,3 +331,5 @@ export default function NeckStiffnessAfterExercisesPage() {
     />
   )
 }
+
+// Force dynamic rendering to avoid static generation issues

@@ -18,6 +18,8 @@ export const metadata = {
   },
 }
 
+// Force dynamic rendering to avoid static generation issues
+
 export default function PillowHeightSideSleepersPage() {
   const shortAnswer = "The best pillow height for side sleepers with neck hump is 4-6 inches thick with firm support. Your pillow should fill the gap between your head and shoulder, keeping your neck in neutral alignment. Too low causes neck strain, too high creates forward head posture. Choose a pillow that maintains the natural curve of your cervical spine."
 
@@ -207,3 +209,5 @@ export default function PillowHeightSideSleepersPage() {
     />
   )
 }
+
+// Force dynamic rendering to avoid static generation issues

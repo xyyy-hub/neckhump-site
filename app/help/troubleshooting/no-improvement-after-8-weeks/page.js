@@ -18,6 +18,8 @@ export const metadata = {
   },
 }
 
+// Force dynamic rendering to avoid static generation issues
+
 export default function NoImprovementAfter8WeeksPage() {
   const shortAnswer = "If you see no improvement after 8 weeks of neck hump exercises, common issues include: incorrect form, insufficient frequency, not addressing root causes, or exercises too easy. Try: 1) Video yourself to check form, 2) Increase to 2-3 times daily, 3) Add resistance or harder variations, 4) Address workstation ergonomics, 5) Consider physical therapy. Some people need 12-16 weeks for visible changes."
 
@@ -267,3 +269,5 @@ export default function NoImprovementAfter8WeeksPage() {
     />
   )
 }
+
+// Force dynamic rendering to avoid static generation issues

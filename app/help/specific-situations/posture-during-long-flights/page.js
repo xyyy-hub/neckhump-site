@@ -18,6 +18,9 @@ export const metadata = {
   },
 }
 
+// Force dynamic rendering to avoid static generation issues
+export const dynamic = 'force-dynamic'
+
 export default function PostureDuringLongFlightsPage() {
   const shortAnswer = "To maintain posture during long flights: 1) Use a travel pillow for neck support, 2) Do seated neck stretches every hour, 3) Practice seated chin tucks, 4) Use a lumbar support cushion, 5) Get up and walk every 2 hours, 6) Adjust your seat position regularly. Focus on exercises you can do discreetly in your seat without disturbing other passengers."
 

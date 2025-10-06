@@ -18,6 +18,8 @@ export const metadata = {
   },
 }
 
+// Force dynamic rendering to avoid static generation issues
+
 export default function ChinTucksDizzinessPage() {
   const shortAnswer = "Chin tucks can cause dizziness due to cervical vertigo, blood pressure changes, or inner ear issues. To fix it: 1) Start with very gentle movements, 2) Keep your eyes open and focus on a fixed point, 3) Avoid holding the position too long, 4) Stop immediately if dizzy. If dizziness persists, see a doctor to rule out serious conditions."
 
@@ -199,3 +201,5 @@ export default function ChinTucksDizzinessPage() {
     />
   )
 }
+
+// Force dynamic rendering to avoid static generation issues

@@ -18,6 +18,8 @@ export const metadata = {
   },
 }
 
+// Force dynamic rendering to avoid static generation issues
+
 export default function FoamRollerSizeGuideNeckPage() {
   const shortAnswer = "For neck and upper back exercises, choose a foam roller that's 18-24 inches long, 6 inches in diameter, with medium density (not too soft, not too firm). Avoid using foam rollers directly on your neck - use them for upper back and shoulder blade area instead. Start with a softer density and progress to firmer as you get used to the pressure."
 
@@ -298,3 +300,5 @@ export default function FoamRollerSizeGuideNeckPage() {
     />
   )
 }
+
+// Force dynamic rendering to avoid static generation issues

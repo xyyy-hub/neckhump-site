@@ -12,6 +12,9 @@ export const metadata = {
   },
 }
 
+// Force dynamic rendering for all help center pages
+export const dynamic = 'force-dynamic'
+
 export default function HelpLayout({ children }) {
   const categories = [
     { name: 'Exercises & Safety', href: '/help/exercises-safety', icon: '🛡️' },

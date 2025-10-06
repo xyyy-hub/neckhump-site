@@ -18,6 +18,8 @@ export const metadata = {
   },
 }
 
+// Force dynamic rendering to avoid static generation issues
+
 export default function NeckHumpWhileBreastfeedingPage() {
   const shortAnswer = "To fix neck hump while breastfeeding: 1) Use proper positioning with pillows to bring baby to breast height, 2) Do gentle neck stretches between feeds, 3) Practice seated chin tucks (3-5 seconds), 4) Strengthen upper back with wall angels, 5) Take breaks to stretch every 30 minutes. Avoid exercises that strain your core or cause pain. Focus on ergonomic positioning and gentle movements."
 
@@ -284,3 +286,5 @@ export default function NeckHumpWhileBreastfeedingPage() {
     />
   )
 }
+
+// Force dynamic rendering to avoid static generation issues

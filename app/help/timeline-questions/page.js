@@ -19,6 +19,8 @@ export const metadata = {
   },
 }
 
+// Force dynamic rendering to avoid static generation issues
+
 export default function TimelineQuestionsPage() {
   const articles = [
     {
@@ -296,3 +298,5 @@ export default function TimelineQuestionsPage() {
     </div>
   )
 }
+
+// Force dynamic rendering to avoid static generation issues

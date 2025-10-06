@@ -18,6 +18,8 @@ export const metadata = {
   },
 }
 
+// Force dynamic rendering to avoid static generation issues
+
 export default function BudgetPillowAlternativesPage() {
   const shortAnswer = "Budget pillow alternatives under $50 for neck hump: 1) Memory foam pillows ($20-40) with proper height, 2) Rolled towels as temporary support, 3) Buckwheat hull pillows ($30-45), 4) Latex pillows ($35-50), 5) DIY cervical support with folded towels. Focus on height (4-6 inches for side sleepers) and firmness rather than expensive features."
 
@@ -292,3 +294,5 @@ export default function BudgetPillowAlternativesPage() {
     />
   )
 }
+
+// Force dynamic rendering to avoid static generation issues

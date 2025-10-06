@@ -18,6 +18,8 @@ export const metadata = {
   },
 }
 
+// Force dynamic rendering to avoid static generation issues
+
 export default function NeckHumpExercisesPregnantWomenPage() {
   const shortAnswer = "Pregnant women can safely do neck exercises with modifications: 1) Gentle chin tucks (avoid lying flat), 2) Seated neck stretches, 3) Shoulder blade squeezes, 4) Wall angels, 5) Prenatal yoga poses, 6) Pelvic tilts. Avoid exercises that require lying flat after the first trimester, and always consult your healthcare provider before starting any exercise routine during pregnancy."
 
@@ -355,3 +357,5 @@ export default function NeckHumpExercisesPregnantWomenPage() {
     />
   )
 }
+
+// Force dynamic rendering to avoid static generation issues

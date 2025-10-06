@@ -30,6 +30,8 @@ export const metadata = {
   },
 }
 
+// Force dynamic rendering to avoid static generation issues
+
 export default function HelpCenterPage() {
   const categories = [
     {
@@ -282,3 +284,5 @@ export default function HelpCenterPage() {
     </div>
   )
 }
+
+// Force dynamic rendering to avoid static generation issues

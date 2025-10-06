@@ -19,6 +19,8 @@ export const metadata = {
   },
 }
 
+// Force dynamic rendering to avoid static generation issues
+
 export default function TroubleshootingPage() {
   const articles = [
     {
@@ -224,3 +226,5 @@ export default function TroubleshootingPage() {
     </div>
   )
 }
+
+// Force dynamic rendering to avoid static generation issues

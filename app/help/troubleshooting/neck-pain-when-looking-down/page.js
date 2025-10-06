@@ -18,6 +18,8 @@ export const metadata = {
   },
 }
 
+// Force dynamic rendering to avoid static generation issues
+
 export default function NeckPainWhenLookingDownPage() {
   const shortAnswer = "Neck pain when looking down is usually caused by forward head posture and weak neck muscles. To fix it: 1) Strengthen your deep neck flexors with chin tucks, 2) Improve your posture when using devices, 3) Hold your phone at eye level, 4) Do neck strengthening exercises, 5) Take frequent breaks from looking down, 6) Use ergonomic adjustments. If pain is severe or persistent, see a doctor."
 
@@ -342,3 +344,5 @@ export default function NeckPainWhenLookingDownPage() {
     />
   )
 }
+
+// Force dynamic rendering to avoid static generation issues

@@ -18,6 +18,8 @@ export const metadata = {
   },
 }
 
+// Force dynamic rendering to avoid static generation issues
+
 export default function BestErgonomicChairsNeckHumpPage() {
   const shortAnswer = "The best ergonomic chairs for neck hump have: 1) Adjustable lumbar support, 2) Proper seat height (feet flat, knees at 90°), 3) Adjustable armrests, 4) Headrest for neck support, 5) Seat depth adjustment, 6) Recline function. Look for chairs that promote neutral spine alignment and prevent forward head posture. Budget options start at $200, premium chairs $500+."
 
@@ -330,3 +332,5 @@ export default function BestErgonomicChairsNeckHumpPage() {
     />
   )
 }
+
+// Force dynamic rendering to avoid static generation issues

@@ -18,6 +18,8 @@ export const metadata = {
   },
 }
 
+// Force dynamic rendering to avoid static generation issues
+
 export default function PostureExercisesSeniorsPage() {
   const shortAnswer = "Seniors over 65 can safely do posture exercises with modifications: gentle chin tucks (3-5 seconds), seated wall angels, and neck stretches. Start with 2-3 repetitions, avoid sudden movements, and consider osteoporosis/arthritis. Always consult your doctor first, especially if you have bone density issues or take blood thinners."
 
@@ -224,3 +226,5 @@ export default function PostureExercisesSeniorsPage() {
     />
   )
 }
+
+// Force dynamic rendering to avoid static generation issues

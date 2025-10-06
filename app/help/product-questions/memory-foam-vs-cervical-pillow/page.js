@@ -18,6 +18,8 @@ export const metadata = {
   },
 }
 
+// Force dynamic rendering to avoid static generation issues
+
 export default function MemoryFoamVsCervicalPillowPage() {
   const shortAnswer = "Cervical pillows are generally better for neck hump correction than memory foam pillows. Cervical pillows provide targeted support for the natural curve of your neck, while memory foam pillows often lack proper height and can cause forward head posture. However, high-quality memory foam with proper height (4-6 inches) can work well for side sleepers."
 
@@ -262,3 +264,5 @@ export default function MemoryFoamVsCervicalPillowPage() {
     />
   )
 }
+
+// Force dynamic rendering to avoid static generation issues

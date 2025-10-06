@@ -19,8 +19,6 @@ export default function HelpArticle({
 }) {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
-      
-      
       {/* Short Answer Block */}
       <div className="bg-emerald-50 border-l-4 border-emerald-400 p-6 mb-8 rounded-lg">
         <h2 className="text-xl font-semibold mb-4 text-emerald-900" id="short-answer">
@@ -49,9 +47,11 @@ export default function HelpArticle({
         )}
 
         {/* Detailed Explanation */}
-        <div className="mb-8">
-          {content}
-        </div>
+        {content && (
+          <div className="mb-8">
+            {content}
+          </div>
+        )}
         
         {/* Key Considerations */}
         {keyConsiderations.length > 0 && (
@@ -112,7 +112,6 @@ export default function HelpArticle({
           <div className="mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">When to See a Doctor</h2>
             <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 rounded-lg">
-              <p className="text-yellow-800 font-medium mb-3">Seek immediate medical attention if you experience:</p>
               <ul className="space-y-2">
                 {whenToSeeDoctor.map((warning, index) => (
                   <li key={index} className="flex items-start">

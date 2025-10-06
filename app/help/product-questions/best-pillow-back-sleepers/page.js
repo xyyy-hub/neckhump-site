@@ -18,6 +18,8 @@ export const metadata = {
   },
 }
 
+// Force dynamic rendering to avoid static generation issues
+
 export default function BestPillowBackSleepersPage() {
   const shortAnswer = "For back sleepers, choose a thin to medium pillow (2-4 inches thick) that supports your head without pushing it forward. Best options: 1) Memory foam pillows with cervical support, 2) Latex pillows with medium firmness, 3) Down alternative pillows with adjustable loft, 4) Buckwheat pillows for customizable height. Avoid thick pillows that tilt your head forward and worsen neck hump."
 
@@ -352,3 +354,5 @@ export default function BestPillowBackSleepersPage() {
     />
   )
 }
+
+// Force dynamic rendering to avoid static generation issues
