@@ -3,7 +3,7 @@ import PeopleAlsoAsk from '../../components/PeopleAlsoAsk'
 
 export const metadata = {
   title: 'Neck Hump Surgery: When Surgery is Needed & What to Expect (2024)',
-  description: 'When is neck hump surgery needed? Surgery is rarely necessary - only for severe structural deformities (>45 degrees), neurological symptoms, or failed conservative treatment after 6-12 months. 85-90% of cases improve with exercise, ergonomics, and physical therapy. Surgery costs $35,000-$190,000.',
+  description: 'When is neck hump surgery needed? Surgery is rarely necessary - only for severe structural deformities (&gt;45 degrees), neurological symptoms, or failed conservative treatment after 6-12 months. 85-90% of cases improve with exercise, ergonomics, and physical therapy. Surgery costs $35,000-$190,000.',
   keywords: ['neck hump surgery', 'dowager hump surgery', 'cervical kyphosis surgery', 'neck hump removal', 'forward head posture surgery', 'neck hump operation'],
   alternates: {
     canonical: 'https://www.neckhump.com/neck-hump-surgery-guide',
@@ -85,7 +85,7 @@ export default function NeckHumpSurgeryGuidePage() {
               Short Answer
             </h2>
             <p className="text-emerald-800 text-lg leading-relaxed">
-              When is neck hump surgery needed? Surgery is rarely necessary - only for severe structural deformities (>45 degrees), neurological symptoms, or failed conservative treatment after 6-12 months. 85-90% of cases improve with exercise, ergonomics, and physical therapy. Surgery costs $35,000-$190,000 and has 60-85% success rates.
+              When is neck hump surgery needed? Surgery is rarely necessary - only for severe structural deformities (&gt;45 degrees), neurological symptoms, or failed conservative treatment after 6-12 months. 85-90% of cases improve with exercise, ergonomics, and physical therapy. Surgery costs $35,000-$190,000 and has 60-85% success rates.
             </p>
           </div>
 
@@ -96,7 +96,7 @@ export default function NeckHumpSurgeryGuidePage() {
             </h2>
             <ul className="text-blue-800 space-y-2">
               <li>• <strong>Surgery is last resort:</strong> 85-90% of cases improve with conservative treatment</li>
-              <li>• <strong>Criteria for surgery:</strong> Severe deformity (>45°), neurological symptoms, failed conservative treatment</li>
+              <li>• <strong>Criteria for surgery:</strong> Severe deformity (&gt;45°), neurological symptoms, failed conservative treatment</li>
               <li>• <strong>Cost range:</strong> $35,000-$190,000 depending on procedure complexity</li>
               <li>• <strong>Success rates:</strong> 60-85% for symptom relief and functional improvement</li>
               <li>• <strong>Recovery time:</strong> 6-12 months for full recovery with significant restrictions</li>
@@ -142,7 +142,7 @@ export default function NeckHumpSurgeryGuidePage() {
                   <h4 className="font-semibold text-green-800 mb-2">Mild to Moderate Cervical Kyphosis</h4>
                   <ul className="text-green-700 text-sm space-y-1">
                     <li>• <strong>Cause:</strong> Minor structural changes, often reversible</li>
-                    <li>• <strong>Surgery criteria:</strong> Only if {'>'} 45 degrees and symptomatic</li>
+                    <li>• <strong>Surgery criteria:</strong> Only if &gt; 45 degrees and symptomatic</li>
                     <li>• <strong>Conservative success rate:</strong> 70-85% stabilization</li>
                     <li>• <strong>Best approach:</strong> Physical therapy, bracing, activity modification</li>
                   </ul>
@@ -165,7 +165,7 @@ export default function NeckHumpSurgeryGuidePage() {
               
               <div className="space-y-4">
                 <div className="bg-white p-4 rounded-lg">
-                  <h4 className="font-semibold text-red-800 mb-2">Severe Cervical Kyphosis ({'>'} 45-50 degrees)</h4>
+                  <h4 className="font-semibold text-red-800 mb-2">Severe Cervical Kyphosis (&gt; 45-50 degrees)</h4>
                   <ul className="text-red-700 text-sm space-y-1">
                     <li>• <strong>Symptoms:</strong> Neurological impairment, severe pain</li>
                     <li>• <strong>Surgery consideration:</strong> When conservative treatment fails</li>
@@ -222,7 +222,7 @@ export default function NeckHumpSurgeryGuidePage() {
                 <div className="bg-white p-4 rounded-lg">
                   <h4 className="font-semibold text-blue-800 mb-3">Structural Requirements:</h4>
                   <ul className="text-blue-700 text-sm space-y-1">
-                    <li>• Cervical kyphosis {'>'} 45 degrees (measured on X-ray)</li>
+                    <li>• Cervical kyphosis &gt; 45 degrees (measured on X-ray)</li>
                     <li>• Progressive deformity despite treatment</li>
                     <li>• Bone abnormalities or fractures</li>
                     <li>• Failed fusion from previous surgery</li>
@@ -1175,7 +1175,7 @@ export default function NeckHumpSurgeryGuidePage() {
         <PeopleAlsoAsk questions={[
           {
             question: "How do I know if I need surgery for my neck hump?",
-            answer: "Surgery is typically only necessary if you have severe structural deformity (>45 degrees on X-ray), neurological symptoms, or significant functional impairment that hasn't improved with 6-12 months of conservative treatment. Most neck humps are postural and don't require surgery.",
+            answer: "Surgery is typically only necessary if you have severe structural deformity (&gt;45 degrees on X-ray), neurological symptoms, or significant functional impairment that hasn't improved with 6-12 months of conservative treatment. Most neck humps are postural and don't require surgery.",
             link: "/help/symptom-questions/neck-hump-surgery-criteria"
           },
           {
