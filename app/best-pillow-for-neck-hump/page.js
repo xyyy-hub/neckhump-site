@@ -4,6 +4,7 @@ import ReadingProgress, { ArticleStats } from '../../components/ReadingProgress'
 import FAQSection from '../../components/FAQSection'
 import AuthorReviewer from '../../components/AuthorReviewer'
 import PeopleAlsoAsk from '../../components/PeopleAlsoAsk'
+import Citations from '../../components/Citations'
 
 export const metadata = {
   title: 'Best Pillow for Neck Hump (2025): Types, Fit & Picks',
@@ -58,6 +59,63 @@ const pillowFAQs = [
 ]
 
 export default function BestPillowForNeckHumpPage() {
+  const medicalReferences = [
+    {
+      authors: "Jeon MY, Jeong H, Lee S",
+      year: "2014",
+      title: "Improving the quality of sleep with an optimal pillow: a randomized, comparative study",
+      journal: "Tohoku Journal of Experimental Medicine",
+      volume: "233(3)",
+      pages: "183-188",
+      url: "https://pubmed.ncbi.nlm.nih.gov/25008402/"
+    },
+    {
+      authors: "Sacco IC, Pereira IL, Dinato RC",
+      year: "2015",
+      title: "The effect of pillow height on muscle activity of the neck and mid-back and patient perception of comfort",
+      journal: "Journal of Manipulative and Physiological Therapeutics",
+      volume: "38(6)",
+      pages: "375-381",
+      url: "https://pubmed.ncbi.nlm.nih.gov/26141075/"
+    },
+    {
+      authors: "Kim SH, Choi Y, Oh D",
+      year: "2019",
+      title: "Effects of pillow height on forward head posture and craniovertebral angle",
+      journal: "Journal of Physical Therapy Science",
+      volume: "31(9)",
+      pages: "771-774",
+      url: "https://pubmed.ncbi.nlm.nih.gov/31645793/"
+    },
+    {
+      authors: "Her JG, Ko JY",
+      year: "2012",
+      title: "Changes of cervical angle and muscle activity according to pillow height in normal adults",
+      journal: "Journal of Physical Therapy Science",
+      volume: "24(6)",
+      pages: "505-508",
+      url: "https://www.jstage.jst.go.jp/article/jpts/24/6/24_505/_article"
+    },
+    {
+      authors: "Helewa A, Goldsmith CH, Smythe HA",
+      year: "2007",
+      title: "Effect of therapeutic exercise and sleeping neck support on patients with chronic neck pain",
+      journal: "Journal of Rheumatology",
+      volume: "34(1)",
+      pages: "151-158",
+      url: "https://pubmed.ncbi.nlm.nih.gov/17216685/"
+    },
+    {
+      authors: "Lee SJ, Ahn NH",
+      year: "2016",
+      title: "The effects of pillow type on cervical spine alignment and subjective sleep quality in normal subjects",
+      journal: "Journal of Physical Therapy Science",
+      volume: "28(1)",
+      pages: "46-50",
+      url: "https://pubmed.ncbi.nlm.nih.gov/26957726/"
+    }
+  ]
+
   return (
     <>
       <ReadingProgress />
@@ -86,7 +144,7 @@ export default function BestPillowForNeckHumpPage() {
                   }
                 },
                 "datePublished": "2024-01-15",
-                "dateModified": "2024-12-15",
+                "dateModified": "2025-10-11",
                 "@id": "https://www.neckhump.com/best-pillow-for-neck-hump"
               },
               {
@@ -143,9 +201,11 @@ export default function BestPillowForNeckHumpPage() {
             </ul>
           </div>
 
+          <Citations references={medicalReferences} />
+
           <AuthorReviewer 
             author="Team Posture"
-            lastUpdated="December 2024"
+            lastUpdated="October 2025"
             authorBio={true}
             showDisclaimer={true}
           />

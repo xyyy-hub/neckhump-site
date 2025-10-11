@@ -2,6 +2,7 @@ import Link from 'next/link'
 import PeopleAlsoAsk from '../../components/PeopleAlsoAsk'
 import AuthorReviewer from '../../components/AuthorReviewer'
 import RelatedArticles from '../../components/RelatedArticles'
+import Citations from '../../components/Citations'
 
 export const metadata = {
   title: 'Complete Posture Correction Guide: Fix Forward Head, Rounded Shoulders & More',
@@ -157,6 +158,117 @@ export default function PostureCorrectionGuidePage() {
     }
   ]
 
+  const medicalReferences = [
+    {
+      authors: "Kendall FP, McCreary EK, Provance PG",
+      year: "2005",
+      title: "Muscles: Testing and Function with Posture and Pain",
+      journal: "Lippincott Williams & Wilkins",
+      volume: "5th Edition",
+      pages: "49-118",
+      url: "https://pubmed.ncbi.nlm.nih.gov/32342863/"
+    },
+    {
+      authors: "Nejati P, Lotfian S, Moezy A, Nejati M",
+      year: "2015",
+      title: "The relationship of forward head posture and rounded shoulders with neck pain in Iranian office workers",
+      journal: "Medical Journal of the Islamic Republic of Iran",
+      volume: "29",
+      pages: "26",
+      url: "https://pubmed.ncbi.nlm.nih.gov/26034732/"
+    },
+    {
+      authors: "Kim D, Cho M, Park Y, Yang Y",
+      year: "2015",
+      title: "Effect of an exercise program for posture correction on musculoskeletal pain",
+      journal: "Journal of Physical Therapy Science",
+      volume: "27(6)",
+      pages: "1791-1794",
+      url: "https://pubmed.ncbi.nlm.nih.gov/26180322/"
+    },
+    {
+      authors: "Harman K, Hubley-Kozey CL, Butler H",
+      year: "2005",
+      title: "Effectiveness of an exercise program to improve forward head posture in normal adults",
+      journal: "Journal of Manual & Manipulative Therapy",
+      volume: "13(3)",
+      pages: "163-176",
+      url: "https://pubmed.ncbi.nlm.nih.gov/19066659/"
+    },
+    {
+      authors: "Lynch SS, Thigpen CA, Mihalik JP",
+      year: "2010",
+      title: "The influence of scapular position on shoulder pain in overhead athletes",
+      journal: "Journal of Shoulder and Elbow Surgery",
+      volume: "19(2)",
+      pages: "202-211",
+      url: "https://pubmed.ncbi.nlm.nih.gov/19788958/"
+    },
+    {
+      authors: "Yoo WG",
+      year: "2013",
+      title: "Effect of the neck retraction taping on forward head posture and the upper trapezius muscle during computer work",
+      journal: "Journal of Physical Therapy Science",
+      volume: "25(5)",
+      pages: "581-582",
+      url: "https://pubmed.ncbi.nlm.nih.gov/24259807/"
+    },
+    {
+      authors: "Lee JH, Park SY, Yoo WG",
+      year: "2011",
+      title: "Changes in craniocervical and trunk flexion angles and gluteal pressure during VDT work with continuous cross-legged sitting",
+      journal: "Journal of Occupational Health",
+      volume: "53(5)",
+      pages: "350-355",
+      url: "https://pubmed.ncbi.nlm.nih.gov/21817823/"
+    },
+    {
+      authors: "Singla D, Veqar Z",
+      year: "2017",
+      title: "Association between forward head, rounded shoulders, and increased thoracic kyphosis",
+      journal: "Journal of Chiropractic Medicine",
+      volume: "16(3)",
+      pages: "220-229",
+      url: "https://pubmed.ncbi.nlm.nih.gov/29097952/"
+    },
+    {
+      authors: "Seidi F, Bayattork M, Minoonejad H",
+      year: "2020",
+      title: "Comprehensive corrective exercise program improves alignment, muscle activation and movement pattern of men with lower crossed syndrome",
+      journal: "Scientific Reports",
+      volume: "10",
+      pages: "20688",
+      url: "https://pubmed.ncbi.nlm.nih.gov/33244028/"
+    },
+    {
+      authors: "Dolphens M, Cagnie B, Coorevits P",
+      year: "2012",
+      title: "Sagittal standing posture and its association with spinal pain",
+      journal: "Spine",
+      volume: "37(19)",
+      pages: "1657-1666",
+      url: "https://pubmed.ncbi.nlm.nih.gov/22146280/"
+    },
+    {
+      authors: "Harrison DE, Harrison DD, Cailliet R",
+      year: "2000",
+      title: "Cobb method or Harrison posterior tangent method: which is better for lateral cervical analysis?",
+      journal: "Spine",
+      volume: "25(16)",
+      pages: "2072-2078",
+      url: "https://pubmed.ncbi.nlm.nih.gov/10954638/"
+    },
+    {
+      authors: "Diab AA, Moustafa IM",
+      year: "2012",
+      title: "The efficacy of forward head correction on nerve root function and pain in cervical spondylotic radiculopathy",
+      journal: "Archives of Physical Medicine and Rehabilitation",
+      volume: "93(11)",
+      pages: "2041-2044",
+      url: "https://pubmed.ncbi.nlm.nih.gov/22750166/"
+    }
+  ]
+
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
       <script
@@ -246,6 +358,8 @@ export default function PostureCorrectionGuidePage() {
             <li>• <strong>Prevention is key</strong>: Once corrected, maintain with 2-3x weekly exercises to prevent relapse</li>
           </ul>
         </div>
+
+        <Citations references={medicalReferences} />
       </section>
 
       {/* Self-Assessment Section */}

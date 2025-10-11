@@ -473,6 +473,102 @@ export default function sitemap() {
     lastModified: new Date('2025-10-06T05:13:21.091Z'),
     changeFrequency: 'monthly',
     priority: 0.6,
+  },
+  {
+    url: 'https://www.neckhump.com/help/specific-situations/posture-exercises-students',
+    lastModified: new Date('2025-01-15T00:00:00.000Z'),
+    changeFrequency: 'monthly',
+    priority: 0.6,
+  },
+  {
+    url: 'https://www.neckhump.com/help/specific-situations/neck-hump-exercises-athletes',
+    lastModified: new Date('2025-01-15T00:00:00.000Z'),
+    changeFrequency: 'monthly',
+    priority: 0.6,
+  },
+  {
+    url: 'https://www.neckhump.com/help/exercises-safety/neck-exercises-for-osteoporosis',
+    lastModified: new Date('2025-01-15T00:00:00.000Z'),
+    changeFrequency: 'monthly',
+    priority: 0.6,
+  },
+  {
+    url: 'https://www.neckhump.com/help/exercises-safety/chin-tucks-with-cervical-stenosis',
+    lastModified: new Date('2025-01-15T00:00:00.000Z'),
+    changeFrequency: 'monthly',
+    priority: 0.6,
+  },
+  {
+    url: 'https://www.neckhump.com/help/exercises-safety/exercises-after-cervical-fusion',
+    lastModified: new Date('2025-01-15T00:00:00.000Z'),
+    changeFrequency: 'monthly',
+    priority: 0.6,
+  },
+  {
+    url: 'https://www.neckhump.com/help/exercises-safety/posture-exercises-with-fibromyalgia',
+    lastModified: new Date('2025-01-15T00:00:00.000Z'),
+    changeFrequency: 'monthly',
+    priority: 0.6,
+  },
+  {
+    url: 'https://www.neckhump.com/help/exercises-safety/neck-hump-correction-with-ms',
+    lastModified: new Date('2025-01-15T00:00:00.000Z'),
+    changeFrequency: 'monthly',
+    priority: 0.6,
+  },
+  {
+    url: 'https://www.neckhump.com/help/exercises-safety/forward-head-posture-with-eds',
+    lastModified: new Date('2025-01-15T00:00:00.000Z'),
+    changeFrequency: 'monthly',
+    priority: 0.6,
+  },
+  {
+    url: 'https://www.neckhump.com/help/troubleshooting/shoulder-pain-during-chin-tucks',
+    lastModified: new Date('2025-01-15T00:00:00.000Z'),
+    changeFrequency: 'monthly',
+    priority: 0.6,
+  },
+  {
+    url: 'https://www.neckhump.com/help/troubleshooting/exercises-causing-numbness',
+    lastModified: new Date('2025-01-15T00:00:00.000Z'),
+    changeFrequency: 'monthly',
+    priority: 0.6,
+  },
+  {
+    url: 'https://www.neckhump.com/help/timeline-questions/progress-tracking-methods',
+    lastModified: new Date('2025-01-15T00:00:00.000Z'),
+    changeFrequency: 'monthly',
+    priority: 0.6,
+  },
+  {
+    url: 'https://www.neckhump.com/help/timeline-questions/plateau-periods-and-setbacks',
+    lastModified: new Date('2025-01-15T00:00:00.000Z'),
+    changeFrequency: 'monthly',
+    priority: 0.6,
+  },
+  {
+    url: 'https://www.neckhump.com/help/timeline-questions/age-related-recovery-differences',
+    lastModified: new Date('2025-01-15T00:00:00.000Z'),
+    changeFrequency: 'monthly',
+    priority: 0.6,
+  },
+  {
+    url: 'https://www.neckhump.com/help/timeline-questions/seasonal-and-lifestyle-impact',
+    lastModified: new Date('2025-01-15T00:00:00.000Z'),
+    changeFrequency: 'monthly',
+    priority: 0.6,
+  },
+  {
+    url: 'https://www.neckhump.com/help/timeline-questions/when-to-seek-professional-help',
+    lastModified: new Date('2025-01-15T00:00:00.000Z'),
+    changeFrequency: 'monthly',
+    priority: 0.6,
+  },
+  {
+    url: 'https://www.neckhump.com/help/timeline-questions/long-term-maintenance-timeline',
+    lastModified: new Date('2025-01-15T00:00:00.000Z'),
+    changeFrequency: 'monthly',
+    priority: 0.6,
   }
   ]
 }

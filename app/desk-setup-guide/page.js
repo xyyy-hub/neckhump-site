@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import PeopleAlsoAsk from '../../components/PeopleAlsoAsk'
+import Citations from '../../components/Citations'
 
 export const metadata = {
   title: 'Perfect Desk Setup Guide: Ergonomic Workspace for Better Posture',
@@ -16,6 +17,86 @@ export const metadata = {
 }
 
 export default function DeskSetupPage() {
+  const medicalReferences = [
+    {
+      authors: "Occupational Safety and Health Administration (OSHA)",
+      year: "2024",
+      title: "Computer Workstation Ergonomics",
+      journal: "United States Department of Labor",
+      url: "https://www.osha.gov/etools/computer-workstations"
+    },
+    {
+      authors: "Robertson M, Amick BC, DeRango K",
+      year: "2009",
+      title: "The effects of an office ergonomics training and chair intervention on worker knowledge, behavior and musculoskeletal risk",
+      journal: "Applied Ergonomics",
+      volume: "40(1)",
+      pages: "124-135",
+      url: "https://pubmed.ncbi.nlm.nih.gov/18336795/"
+    },
+    {
+      authors: "Rempel D, Krause N, Goldberg R",
+      year: "2006",
+      title: "A randomised controlled trial evaluating the effects of two workstation interventions on upper body pain and incident musculoskeletal disorders among computer operators",
+      journal: "Occupational and Environmental Medicine",
+      volume: "63(5)",
+      pages: "300-306",
+      url: "https://pubmed.ncbi.nlm.nih.gov/16621849/"
+    },
+    {
+      authors: "Gerr F, Marcus M, Monteilh C",
+      year: "2004",
+      title: "Epidemiology of musculoskeletal disorders among computer users: lesson learned from the role of posture and keyboard use",
+      journal: "Journal of Electromyography and Kinesiology",
+      volume: "14(1)",
+      pages: "25-31",
+      url: "https://pubmed.ncbi.nlm.nih.gov/14759747/"
+    },
+    {
+      authors: "Shariat A, Cleland JA, Danaee M",
+      year: "2018",
+      title: "Effects of stretching exercise training and ergonomic modifications on musculoskeletal discomforts of office workers",
+      journal: "Brazilian Journal of Physical Therapy",
+      volume: "22(2)",
+      pages: "144-153",
+      url: "https://pubmed.ncbi.nlm.nih.gov/29097026/"
+    },
+    {
+      authors: "Janwantanakul P, Pensri P, Jiamjarasrangsri V",
+      year: "2008",
+      title: "Prevalence of self-reported musculoskeletal symptoms among office workers",
+      journal: "Occupational Medicine",
+      volume: "58(6)",
+      pages: "436-438",
+      url: "https://pubmed.ncbi.nlm.nih.gov/18544589/"
+    },
+    {
+      authors: "Hedge A, Ray EJ",
+      year: "2004",
+      title: "Effects of an electronic height-adjustable worksurface on computer worker musculoskeletal discomfort and productivity",
+      journal: "Proceedings of the Human Factors and Ergonomics Society Annual Meeting",
+      volume: "48(8)",
+      pages: "1091-1095",
+      url: "https://journals.sagepub.com/doi/10.1177/154193120404800821"
+    },
+    {
+      authors: "Straker L, Abbott RA, Heiden M",
+      year: "2009",
+      title: "Sit-stand desks in call centres: associations of use and ergonomics awareness with sedentary behavior",
+      journal: "Applied Ergonomics",
+      volume: "40(4)",
+      pages: "517-523",
+      url: "https://pubmed.ncbi.nlm.nih.gov/19087931/"
+    },
+    {
+      authors: "American National Standards Institute (ANSI)",
+      year: "2007",
+      title: "Human Factors Engineering of Computer Workstations - ANSI/HFES 100-2007",
+      journal: "Human Factors and Ergonomics Society",
+      url: "https://www.hfes.org/publications/product-detail/human-factors-engineering-of-computer-workstations"
+    }
+  ]
+
   return (
     <article className="max-w-4xl mx-auto">
       <header className="mb-12 text-center">
@@ -27,7 +108,7 @@ export default function DeskSetupPage() {
           ergonomic workspace that prevents pain and boosts productivity.
         </p>
         <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-700">
-          <span>Last updated: December 2024</span>
+          <span>Last updated: October 2025</span>
           <span>•</span>
           <span>5 min read</span>
           <span>•</span>
@@ -75,6 +156,8 @@ export default function DeskSetupPage() {
             </li>
           </ul>
         </div>
+
+        <Citations references={medicalReferences} />
       </section>
 
       <div className="article-content">
@@ -449,7 +532,7 @@ export default function DeskSetupPage() {
               }
             },
             "datePublished": "2024-12-01",
-            "dateModified": "2024-12-01",
+            "dateModified": "2025-10-11",
             "mainEntityOfPage": {
               "@type": "WebPage",
               "@id": "https://www.neckhump.com/desk-setup-guide"

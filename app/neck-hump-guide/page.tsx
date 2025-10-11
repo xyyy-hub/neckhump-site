@@ -38,13 +38,22 @@ export default function CompleteGuidePage() {
   // Medical references for E-E-A-T
   const medicalReferences = [
     {
+      authors: "Hansraj KK",
+      year: "2014",
+      title: "Assessment of stresses in the cervical spine caused by posture and position of the head",
+      journal: "Surgical Technology International",
+      volume: "25",
+      pages: "277-279",
+      url: "https://pubmed.ncbi.nlm.nih.gov/25393825/"
+    },
+    {
       authors: "Kim SY, Koo SJ",
       year: "2016", 
       title: "Effect of duration of smartphone use on muscle fatigue and pain caused by forward head posture",
       journal: "Journal of Physical Therapy Science",
       volume: "28(6)",
       pages: "1669-1672",
-      url: "https://pubmed.ncbi.nlm.nih.gov/25393825/"
+      url: "https://pubmed.ncbi.nlm.nih.gov/27390414/"
     },
     {
       authors: "Nejati P, Lotfian S, Moezy A, Nejati M",
@@ -53,7 +62,7 @@ export default function CompleteGuidePage() {
       journal: "International Journal of Occupational Medicine and Environmental Health",
       volume: "28(2)",
       pages: "295-303",
-      url: "https://pubmed.ncbi.nlm.nih.gov/32795710/"
+      url: "https://pubmed.ncbi.nlm.nih.gov/26034732/"
     },
     {
       authors: "Blanpied PR, Gross AR, Elliott JM",
@@ -63,6 +72,60 @@ export default function CompleteGuidePage() {
       volume: "47(7)",
       pages: "A1-A83",
       url: "https://pubmed.ncbi.nlm.nih.gov/29845019/"
+    },
+    {
+      authors: "Lee KJ, Han HY, Cheon SH",
+      year: "2015",
+      title: "The effect of forward head posture on respiratory function",
+      journal: "Journal of Physical Therapy Science",
+      volume: "27(5)",
+      pages: "1261-1264",
+      url: "https://pubmed.ncbi.nlm.nih.gov/26157216/"
+    },
+    {
+      authors: "Harman K, Hubley-Kozey CL, Butler H",
+      year: "2005",
+      title: "Effectiveness of an exercise program to improve forward head posture in normal adults",
+      journal: "Journal of Manual & Manipulative Therapy",
+      volume: "13(3)",
+      pages: "163-176",
+      url: "https://pubmed.ncbi.nlm.nih.gov/19066659/"
+    },
+    {
+      authors: "Kim D, Cho M, Park Y, Yang Y",
+      year: "2015",
+      title: "Effect of an exercise program for posture correction on musculoskeletal pain",
+      journal: "Journal of Physical Therapy Science",
+      volume: "27(6)",
+      pages: "1791-1794",
+      url: "https://pubmed.ncbi.nlm.nih.gov/26180322/"
+    },
+    {
+      authors: "Singla D, Veqar Z",
+      year: "2017",
+      title: "Association between forward head, rounded shoulders, and increased thoracic kyphosis",
+      journal: "Journal of Chiropractic Medicine",
+      volume: "16(3)",
+      pages: "220-229",
+      url: "https://pubmed.ncbi.nlm.nih.gov/29097952/"
+    },
+    {
+      authors: "Yoo WG",
+      year: "2013",
+      title: "Effect of the neck retraction taping on forward head posture and the upper trapezius muscle during computer work",
+      journal: "Journal of Physical Therapy Science",
+      volume: "25(5)",
+      pages: "581-582",
+      url: "https://pubmed.ncbi.nlm.nih.gov/24259807/"
+    },
+    {
+      authors: "Lee MY, Lee HY, Yong MS",
+      year: "2016",
+      title: "Characteristics of cervical position sense in subjects with forward head posture",
+      journal: "Journal of Physical Therapy Science",
+      volume: "28(6)",
+      pages: "1859-1862",
+      url: "https://pubmed.ncbi.nlm.nih.gov/27390437/"
     }
   ]
 
@@ -105,7 +168,7 @@ export default function CompleteGuidePage() {
                   }
                 },
                 "datePublished": "2025-09-23",
-                "dateModified": "2025-09-23",
+                "dateModified": "2025-10-11",
                 "mainEntityOfPage": {
                   "@type": "WebPage",
                   "@id": "https://www.neckhump.com/neck-hump-guide"

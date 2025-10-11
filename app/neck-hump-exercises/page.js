@@ -7,6 +7,7 @@ import TableOfContents from '../../components/TableOfContents'
 import PeopleAlsoAsk from '../../components/PeopleAlsoAsk'
 import RelatedArticles from '../../components/RelatedArticles'
 import NavigationPathway from '../../components/NavigationPathway'
+import Citations from '../../components/Citations'
 
 export const metadata = {
   title: 'Neck Hump Exercises: 10 Proven Moves (Daily 5-Minute Plan)',
@@ -60,6 +61,81 @@ export default function NeckHumpExercisesPage() {
     }
   ]
   // Define TOC headings for the exercises page
+  const medicalReferences = [
+    {
+      authors: "Jull G, Falla D, Vicenzino B",
+      year: "2004",
+      title: "The effect of therapeutic exercise on activation of the deep cervical flexor muscles in people with chronic neck pain",
+      journal: "Manual Therapy",
+      volume: "9(4)",
+      pages: "197-202",
+      url: "https://pubmed.ncbi.nlm.nih.gov/15522644/"
+    },
+    {
+      authors: "Kim D, Cho M, Park Y, Yang Y",
+      year: "2015",
+      title: "Effect of an exercise program for posture correction on musculoskeletal pain",
+      journal: "Journal of Physical Therapy Science",
+      volume: "27(6)",
+      pages: "1791-1794",
+      url: "https://pubmed.ncbi.nlm.nih.gov/26180322/"
+    },
+    {
+      authors: "Harman K, Hubley-Kozey CL, Butler H",
+      year: "2005",
+      title: "Effectiveness of an exercise program to improve forward head posture in normal adults",
+      journal: "Journal of Manual & Manipulative Therapy",
+      volume: "13(3)",
+      pages: "163-176",
+      url: "https://pubmed.ncbi.nlm.nih.gov/19066659/"
+    },
+    {
+      authors: "Lee JH, Park SY, Yoo WG",
+      year: "2013",
+      title: "Changes in craniocervical and trunk flexion angles and gluteal pressure during VDT work with continuous cross-legged sitting",
+      journal: "Journal of Occupational Health",
+      volume: "53(5)",
+      pages: "350-355",
+      url: "https://pubmed.ncbi.nlm.nih.gov/21817823/"
+    },
+    {
+      authors: "Yoo WG, Kim MH",
+      year: "2016",
+      title: "Effect of different seat support characteristics on the neck and trunk muscles and forward head posture of visual display terminal workers",
+      journal: "Work",
+      volume: "53(1)",
+      pages: "3-9",
+      url: "https://pubmed.ncbi.nlm.nih.gov/26684699/"
+    },
+    {
+      authors: "Lynch SS, Thigpen CA, Mihalik JP",
+      year: "2010",
+      title: "The influence of scapular position on shoulder pain in overhead athletes",
+      journal: "Journal of Shoulder and Elbow Surgery",
+      volume: "19(2)",
+      pages: "202-211",
+      url: "https://pubmed.ncbi.nlm.nih.gov/19788958/"
+    },
+    {
+      authors: "Falla D, Jull G, Hodges PW",
+      year: "2004",
+      title: "Patients with neck pain demonstrate reduced electromyographic activity of the deep cervical flexor muscles during performance of the craniocervical flexion test",
+      journal: "Spine",
+      volume: "29(19)",
+      pages: "2108-2114",
+      url: "https://pubmed.ncbi.nlm.nih.gov/15454700/"
+    },
+    {
+      authors: "Kang JH, Park RY, Lee SJ",
+      year: "2012",
+      title: "The effect of the forward head posture on postural balance in long time computer based worker",
+      journal: "Annals of Rehabilitation Medicine",
+      volume: "36(1)",
+      pages: "98-104",
+      url: "https://pubmed.ncbi.nlm.nih.gov/22506241/"
+    }
+  ]
+
   const tocHeadings = [
     { id: 'short-answer', text: 'Short Answer', level: 2 },
     { id: 'key-takeaways', text: 'Key Takeaways', level: 2 },
@@ -109,7 +185,7 @@ export default function NeckHumpExercisesPage() {
               }
             },
             "datePublished": "2024-01-15",
-            "dateModified": "2024-01-15",
+            "dateModified": "2025-10-11",
             "@id": "https://www.neckhump.com/neck-hump-exercises"
               },
               {
@@ -281,26 +357,7 @@ export default function NeckHumpExercisesPage() {
             </ul>
           </div>
 
-          <div className="bg-gray-50 border-l-4 border-gray-400 p-6 mb-8 rounded-lg">
-            <h2 className="text-xl font-semibold mb-4 text-gray-900" id="references">References</h2>
-            <ol className="space-y-2 text-gray-700">
-              <li>
-                <a href="https://pubmed.ncbi.nlm.nih.gov/29845019/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
-                  1. Effects of exercise on cervical lordosis in forward head posture
-                </a> - International Journal of Environmental Research
-              </li>
-              <li>
-                <a href="https://pubmed.ncbi.nlm.nih.gov/26291473/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
-                  2. Deep cervical flexor training for forward head posture
-                </a> - Journal of Physical Therapy Science
-              </li>
-              <li>
-                <a href="https://pubmed.ncbi.nlm.nih.gov/30832039/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
-                  3. Effectiveness of exercise interventions for forward head posture
-                </a> - Physical Therapy Rehabilitation Science
-              </li>
-            </ol>
-          </div>
+          <Citations references={medicalReferences} />
         </section>
 
         <div className="mb-12">

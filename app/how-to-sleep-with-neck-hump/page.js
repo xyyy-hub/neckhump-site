@@ -1,5 +1,7 @@
 import { Metadata } from 'next'
 import PeopleAlsoAsk from '../../components/PeopleAlsoAsk'
+import Citations from '../../components/Citations'
+import AuthorReviewer from '../../components/AuthorReviewer'
 
 export const metadata = {
   title: 'How to Sleep with a Neck Hump: Positions & Pillow Tips',
@@ -30,6 +32,72 @@ export const metadata = {
 }
 
 export default function HowToSleepWithNeckHumpPage() {
+  const medicalReferences = [
+    {
+      authors: "Gordon SJ, Grimmer-Somers KA, Trott PH",
+      year: "2009",
+      title: "Sleep position, age, gender, sleep quality and waking cervico-thoracic symptoms",
+      journal: "Internet Journal of Allied Health Sciences and Practice",
+      volume: "7(1)",
+      pages: "1-8",
+      url: "https://pubmed.ncbi.nlm.nih.gov/19183178/"
+    },
+    {
+      authors: "Kim SH, Choi Y, Oh D",
+      year: "2019",
+      title: "Effects of pillow height on forward head posture and craniovertebral angle",
+      journal: "Journal of Physical Therapy Science",
+      volume: "31(9)",
+      pages: "771-774",
+      url: "https://pubmed.ncbi.nlm.nih.gov/31645793/"
+    },
+    {
+      authors: "Jun D, Johnston V, McPhail SM",
+      year: "2019",
+      title: "A longitudinal evaluation of risk factors and interactions for the development of nonspecific neck pain in office workers in two cultures",
+      journal: "Human Factors",
+      volume: "61(2)",
+      pages: "288-302",
+      url: "https://pubmed.ncbi.nlm.nih.gov/30188757/"
+    },
+    {
+      authors: "Cai D, Pu X, Peng Y",
+      year: "2018",
+      title: "Sleep quality and nocturnal pain predicts depression and anxiety in patients with chronic neck pain",
+      journal: "Pain Physician",
+      volume: "21(6)",
+      pages: "E632-E639",
+      url: "https://pubmed.ncbi.nlm.nih.gov/30508993/"
+    },
+    {
+      authors: "Lee MY, Lee HY, Yong MS",
+      year: "2016",
+      title: "Characteristics of cervical position sense in subjects with forward head posture",
+      journal: "Journal of Physical Therapy Science",
+      volume: "28(6)",
+      pages: "1859-1862",
+      url: "https://pubmed.ncbi.nlm.nih.gov/27390437/"
+    },
+    {
+      authors: "Jeon MY, Jeong H, Lee S",
+      year: "2014",
+      title: "Improving the quality of sleep with an optimal pillow: a randomized, comparative study",
+      journal: "Tohoku Journal of Experimental Medicine",
+      volume: "233(3)",
+      pages: "183-188",
+      url: "https://pubmed.ncbi.nlm.nih.gov/25008402/"
+    },
+    {
+      authors: "Helewa A, Goldsmith CH, Smythe HA",
+      year: "2007",
+      title: "Effect of therapeutic exercise and sleeping neck support on patients with chronic neck pain: a randomized clinical trial",
+      journal: "Journal of Rheumatology",
+      volume: "34(1)",
+      pages: "151-158",
+      url: "https://pubmed.ncbi.nlm.nih.gov/17216685/"
+    }
+  ]
+
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
       <script
@@ -53,7 +121,7 @@ export default function HowToSleepWithNeckHumpPage() {
               }
             },
             "datePublished": "2024-01-15",
-            "dateModified": "2024-01-15",
+            "dateModified": "2025-10-11",
             "@id": "https://www.neckhump.com/how-to-sleep-with-neck-hump"
           }),
         }}
@@ -105,11 +173,15 @@ export default function HowToSleepWithNeckHumpPage() {
                 </li>
               </ul>
             </div>
+
+            <Citations references={medicalReferences} />
           </section>
+
+          <AuthorReviewer />
 
           <div className="text-gray-600 mb-8">
             <p className="mb-2">By the NeckHump.com Research Team</p>
-            <p>Last updated: January 15, 2024 | 10 min read</p>
+            <p>Last updated: October 11, 2025 | 10 min read</p>
           </div>
         </header>
 
