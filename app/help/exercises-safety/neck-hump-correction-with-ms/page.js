@@ -337,7 +337,7 @@ export default function NeckHumpCorrectionWithMSPage() {
 
   const whenToSeeDoctor = [
     "New or worsening neurological symptoms during or after exercise (numbness, weakness, vision changes)",
-    "Suspected MS relapse (new symptoms or significant worsening lasting >24 hours)",
+    "Suspected MS relapse (new symptoms or significant worsening lasting &gt;24 hours)",
     "Exercise consistently causes severe fatigue lasting multiple days despite ultra-gentle approach",
     "Balance problems or falls have increased",
     "Vision disturbances occur regularly with exercise",

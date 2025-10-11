@@ -280,7 +280,7 @@ export default function ExercisesCausingNumbnessPage() {
     "Numbness/tingling during neck exercises is a RED FLAG - STOP IMMEDIATELY, do not finish set or continue exercising",
     "Seek medical evaluation within 24-48 hours if numbness occurs - this could indicate herniated disc, stenosis, or nerve compression",
     "Emergency signs requiring ER visit: numbness in arms AND legs, loss of bowel/bladder control, severe progressive weakness, difficulty breathing",
-    "Numbness that persists >30 minutes after stopping exercise, accompanies arm pain, or includes weakness is SERIOUS",
+    "Numbness that persists &gt;30 minutes after stopping exercise, accompanies arm pain, or includes weakness is SERIOUS",
     "Do NOT resume exercises even if symptoms resolve - nerve compression can worsen with repeated irritation",
     "Benign positional tingling (from gripping too hard, resolves in 5-10 seconds, no weakness) is less concerning but still modify technique",
     "MRI of cervical spine is gold standard imaging to identify cause - X-rays are insufficient for evaluating nerve compression",

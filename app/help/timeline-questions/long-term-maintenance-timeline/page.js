@@ -180,7 +180,7 @@ export default function LongTermMaintenanceTimelinePage() {
               <li>• Measure wall test distance</li>
               <li>• Rate pain levels and posture ease</li>
               <li>• If measurements within 10% of peak = maintenance working</li>
-              <li>• If regression >10% = increase frequency for 4-6 weeks to rebuild, then resume maintenance</li>
+              <li>• If regression &gt;10% = increase frequency for 4-6 weeks to rebuild, then resume maintenance</li>
             </ul>
           </div>
         </div>
@@ -273,7 +273,7 @@ export default function LongTermMaintenanceTimelinePage() {
     "Most people can sustain results with 2-3x/week maintenance (desk workers often need 3-4x/week, older adults need more)",
     "Transition phase (months 6-12) is experimental - reduce frequency gradually while monitoring for regression, find your minimum effective dose",
     "Better ergonomics reduces maintenance burden: Fix workstation setup to need less compensatory exercise",
-    "Quarterly reassessment: Photos, measurements every 3 months. If regression >10%, temporarily increase frequency to rebuild",
+    "Quarterly reassessment: Photos, measurements every 3 months. If regression &gt;10%, temporarily increase frequency to rebuild",
     "Long-term success: 60-70% maintain improvements at 2+ years IF continuing maintenance. Predictors: habit integration, ergonomic improvements, realistic expectations"
   ]
 
@@ -300,7 +300,7 @@ export default function LongTermMaintenanceTimelinePage() {
     },
     {
       title: "Quarterly Reassessment Forever",
-      description: "Every 3 months: photos, wall test measurements, compare to peak. If within 10% = maintenance working. If regression >10% = increase frequency temporarily (4-6 weeks) to rebuild, then resume maintenance."
+      description: "Every 3 months: photos, wall test measurements, compare to peak. If within 10% = maintenance working. If regression &gt;10% = increase frequency temporarily (4-6 weeks) to rebuild, then resume maintenance."
     }
   ]
 
