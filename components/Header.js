@@ -1,13 +1,14 @@
 'use client'
 
 import Link from 'next/link'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [searchQuery, setSearchQuery] = useState('')
   const [activeDropdown, setActiveDropdown] = useState(null)
+  const [closeTimeout, setCloseTimeout] = useState(null)
   const router = useRouter()
   
   const handleMenuToggle = () => {
@@ -26,6 +27,30 @@ export default function Header() {
   const toggleDropdown = (menu) => {
     setActiveDropdown(activeDropdown === menu ? null : menu)
   }
+
+  const handleDropdownEnter = (label) => {
+    if (closeTimeout) {
+      clearTimeout(closeTimeout)
+      setCloseTimeout(null)
+    }
+    setActiveDropdown(label)
+  }
+
+  const handleDropdownLeave = () => {
+    const timeout = setTimeout(() => {
+      setActiveDropdown(null)
+    }, 150)
+    setCloseTimeout(timeout)
+  }
+
+  // Clean up timeout on unmount
+  useEffect(() => {
+    return () => {
+      if (closeTimeout) {
+        clearTimeout(closeTimeout)
+      }
+    }
+  }, [closeTimeout])
 
   const navStructure = [
     {
@@ -97,8 +122,8 @@ export default function Header() {
               <div 
                 key={index} 
                 className="relative group"
-                onMouseEnter={() => nav.items.length > 0 && setActiveDropdown(nav.label)}
-                onMouseLeave={() => setActiveDropdown(null)}
+                onMouseEnter={() => nav.items.length > 0 && handleDropdownEnter(nav.label)}
+                onMouseLeave={() => nav.items.length > 0 && handleDropdownLeave()}
               >
                 {nav.items.length > 0 ? (
                   <>
@@ -112,17 +137,19 @@ export default function Header() {
                     </button>
                     {activeDropdown === nav.label && (
                       <div 
-                        className="absolute top-full left-0 mt-1 w-56 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50"
+                        className="absolute top-full left-0 pt-1 w-56 z-50"
                       >
-                        {nav.items.map((item) => (
-                          <Link
-                            key={item.href}
-                            href={item.href}
-                            className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors"
-                          >
-                            {item.text}
-                          </Link>
-                        ))}
+                        <div className="bg-white rounded-lg shadow-lg border border-gray-200 py-2">
+                          {nav.items.map((item) => (
+                            <Link
+                              key={item.href}
+                              href={item.href}
+                              className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors"
+                            >
+                              {item.text}
+                            </Link>
+                          ))}
+                        </div>
                       </div>
                     )}
                   </>
