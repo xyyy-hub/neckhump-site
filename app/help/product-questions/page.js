@@ -31,6 +31,13 @@ export default function ProductQuestionsPage() {
       priority: 'High'
     },
     {
+      title: 'Best Pillow for Back Sleepers',
+      description: 'Optimal pillow thickness and support for back sleepers with neck hump. How to maintain neutral neck alignment.',
+      link: '/help/product-questions/best-pillow-back-sleepers',
+      category: 'Sleep',
+      priority: 'High'
+    },
+    {
       title: 'Memory Foam vs Cervical Pillow',
       description: 'Compare memory foam and cervical pillows for neck hump. Pros, cons, and which works better for different sleep positions.',
       link: '/help/product-questions/memory-foam-vs-cervical-pillow',
@@ -167,6 +174,7 @@ export default function ProductQuestionsPage() {
             <h3 className="font-medium text-gray-900 mb-3">Sleep Products</h3>
             <ul className="space-y-2 text-sm">
               <li><Link href="/help/product-questions/best-pillow-height-side-sleepers" className="text-blue-600 hover:underline">Pillow height for side sleepers</Link></li>
+              <li><Link href="/help/product-questions/best-pillow-back-sleepers" className="text-blue-600 hover:underline">Best pillow for back sleepers</Link></li>
               <li><Link href="/help/product-questions/memory-foam-vs-cervical-pillow" className="text-blue-600 hover:underline">Memory foam vs cervical pillow</Link></li>
               <li><Link href="/help/product-questions/budget-pillow-alternatives-under-50" className="text-blue-600 hover:underline">Budget pillow alternatives</Link></li>
             </ul>

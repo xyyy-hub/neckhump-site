@@ -1,5 +1,7 @@
 import Link from 'next/link'
 import PeopleAlsoAsk from '../../components/PeopleAlsoAsk'
+import RelatedArticles from '../../components/RelatedArticles'
+import NavigationPathway from '../../components/NavigationPathway'
 
 export const metadata = {
   title: 'How to Fix Posture at Home: Complete Guide (2024)',
@@ -96,6 +98,16 @@ export default function FixPosturePage() {
                     }
                   }
                 ]
+              },
+              {
+                "@type": "WebPage",
+                "@id": "https://www.neckhump.com/how-to-fix-posture-at-home#webpage",
+                "name": "How to Fix Posture at Home",
+                "description": "Complete guide to fixing bad posture at home with exercises and ergonomics",
+                "speakable": {
+                  "@type": "SpeakableSpecification",
+                  "cssSelector": [".quick-start-guide", ".essential-exercises"]
+                }
               }
             ]
           }),
@@ -539,6 +551,43 @@ export default function FixPosturePage() {
             }
           })
         }}
+      />
+
+      {/* Navigation Pathway */}
+      <NavigationPathway currentStage="maintenance" />
+
+      {/* Related Articles */}
+      <RelatedArticles 
+        articles={[
+          {
+            title: "Posture Correction Guide: All Types",
+            description: "Self-assessment and correction methods for all posture types including forward head, rounded shoulders, and pelvic tilt.",
+            href: "/posture-correction-guide",
+            category: "Complete Guide",
+            readTime: "15 min read"
+          },
+          {
+            title: "10 Best Neck Hump Exercises",
+            description: "Targeted exercises specifically for forward head posture with rep counts and progression timeline.",
+            href: "/neck-hump-exercises",
+            category: "Exercises",
+            readTime: "8 min read"
+          },
+          {
+            title: "Ergonomic Workspace Setup",
+            description: "Monitor positioning, chair height, and desk ergonomics to maintain corrected posture at work.",
+            href: "/ergonomic-workspace-neck-hump",
+            category: "Prevention",
+            readTime: "7 min read"
+          },
+          {
+            title: "Tech Neck Prevention Guide",
+            description: "Device positioning and break schedules for smartphone and computer users to prevent posture relapse.",
+            href: "/tech-neck-prevention-guide",
+            category: "Prevention",
+            readTime: "9 min read"
+          }
+        ]}
       />
     </article>
   )

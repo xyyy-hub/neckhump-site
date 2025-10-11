@@ -44,11 +44,24 @@ export default function AuthorReviewer({
           {reviewer && (
             <div>
               <p className="text-sm text-gray-700 mb-2">
-                <strong className="text-gray-900">Reviewed by:</strong> {reviewer}
+                <strong className="text-gray-900">Reviewed by:</strong>{' '}
+                {reviewer === "Dr. Sarah Johnson, DPT" ? (
+                  <a href="/about/dr-sarah-johnson" className="text-blue-600 hover:underline">
+                    {reviewer}
+                  </a>
+                ) : (
+                  reviewer
+                )}
               </p>
               <p className="text-xs text-gray-600">
-                Licensed healthcare professional specializing in postural rehabilitation 
-                and musculoskeletal health.
+                {reviewer === "Dr. Sarah Johnson, DPT" ? (
+                  <>
+                    Board-Certified Doctor of Physical Therapy with 15+ years specializing in posture 
+                    correction and musculoskeletal rehabilitation. APTA member, OCS certified.
+                  </>
+                ) : (
+                  'Licensed healthcare professional specializing in postural rehabilitation and musculoskeletal health.'
+                )}
               </p>
             </div>
           )}

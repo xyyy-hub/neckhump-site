@@ -61,23 +61,50 @@ export default function WallAngelsPage() {
                 }
               },
               {
-                "@type": "VideoObject",
-                "name": "How to Do Wall Angels for Neck Hump",
-                "description": "Step-by-step instructions for performing wall angels exercise to strengthen upper back muscles and improve posture.",
-                "thumbnailUrl": "https://neckhump.com/exercises/wall-angels-thumbnail.jpg",
-                "uploadDate": "2024-01-15",
-                "duration": "PT3M",
-                "embedUrl": "https://neckhump.com/exercises/wall-angels#video",
-                "publisher": {
-                  "@type": "Organization",
-                  "name": "NeckHump.com"
-                },
-                "contentUrl": "https://neckhump.com/exercises/wall-angels",
-                "interactionStatistic": {
-                  "@type": "InteractionCounter",
-                  "interactionType": { "@type": "WatchAction" },
-                  "userInteractionCount": 1250
-                }
+                "@type": "HowTo",
+                "name": "How to Perform Wall Angels Exercise",
+                "description": "Step-by-step instructions for performing wall angels to strengthen upper back and improve posture",
+                "image": "https://neckhump.com/exercises/wall-angels-illustration.svg",
+                "totalTime": "PT3M",
+                "performTime": "PT3M",
+                "supply": [
+                  {
+                    "@type": "HowToSupply",
+                    "name": "Wall or flat surface"
+                  }
+                ],
+                "tool": [
+                  {
+                    "@type": "HowToTool",
+                    "name": "No equipment needed"
+                  }
+                ],
+                "step": [
+                  {
+                    "@type": "HowToStep",
+                    "name": "Starting Position",
+                    "text": "Stand with your back flat against a wall. Position feet 3-6 inches away from the wall. Maintain contact with head, upper back, and buttocks against the wall.",
+                    "image": "https://neckhump.com/exercises/wall-angels-step1.svg"
+                  },
+                  {
+                    "@type": "HowToStep",
+                    "name": "Arm Positioning",
+                    "text": "Raise arms to shoulder height with elbows bent at 90 degrees, forming a 'W' shape. Keep backs of hands and elbows touching the wall if possible.",
+                    "image": "https://neckhump.com/exercises/wall-angels-step2.svg"
+                  },
+                  {
+                    "@type": "HowToStep",
+                    "name": "Upward Movement",
+                    "text": "Slowly slide arms upward along the wall, extending them overhead while maintaining wall contact. Move arms into a 'Y' position overhead.",
+                    "image": "https://neckhump.com/exercises/wall-angels-step3.svg"
+                  },
+                  {
+                    "@type": "HowToStep",
+                    "name": "Return and Repeat",
+                    "text": "Slowly return arms to starting 'W' position, maintaining wall contact throughout. Complete 10-15 repetitions, focusing on squeezing shoulder blades together.",
+                    "image": "https://neckhump.com/exercises/wall-angels-step4.svg"
+                  }
+                ]
               }
             ]
           }),

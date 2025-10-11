@@ -36,27 +36,77 @@ export default function DoorwayPecStretchPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "Doorway Pec Stretch: Open Tight Chest Muscles for Better Posture",
-            "description": "Master the doorway pec stretch to release tight chest muscles that pull shoulders forward. Complete positioning guide with variations and safety tips for neck hump relief.",
-            "author": {
-              "@type": "Person",
-              "name": "Team Posture"
-            },
-            "publisher": {
-              "@type": "Organization",
-              "name": "NeckHump.com",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://www.neckhump.com/logo.png"
+            "@graph": [
+              {
+                "@type": "Article",
+                "headline": "Doorway Pec Stretch: Open Tight Chest Muscles for Better Posture",
+                "description": "Master the doorway pec stretch to release tight chest muscles that pull shoulders forward. Complete positioning guide with variations and safety tips for neck hump relief.",
+                "author": {
+                  "@type": "Person",
+                  "name": "Team Posture"
+                },
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "NeckHump.com",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.neckhump.com/logo.png"
+                  }
+                },
+                "datePublished": "2025-09-23",
+                "dateModified": "2025-09-23",
+                "mainEntityOfPage": {
+                  "@type": "WebPage",
+                  "@id": "https://www.neckhump.com/exercises/doorway-pec-stretch"
+                }
+              },
+              {
+                "@type": "HowTo",
+                "name": "How to Perform Doorway Pec Stretch",
+                "description": "Step-by-step instructions for performing doorway pec stretch to release tight chest muscles and improve posture",
+                "image": "https://neckhump.com/exercises/doorway-pec-stretch-illustration.svg",
+                "totalTime": "PT3M",
+                "performTime": "PT3M",
+                "supply": [
+                  {
+                    "@type": "HowToSupply",
+                    "name": "Doorway or corner wall"
+                  }
+                ],
+                "tool": [
+                  {
+                    "@type": "HowToTool",
+                    "name": "No equipment needed"
+                  }
+                ],
+                "step": [
+                  {
+                    "@type": "HowToStep",
+                    "name": "Starting Position",
+                    "text": "Stand in a doorway. Place your forearm against the door frame with elbow at 90 degrees. Position your forearm vertically on the frame.",
+                    "image": "https://neckhump.com/exercises/doorway-pec-stretch-step1.svg"
+                  },
+                  {
+                    "@type": "HowToStep",
+                    "name": "Initiate Stretch",
+                    "text": "Step forward through the doorway with the same-side leg. Lean your body weight forward gently until you feel a comfortable stretch across your chest.",
+                    "image": "https://neckhump.com/exercises/doorway-pec-stretch-step2.svg"
+                  },
+                  {
+                    "@type": "HowToStep",
+                    "name": "Hold Position",
+                    "text": "Hold the stretch for 30-60 seconds while breathing normally. Feel the stretch across your chest and front of shoulder.",
+                    "image": "https://neckhump.com/exercises/doorway-pec-stretch-step3.svg"
+                  },
+                  {
+                    "@type": "HowToStep",
+                    "name": "Three Positions",
+                    "text": "Repeat at three arm heights: low (forearm at hip level), middle (forearm at shoulder level), and high (forearm above head) to target all chest fibers. Hold each position 30-60 seconds.",
+                    "image": "https://neckhump.com/exercises/doorway-pec-stretch-step4.svg"
+                  }
+                ]
               }
-            },
-            "datePublished": "2025-09-23",
-            "dateModified": "2025-09-23",
-            "mainEntityOfPage": {
-              "@type": "WebPage",
-              "@id": "https://www.neckhump.com/exercises/doorway-pec-stretch"
-            }
+            ]
           }),
         }}
       />

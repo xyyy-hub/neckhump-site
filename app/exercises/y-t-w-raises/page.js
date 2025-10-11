@@ -36,27 +36,77 @@ export default function YTWRaisesPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "Y-T-W Raises: Comprehensive Upper Back Strengthening Guide",
-            "description": "Master Y-T-W raises for complete upper back strengthening. Step-by-step guide with proper form, progressions, and modifications for fixing forward head posture.",
-            "author": {
-              "@type": "Person",
-              "name": "Team Posture"
-            },
-            "publisher": {
-              "@type": "Organization",
-              "name": "NeckHump.com",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://www.neckhump.com/logo.png"
+            "@graph": [
+              {
+                "@type": "Article",
+                "headline": "Y-T-W Raises: Comprehensive Upper Back Strengthening Guide",
+                "description": "Master Y-T-W raises for complete upper back strengthening. Step-by-step guide with proper form, progressions, and modifications for fixing forward head posture.",
+                "author": {
+                  "@type": "Person",
+                  "name": "Team Posture"
+                },
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "NeckHump.com",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.neckhump.com/logo.png"
+                  }
+                },
+                "datePublished": "2025-09-23",
+                "dateModified": "2025-09-23",
+                "mainEntityOfPage": {
+                  "@type": "WebPage",
+                  "@id": "https://www.neckhump.com/exercises/y-t-w-raises"
+                }
+              },
+              {
+                "@type": "HowTo",
+                "name": "How to Perform Y-T-W Raises Exercise",
+                "description": "Step-by-step instructions for Y-T-W raises to strengthen all upper back muscles",
+                "image": "https://neckhump.com/exercises/ytw-raises-illustration.svg",
+                "totalTime": "PT5M",
+                "performTime": "PT5M",
+                "supply": [
+                  {
+                    "@type": "HowToSupply",
+                    "name": "Mat or flat surface"
+                  }
+                ],
+                "tool": [
+                  {
+                    "@type": "HowToTool",
+                    "name": "Light dumbbells (1-5 lbs, optional)"
+                  }
+                ],
+                "step": [
+                  {
+                    "@type": "HowToStep",
+                    "name": "Starting Position",
+                    "text": "Lie face down on mat or floor. Extend arms overhead in a Y position with thumbs pointing up. Keep forehead resting on mat and core engaged.",
+                    "image": "https://neckhump.com/exercises/ytw-step1.svg"
+                  },
+                  {
+                    "@type": "HowToStep",
+                    "name": "Y Raises",
+                    "text": "Raise arms in Y position, lifting hands 6-12 inches off floor while squeezing shoulder blades together. Hold 2 seconds at top, lower slowly. Complete 10 repetitions.",
+                    "image": "https://neckhump.com/exercises/ytw-step2.svg"
+                  },
+                  {
+                    "@type": "HowToStep",
+                    "name": "T Raises",
+                    "text": "Move arms to T position (straight out to sides at shoulder level). Raise arms while squeezing shoulder blades, hold 2 seconds, lower slowly. Complete 10 repetitions.",
+                    "image": "https://neckhump.com/exercises/ytw-step3.svg"
+                  },
+                  {
+                    "@type": "HowToStep",
+                    "name": "W Raises",
+                    "text": "Bend elbows to 90 degrees forming W shape. Raise arms while pulling shoulder blades together and down, hold 2 seconds, lower slowly. Complete 10 repetitions.",
+                    "image": "https://neckhump.com/exercises/ytw-step4.svg"
+                  }
+                ]
               }
-            },
-            "datePublished": "2025-09-23",
-            "dateModified": "2025-09-23",
-            "mainEntityOfPage": {
-              "@type": "WebPage",
-              "@id": "https://www.neckhump.com/exercises/y-t-w-raises"
-            }
+            ]
           }),
         }}
       />

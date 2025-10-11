@@ -4,6 +4,7 @@ import AuthorReviewer from '../../components/AuthorReviewer'
 import TableOfContents from '../../components/TableOfContents'
 import Citations from '../../components/Citations'
 import PeopleAlsoAsk from '../../components/PeopleAlsoAsk'
+import RelatedArticles from '../../components/RelatedArticles'
 
 export const metadata = {
   title: 'Complete Neck Hump Guide: Fix Forward Head Posture',
@@ -137,6 +138,16 @@ export default function CompleteGuidePage() {
                     "name": "Team Posture"
                   }
                 }
+              },
+              {
+                "@type": "WebPage",
+                "@id": "https://www.neckhump.com/neck-hump-guide#webpage",
+                "name": "Complete Neck Hump Guide",
+                "description": "Complete guide to fixing neck hump and forward head posture",
+                "speakable": {
+                  "@type": "SpeakableSpecification",
+                  "cssSelector": ["#short-answer", "#key-takeaways"]
+                }
               }
             ]
           }),
@@ -212,7 +223,7 @@ export default function CompleteGuidePage() {
           <div className="bg-emerald-50 border-l-4 border-emerald-400 p-6 mb-8 rounded-lg">
             <h2 className="text-xl font-semibold mb-4 text-emerald-900" id="short-answer">Short Answer</h2>
             <p className="text-emerald-800 text-lg leading-relaxed">
-              Forward head posture develops from prolonged computer use, poor ergonomics, and weak deep neck muscles; fix it with daily exercises (chin tucks, stretches), proper workspace setup, and corrected sleep positioning.
+              How do you fix neck hump (forward head posture)? It develops from prolonged computer use, poor ergonomics, and weak neck muscles. You can correct it at home with daily exercises (chin tucks, wall angels, stretches for 5-10 minutes), proper workspace setup (monitor at eye level), and corrected sleep positioning (cervical pillow). Most people see noticeable improvement in 2-4 weeks with consistent practice.
             </p>
           </div>
 
@@ -731,6 +742,47 @@ export default function CompleteGuidePage() {
           {
             question: "When should I see a doctor for neck hump?",
             answer: "See a doctor if you experience severe pain, numbness or tingling in arms/hands, sudden onset after injury, or no improvement after 6 weeks of consistent exercise. These symptoms may indicate nerve compression or other conditions requiring medical attention."
+          }
+        ]}
+      />
+
+      {/* Related Articles */}
+      <RelatedArticles 
+        articles={[
+          {
+            title: "10 Best Neck Hump Exercises",
+            description: "Step-by-step exercise routine with rep counts, form tips, and progression timeline. Includes chin tucks, wall angels, and stretches.",
+            href: "/neck-hump-exercises",
+            category: "Exercises",
+            readTime: "8 min read"
+          },
+          {
+            title: "What Causes Neck Hump?",
+            description: "Deep dive into forward head posture causes: computer work, smartphone usage, sleeping position, and muscle imbalances.",
+            href: "/neck-hump-causes",
+            category: "Understanding",
+            readTime: "6 min read"
+          },
+          {
+            title: "Ergonomic Workspace Setup for Neck Hump",
+            description: "Complete guide to desk ergonomics: monitor height, chair position, keyboard placement, and break schedules.",
+            href: "/ergonomic-workspace-neck-hump",
+            category: "Prevention",
+            readTime: "7 min read"
+          },
+          {
+            title: "How to Sleep with Neck Hump",
+            description: "Optimal sleeping positions, pillow recommendations, and overnight posture support for faster recovery.",
+            href: "/how-to-sleep-with-neck-hump",
+            category: "Treatment",
+            readTime: "6 min read"
+          },
+          {
+            title: "Tech Neck Prevention Guide",
+            description: "Device positioning, break schedules, and exercises specifically for smartphone and computer users.",
+            href: "/tech-neck-prevention-guide",
+            category: "Prevention",
+            readTime: "9 min read"
           }
         ]}
       />

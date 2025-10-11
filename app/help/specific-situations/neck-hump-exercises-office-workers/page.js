@@ -19,6 +19,7 @@ export const metadata = {
 }
 
 // Force dynamic rendering to avoid static generation issues
+export const dynamic = 'force-dynamic'
 
 export default function NeckHumpExercisesOfficeWorkersPage() {
   const shortAnswer = "Office workers can do desk-friendly neck exercises: 1) Seated chin tucks every hour, 2) Shoulder blade squeezes, 3) Gentle neck stretches, 4) Seated wall angels, 5) Isometric neck exercises. Set hourly reminders, optimize your workstation ergonomics, and take regular breaks to walk around. Focus on exercises you can do discreetly at your desk."

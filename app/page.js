@@ -20,14 +20,16 @@ export const metadata = {
 export default function HomePage() {
   return (
     <div className="max-w-4xl mx-auto">
-      {/* FAQ Schema for Generative Engine Optimization */}
+      {/* Schema Markup: FAQ + Speakable for Voice Search */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
+            "@graph": [
+              {
+                "@type": "FAQPage",
+                "mainEntity": [
               {
                 "@type": "Question",
                 "name": "How long does it take to fix bad posture?",
@@ -61,6 +63,18 @@ export default function HomePage() {
                 }
               }
             ]
+              },
+              {
+                "@type": "WebPage",
+                "@id": "https://www.neckhump.com",
+                "name": "Neck Hump: Causes, Fixes & 5-Minute Routine",
+                "description": "Complete guide to fixing neck hump and forward head posture with evidence-based exercises, ergonomics, and sleep tips.",
+                "speakable": {
+                  "@type": "SpeakableSpecification",
+                  "cssSelector": [".quick-assessment", ".essential-info"]
+                }
+              }
+            ]
           })
         }}
       />
@@ -90,7 +104,7 @@ export default function HomePage() {
         </div>
         
         {/* Quick Self-Assessment - Mobile Optimized */}
-        <div className="bg-blue-50 border-l-4 border-blue-400 p-4 sm:p-6 rounded mb-8 mx-4">
+        <div className="quick-assessment bg-blue-50 border-l-4 border-blue-400 p-4 sm:p-6 rounded mb-8 mx-4">
           <h2 className="text-lg font-semibold text-gray-900 mb-3">
             Do You Have a Neck Hump? Quick Self-Assessment:
           </h2>
@@ -112,7 +126,7 @@ export default function HomePage() {
         </div>
         
         {/* Neck-Focused Navigation - Mobile Optimized */}
-        <div className="bg-gray-50 p-4 sm:p-6 rounded-lg mx-4">
+        <div className="essential-info bg-gray-50 p-4 sm:p-6 rounded-lg mx-4">
           <h2 className="text-lg font-semibold text-gray-900 mb-4 text-center">
             Essential Information About Neck Hump
           </h2>
@@ -155,6 +169,14 @@ export default function HomePage() {
           More Resources & Help
         </h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <Link href="/posture-correction-guide" className="block p-4 bg-gradient-to-br from-blue-50 to-indigo-50 rounded border-2 border-blue-300 hover:border-blue-500 transition-colors group shadow-sm">
+            <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-600">🎯 Posture Correction Guide</h3>
+            <p className="text-sm text-gray-600">Complete guide to all posture types with self-assessment</p>
+          </Link>
+          <Link href="/exercise-library" className="block p-4 bg-gradient-to-br from-green-50 to-emerald-50 rounded border-2 border-green-300 hover:border-green-500 transition-colors group shadow-sm">
+            <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-green-600">📚 Exercise Library</h3>
+            <p className="text-sm text-gray-600">Browse 16+ exercises by difficulty, time, and equipment</p>
+          </Link>
           <Link href="/help" className="block p-4 bg-blue-50 rounded border border-blue-200 hover:border-blue-400 transition-colors group">
             <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-600">Help Center</h3>
             <p className="text-sm text-gray-600">Get specific answers to your questions</p>
@@ -245,7 +267,7 @@ export default function HomePage() {
         <div className="bg-emerald-50 border-l-4 border-emerald-400 p-6 mb-8 rounded-lg">
           <h2 className="text-xl font-semibold mb-4 text-emerald-900" id="short-answer">Short Answer</h2>
           <p className="text-emerald-800 text-lg leading-relaxed">
-            Daily mobility + postural strength (≈5 minutes), plus desk and sleep alignment, typically improves neck hump in 6–12 weeks.
+            Can you fix neck hump at home? Yes! Most people see visible improvement within 2-4 weeks by doing a simple 5-minute daily routine (chin tucks, wall angels, stretches) combined with proper desk setup and sleep positioning. Complete correction typically takes 6-12 weeks of consistent practice.
           </p>
         </div>
 

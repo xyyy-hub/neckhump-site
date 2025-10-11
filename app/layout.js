@@ -2,7 +2,7 @@ import './globals.css'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Script from 'next/script'
-import { SpeedInsights } from '@vercel/speed-insights/next'
+// import { SpeedInsights } from '@vercel/speed-insights/next'
 
 export const metadata = {
   metadataBase: new URL('https://www.neckhump.com'),
@@ -149,7 +149,7 @@ export default function RootLayout({ children }) {
           {children}
         </main>
         <Footer />
-        <SpeedInsights />
+        {/* <SpeedInsights /> */}
         
         {/* Optimized Google Analytics with next/script */}
         <Script

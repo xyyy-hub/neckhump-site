@@ -111,6 +111,24 @@ export default function sitemap() {
       priority: 0.9,
     },
     {
+      url: `${baseUrl}/posture-correction-guide`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.95,
+    },
+    {
+      url: `${baseUrl}/exercise-library`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.95,
+    },
+    {
+      url: `${baseUrl}/about/dr-sarah-johnson`,
+      lastModified: new Date(),
+      changeFrequency: 'yearly',
+      priority: 0.6,
+    },
+    {
       url: `${baseUrl}/exercises/chin-tucks`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
@@ -407,6 +425,61 @@ export default function sitemap() {
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.7,
+    },
+    // Recently added help center articles (Phase 1)
+    {
+      url: `${baseUrl}/help/product-questions/cervical-traction-devices-comparison`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    },
+    {
+      url: `${baseUrl}/help/product-questions/laptop-stands-better-posture`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    },
+    {
+      url: `${baseUrl}/help/product-questions/posture-correctors-do-they-work`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    },
+    {
+      url: `${baseUrl}/help/product-questions/standing-desk-setup-posture`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    },
+    {
+      url: `${baseUrl}/help/specific-situations/neck-exercises-truck-drivers`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    },
+    {
+      url: `${baseUrl}/help/specific-situations/posture-exercises-healthcare-workers`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    },
+    {
+      url: `${baseUrl}/help/troubleshooting/cant-feel-neck-muscles-working`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    },
+    {
+      url: `${baseUrl}/help/troubleshooting/exercises-feel-too-easy`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    },
+    {
+      url: `${baseUrl}/help/troubleshooting/neck-cracking-during-exercises`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.6,
     },
   ]
 }

@@ -354,27 +354,41 @@ export default function NeckHumpPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "Why Do I Have a Neck Hump? Causes & How to Fix It",
-            "description": "Learn what causes neck hump (forward head posture), how to prevent it, and proven exercises to fix it permanently.",
-            "author": {
-              "@type": "Person",
-              "name": "Posture Fix Pro"
-            },
-            "publisher": {
-              "@type": "Organization",
-              "name": "Posture Fix Pro",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://your-domain.com/logo.png"
+            "@graph": [
+              {
+                "@type": "Article",
+                "headline": "Why Do I Have a Neck Hump? Causes & How to Fix It",
+                "description": "Learn what causes neck hump (forward head posture), how to prevent it, and proven exercises to fix it permanently.",
+                "author": {
+                  "@type": "Organization",
+                  "name": "NeckHump.com"
+                },
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "NeckHump.com",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.neckhump.com/logo.png"
+                  }
+                },
+                "datePublished": "2024-12-01",
+                "dateModified": "2024-12-01",
+                "mainEntityOfPage": {
+                  "@type": "WebPage",
+                  "@id": "https://www.neckhump.com/neck-hump-causes"
+                }
+              },
+              {
+                "@type": "WebPage",
+                "@id": "https://www.neckhump.com/neck-hump-causes#webpage",
+                "name": "Neck Hump Causes Guide",
+                "description": "Understanding what causes neck hump and forward head posture",
+                "speakable": {
+                  "@type": "SpeakableSpecification",
+                  "cssSelector": [".causes-summary", ".main-causes"]
+                }
               }
-            },
-            "datePublished": "2024-12-01",
-            "dateModified": "2024-12-01",
-            "mainEntityOfPage": {
-              "@type": "WebPage",
-              "@id": "https://www.neckhump.com/neck-hump-causes"
-            }
+            ]
           })
         }}
       />

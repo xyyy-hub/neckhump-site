@@ -36,27 +36,77 @@ export default function UpperBackFoamRollingPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "Upper Back Foam Rolling: Release Tension for Better Posture",
-            "description": "Learn safe upper back foam rolling techniques to release muscle tension and improve thoracic mobility. Complete guide with safety tips, proper form, and alternatives.",
-            "author": {
-              "@type": "Person",
-              "name": "Team Posture"
-            },
-            "publisher": {
-              "@type": "Organization",
-              "name": "NeckHump.com",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://www.neckhump.com/logo.png"
+            "@graph": [
+              {
+                "@type": "Article",
+                "headline": "Upper Back Foam Rolling: Release Tension for Better Posture",
+                "description": "Learn safe upper back foam rolling techniques to release muscle tension and improve thoracic mobility. Complete guide with safety tips, proper form, and alternatives.",
+                "author": {
+                  "@type": "Person",
+                  "name": "Team Posture"
+                },
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "NeckHump.com",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.neckhump.com/logo.png"
+                  }
+                },
+                "datePublished": "2025-09-23",
+                "dateModified": "2025-09-23",
+                "mainEntityOfPage": {
+                  "@type": "WebPage",
+                  "@id": "https://www.neckhump.com/exercises/upper-back-foam-rolling"
+                }
+              },
+              {
+                "@type": "HowTo",
+                "name": "How to Safely Foam Roll Your Upper Back",
+                "description": "Step-by-step guide for safe and effective upper back foam rolling to release tension and improve mobility",
+                "image": "https://neckhump.com/exercises/foam-rolling-illustration.svg",
+                "totalTime": "PT4M",
+                "performTime": "PT4M",
+                "supply": [
+                  {
+                    "@type": "HowToSupply",
+                    "name": "Foam roller (medium density recommended)"
+                  }
+                ],
+                "tool": [
+                  {
+                    "@type": "HowToTool",
+                    "name": "Mat for comfort (optional)"
+                  }
+                ],
+                "step": [
+                  {
+                    "@type": "HowToStep",
+                    "name": "Starting Position",
+                    "text": "Sit on floor with foam roller positioned horizontally behind you. Lie back so roller is at mid-back level (between shoulder blades). Support your head with interlaced hands behind neck.",
+                    "image": "https://neckhump.com/exercises/foam-rolling-step1.svg"
+                  },
+                  {
+                    "@type": "HowToStep",
+                    "name": "Initial Setup",
+                    "text": "Plant feet flat on floor, knees bent. Lift hips slightly off ground to put body weight on roller. Keep core engaged and head supported throughout.",
+                    "image": "https://neckhump.com/exercises/foam-rolling-step2.svg"
+                  },
+                  {
+                    "@type": "HowToStep",
+                    "name": "Rolling Technique",
+                    "text": "Slowly roll up and down from mid-back to just below shoulder blades. Roll for 30-60 seconds. When you find a tender spot, pause and hold for 20-30 seconds.",
+                    "image": "https://neckhump.com/exercises/foam-rolling-step3.svg"
+                  },
+                  {
+                    "@type": "HowToStep",
+                    "name": "Safety Reminder",
+                    "text": "NEVER roll directly on neck or lower back. Stay within thoracic spine area only (between shoulder blades and mid-back). Stop if you experience sharp pain.",
+                    "image": "https://neckhump.com/exercises/foam-rolling-step4.svg"
+                  }
+                ]
               }
-            },
-            "datePublished": "2025-09-23",
-            "dateModified": "2025-09-23",
-            "mainEntityOfPage": {
-              "@type": "WebPage",
-              "@id": "https://www.neckhump.com/exercises/upper-back-foam-rolling"
-            }
+            ]
           }),
         }}
       />

@@ -37,24 +37,38 @@ export default function TechNeckPreventionGuidePage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "Tech Neck Prevention: Complete Guide to Stop Phone & Computer Neck Pain",
-            "description": "Prevent tech neck before it starts. Evidence-based strategies for smartphone use, computer work, and digital device ergonomics. Protect your neck in the digital age.",
-            "author": {
-              "@type": "Organization",
-              "name": "NeckHump.com"
-            },
-            "publisher": {
-              "@type": "Organization",
-              "name": "NeckHump.com",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://www.neckhump.com/logo.png"
+            "@graph": [
+              {
+                "@type": "Article",
+                "headline": "Tech Neck Prevention: Complete Guide to Stop Phone & Computer Neck Pain",
+                "description": "Prevent tech neck before it starts. Evidence-based strategies for smartphone use, computer work, and digital device ergonomics. Protect your neck in the digital age.",
+                "author": {
+                  "@type": "Organization",
+                  "name": "NeckHump.com"
+                },
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "NeckHump.com",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.neckhump.com/logo.png"
+                  }
+                },
+                "datePublished": "2024-01-15",
+                "dateModified": "2024-01-15",
+                "@id": "https://www.neckhump.com/tech-neck-prevention-guide"
+              },
+              {
+                "@type": "WebPage",
+                "@id": "https://www.neckhump.com/tech-neck-prevention-guide#webpage",
+                "name": "Tech Neck Prevention Guide",
+                "description": "Complete guide to preventing tech neck from phones and computers",
+                "speakable": {
+                  "@type": "SpeakableSpecification",
+                  "cssSelector": [".prevention-summary", ".key-strategies"]
+                }
               }
-            },
-            "datePublished": "2024-01-15",
-            "dateModified": "2024-01-15",
-            "@id": "https://www.neckhump.com/tech-neck-prevention-guide"
+            ]
           }),
         }}
       />

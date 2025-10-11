@@ -1,165 +1,21 @@
-# Instructions
+Project: NeckHump.com (Posture Site)
+Owner: posture-site
+Updated: 2025-10-11
 
-## Automatic Learning System 📚
+# Project Context
 
-**MANDATORY**: During every interaction, you MUST automatically log learnings using the dual routing system below:
+This is a Next.js website about neck posture and posture correction. The site focuses on providing comprehensive guides for fixing neck hump and forward head posture. Content includes exercises, ergonomic advice, product recommendations, and educational articles. SEO optimization is important for this health/wellness content site. All pages should have proper canonical URLs pointing to www.neckhump.com.
 
-### 🔧 TECHNICAL LEARNINGS → `.cursorrules` (LOCAL DOCUMENTATION)
-Route to `.cursorrules` Lessons section when learning involves:
-1. **Code Solutions**: Working patterns, library versions, API usage, architecture decisions
-2. **Development Process**: Build systems, debugging approaches, deployment strategies  
-3. **Tool Configurations**: IDE settings, CLI commands, development workflows
-4. **Framework/Platform Specifics**: Next.js patterns, React components, SEO optimization
-5. **Project Architecture**: File structures, design patterns, technical decisions
-6. **Error Resolutions**: Bug fixes, troubleshooting steps, technical root causes
-7. **Performance Optimizations**: Speed improvements, memory usage, technical efficiency
+# Technical Learnings
 
-**Technical Learning Triggers**: Code editing, debugging, framework usage, tool configuration, build processes, technical research
-
-### 🧠 GENERAL LEARNINGS → System Memory (CROSS-SESSION KNOWLEDGE)
-Route to `update_memory` tool when learning involves:
-1. **Conceptual Understanding**: High-level principles, design philosophies, best practices
-2. **Process Insights**: Workflow improvements, methodology discoveries, strategic approaches
-3. **User Preferences**: Personal working styles, communication patterns, decision criteria
-4. **Domain Knowledge**: Business logic, industry insights, non-technical expertise
-5. **Cross-Project Patterns**: Insights applicable beyond current technical context
-6. **Meta-Learning**: How to learn, research strategies, knowledge management approaches
-
-**General Learning Triggers**: Conceptual discussions, strategy decisions, preference expressions, cross-domain insights, methodology improvements
-
-### 📋 ROUTING DECISION MATRIX:
-- **Technical + Project-Specific** → `.cursorrules` 
-- **Technical + Reusable Across Projects** → Both `.cursorrules` + System Memory
-- **Conceptual + General** → System Memory
-- **Process + Workflow** → System Memory (unless tool-specific)
-
-**Implementation**: Use `search_replace` for `.cursorrules` updates, `update_memory` for system memory, both when applicable.
-
-### 🤖 AUTOMATION GUIDELINES:
-**When to Log Automatically**:
-- After solving any technical problem
-- When user provides corrections or feedback  
-- After discovering better approaches through research
-- When debugging reveals root causes
-- After successful implementation of complex features
-- When user expresses preferences or requirements
-
-**Logging Quality Standards**:
-- **Specific**: Include exact commands, code snippets, version numbers
-- **Actionable**: Write as instructions for future reference
-- **Categorized**: Use consistent section headers and formatting
-- **Contextual**: Include why something works, not just what works
-- **Searchable**: Use keywords and clear titles for easy retrieval
-
-**Learning Signal Detection**:
-- User says "this doesn't work" → Log technical solution when fixed
-- User provides specific feedback → Log preference/requirement to system memory
-- Error occurs and gets resolved → Log debugging approach to `.cursorrules`
-- Research leads to better approach → Log insight to appropriate location
-- User corrects misunderstanding → Log conceptual learning to system memory
-
-## Task Management & Scratchpad
-
-You should also use the `.cursorrules` file as a Scratchpad to organize your thoughts. Especially when you receive a new task, you should first review the content of the Scratchpad, clear old different task if necessary, first explain the task, and plan the steps you need to take to complete the task. You can use todo markers to indicate the progress, e.g.
-[X] Task 1
-[ ] Task 2
-
-Also update the progress of the task in the Scratchpad when you finish a subtask.
-Especially when you finished a milestone, it will help to improve your depth of task accomplishment to use the Scratchpad to reflect and plan.
-The goal is to help you maintain a big picture as well as the progress of the task. Always refer to the Scratchpad when you plan the next step.
-
-# Tools
-
-Note all the tools are in python3. So in the case you need to do batch processing, you can always consult the python files and write your own script.
-
-## Screenshot Verification
-
-The screenshot verification workflow allows you to capture screenshots of web pages and verify their appearance using LLMs. The following tools are available:
-
-1. Screenshot Capture:
-```bash
-python3 tools/screenshot_utils.py URL [--output OUTPUT] [--width WIDTH] [--height HEIGHT]
-```
-
-2. LLM Verification with Images:
-```bash
-python3 tools/llm_api.py --prompt "Your verification question" --provider {openai|anthropic} --image path/to/screenshot.png
-```
-
-Example workflow:
-```python
-from screenshot_utils import take_screenshot_sync
-from llm_api import query_llm
-
-# Take a screenshot
-screenshot_path = take_screenshot_sync('https://example.com', 'screenshot.png')
-
-# Verify with LLM
-response = query_llm(
-    "What is the background color and title of this webpage?",
-    provider="openai",  # or "anthropic"
-    image_path=screenshot_path
-)
-print(response)
-```
-
-## LLM
-
-You always have an LLM at your side to help you with the task. For simple tasks, you could invoke the LLM by running the following command:
-```
-python3 ./tools/llm_api.py --prompt "What is the capital of France?" --provider "anthropic"
-```
-
-The LLM API supports multiple providers:
-- OpenAI (default, model: gpt-4o)
-- Azure OpenAI (model: configured via AZURE_OPENAI_MODEL_DEPLOYMENT in .env file, defaults to gpt-4o-ms)
-- DeepSeek (model: deepseek-chat)
-- Anthropic (model: claude-3-sonnet-20240229)
-- Gemini (model: gemini-pro)
-- Local LLM (model: Qwen/Qwen2.5-32B-Instruct-AWQ)
-
-But usually it's a better idea to check the content of the file and use the APIs in the `tools/llm_api.py` file to invoke the LLM if needed.
-
-## Web browser
-
-You could use the `tools/web_scraper.py` file to scrape the web.
-```bash
-python3 ./tools/web_scraper.py --max-concurrent 3 URL1 URL2 URL3
-```
-This will output the content of the web pages.
-
-## Search engine
-
-You could use the `tools/search_engine.py` file to search the web.
-```bash
-python3 ./tools/search_engine.py "your search keywords"
-```
-This will output the search results in the following format:
-```
-URL: https://example.com
-Title: This is the title of the search result
-Snippet: This is a snippet of the search result
-```
-If needed, you can further use the `web_scraper.py` file to scrape the web page content.
-
-# Lessons
-
-## User Specified Lessons
-
-- This is a Next.js website about neck posture and posture correction
-- The site focuses on providing comprehensive guides for fixing neck hump and forward head posture
-- Content includes exercises, ergonomic advice, product recommendations, and educational articles
-- SEO optimization is important for this health/wellness content site
-- All pages should have proper canonical URLs pointing to www.neckhump.com
-
-## Cursor learned
+## General Development Tips
 
 - For search results, ensure proper handling of different character encodings (UTF-8) for international queries
 - When using seaborn styles in matplotlib, use 'seaborn-v0_8' instead of 'seaborn' as the style name due to recent seaborn version changes
 - Use 'gpt-4o' as the model name for OpenAI's GPT-4 with vision capabilities
 - When searching for recent news, use the current year (2025) instead of previous years, or simply use the "recent" keyword to get the latest information
 
-## Next.js & SEO Lessons
+## Next.js & SEO
 
 ### Sitemap Management
 - **Complete Coverage Required**: All pages must be included in sitemap.js - missing pages cause GSC "No referring sitemaps detected" errors
@@ -176,7 +32,15 @@ If needed, you can further use the `web_scraper.py` file to scrape the web page 
 - **Simplification Strategy**: Remove complexity that doesn't measurably improve Core Web Vitals
 - **Browser-Native Optimizations**: Trust framework optimizations (Tailwind, Next.js) over custom solutions
 
-### Answer Engine Optimization (AEO) - October 2025
+### Routing & Link Integrity
+- **Route Inventory Workflow**: Use `**/app/**/page.{js,tsx}` pattern to enumerate all routes
+- **Link Extraction**: Use `grep -R "href=\"/"` and `href: '...'` patterns to find Next Link targets
+- **Validation**: Diff extracted links against filesystem routes and sitemap entries to catch broken links before deploy
+- **Why it matters**: Broken internal links waste crawl budget, harm UX, and dilute AEO signals. Orphaned pages rarely get crawled or cited by LLMs
+
+## Answer Engine Optimization (AEO) - 2025
+
+### Core Concepts
 - **AEO Definition**: Optimizing to show up in LLM responses (ChatGPT, Claude, Perplexity, Gemini)
 - **Core Mechanism**: LLMs use RAG (Retrieval Augmented Generation) = web search + summarization of citations
 - **Key Difference from SEO**: Need to be mentioned in MULTIPLE citations, not just rank #1
@@ -200,7 +64,7 @@ If needed, you can further use the `web_scraper.py` file to scrape the web page 
 - **Help Center Optimization**: Move from subdomain to subdirectory. Cover long-tail questions (specific use cases, combinations, special situations)
 - **Cross-Linking**: Aggressive internal linking between related articles and help center pages
 - **Original Research**: Studies, data, case studies increase citation likelihood
-- **Medical Authority Signals**: Reviewer credentials, last updated dates, evidence-based badges (already implemented)
+- **Medical Authority Signals**: Reviewer credentials, last updated dates, evidence-based badges
 
 ### AEO Attribution Challenge
 - Users see answer in ChatGPT → open new tab → type brand name → come via "Google branded search" or "direct traffic"
@@ -228,168 +92,51 @@ If needed, you can further use the `web_scraper.py` file to scrape the web page 
 - ❌ Ignoring long-tail questions (huge opportunity missed)
 - ❌ Subdomain help centers (less authority than subdirectories)
 
-### Project Template System Implementation
+## UI/UX Patterns
+
+### Table of Contents Implementation
+- TOC components require exact ID matching between heading elements and navigation links
+- Missing IDs cause broken sidebar navigation - every heading referenced in TOC array must have corresponding `id` attribute
+- Fixed sidebars need adequate bottom padding (pb-32) on main content to prevent covering bottom content during scroll
+- Use semantic anchor links (#heading-id) for smooth navigation
+
+### TOC Scroll Behavior
+- Fixed-position TOCs should hide when users scroll past article content to prevent floating over footer/bottom sections
+- Use scroll listener with getBoundingClientRect() to detect when article bottom passes viewport threshold
+- Add transition-opacity for smooth hide/show animation
+
+### TOC Layout Overlap Fix
+- Fixed-position desktop TOCs (positioned with `fixed left-8 w-64`) require main content containers to have corresponding left margin (`xl:ml-80`) to prevent content overlap
+- Without proper margin, TOC sidebar blocks main content on desktop screens
+- Apply `xl:ml-80` to main content containers on pages using TableOfContents component
+
+### Health Website UX
+- Medical websites need neutral color palette vs bright commercial colors
+- Display medical authority signals upfront: reviewer credentials, last updated dates, evidence-based badges
+- Use professional formatting without emojis in navigation
+- Educational tone instead of marketing/promotional language
+- Medical disclaimer prominently displayed in footer
+
+## Component Patterns
+
+### Help Center Article Structure
+- Reusable HelpArticle component with: Short Answer blocks, key considerations, step-by-step guidance, medical disclaimers
+- Comprehensive SEO: proper meta tags, canonical URLs, structured data (JSON-LD)
+- "When to see doctor" sections for medical safety
+- Related questions for internal linking
+- FAQ sections with JSON-LD structured data
+- Mobile-friendly responsive design
+
+### AEO-Optimized Content Blocks
+- Short Answer section for LLM consumption
+- Key Takeaways numbered list
+- References with PubMed links
+- Related questions with internal links
+- Medical authority banner at top of page
+
+## Project Template System
 - **Template Structure**: Global template at `/Users/thxu/Desktop/cursor-workspace/.project-template/` with tools/, .cursorrules, requirements.txt, env.example
 - **Setup Scripts**: Both Python (cross-platform) and Bash versions for new project initialization
 - **Placeholder System**: Template .cursorrules uses placeholders like [PROJECT_NAME], [PROJECT_TYPE] for customization
-- **Automatic Learning Integration**: New projects inherit dual-routing learning system (technical → .cursorrules, general → system memory)
 - **Directory Structure**: Template copies tools/ directory, requirements.txt, and customized .cursorrules to new projects
 - **Cross-Platform Support**: Python script handles Windows/Mac/Linux differences in file permissions and paths
-
-# Scratchpad
-
-## Current Project Status
-
-### Posture Site - SEO & Technical Optimization
-
-**Project Overview**: 
-Complete Next.js website for neck posture correction with 25 pages of health/wellness content.
-
-**Recent Accomplishments**:
-[X] Fixed sitemap completeness - added missing /neck-hump-guide page (now 25/25 pages)
-[X] Resolved URL consistency issues - all JSON-LD structured data now uses www.neckhump.com
-[X] Eliminated dual referring page signals in Google Search Console
-[X] Deployed all sitemap and URL consistency fixes to production
-[X] Implemented devin.cursorrules setup for enhanced AI capabilities
-
-**Current State**:
-- ✅ **Sitemap**: Complete with all 25 pages included
-- ✅ **URL Consistency**: All canonicals, structured data, and sitemap use www.neckhump.com
-- ✅ **SEO Foundation**: Proper canonical URLs, meta tags, and structured data
-- ✅ **Advanced AI Tools**: devin.cursorrules setup with web scraping, LLM integration, and screenshot verification
-- ✅ **devin.cursorrules Implementation**: Complete setup with all essential tools and Python utilities
-- ✅ **TOC Issue Fix**: Desktop Table of Contents now hides when scrolling past article content
-
-**Next Potential Tasks**:
-- [X] Complete comprehensive AEO content audit (identified critical gaps)
-- [X] Create implementation brief for on-site optimization (AEO_IMPLEMENTATION_BRIEF.md)
-- [ ] Implement AEO (Answer Engine Optimization) strategy - ON-SITE ONLY
-  - [ ] PHASE 1: Build help center with 60 long-tail articles (Weeks 1-2) - IN PROGRESS
-    - [ ] Create missing help center category pages (4 categories missing)
-    - [ ] Generate high-priority articles for each category (targeting 5-10 articles per category)
-    - [ ] Focus on long-tail questions with high search volume and low competition
-  - [ ] PHASE 2: Optimize existing 25 pages with AEO blocks (Weeks 3-4)
-  - [ ] PHASE 3: Create 8 comparison pages (Week 5)
-  - [ ] PHASE 4: Enhance internal linking network (Week 6)
-  - [ ] PHASE 5: Meta optimization + tracking (Week 7)
-  - [ ] Future: Answer tracking tool to monitor "share of voice" across LLMs
-  - [ ] Future: Add "How did you hear about us?" survey for attribution
-
-## Current Task: Help Center Article Generation
-
-**Analysis Complete**:
-- Help center structure exists with 5 categories
-- Only 2 articles currently exist: "chin tucks with herniated disc" and "how long until neck hump improves"
-- Missing: 4 category pages + 58+ individual articles
-- Each category promises 10-20 articles but has 0-1 actual articles
-
-**Strategy**: Generate articles one at a time, focusing on:
-1. High-search-volume long-tail questions
-2. Medical conditions and specific situations
-3. AEO optimization (comprehensive answers to follow-up questions)
-4. SEO best practices (proper meta tags, structured data, internal linking)
-
-**Priority Order**:
-1. Create missing category pages first ✅ COMPLETED
-2. Generate 2-3 high-priority articles per category ✅ IN PROGRESS
-3. Focus on most searched questions from each category's popular questions list
-
-**Progress Update**:
-✅ Created 3 missing category pages:
-- /help/specific-situations (10 articles listed)
-- /help/product-questions (10 articles listed) 
-- /help/troubleshooting (10 articles listed)
-
-✅ Created 22 high-priority articles:
-- /help/troubleshooting/chin-tucks-causing-dizziness (common issue, high search volume)
-- /help/product-questions/best-pillow-height-side-sleepers (high commercial intent)
-- /help/specific-situations/posture-exercises-seniors-over-65 (large demographic, specific needs)
-- /help/product-questions/memory-foam-vs-cervical-pillow (high commercial intent, comparison content)
-- /help/troubleshooting/no-improvement-after-8-weeks (common frustration, troubleshooting)
-- /help/product-questions/budget-pillow-alternatives-under-50 (high commercial intent, budget focus)
-- /help/specific-situations/neck-hump-while-breastfeeding (specific demographic, high search volume)
-- /help/troubleshooting/exercises-making-neck-pain-worse (common problem, safety focus)
-- /help/product-questions/foam-roller-size-guide-neck (equipment guidance, safety focus)
-- /help/specific-situations/neck-exercises-wheelchair-users (accessibility, adapted exercises)
-- /help/troubleshooting/headaches-after-posture-exercises (common side effect, safety focus)
-- /help/product-questions/best-ergonomic-chairs-neck-hump (high commercial intent, workplace focus)
-- /help/specific-situations/posture-during-long-flights (travel-specific, practical solutions)
-- /help/troubleshooting/neck-stiffness-after-exercises (common side effect, recovery focus)
-- /help/product-questions/best-exercise-bands-neck-exercises (equipment guidance, resistance training)
-- /help/specific-situations/neck-hump-exercises-office-workers (workplace-specific, desk-friendly solutions)
-- /help/troubleshooting/neck-pain-after-sleeping (common sleep issue, recovery focus)
-- /help/product-questions/best-pillow-back-sleepers (high commercial intent, sleep optimization)
-- /help/specific-situations/posture-exercises-remote-workers (workplace-specific, home office solutions)
-- /help/troubleshooting/neck-pain-when-looking-down (common device issue, ergonomic focus)
-- /help/product-questions/best-pillow-side-sleepers (high commercial intent, sleep optimization)
-- /help/specific-situations/neck-hump-exercises-pregnant-women (specific demographic, pregnancy-safe solutions)
-
-✅ Updated sitemap.js to include all new pages (25 new URLs added)
-
-**Article Quality Features Implemented**:
-- Comprehensive short answers for AEO optimization
-- Detailed explanations with medical context
-- Step-by-step guidance for practical application
-- Key considerations for safety and effectiveness
-- "When to see a doctor" sections for medical safety
-- Related questions for internal linking
-- FAQ sections with structured data (JSON-LD)
-- Proper meta tags and canonical URLs
-- Medical disclaimers for legal protection
-
-**SEO & AEO Optimization**:
-- Long-tail keyword targeting (25+ word queries)
-- Comprehensive answers to follow-up questions
-- Medical authority signals (reviewer credentials, last updated)
-- Internal linking network between related articles
-- Structured data for better search engine understanding
-- Mobile-friendly responsive design
-
-**Next Steps**:
-- Continue creating 2-3 more articles per category (targeting 15-20 total articles)
-- Focus on high-search-volume long-tail questions
-- Monitor search performance and user engagement
-- Consider adding more comparison articles and specific condition guides
-- [X] PHASE 2: Optimize existing 25 pages with AEO blocks (Weeks 3-4) - IN PROGRESS
-  - [X] Enhanced neck-hump-exercises page with comprehensive FAQ section and JSON-LD structured data
-  - [X] Enhanced how-to-fix-posture-at-home page with comprehensive FAQ section and JSON-LD structured data
-  - [X] Added related questions and internal linking blocks for better AEO optimization
-  - [ ] Continue optimizing remaining high-traffic pages with similar enhancements
-- [ ] Deploy UX/UI medical redesign to production
-- [ ] Monitor user engagement metrics after UX changes
-- [ ] Monitor GSC for resolution of "No referring sitemaps detected" issues (24-48 hours)
-- [ ] Performance optimization if Core Web Vitals need improvement
-- [ ] Content updates or new page development
-- [ ] Advanced SEO features (schema markup enhancements, etc.)
-
-**Global Template System Setup**:
-[X] Created global project template system at `/Users/thxu/Desktop/cursor-workspace/.project-template/`
-[X] Automatic learning system now available for all future projects
-[X] Python and Bash setup scripts for easy project initialization
-[X] Cross-platform compatibility with Windows/Mac/Linux support
-
-**Development Tools Available**:
-- ✅ Web scraping via tools/web_scraper.py
-- ✅ Search engine integration via tools/search_engine.py  
-- ✅ LLM API access via tools/llm_api.py
-- ✅ Screenshot verification via tools/screenshot_utils.py
-- ✅ Automatic learning and documentation system
-- ✅ Python dependencies listed in requirements.txt
-- ✅ Environment configuration example (.env.example)
-
-**Technical Lessons Learned**:
-- Sitemap completeness is critical for proper search engine discovery
-- URL consistency across all SEO elements prevents confusion and ranking issues
-- devin.cursorrules provides powerful AI enhancement capabilities for complex development tasks
-- Global template system enables consistent AI tooling across all future projects
-- Automatic learning systems prevent repeated mistakes and accelerate development
-- Cross-platform setup scripts ensure tools work on Windows, Mac, and Linux environments
-- **Table of Contents Implementation**: TOC components require exact ID matching between heading elements and navigation links. Missing IDs cause broken sidebar navigation - every heading referenced in TOC array must have corresponding `id` attribute
-- **Sidebar Layout Issues**: Fixed sidebars need adequate bottom padding (pb-32) on main content to prevent covering bottom content during scroll. Use semantic anchor links (#heading-id) for smooth navigation
-- **UI/UX Debugging Workflow**: 1) Verify TOC headings array matches actual content structure, 2) Ensure all headings have proper id attributes, 3) Test with browser inspector for missing anchors, 4) Add bottom padding to prevent content overlap
-- **TOC Scroll Behavior**: Fixed-position TOCs should hide when users scroll past article content to prevent floating over footer/bottom sections. Use scroll listener with getBoundingClientRect() to detect when article bottom passes viewport threshold. Add transition-opacity for smooth hide/show animation
-- **TOC Layout Overlap Fix**: Fixed-position desktop TOCs (positioned with `fixed left-8 w-64`) require main content containers to have corresponding left margin (`xl:ml-80`) to prevent content overlap. Without proper margin, TOC sidebar blocks main content on desktop screens. Apply `xl:ml-80` to main content containers on pages using TableOfContents component
-- **Health Website UX Audit**: Current site feels like SaaS sales page due to: 1) Overwhelming colored boxes and commercial CTAs, 2) Missing upfront medical authority signals, 3) Bright commercial color scheme vs neutral medical palette, 4) Card-based navigation with hover effects, 5) "Marketing-style" content presentation. Solution: Transform to medical-grade resource with neutral colors, prominent credentials, professional formatting, and educational (not promotional) tone.
-- **Medical Website UX Optimization (Sept 2025)**: Implemented simplified, high-impact changes to transform from commercial to professional medical resource: 1) Added medical authority banner to top (reviewer + last updated + evidence-based badge), 2) Changed "Recovery Journey" to "Essential Information" (removed marketing language), 3) Removed all emojis from navigation cards for professional appearance, 4) Changed yellow assessment box to neutral blue (reduced commercial feel), 5) Enhanced footer with medical disclaimer and trust badges. Total implementation time: ~30 minutes. Result: 85% → 95% professional feel without overcomplicated redesign.
-- **AEO Help Center Implementation (Jan 2025)**: Successfully implemented Phase 1 of Answer Engine Optimization strategy: 1) Created complete help center infrastructure with 5 categories (exercises-safety, specific-situations, product-questions, timeline-questions, troubleshooting), 2) Built reusable HelpArticle component with Short Answer blocks, key considerations, step-by-step guidance, and medical disclaimers, 3) Created help center homepage with category navigation and search functionality, 4) Implemented help center layout with sticky navigation and footer, 5) Generated 2 sample help articles demonstrating the format and content structure, 6) Updated sitemap to include new help center pages. This provides the foundation for 60+ long-tail help articles targeting specific medical conditions and situations.
-- **Help Center Article Generation (Jan 2025)**: Successfully created 4 high-quality help center articles following AEO best practices: 1) Created 3 missing category pages (specific-situations, product-questions, troubleshooting) with comprehensive article listings, 2) Generated 4 detailed articles targeting high-search-volume long-tail questions, 3) Implemented comprehensive SEO optimization with proper meta tags, canonical URLs, and structured data, 4) Added medical disclaimers and "when to see doctor" sections for safety, 5) Created internal linking networks between related articles, 6) Updated sitemap.js to include all new pages. Articles follow AEO principles: comprehensive short answers, detailed explanations, step-by-step guidance, FAQ sections with JSON-LD structured data, and medical authority signals. This demonstrates the scalable approach for generating 60+ help articles targeting specific medical conditions and situations.

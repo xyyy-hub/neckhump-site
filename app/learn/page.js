@@ -19,6 +19,36 @@ export const metadata = {
 export default function LearnPage() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-8">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Course",
+            "name": "Neck Hump & Forward Head Posture Education Hub",
+            "description": "Comprehensive learning center covering neck hump anatomy, causes, evidence-based treatment, and prevention strategies.",
+            "provider": {
+              "@type": "Organization",
+              "name": "NeckHump.com"
+            },
+            "educationalLevel": "Beginner to Advanced",
+            "teaches": [
+              "Neck hump anatomy and biomechanics",
+              "Causes of forward head posture",
+              "Evidence-based treatment approaches",
+              "Modern lifestyle factors affecting posture",
+              "Prevention strategies for neck hump"
+            ],
+            "courseMode": "online",
+            "isAccessibleForFree": true,
+            "hasCourseInstance": {
+              "@type": "CourseInstance",
+              "courseMode": "online"
+            }
+          })
+        }}
+      />
+
       <Breadcrumbs 
         items={[
           { label: 'Home', href: '/' },
@@ -133,7 +163,7 @@ export default function LearnPage() {
               <Link href="/text-neck-syndrome" className="block text-blue-600 hover:text-blue-800 font-medium">
                 → Text Neck Syndrome Explained
               </Link>
-              <Link href="/learn/complete-guide" className="block text-blue-600 hover:text-blue-800 font-medium">
+              <Link href="/neck-hump-guide" className="block text-blue-600 hover:text-blue-800 font-medium">
                 → Complete Anatomical Guide
               </Link>
             </div>

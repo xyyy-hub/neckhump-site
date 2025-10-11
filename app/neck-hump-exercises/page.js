@@ -5,6 +5,8 @@ import InternalLinking from '../../components/InternalLinking'
 import AuthorReviewer from '../../components/AuthorReviewer'
 import TableOfContents from '../../components/TableOfContents'
 import PeopleAlsoAsk from '../../components/PeopleAlsoAsk'
+import RelatedArticles from '../../components/RelatedArticles'
+import NavigationPathway from '../../components/NavigationPathway'
 
 export const metadata = {
   title: 'Neck Hump Exercises: 10 Proven Moves (Daily 5-Minute Plan)',
@@ -199,6 +201,16 @@ export default function NeckHumpExercisesPage() {
                     }
                   }
                 ]
+              },
+              {
+                "@type": "WebPage",
+                "@id": "https://www.neckhump.com/neck-hump-exercises#webpage",
+                "name": "Neck Hump Exercises That Actually Work",
+                "description": "Proven neck hump exercises to reduce forward head posture",
+                "speakable": {
+                  "@type": "SpeakableSpecification",
+                  "cssSelector": ["#short-answer", "#key-takeaways"]
+                }
               }
             ]
           }),
@@ -243,7 +255,7 @@ export default function NeckHumpExercisesPage() {
           <div className="bg-emerald-50 border-l-4 border-emerald-400 p-6 mb-8 rounded-lg">
             <h2 className="text-xl font-semibold mb-4 text-emerald-900" id="short-answer">Short Answer</h2>
             <p className="text-emerald-800 text-lg leading-relaxed">
-              Chin tucks (3 sets, 10 reps), wall angels (2 sets, 15 reps), and doorway chest stretches (30 seconds each) done daily target the deep neck flexors and reverse forward head posture effectively.
+              What are the best exercises for neck hump? The most effective routine combines chin tucks (3 sets of 10 reps), wall angels (2 sets of 15 reps), and doorway chest stretches (hold 30 seconds) done daily. These specifically target the deep neck flexors and upper back muscles to reverse forward head posture. Most people feel less neck tension within 1 week and see visible posture changes in 2-4 weeks.
             </p>
           </div>
 
@@ -1291,9 +1303,6 @@ export default function NeckHumpExercisesPage() {
           </p>
         </div>
       </article>
-    </div>
-  )
-}
 
       {/* Detailed Exercise Links */}
       <section className="mb-16">
@@ -1368,3 +1377,43 @@ export default function NeckHumpExercisesPage() {
           </Link>
         </div>
       </section>
+
+      {/* Navigation Pathway */}
+      <NavigationPathway currentStage="exercises" />
+
+      {/* Related Articles */}
+      <RelatedArticles 
+        articles={[
+          {
+            title: "Complete Neck Hump Guide",
+            description: "Comprehensive guide covering causes, prevention, and complete treatment plan for forward head posture.",
+            href: "/neck-hump-guide",
+            category: "Complete Guide",
+            readTime: "12 min read"
+          },
+          {
+            title: "Exercise Library: Browse All Exercises",
+            description: "Complete catalog of 16+ posture exercises organized by difficulty, equipment needed, and time required.",
+            href: "/exercise-library",
+            category: "Exercise Library",
+            readTime: "10 min read"
+          },
+          {
+            title: "How to Fix Posture at Home",
+            description: "30-day plan combining exercises, ergonomics, and lifestyle changes for permanent posture correction.",
+            href: "/how-to-fix-posture-at-home",
+            category: "Treatment Plan",
+            readTime: "10 min read"
+          },
+          {
+            title: "Ergonomic Desk Setup Guide",
+            description: "Monitor height, chair position, and keyboard placement to prevent neck hump during work hours.",
+            href: "/desk-setup-guide",
+            category: "Prevention",
+            readTime: "5 min read"
+          }
+        ]}
+      />
+    </div>
+  )
+}
