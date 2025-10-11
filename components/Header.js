@@ -7,10 +7,12 @@ import { useRouter } from 'next/navigation'
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [searchQuery, setSearchQuery] = useState('')
+  const [activeDropdown, setActiveDropdown] = useState(null)
   const router = useRouter()
   
   const handleMenuToggle = () => {
     setIsMenuOpen(!isMenuOpen)
+    setActiveDropdown(null)
   }
 
   const handleSearch = (e) => {
@@ -21,14 +23,41 @@ export default function Header() {
     }
   }
 
-  const navLinks = [
-    { href: "/neck-hump-guide", label: "Complete Guide", text: "Complete Guide" },
-    { href: "/neck-hump-exercises", label: "Exercises", text: "Exercise Library" },
-    { href: "/help", label: "Help Center", text: "Help Center" },
-    { href: "/posture-exercises", label: "Office Breaks", text: "Quick Routine" },
-    { href: "/neck-hump-causes", label: "Understanding", text: "Causes & Info" },
-    { href: "/best-pillow-for-neck-hump", label: "Products", text: "Best Pillows" },
-    { href: "/ergonomic-workspace-neck-hump", label: "Workspace", text: "Ergonomics" }
+  const toggleDropdown = (menu) => {
+    setActiveDropdown(activeDropdown === menu ? null : menu)
+  }
+
+  const navStructure = [
+    {
+      label: "Learn",
+      items: [
+        { href: "/neck-hump-guide", text: "Complete Guide" },
+        { href: "/neck-hump-causes", text: "Causes & Understanding" },
+        { href: "/text-neck-syndrome", text: "Text Neck Syndrome" },
+        { href: "/military-neck-cervical-lordosis", text: "Military Neck" }
+      ]
+    },
+    {
+      label: "Exercises",
+      items: [
+        { href: "/neck-hump-exercises", text: "Exercise Library" },
+        { href: "/posture-exercises", text: "Quick Office Routine" },
+        { href: "/exercise-library", text: "All Exercises" }
+      ]
+    },
+    {
+      label: "Solutions",
+      items: [
+        { href: "/best-pillow-for-neck-hump", text: "Best Pillows" },
+        { href: "/ergonomic-workspace-neck-hump", text: "Workspace Ergonomics" },
+        { href: "/desk-setup-guide", text: "Desk Setup Guide" }
+      ]
+    },
+    {
+      label: "Help Center",
+      href: "/help",
+      items: []
+    }
   ]
 
   return (
@@ -63,23 +92,54 @@ export default function Header() {
           </form>
           
           {/* Desktop Navigation */}
-          <div className="hidden md:flex space-x-6">
-            {navLinks.map((link) => (
-              <Link 
-                key={link.href}
-                href={link.href} 
-                className="text-gray-700 hover:text-blue-600 transition-colors font-medium relative group"
-              >
-                <span className="text-xs text-gray-400 block">{link.label}</span>
-                {link.text}
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 transition-all group-hover:w-full"></span>
-              </Link>
+          <div className="hidden lg:flex items-center space-x-2">
+            {navStructure.map((nav, index) => (
+              <div key={index} className="relative group">
+                {nav.items.length > 0 ? (
+                  <>
+                    <button
+                      className="px-4 py-2 text-gray-700 hover:text-blue-600 transition-colors font-medium rounded-lg hover:bg-gray-50 flex items-center gap-1"
+                      onMouseEnter={() => setActiveDropdown(nav.label)}
+                      onMouseLeave={() => setActiveDropdown(null)}
+                    >
+                      {nav.label}
+                      <svg className="w-4 h-4 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </button>
+                    {activeDropdown === nav.label && (
+                      <div 
+                        className="absolute top-full left-0 mt-1 w-56 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50"
+                        onMouseEnter={() => setActiveDropdown(nav.label)}
+                        onMouseLeave={() => setActiveDropdown(null)}
+                      >
+                        {nav.items.map((item) => (
+                          <Link
+                            key={item.href}
+                            href={item.href}
+                            className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors"
+                          >
+                            {item.text}
+                          </Link>
+                        ))}
+                      </div>
+                    )}
+                  </>
+                ) : (
+                  <Link
+                    href={nav.href}
+                    className="px-4 py-2 text-gray-700 hover:text-blue-600 transition-colors font-medium rounded-lg hover:bg-gray-50"
+                  >
+                    {nav.label}
+                  </Link>
+                )}
+              </div>
             ))}
           </div>
           
           {/* Mobile Menu Button */}
           <button 
-            className="md:hidden p-3 min-w-[44px] min-h-[44px] flex items-center justify-center rounded-lg hover:bg-gray-100 active:bg-gray-200 transition-colors" 
+            className="lg:hidden p-3 min-w-[44px] min-h-[44px] flex items-center justify-center rounded-lg hover:bg-gray-100 active:bg-gray-200 transition-colors" 
             aria-label="Toggle Menu"
             aria-expanded={isMenuOpen}
             onClick={handleMenuToggle}
@@ -120,18 +180,54 @@ export default function Header() {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden mt-4 pb-4 border-t border-gray-200 bg-white shadow-lg">
-            <div className="pt-4 space-y-1">
-              {navLinks.map((link) => (
-                <Link 
-                  key={link.href}
-                  href={link.href}
-                  className="block px-4 py-3 min-h-[48px] text-gray-700 hover:text-blue-600 hover:bg-blue-50 active:bg-blue-100 rounded-lg transition-colors"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  <span className="text-xs text-gray-400 block">{link.label}</span>
-                  <span className="font-medium text-base">{link.text}</span>
-                </Link>
+          <div className="lg:hidden mt-4 pb-4 border-t border-gray-200 bg-white">
+            <div className="pt-4 space-y-2">
+              {navStructure.map((nav, index) => (
+                <div key={index}>
+                  {nav.items.length > 0 ? (
+                    <div>
+                      <button
+                        onClick={() => toggleDropdown(nav.label)}
+                        className="w-full flex items-center justify-between px-4 py-3 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors font-medium"
+                      >
+                        {nav.label}
+                        <svg 
+                          className={`w-5 h-5 transition-transform ${activeDropdown === nav.label ? 'rotate-180' : ''}`}
+                          fill="none" 
+                          stroke="currentColor" 
+                          viewBox="0 0 24 24"
+                        >
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                        </svg>
+                      </button>
+                      {activeDropdown === nav.label && (
+                        <div className="ml-4 mt-2 space-y-1">
+                          {nav.items.map((item) => (
+                            <Link
+                              key={item.href}
+                              href={item.href}
+                              className="block px-4 py-2 text-gray-600 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-colors"
+                              onClick={() => {
+                                setIsMenuOpen(false)
+                                setActiveDropdown(null)
+                              }}
+                            >
+                              {item.text}
+                            </Link>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  ) : (
+                    <Link
+                      href={nav.href}
+                      className="block px-4 py-3 text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-lg transition-colors font-medium"
+                      onClick={() => setIsMenuOpen(false)}
+                    >
+                      {nav.label}
+                    </Link>
+                  )}
+                </div>
               ))}
             </div>
           </div>
