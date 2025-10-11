@@ -76,7 +76,7 @@ export default function ProgressTrackingMethodsPage() {
               <li>• Normal: 0-2 cm (head touches or nearly touches wall)</li>
               <li>• Mild forward head: 2-5 cm</li>
               <li>• Moderate forward head: 5-8 cm</li>
-              <li>• Severe forward head: >8 cm</li>
+              <li>• Severe forward head: &gt;8 cm</li>
             </ul>
           </p>
           <p className="text-blue-800 text-sm">
