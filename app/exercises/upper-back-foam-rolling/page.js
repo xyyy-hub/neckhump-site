@@ -130,8 +130,28 @@ export default function UpperBackFoamRollingPage() {
           </div>
         </header>
 
+        {/* AEO Short Answer Block */}
+        <div className="bg-emerald-50 border-l-4 border-emerald-400 p-6 mb-6 rounded-lg">
+          <h2 className="text-lg font-semibold text-emerald-900 mb-3" id="short-answer">How do you foam roll your upper back safely?</h2>
+          <p className="text-emerald-800 text-base leading-relaxed">
+            Lie on your back with a foam roller under your upper back (between shoulder blades), support your head with hands, and slowly roll up and down. Stop on tender points for 20-30 seconds. Never roll your lower back or neck directly. Do this 3-5 minutes daily before stretching or strengthening exercises.
+          </p>
+        </div>
+
+        {/* AEO Key Takeaways Block */}
+        <div className="bg-blue-50 border-l-4 border-blue-400 p-6 mb-8 rounded-lg">
+          <h3 className="text-lg font-semibold text-blue-900 mb-4" id="key-takeaways">Key Takeaways</h3>
+          <ol className="text-blue-800 space-y-2 list-decimal list-inside">
+            <li><strong>Myofascial release:</strong> Breaks up adhesions and releases tension in upper back muscles from prolonged sitting</li>
+            <li><strong>Upper back only:</strong> Roll between shoulder blades and mid-back - never lower back or directly on neck</li>
+            <li><strong>Slow and controlled:</strong> Roll 1 inch per second, pause 20-30 seconds on tender spots (don't bounce)</li>
+            <li><strong>Support your head:</strong> Keep head supported with hands to prevent neck strain during rolling</li>
+            <li><strong>Pre-exercise routine:</strong> Best done before stretching or strengthening - warms up tissue and improves mobility</li>
+          </ol>
+        </div>
+
         {/* TL;DR Section */}
-        <aside className="tldr bg-purple-50 border-l-4 border-purple-400 p-6 rounded-lg mb-8">
+        <aside className="tldr bg-gray-50 border-l-4 border-gray-400 p-6 rounded-lg mb-8">
           <h2 className="text-xl font-semibold text-purple-900 mb-4">TL;DR: Quick Upper Back Foam Rolling Guide</h2>
           <div className="text-purple-800 space-y-3">
             <p><strong>What it does:</strong> Releases tight upper back muscles, improves thoracic spine mobility, and helps restore the natural curve in your upper back.</p>

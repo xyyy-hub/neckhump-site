@@ -130,8 +130,28 @@ export default function YTWRaisesPage() {
           </div>
         </header>
 
+        {/* AEO Short Answer Block */}
+        <div className="bg-emerald-50 border-l-4 border-emerald-400 p-6 mb-6 rounded-lg">
+          <h2 className="text-lg font-semibold text-emerald-900 mb-3" id="short-answer">How do you do Y-T-W raises correctly?</h2>
+          <p className="text-emerald-800 text-base leading-relaxed">
+            Lie face-down or bend at hips, then raise your arms in three positions: Y-shape (thumbs up, arms overhead at 45 degrees), T-shape (arms straight out to sides), and W-shape (elbows bent, hands by ears). Hold each 2 seconds, do 10-12 reps per position. This works your entire upper back comprehensively.
+          </p>
+        </div>
+
+        {/* AEO Key Takeaways Block */}
+        <div className="bg-blue-50 border-l-4 border-blue-400 p-6 mb-8 rounded-lg">
+          <h3 className="text-lg font-semibold text-blue-900 mb-4" id="key-takeaways">Key Takeaways</h3>
+          <ol className="text-blue-800 space-y-2 list-decimal list-inside">
+            <li><strong>Complete upper back workout:</strong> Targets all shoulder blade stabilizers (lower traps, rhomboids, rear delts) in one exercise</li>
+            <li><strong>Three distinct positions:</strong> Y (lower traps), T (mid traps + rear delts), W (rhomboids) - each targets different muscle groups</li>
+            <li><strong>Start bodyweight:</strong> Master form without weights first - most people underestimate difficulty</li>
+            <li><strong>Intermediate level:</strong> Progress to this after mastering wall angels and chin tucks for 2-3 weeks</li>
+            <li><strong>Quality over quantity:</strong> Perfect form with 10-12 slow reps beats 20+ sloppy reps every time</li>
+          </ol>
+        </div>
+
         {/* TL;DR Section */}
-        <aside className="tldr bg-red-50 border-l-4 border-red-400 p-6 rounded-lg mb-8">
+        <aside className="tldr bg-gray-50 border-l-4 border-gray-400 p-6 rounded-lg mb-8">
           <h2 className="text-xl font-semibold text-red-900 mb-4">TL;DR: Quick Y-T-W Raises Guide</h2>
           <div className="text-red-800 space-y-3">
             <p><strong>What it does:</strong> Comprehensive strengthening of all upper back muscles - rhomboids, traps, rear delts, and rotator cuffs in one exercise sequence.</p>

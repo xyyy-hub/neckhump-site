@@ -130,8 +130,28 @@ export default function DoorwayPecStretchPage() {
           </div>
         </header>
 
+        {/* AEO Short Answer Block */}
+        <div className="bg-emerald-50 border-l-4 border-emerald-400 p-6 mb-6 rounded-lg">
+          <h2 className="text-lg font-semibold text-emerald-900 mb-3" id="short-answer">How do you do the doorway pec stretch?</h2>
+          <p className="text-emerald-800 text-base leading-relaxed">
+            Place your forearm vertically against a doorframe with elbow at 90 degrees, step forward with the same-side leg, and gently lean forward until you feel a stretch across your chest. Hold for 30 seconds per side, repeat 2-3 times. Do this 2-3 times daily to release tight chest muscles.
+          </p>
+        </div>
+
+        {/* AEO Key Takeaways Block */}
+        <div className="bg-blue-50 border-l-4 border-blue-400 p-6 mb-8 rounded-lg">
+          <h3 className="text-lg font-semibold text-blue-900 mb-4" id="key-takeaways">Key Takeaways</h3>
+          <ol className="text-blue-800 space-y-2 list-decimal list-inside">
+            <li><strong>Essential counterbalance:</strong> Releases tight chest muscles (pecs) that pull shoulders forward and worsen neck hump</li>
+            <li><strong>Simple setup:</strong> Just need a doorway - place forearm vertically on frame and lean forward gently</li>
+            <li><strong>Hold long enough:</strong> 30-second holds are minimum for effective muscle lengthening (don't rush it)</li>
+            <li><strong>Do both sides:</strong> Most people have uneven tightness - always stretch both sides even if one feels worse</li>
+            <li><strong>Pair with strengthening:</strong> Combine with wall angels and chin tucks for complete forward head posture correction</li>
+          </ol>
+        </div>
+
         {/* TL;DR Section */}
-        <aside className="tldr bg-orange-50 border-l-4 border-orange-400 p-6 rounded-lg mb-8">
+        <aside className="tldr bg-gray-50 border-l-4 border-gray-400 p-6 rounded-lg mb-8">
           <h2 className="text-xl font-semibold text-orange-900 mb-4">TL;DR: Quick Doorway Pec Stretch Guide</h2>
           <div className="text-orange-800 space-y-3">
             <p><strong>What it does:</strong> Stretches tight chest muscles (pectorals) that pull shoulders forward, allowing better posture and reducing neck strain.</p>

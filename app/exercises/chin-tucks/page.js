@@ -130,8 +130,28 @@ export default function ChinTucksPage() {
           </div>
         </header>
 
+        {/* AEO Short Answer Block */}
+        <div className="bg-emerald-50 border-l-4 border-emerald-400 p-6 mb-6 rounded-lg">
+          <h2 className="text-lg font-semibold text-emerald-900 mb-3" id="short-answer">How do you do chin tucks correctly?</h2>
+          <p className="text-emerald-800 text-base leading-relaxed">
+            Sit or stand with neutral posture, keep your eyes level, and gently glide your head straight backward (like making a double chin) without tilting. Hold for 5 seconds, then return to start. Do 10-15 reps, 2-3 times daily. The movement should be subtle and pain-free.
+          </p>
+        </div>
+
+        {/* AEO Key Takeaways Block */}
+        <div className="bg-blue-50 border-l-4 border-blue-400 p-6 mb-8 rounded-lg">
+          <h3 className="text-lg font-semibold text-blue-900 mb-4" id="key-takeaways">Key Takeaways</h3>
+          <ol className="text-blue-800 space-y-2 list-decimal list-inside">
+            <li><strong>Foundation exercise:</strong> Chin tucks are the #1 starting exercise for neck hump and forward head posture correction</li>
+            <li><strong>Simple technique:</strong> Glide head straight back without tilting - movement should be subtle, not exaggerated</li>
+            <li><strong>Frequency matters:</strong> Do 10-15 reps, 2-3 times daily for best results (consistency beats intensity)</li>
+            <li><strong>Pain-free:</strong> Should feel gentle stretch at skull base - stop if you feel sharp pain or dizziness</li>
+            <li><strong>Fast results:</strong> Most people feel neck muscles activating properly within 1-2 weeks of daily practice</li>
+          </ol>
+        </div>
+
         {/* TL;DR Section */}
-        <aside className="tldr bg-blue-50 border-l-4 border-blue-400 p-6 rounded-lg mb-8">
+        <aside className="tldr bg-gray-50 border-l-4 border-gray-400 p-6 rounded-lg mb-8">
           <h2 className="text-xl font-semibold text-blue-900 mb-4">TL;DR: Quick Chin Tuck Guide</h2>
           <div className="text-blue-800 space-y-3">
             <p><strong>What it does:</strong> Strengthens deep neck flexors and retrains proper head position by pulling your head back over your shoulders.</p>

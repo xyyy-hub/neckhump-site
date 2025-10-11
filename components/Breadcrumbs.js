@@ -64,7 +64,7 @@ export default function Breadcrumbs() {
               "@type": "ListItem",
               "position": index + 1,
               "name": item.name,
-              "item": `https://neckhump.com${item.href}`
+              "item": `https://www.neckhump.com${item.href}`
             }))
           })
         }}

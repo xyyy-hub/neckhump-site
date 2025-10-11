@@ -64,8 +64,6 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/favicon.ico" />
         
         {/* Enhanced resource hints for performance */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
         <link rel="dns-prefetch" href="https://vercel.live" />
@@ -112,9 +110,9 @@ export default function RootLayout({ children }) {
                     "@type": "SearchAction",
                     "target": {
                       "@type": "EntryPoint",
-                      "urlTemplate": "https://neckhump.com/?search={search_term_string}"
+                      "urlTemplate": "https://www.neckhump.com/search?q={query}"
                     },
-                    "query-input": "required name=search_term_string"
+                    "query-input": "required name=query"
                   }
                 },
                 {

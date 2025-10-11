@@ -1,0 +1,560 @@
+{
+  "generated": "2025-10-11T05:54:24.513Z",
+  "baseUrl": "https://www.neckhump.com",
+  "totalRoutes": 79,
+  "routes": [
+    {
+      "route": "/",
+      "url": "https://www.neckhump.com/",
+      "priority": 1,
+      "changeFrequency": "weekly",
+      "lastModified": "2025-10-11T04:50:10.030Z"
+    },
+    {
+      "route": "/exercise-library",
+      "url": "https://www.neckhump.com/exercise-library",
+      "priority": 0.95,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-11T04:43:57.881Z"
+    },
+    {
+      "route": "/neck-hump-exercises",
+      "url": "https://www.neckhump.com/neck-hump-exercises",
+      "priority": 0.95,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-11T05:06:56.271Z"
+    },
+    {
+      "route": "/neck-hump-guide",
+      "url": "https://www.neckhump.com/neck-hump-guide",
+      "priority": 0.95,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-11T04:59:08.232Z"
+    },
+    {
+      "route": "/posture-correction-guide",
+      "url": "https://www.neckhump.com/posture-correction-guide",
+      "priority": 0.95,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-11T04:59:08.230Z"
+    },
+    {
+      "route": "/best-pillow-for-neck-hump",
+      "url": "https://www.neckhump.com/best-pillow-for-neck-hump",
+      "priority": 0.9,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T03:05:55.888Z"
+    },
+    {
+      "route": "/how-to-fix-posture-at-home",
+      "url": "https://www.neckhump.com/how-to-fix-posture-at-home",
+      "priority": 0.9,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-11T04:59:08.232Z"
+    },
+    {
+      "route": "/learn",
+      "url": "https://www.neckhump.com/learn",
+      "priority": 0.9,
+      "changeFrequency": "weekly",
+      "lastModified": "2025-10-11T04:50:10.029Z"
+    },
+    {
+      "route": "/solutions",
+      "url": "https://www.neckhump.com/solutions",
+      "priority": 0.9,
+      "changeFrequency": "weekly",
+      "lastModified": "2025-10-06T03:08:54.899Z"
+    },
+    {
+      "route": "/how-to-sleep-with-neck-hump",
+      "url": "https://www.neckhump.com/how-to-sleep-with-neck-hump",
+      "priority": 0.85,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T03:01:01.007Z"
+    },
+    {
+      "route": "/buffalo-hump-vs-neck-hump",
+      "url": "https://www.neckhump.com/buffalo-hump-vs-neck-hump",
+      "priority": 0.8,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T03:06:07.748Z"
+    },
+    {
+      "route": "/desk-setup-guide",
+      "url": "https://www.neckhump.com/desk-setup-guide",
+      "priority": 0.8,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T03:01:01.006Z"
+    },
+    {
+      "route": "/dowagers-hump-vs-neck-hump",
+      "url": "https://www.neckhump.com/dowagers-hump-vs-neck-hump",
+      "priority": 0.8,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T03:06:28.242Z"
+    },
+    {
+      "route": "/ergonomic-workspace-neck-hump",
+      "url": "https://www.neckhump.com/ergonomic-workspace-neck-hump",
+      "priority": 0.8,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T03:03:08.019Z"
+    },
+    {
+      "route": "/help",
+      "url": "https://www.neckhump.com/help",
+      "priority": 0.8,
+      "changeFrequency": "weekly",
+      "lastModified": "2025-10-06T05:13:21.085Z"
+    },
+    {
+      "route": "/military-neck-cervical-lordosis",
+      "url": "https://www.neckhump.com/military-neck-cervical-lordosis",
+      "priority": 0.8,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T03:05:14.283Z"
+    },
+    {
+      "route": "/neck-hump-causes",
+      "url": "https://www.neckhump.com/neck-hump-causes",
+      "priority": 0.8,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-11T04:29:15.832Z"
+    },
+    {
+      "route": "/neck-hump-surgery-guide",
+      "url": "https://www.neckhump.com/neck-hump-surgery-guide",
+      "priority": 0.8,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T03:31:08.913Z"
+    },
+    {
+      "route": "/posture-exercises",
+      "url": "https://www.neckhump.com/posture-exercises",
+      "priority": 0.8,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T03:06:48.190Z"
+    },
+    {
+      "route": "/privacy",
+      "url": "https://www.neckhump.com/privacy",
+      "priority": 0.8,
+      "changeFrequency": "yearly",
+      "lastModified": "2025-09-27T06:49:41.311Z"
+    },
+    {
+      "route": "/tech-neck-prevention-guide",
+      "url": "https://www.neckhump.com/tech-neck-prevention-guide",
+      "priority": 0.8,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-11T04:29:15.832Z"
+    },
+    {
+      "route": "/terms",
+      "url": "https://www.neckhump.com/terms",
+      "priority": 0.8,
+      "changeFrequency": "yearly",
+      "lastModified": "2025-09-27T06:49:41.314Z"
+    },
+    {
+      "route": "/text-neck-syndrome",
+      "url": "https://www.neckhump.com/text-neck-syndrome",
+      "priority": 0.8,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T03:03:08.019Z"
+    },
+    {
+      "route": "/about/dr-sarah-johnson",
+      "url": "https://www.neckhump.com/about/dr-sarah-johnson",
+      "priority": 0.7,
+      "changeFrequency": "yearly",
+      "lastModified": "2025-10-11T04:29:15.832Z"
+    },
+    {
+      "route": "/exercises/chin-tucks",
+      "url": "https://www.neckhump.com/exercises/chin-tucks",
+      "priority": 0.7,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-09-27T06:49:41.321Z"
+    },
+    {
+      "route": "/exercises/doorway-pec-stretch",
+      "url": "https://www.neckhump.com/exercises/doorway-pec-stretch",
+      "priority": 0.7,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-11T04:20:55.922Z"
+    },
+    {
+      "route": "/exercises/upper-back-foam-rolling",
+      "url": "https://www.neckhump.com/exercises/upper-back-foam-rolling",
+      "priority": 0.7,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-11T04:20:55.929Z"
+    },
+    {
+      "route": "/exercises/wall-angels",
+      "url": "https://www.neckhump.com/exercises/wall-angels",
+      "priority": 0.7,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-11T04:20:55.919Z"
+    },
+    {
+      "route": "/exercises/y-t-w-raises",
+      "url": "https://www.neckhump.com/exercises/y-t-w-raises",
+      "priority": 0.7,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-11T04:20:55.925Z"
+    },
+    {
+      "route": "/help/exercises-safety",
+      "url": "https://www.neckhump.com/help/exercises-safety",
+      "priority": 0.7,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T05:13:21.085Z"
+    },
+    {
+      "route": "/help/product-questions",
+      "url": "https://www.neckhump.com/help/product-questions",
+      "priority": 0.7,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-11T04:20:55.912Z"
+    },
+    {
+      "route": "/help/specific-situations",
+      "url": "https://www.neckhump.com/help/specific-situations",
+      "priority": 0.7,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T05:13:21.087Z"
+    },
+    {
+      "route": "/help/timeline-questions",
+      "url": "https://www.neckhump.com/help/timeline-questions",
+      "priority": 0.7,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T05:13:21.095Z"
+    },
+    {
+      "route": "/help/troubleshooting",
+      "url": "https://www.neckhump.com/help/troubleshooting",
+      "priority": 0.7,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T05:13:21.090Z"
+    },
+    {
+      "route": "/help/exercises-safety/can-i-do-chin-tucks-with-herniated-disc",
+      "url": "https://www.neckhump.com/help/exercises-safety/can-i-do-chin-tucks-with-herniated-disc",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T05:13:21.086Z"
+    },
+    {
+      "route": "/help/exercises-safety/exercises-safe-during-pregnancy",
+      "url": "https://www.neckhump.com/help/exercises-safety/exercises-safe-during-pregnancy",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T05:13:21.086Z"
+    },
+    {
+      "route": "/help/exercises-safety/forward-head-posture-after-whiplash",
+      "url": "https://www.neckhump.com/help/exercises-safety/forward-head-posture-after-whiplash",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T05:13:21.087Z"
+    },
+    {
+      "route": "/help/exercises-safety/forward-head-posture-with-arthritis",
+      "url": "https://www.neckhump.com/help/exercises-safety/forward-head-posture-with-arthritis",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T05:13:21.087Z"
+    },
+    {
+      "route": "/help/exercises-safety/neck-exercises-after-whiplash",
+      "url": "https://www.neckhump.com/help/exercises-safety/neck-exercises-after-whiplash",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T05:13:21.085Z"
+    },
+    {
+      "route": "/help/exercises-safety/neck-exercises-with-arthritis",
+      "url": "https://www.neckhump.com/help/exercises-safety/neck-exercises-with-arthritis",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T05:13:21.087Z"
+    },
+    {
+      "route": "/help/product-questions/best-ergonomic-chairs-neck-hump",
+      "url": "https://www.neckhump.com/help/product-questions/best-ergonomic-chairs-neck-hump",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T05:13:21.095Z"
+    },
+    {
+      "route": "/help/product-questions/best-exercise-bands-neck-exercises",
+      "url": "https://www.neckhump.com/help/product-questions/best-exercise-bands-neck-exercises",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T05:13:21.094Z"
+    },
+    {
+      "route": "/help/product-questions/best-pillow-back-sleepers",
+      "url": "https://www.neckhump.com/help/product-questions/best-pillow-back-sleepers",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-11T03:24:27.342Z"
+    },
+    {
+      "route": "/help/product-questions/best-pillow-height-side-sleepers",
+      "url": "https://www.neckhump.com/help/product-questions/best-pillow-height-side-sleepers",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T05:13:21.092Z"
+    },
+    {
+      "route": "/help/product-questions/best-pillow-side-sleepers",
+      "url": "https://www.neckhump.com/help/product-questions/best-pillow-side-sleepers",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T05:13:21.095Z"
+    },
+    {
+      "route": "/help/product-questions/budget-pillow-alternatives",
+      "url": "https://www.neckhump.com/help/product-questions/budget-pillow-alternatives",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T05:13:21.093Z"
+    },
+    {
+      "route": "/help/product-questions/budget-pillow-alternatives-under-50",
+      "url": "https://www.neckhump.com/help/product-questions/budget-pillow-alternatives-under-50",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T05:13:21.095Z"
+    },
+    {
+      "route": "/help/product-questions/cervical-traction-devices-comparison",
+      "url": "https://www.neckhump.com/help/product-questions/cervical-traction-devices-comparison",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-11T04:20:55.904Z"
+    },
+    {
+      "route": "/help/product-questions/foam-roller-size-guide",
+      "url": "https://www.neckhump.com/help/product-questions/foam-roller-size-guide",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T05:13:21.093Z"
+    },
+    {
+      "route": "/help/product-questions/foam-roller-size-guide-neck",
+      "url": "https://www.neckhump.com/help/product-questions/foam-roller-size-guide-neck",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T05:13:21.093Z"
+    },
+    {
+      "route": "/help/product-questions/laptop-stands-better-posture",
+      "url": "https://www.neckhump.com/help/product-questions/laptop-stands-better-posture",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-11T04:20:55.903Z"
+    },
+    {
+      "route": "/help/product-questions/memory-foam-vs-cervical-pillow",
+      "url": "https://www.neckhump.com/help/product-questions/memory-foam-vs-cervical-pillow",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T05:13:21.094Z"
+    },
+    {
+      "route": "/help/product-questions/pillow-height-for-side-sleepers",
+      "url": "https://www.neckhump.com/help/product-questions/pillow-height-for-side-sleepers",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T05:13:21.094Z"
+    },
+    {
+      "route": "/help/product-questions/posture-correctors-do-they-work",
+      "url": "https://www.neckhump.com/help/product-questions/posture-correctors-do-they-work",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-11T04:20:55.904Z"
+    },
+    {
+      "route": "/help/product-questions/standing-desk-setup-posture",
+      "url": "https://www.neckhump.com/help/product-questions/standing-desk-setup-posture",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-11T04:20:55.903Z"
+    },
+    {
+      "route": "/help/specific-situations/neck-exercises-truck-drivers",
+      "url": "https://www.neckhump.com/help/specific-situations/neck-exercises-truck-drivers",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-11T04:20:55.910Z"
+    },
+    {
+      "route": "/help/specific-situations/neck-exercises-wheelchair-users",
+      "url": "https://www.neckhump.com/help/specific-situations/neck-exercises-wheelchair-users",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-11T03:24:27.394Z"
+    },
+    {
+      "route": "/help/specific-situations/neck-hump-exercises-office-workers",
+      "url": "https://www.neckhump.com/help/specific-situations/neck-hump-exercises-office-workers",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-11T03:24:27.314Z"
+    },
+    {
+      "route": "/help/specific-situations/neck-hump-exercises-pregnant-women",
+      "url": "https://www.neckhump.com/help/specific-situations/neck-hump-exercises-pregnant-women",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T05:13:21.088Z"
+    },
+    {
+      "route": "/help/specific-situations/neck-hump-while-breastfeeding",
+      "url": "https://www.neckhump.com/help/specific-situations/neck-hump-while-breastfeeding",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T05:13:21.088Z"
+    },
+    {
+      "route": "/help/specific-situations/posture-during-long-flights",
+      "url": "https://www.neckhump.com/help/specific-situations/posture-during-long-flights",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T05:09:21.225Z"
+    },
+    {
+      "route": "/help/specific-situations/posture-exercises-for-seniors",
+      "url": "https://www.neckhump.com/help/specific-situations/posture-exercises-for-seniors",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T05:13:21.089Z"
+    },
+    {
+      "route": "/help/specific-situations/posture-exercises-healthcare-workers",
+      "url": "https://www.neckhump.com/help/specific-situations/posture-exercises-healthcare-workers",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-11T04:20:55.904Z"
+    },
+    {
+      "route": "/help/specific-situations/posture-exercises-remote-workers",
+      "url": "https://www.neckhump.com/help/specific-situations/posture-exercises-remote-workers",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T05:13:21.089Z"
+    },
+    {
+      "route": "/help/specific-situations/posture-exercises-seniors-over-65",
+      "url": "https://www.neckhump.com/help/specific-situations/posture-exercises-seniors-over-65",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T05:13:21.088Z"
+    },
+    {
+      "route": "/help/timeline-questions/how-long-until-neck-hump-improves",
+      "url": "https://www.neckhump.com/help/timeline-questions/how-long-until-neck-hump-improves",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T05:13:21.096Z"
+    },
+    {
+      "route": "/help/timeline-questions/how-often-should-i-do-exercises",
+      "url": "https://www.neckhump.com/help/timeline-questions/how-often-should-i-do-exercises",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T05:13:21.096Z"
+    },
+    {
+      "route": "/help/timeline-questions/realistic-timeline-severe-neck-hump",
+      "url": "https://www.neckhump.com/help/timeline-questions/realistic-timeline-severe-neck-hump",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T05:13:21.095Z"
+    },
+    {
+      "route": "/help/timeline-questions/when-to-increase-exercise-difficulty",
+      "url": "https://www.neckhump.com/help/timeline-questions/when-to-increase-exercise-difficulty",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T05:13:21.096Z"
+    },
+    {
+      "route": "/help/troubleshooting/cant-feel-neck-muscles-working",
+      "url": "https://www.neckhump.com/help/troubleshooting/cant-feel-neck-muscles-working",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-11T04:20:55.908Z"
+    },
+    {
+      "route": "/help/troubleshooting/chin-tucks-causing-dizziness",
+      "url": "https://www.neckhump.com/help/troubleshooting/chin-tucks-causing-dizziness",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T05:13:21.091Z"
+    },
+    {
+      "route": "/help/troubleshooting/exercises-feel-too-easy",
+      "url": "https://www.neckhump.com/help/troubleshooting/exercises-feel-too-easy",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-11T04:20:55.910Z"
+    },
+    {
+      "route": "/help/troubleshooting/exercises-making-neck-pain-worse",
+      "url": "https://www.neckhump.com/help/troubleshooting/exercises-making-neck-pain-worse",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T05:13:21.092Z"
+    },
+    {
+      "route": "/help/troubleshooting/headaches-after-posture-exercises",
+      "url": "https://www.neckhump.com/help/troubleshooting/headaches-after-posture-exercises",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T05:13:21.090Z"
+    },
+    {
+      "route": "/help/troubleshooting/neck-cracking-during-exercises",
+      "url": "https://www.neckhump.com/help/troubleshooting/neck-cracking-during-exercises",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-11T04:20:55.903Z"
+    },
+    {
+      "route": "/help/troubleshooting/neck-pain-after-sleeping",
+      "url": "https://www.neckhump.com/help/troubleshooting/neck-pain-after-sleeping",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T05:13:21.090Z"
+    },
+    {
+      "route": "/help/troubleshooting/neck-pain-when-looking-down",
+      "url": "https://www.neckhump.com/help/troubleshooting/neck-pain-when-looking-down",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T05:13:21.090Z"
+    },
+    {
+      "route": "/help/troubleshooting/neck-stiffness-after-exercises",
+      "url": "https://www.neckhump.com/help/troubleshooting/neck-stiffness-after-exercises",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T05:13:21.092Z"
+    },
+    {
+      "route": "/help/troubleshooting/no-improvement-after-8-weeks",
+      "url": "https://www.neckhump.com/help/troubleshooting/no-improvement-after-8-weeks",
+      "priority": 0.6,
+      "changeFrequency": "monthly",
+      "lastModified": "2025-10-06T05:13:21.091Z"
+    }
+  ]
+}

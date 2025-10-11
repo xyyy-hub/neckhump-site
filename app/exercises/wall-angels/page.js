@@ -130,8 +130,28 @@ export default function WallAngelsPage() {
           </div>
         </header>
 
+        {/* AEO Short Answer Block */}
+        <div className="bg-emerald-50 border-l-4 border-emerald-400 p-6 mb-6 rounded-lg">
+          <h2 className="text-lg font-semibold text-emerald-900 mb-3" id="short-answer">How do you do wall angels correctly?</h2>
+          <p className="text-emerald-800 text-base leading-relaxed">
+            Stand with your back flat against a wall, raise arms to a "goal post" position (elbows at 90 degrees), then slide your arms up and down while keeping your back, arms, and hands pressed against the wall. Do 10-15 slow reps, focusing on squeezing your shoulder blades together.
+          </p>
+        </div>
+
+        {/* AEO Key Takeaways Block */}
+        <div className="bg-blue-50 border-l-4 border-blue-400 p-6 mb-8 rounded-lg">
+          <h3 className="text-lg font-semibold text-blue-900 mb-4" id="key-takeaways">Key Takeaways</h3>
+          <ol className="text-blue-800 space-y-2 list-decimal list-inside">
+            <li><strong>Upper back strengthener:</strong> Targets weak rhomboids and middle traps that cause rounded shoulders and forward head posture</li>
+            <li><strong>Wall contact is key:</strong> Keep entire back, arms, and hands flat against wall - any gaps mean you need to work on mobility first</li>
+            <li><strong>Slow and controlled:</strong> Take 3-4 seconds per rep - quality beats quantity for muscle activation</li>
+            <li><strong>Daily practice:</strong> Do 10-15 reps, 2-3 times daily, especially after sitting for long periods</li>
+            <li><strong>Progress gradually:</strong> Start with small range of motion if you can't maintain wall contact throughout</li>
+          </ol>
+        </div>
+
         {/* TL;DR Section */}
-        <aside className="tldr bg-green-50 border-l-4 border-green-400 p-6 rounded-lg mb-8">
+        <aside className="tldr bg-gray-50 border-l-4 border-gray-400 p-6 rounded-lg mb-8">
           <h2 className="text-xl font-semibold text-green-900 mb-4">TL;DR: Quick Wall Angels Guide</h2>
           <div className="text-green-800 space-y-3">
             <p><strong>What it does:</strong> Strengthens rhomboids, middle traps, and rear delts while improving shoulder blade mobility and upper back posture.</p>
