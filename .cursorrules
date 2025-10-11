@@ -17,6 +17,16 @@ This is a Next.js website about neck posture and posture correction. The site fo
 
 ## Next.js & SEO
 
+### JSX/React Syntax Rules
+- **HTML Entity Escaping Required**: In JSX text content, comparison operators `<` and `>` followed by numbers MUST be escaped as `&lt;` and `&gt;`
+- **Common Mistake**: Writing `>10%`, `<44 degrees`, `>30 minutes` directly in JSX text causes build errors like "Expected token" or "Unexpected numeric literal"
+- **Correct Format**: Use `&gt;10%`, `&lt;44 degrees`, `&gt;30 minutes` in all JSX text content
+- **Where It Applies**: List items, paragraphs, spans, headings - anywhere with text content containing measurements or comparisons
+- **Where It Doesn't Apply**: Inside JavaScript expressions `{value > 10}` or className attributes
+- **Detection Pattern**: Search for ` [<>][0-9]` or `[<>] [0-9]` patterns in .js/.jsx/.tsx files to find unescaped operators
+- **Build Error Indicators**: Webpack syntax errors pointing to numeric literals, "Did you mean `{'>'}` or `&gt;`?" messages
+- **Health/Medical Content**: Especially common in medical thresholds (CVA >52°, wall test >8cm, symptoms >24hr)
+
 ### Sitemap Management
 - **Complete Coverage Required**: All pages must be included in sitemap.js - missing pages cause GSC "No referring sitemaps detected" errors
 - **URL Consistency Critical**: All canonical URLs, structured data, and sitemap entries must use consistent domain format (www.neckhump.com)
