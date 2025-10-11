@@ -95,10 +95,10 @@ export default function ProgressTrackingMethodsPage() {
           <p className="text-blue-800 text-sm mb-2">
             <strong>What it means:</strong>
             <ul className="ml-4 mt-2 space-y-1">
-              <li>• Normal CVA: >52-54 degrees</li>
+              <li>• Normal CVA: &gt;52-54 degrees</li>
               <li>• Mild forward head: 48-52 degrees</li>
               <li>• Moderate forward head: 44-48 degrees</li>
-              <li>• Severe forward head: <44 degrees</li>
+              <li>• Severe forward head: &lt;44 degrees</li>
             </ul>
           </p>
           <p className="text-blue-800 text-sm">
