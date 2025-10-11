@@ -147,10 +147,10 @@ export default function HelpArticle({
               {relatedQuestions.map((question, index) => (
                 <li key={index}>
                   <Link 
-                    href={question.href} 
+                    href={question.href || question.link} 
                     className="text-blue-600 hover:text-blue-800 hover:underline"
                   >
-                    {question.title}
+                    {question.title || question.text}
                   </Link>
                 </li>
               ))}
