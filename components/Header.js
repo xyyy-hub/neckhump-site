@@ -94,13 +94,16 @@ export default function Header() {
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-2">
             {navStructure.map((nav, index) => (
-              <div key={index} className="relative group">
+              <div 
+                key={index} 
+                className="relative group"
+                onMouseEnter={() => nav.items.length > 0 && setActiveDropdown(nav.label)}
+                onMouseLeave={() => setActiveDropdown(null)}
+              >
                 {nav.items.length > 0 ? (
                   <>
                     <button
                       className="px-4 py-2 text-gray-700 hover:text-blue-600 transition-colors font-medium rounded-lg hover:bg-gray-50 flex items-center gap-1"
-                      onMouseEnter={() => setActiveDropdown(nav.label)}
-                      onMouseLeave={() => setActiveDropdown(null)}
                     >
                       {nav.label}
                       <svg className="w-4 h-4 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -110,8 +113,6 @@ export default function Header() {
                     {activeDropdown === nav.label && (
                       <div 
                         className="absolute top-full left-0 mt-1 w-56 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50"
-                        onMouseEnter={() => setActiveDropdown(nav.label)}
-                        onMouseLeave={() => setActiveDropdown(null)}
                       >
                         {nav.items.map((item) => (
                           <Link
