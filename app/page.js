@@ -503,6 +503,7 @@ export default function HomePage() {
 
       {/* People Also Ask Section */}
       <PeopleAlsoAsk 
+        includeSchema={false}
         questions={[
           {
             question: "How long does it take to fix neck hump?",

@@ -1303,7 +1303,7 @@ export default function NeckHumpExercisesPage() {
           </div>
         </div>
 
-        <PeopleAlsoAsk questions={exerciseQuestions} />
+        <PeopleAlsoAsk includeSchema={false} questions={exerciseQuestions} />
 
         {/* Enhanced Related Questions Section for AEO */}
         <section className="mb-12">

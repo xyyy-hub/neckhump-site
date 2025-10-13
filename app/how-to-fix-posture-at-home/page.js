@@ -469,7 +469,7 @@ export default function FixPosturePage() {
       </section>
 
       {/* People Also Ask Section */}
-      <PeopleAlsoAsk questions={[
+      <PeopleAlsoAsk includeSchema={false} questions={[
         {
           question: "How long does it take to fix bad posture?",
           answer: "Most people see initial improvement in 2-4 weeks with consistent daily practice. Significant posture changes typically take 3-6 months. The key is consistency - 5 minutes daily beats 30 minutes once a week.",
