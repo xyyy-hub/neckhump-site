@@ -36,6 +36,7 @@ This is a Next.js website about neck posture and posture correction. The site fo
 - **Mixed www/non-www URLs**: Causes multiple referring page entries and SEO confusion
 - **Missing Sitemap Entries**: Pages not in sitemap.js won't be discovered by search engines properly
 - **Structured Data Consistency**: JSON-LD @id and url fields must match canonical URL format exactly
+- **Duplicate FAQPage Schema**: Pages with manual FAQPage structured data MUST set `includeSchema={false}` on PeopleAlsoAsk component to prevent duplicate schema errors. GSC validation fails with "Cannot continue validation process" and "Duplicate field 'FAQPage'" error when same @type appears multiple times on one page
 
 ### Performance Optimization Patterns
 - **Core Web Vitals Focus**: FCP (<1.2s), LCP (<2.5s), Speed Index (<3.4s) are primary metrics
