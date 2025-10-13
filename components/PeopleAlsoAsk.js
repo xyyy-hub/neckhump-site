@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export default function PeopleAlsoAsk({ questions }) {
+export default function PeopleAlsoAsk({ questions, includeSchema = true }) {
   return (
     <section className="mb-12">
       <h2 className="text-2xl font-bold text-gray-900 mb-6">People Also Ask</h2>
@@ -22,24 +22,26 @@ export default function PeopleAlsoAsk({ questions }) {
         ))}
       </div>
       
-      {/* Schema for PAA */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": questions.map(item => ({
-              "@type": "Question",
-              "name": item.question,
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": item.answer
-              }
-            }))
-          })
-        }}
-      />
+      {/* Schema for PAA - only include if includeSchema is true */}
+      {includeSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": questions.map(item => ({
+                "@type": "Question",
+                "name": item.question,
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": item.answer
+                }
+              }))
+            })
+          }}
+        />
+      )}
     </section>
   )
 }

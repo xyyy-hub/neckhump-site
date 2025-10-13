@@ -816,6 +816,7 @@ export default function BestPillowForNeckHumpPage() {
 
       {/* People Also Ask Section */}
       <PeopleAlsoAsk 
+        includeSchema={false}
         questions={[
           {
             question: "How long does it take to adjust to a cervical pillow?",

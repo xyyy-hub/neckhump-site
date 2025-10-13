@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 
-export default function FAQSection({ faqs, title = "Frequently Asked Questions" }) {
+export default function FAQSection({ faqs, title = "Frequently Asked Questions", includeSchema = true }) {
   const [openIndex, setOpenIndex] = useState(null)
 
   const toggleFAQ = (index) => {
@@ -53,24 +53,26 @@ export default function FAQSection({ faqs, title = "Frequently Asked Questions" 
         ))}
       </div>
 
-      {/* FAQ Schema Markup */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": faqs.map(faq => ({
-              "@type": "Question",
-              "name": faq.question,
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": typeof faq.answer === 'string' ? faq.answer : faq.answer.props?.children || ''
-              }
-            }))
-          })
-        }}
-      />
+      {/* FAQ Schema Markup - only include if includeSchema is true */}
+      {includeSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": faqs.map(faq => ({
+                "@type": "Question",
+                "name": faq.question,
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": typeof faq.answer === 'string' ? faq.answer : faq.answer.props?.children || ''
+                }
+              }))
+            })
+          }}
+        />
+      )}
     </section>
   )
 }
