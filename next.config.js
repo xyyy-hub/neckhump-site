@@ -22,6 +22,39 @@ const nextConfig = {
   // Note: Vercel handles www redirects at the domain level
   // No Next.js redirects needed since Vercel redirects neckhump.com → www.neckhump.com
 
+  // 301 redirects for consolidated duplicate pages
+  async redirects() {
+    return [
+      // Pillow pages consolidated into comprehensive guide
+      {
+        source: '/help/product-questions/best-pillow-side-sleepers',
+        destination: '/help/product-questions/side-sleeper-pillow-guide',
+        permanent: true,
+      },
+      {
+        source: '/help/product-questions/pillow-height-for-side-sleepers',
+        destination: '/help/product-questions/side-sleeper-pillow-guide',
+        permanent: true,
+      },
+      {
+        source: '/help/product-questions/best-pillow-height-side-sleepers',
+        destination: '/help/product-questions/side-sleeper-pillow-guide',
+        permanent: true,
+      },
+      // Foam roller pages consolidated into comprehensive guide
+      {
+        source: '/help/product-questions/foam-roller-size-guide',
+        destination: '/help/product-questions/foam-roller-complete-guide',
+        permanent: true,
+      },
+      {
+        source: '/help/product-questions/foam-roller-size-guide-neck',
+        destination: '/help/product-questions/foam-roller-complete-guide',
+        permanent: true,
+      },
+    ]
+  },
+
   async headers() {
     return [
       {

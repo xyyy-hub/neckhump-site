@@ -1308,47 +1308,92 @@ export default function NeckHumpExercisesPage() {
         {/* Enhanced Related Questions Section for AEO */}
         <section className="mb-12">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Questions About Neck Hump Exercises</h2>
+          <p className="text-gray-600 mb-6">Get answers to common questions about exercises, safety, equipment, and troubleshooting. Our comprehensive help center covers specific situations and conditions.</p>
           
-          <div className="grid md:grid-cols-2 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-blue-50 p-6 rounded-lg">
-              <h3 className="text-lg font-semibold text-blue-900 mb-3">Exercise Safety & Modifications</h3>
-              <ul className="space-y-2 text-blue-800">
+              <h3 className="text-lg font-semibold text-blue-900 mb-3">🛟 Exercise Safety & Troubleshooting</h3>
+              <ul className="space-y-2 text-blue-800 text-sm">
+                <li><a href="/help/troubleshooting/exercises-making-neck-pain-worse" className="hover:underline font-medium">What if exercises make pain worse?</a></li>
                 <li><a href="/help/troubleshooting/chin-tucks-causing-dizziness" className="hover:underline">Can chin tucks cause dizziness?</a></li>
-                <li><a href="/help/troubleshooting/exercises-making-neck-pain-worse" className="hover:underline">What if exercises make my neck pain worse?</a></li>
-                <li><a href="/help/troubleshooting/headaches-after-posture-exercises" className="hover:underline">Why do I get headaches after posture exercises?</a></li>
-                <li><a href="/help/troubleshooting/neck-stiffness-after-exercises" className="hover:underline">Is neck stiffness after exercises normal?</a></li>
+                <li><a href="/help/troubleshooting/headaches-after-posture-exercises" className="hover:underline">Why headaches after exercises?</a></li>
+                <li><a href="/help/troubleshooting/neck-stiffness-after-exercises" className="hover:underline">Is neck stiffness normal?</a></li>
+                <li><a href="/help/troubleshooting/neck-cracking-during-exercises" className="hover:underline">Neck cracking during exercises</a></li>
+                <li><a href="/help/troubleshooting/exercises-feel-too-easy" className="hover:underline">Exercises feel too easy?</a></li>
+                <li><a href="/help/troubleshooting/cant-feel-neck-muscles-working" className="hover:underline">Can't feel muscles working</a></li>
               </ul>
             </div>
 
             <div className="bg-green-50 p-6 rounded-lg">
-              <h3 className="text-lg font-semibold text-green-900 mb-3">Specific Situations</h3>
-              <ul className="space-y-2 text-green-800">
-                <li><a href="/help/specific-situations/posture-exercises-seniors-over-65" className="hover:underline">Safe exercises for seniors over 65</a></li>
-                <li><a href="/help/specific-situations/neck-hump-exercises-pregnant-women" className="hover:underline">Pregnancy-safe neck exercises</a></li>
-                <li><a href="/help/specific-situations/neck-exercises-wheelchair-users" className="hover:underline">Adapted exercises for wheelchair users</a></li>
-                <li><a href="/help/specific-situations/neck-hump-exercises-office-workers" className="hover:underline">Desk-friendly exercises for office workers</a></li>
+              <h3 className="text-lg font-semibold text-green-900 mb-3">👥 Exercises for Specific Situations</h3>
+              <ul className="space-y-2 text-green-800 text-sm">
+                <li><a href="/help/specific-situations/neck-hump-exercises-office-workers" className="hover:underline font-medium">Desk-friendly office worker exercises</a></li>
+                <li><a href="/help/specific-situations/posture-exercises-remote-workers" className="hover:underline">Remote worker posture exercises</a></li>
+                <li><a href="/help/specific-situations/neck-exercises-truck-drivers" className="hover:underline">Exercises for truck drivers</a></li>
+                <li><a href="/help/specific-situations/posture-exercises-seniors-over-65" className="hover:underline">Safe exercises for seniors 65+</a></li>
+                <li><a href="/help/specific-situations/posture-exercises-students" className="hover:underline">Student-friendly exercises</a></li>
+                <li><a href="/help/specific-situations/neck-hump-exercises-athletes" className="hover:underline">Exercises for athletes</a></li>
+                <li><a href="/help/specific-situations/posture-exercises-healthcare-workers" className="hover:underline">Healthcare worker adaptations</a></li>
               </ul>
             </div>
 
             <div className="bg-purple-50 p-6 rounded-lg">
-              <h3 className="text-lg font-semibold text-purple-900 mb-3">Equipment & Products</h3>
-              <ul className="space-y-2 text-purple-800">
-                <li><a href="/help/product-questions/best-exercise-bands-neck-exercises" className="hover:underline">Best exercise bands for neck exercises</a></li>
-                <li><a href="/help/product-questions/foam-roller-size-guide-neck" className="hover:underline">Foam roller size guide for neck</a></li>
-                <li><a href="/help/product-questions/best-ergonomic-chairs-neck-hump" className="hover:underline">Best ergonomic chairs for neck hump</a></li>
-                <li><a href="/help/product-questions/best-pillow-height-side-sleepers" className="hover:underline">Best pillow height for side sleepers</a></li>
+              <h3 className="text-lg font-semibold text-purple-900 mb-3">⚕️ Exercises with Medical Conditions</h3>
+              <ul className="space-y-2 text-purple-800 text-sm">
+                <li><a href="/help/exercises-safety/can-i-do-chin-tucks-with-herniated-disc" className="hover:underline font-medium">Chin tucks with herniated disc?</a></li>
+                <li><a href="/help/exercises-safety/neck-exercises-with-arthritis" className="hover:underline">Exercises with arthritis</a></li>
+                <li><a href="/help/exercises-safety/exercises-safe-during-pregnancy" className="hover:underline">Safe during pregnancy?</a></li>
+                <li><a href="/help/exercises-safety/forward-head-posture-after-whiplash" className="hover:underline">Exercises after whiplash</a></li>
+                <li><a href="/help/exercises-safety/neck-exercises-for-osteoporosis" className="hover:underline">Safe with osteoporosis?</a></li>
+                <li><a href="/help/exercises-safety/posture-exercises-with-fibromyalgia" className="hover:underline">Modifications for fibromyalgia</a></li>
+                <li><a href="/help/exercises-safety" className="hover:underline">View all safety guides →</a></li>
               </ul>
             </div>
 
             <div className="bg-orange-50 p-6 rounded-lg">
-              <h3 className="text-lg font-semibold text-orange-900 mb-3">Timeline & Progress</h3>
-              <ul className="space-y-2 text-orange-800">
-                <li><a href="/help/troubleshooting/no-improvement-after-8-weeks" className="hover:underline">No improvement after 8 weeks of exercises</a></li>
-                <li><a href="/help/troubleshooting/neck-pain-after-sleeping" className="hover:underline">Neck pain after sleeping</a></li>
-                <li><a href="/help/troubleshooting/neck-pain-when-looking-down" className="hover:underline">Neck pain when looking down</a></li>
-                <li><a href="/how-to-fix-posture-at-home" className="hover:underline">How to fix posture at home</a></li>
+              <h3 className="text-lg font-semibold text-orange-900 mb-3">⏱️ Timeline & Progress Tracking</h3>
+              <ul className="space-y-2 text-orange-800 text-sm">
+                <li><a href="/help/timeline-questions/how-long-until-neck-hump-improves" className="hover:underline font-medium">How long until improvement?</a></li>
+                <li><a href="/help/timeline-questions/how-often-should-i-do-exercises" className="hover:underline">How often to exercise?</a></li>
+                <li><a href="/help/timeline-questions/when-to-increase-exercise-difficulty" className="hover:underline">When to increase difficulty?</a></li>
+                <li><a href="/help/troubleshooting/no-improvement-after-8-weeks" className="hover:underline">No improvement after 8 weeks</a></li>
+                <li><a href="/help/timeline-questions/realistic-timeline-severe-neck-hump" className="hover:underline">Timeline for severe cases</a></li>
+                <li><a href="/help/timeline-questions/progress-tracking-methods" className="hover:underline">How to track progress</a></li>
               </ul>
             </div>
+
+            <div className="bg-indigo-50 p-6 rounded-lg">
+              <h3 className="text-lg font-semibold text-indigo-900 mb-3">🛠️ Equipment & Product Guides</h3>
+              <ul className="space-y-2 text-indigo-800 text-sm">
+                <li><a href="/help/product-questions/foam-roller-complete-guide" className="hover:underline font-medium">Complete foam roller guide</a></li>
+                <li><a href="/help/product-questions/side-sleeper-pillow-guide" className="hover:underline font-medium">Side sleeper pillow guide</a></li>
+                <li><a href="/help/product-questions/best-exercise-bands-neck-exercises" className="hover:underline">Best exercise bands</a></li>
+                <li><a href="/help/product-questions/best-ergonomic-chairs-neck-hump" className="hover:underline">Best ergonomic chairs</a></li>
+                <li><a href="/help/product-questions/cervical-traction-devices-comparison" className="hover:underline">Cervical traction devices</a></li>
+                <li><a href="/help/product-questions/posture-correctors-do-they-work" className="hover:underline">Do posture correctors work?</a></li>
+              </ul>
+            </div>
+
+            <div className="bg-teal-50 p-6 rounded-lg">
+              <h3 className="text-lg font-semibold text-teal-900 mb-3">💤 Sleep & Daily Habits</h3>
+              <ul className="space-y-2 text-teal-800 text-sm">
+                <li><a href="/how-to-sleep-with-neck-hump" className="hover:underline font-medium">How to sleep with neck hump</a></li>
+                <li><a href="/help/troubleshooting/neck-pain-after-sleeping" className="hover:underline">Neck pain after sleeping</a></li>
+                <li><a href="/help/product-questions/best-pillow-back-sleepers" className="hover:underline">Best pillow for back sleepers</a></li>
+                <li><a href="/desk-setup-guide" className="hover:underline">Ergonomic desk setup guide</a></li>
+                <li><a href="/help/product-questions/standing-desk-setup-posture" className="hover:underline">Standing desk setup</a></li>
+                <li><a href="/help/product-questions/laptop-stands-better-posture" className="hover:underline">Best laptop stands</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="mt-8 text-center">
+            <a href="/help" className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold">
+              Browse Complete Help Center
+              <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
           </div>
         </section>
 

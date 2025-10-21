@@ -565,6 +565,91 @@ export default function PostureCorrectionGuidePage() {
         </div>
       </section>
 
+      {/* Help Center Quick Links Section */}
+      <section className="mb-16 px-4">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-3xl font-bold text-gray-900 mb-3">Common Questions About Posture Correction</h2>
+          <p className="text-gray-600 mb-8">Browse our comprehensive help center for specific situations, safety guidelines, and troubleshooting advice.</p>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="bg-blue-50 p-6 rounded-lg">
+              <h3 className="text-lg font-semibold text-blue-900 mb-3">🛟 Exercise Troubleshooting</h3>
+              <ul className="space-y-2 text-blue-800 text-sm">
+                <li><a href="/help/troubleshooting/exercises-making-neck-pain-worse" className="hover:underline font-medium">Exercises making pain worse?</a></li>
+                <li><a href="/help/troubleshooting/cant-feel-neck-muscles-working" className="hover:underline">Can't feel muscles working</a></li>
+                <li><a href="/help/troubleshooting/exercises-feel-too-easy" className="hover:underline">Exercises feel too easy?</a></li>
+                <li><a href="/help/troubleshooting/no-improvement-after-8-weeks" className="hover:underline">No improvement after 8 weeks</a></li>
+                <li><a href="/help/troubleshooting/neck-stiffness-after-exercises" className="hover:underline">Neck stiffness after exercises</a></li>
+              </ul>
+            </div>
+
+            <div className="bg-green-50 p-6 rounded-lg">
+              <h3 className="text-lg font-semibold text-green-900 mb-3">👥 Your Specific Situation</h3>
+              <ul className="space-y-2 text-green-800 text-sm">
+                <li><a href="/help/specific-situations/neck-hump-exercises-office-workers" className="hover:underline font-medium">Office worker desk exercises</a></li>
+                <li><a href="/help/specific-situations/posture-exercises-remote-workers" className="hover:underline">Remote worker modifications</a></li>
+                <li><a href="/help/specific-situations/posture-exercises-seniors-over-65" className="hover:underline">Exercises for seniors 65+</a></li>
+                <li><a href="/help/specific-situations/neck-exercises-truck-drivers" className="hover:underline">Long-distance driver solutions</a></li>
+                <li><a href="/help/specific-situations/posture-exercises-students" className="hover:underline">Student posture exercises</a></li>
+              </ul>
+            </div>
+
+            <div className="bg-purple-50 p-6 rounded-lg">
+              <h3 className="text-lg font-semibold text-purple-900 mb-3">⚕️ Medical Conditions & Safety</h3>
+              <ul className="space-y-2 text-purple-800 text-sm">
+                <li><a href="/help/exercises-safety/can-i-do-chin-tucks-with-herniated-disc" className="hover:underline font-medium">Herniated disc safety</a></li>
+                <li><a href="/help/exercises-safety/neck-exercises-with-arthritis" className="hover:underline">Exercises with arthritis</a></li>
+                <li><a href="/help/exercises-safety/exercises-safe-during-pregnancy" className="hover:underline">Safe during pregnancy?</a></li>
+                <li><a href="/help/exercises-safety/forward-head-posture-after-whiplash" className="hover:underline">Post-whiplash exercises</a></li>
+                <li><a href="/help/exercises-safety" className="hover:underline">All safety guides →</a></li>
+              </ul>
+            </div>
+
+            <div className="bg-orange-50 p-6 rounded-lg">
+              <h3 className="text-lg font-semibold text-orange-900 mb-3">⏱️ Timeline & Progress</h3>
+              <ul className="space-y-2 text-orange-800 text-sm">
+                <li><a href="/help/timeline-questions/how-long-until-neck-hump-improves" className="hover:underline font-medium">How long until improvement?</a></li>
+                <li><a href="/help/timeline-questions/how-often-should-i-do-exercises" className="hover:underline">Exercise frequency guide</a></li>
+                <li><a href="/help/timeline-questions/when-to-increase-exercise-difficulty" className="hover:underline">When to progress exercises</a></li>
+                <li><a href="/help/timeline-questions/progress-tracking-methods" className="hover:underline">How to track progress</a></li>
+                <li><a href="/help/timeline-questions/realistic-timeline-severe-neck-hump" className="hover:underline">Timeline for severe cases</a></li>
+              </ul>
+            </div>
+
+            <div className="bg-indigo-50 p-6 rounded-lg">
+              <h3 className="text-lg font-semibold text-indigo-900 mb-3">🛠️ Equipment & Products</h3>
+              <ul className="space-y-2 text-indigo-800 text-sm">
+                <li><a href="/help/product-questions/foam-roller-complete-guide" className="hover:underline font-medium">Foam roller complete guide</a></li>
+                <li><a href="/help/product-questions/side-sleeper-pillow-guide" className="hover:underline font-medium">Side sleeper pillow guide</a></li>
+                <li><a href="/help/product-questions/best-ergonomic-chairs-neck-hump" className="hover:underline">Best ergonomic chairs</a></li>
+                <li><a href="/help/product-questions/posture-correctors-do-they-work" className="hover:underline">Do posture correctors work?</a></li>
+                <li><a href="/help/product-questions/standing-desk-setup-posture" className="hover:underline">Standing desk setup guide</a></li>
+              </ul>
+            </div>
+
+            <div className="bg-teal-50 p-6 rounded-lg">
+              <h3 className="text-lg font-semibold text-teal-900 mb-3">💤 Sleep & Ergonomics</h3>
+              <ul className="space-y-2 text-teal-800 text-sm">
+                <li><a href="/how-to-sleep-with-neck-hump" className="hover:underline font-medium">Sleep positions for neck hump</a></li>
+                <li><a href="/help/troubleshooting/neck-pain-after-sleeping" className="hover:underline">Neck pain after sleeping</a></li>
+                <li><a href="/desk-setup-guide" className="hover:underline">Ergonomic desk setup</a></li>
+                <li><a href="/help/product-questions/laptop-stands-better-posture" className="hover:underline">Best laptop stands</a></li>
+                <li><a href="/help/product-questions/best-pillow-back-sleepers" className="hover:underline">Pillow for back sleepers</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="mt-8 text-center">
+            <a href="/help" className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold">
+              Browse Complete Help Center
+              <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* People Also Ask */}
       <PeopleAlsoAsk questions={paaQuestions} />
 

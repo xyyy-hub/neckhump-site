@@ -318,6 +318,61 @@ export default function HomePage() {
       {/* Strategic Internal Linking */}
       <InternalLinking variant="intro" />
 
+      {/* Help Center Quick Access */}
+      <section className="mb-16 mx-4">
+        <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8">
+          <h2 className="text-3xl font-bold text-gray-900 mb-3 text-center">Get Specific Answers in Our Help Center</h2>
+          <p className="text-gray-600 mb-8 text-center max-w-3xl mx-auto">Have a specific question? Our comprehensive help center covers exercises for different conditions, safety guidelines, equipment recommendations, and troubleshooting advice.</p>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
+            <div className="bg-white p-5 rounded-lg shadow-sm">
+              <h3 className="text-sm font-semibold text-blue-900 mb-3">🛟 Troubleshooting</h3>
+              <ul className="space-y-2 text-xs text-gray-700">
+                <li><a href="/help/troubleshooting/exercises-making-neck-pain-worse" className="hover:underline hover:text-blue-600">Exercises making pain worse?</a></li>
+                <li><a href="/help/troubleshooting/no-improvement-after-8-weeks" className="hover:underline hover:text-blue-600">No improvement after 8 weeks</a></li>
+                <li><a href="/help/troubleshooting/cant-feel-neck-muscles-working" className="hover:underline hover:text-blue-600">Can't feel muscles working</a></li>
+              </ul>
+            </div>
+
+            <div className="bg-white p-5 rounded-lg shadow-sm">
+              <h3 className="text-sm font-semibold text-green-900 mb-3">👥 Your Situation</h3>
+              <ul className="space-y-2 text-xs text-gray-700">
+                <li><a href="/help/specific-situations/neck-hump-exercises-office-workers" className="hover:underline hover:text-green-600">Office worker exercises</a></li>
+                <li><a href="/help/specific-situations/posture-exercises-seniors-over-65" className="hover:underline hover:text-green-600">Exercises for seniors 65+</a></li>
+                <li><a href="/help/specific-situations/neck-exercises-truck-drivers" className="hover:underline hover:text-green-600">Long-distance drivers</a></li>
+              </ul>
+            </div>
+
+            <div className="bg-white p-5 rounded-lg shadow-sm">
+              <h3 className="text-sm font-semibold text-purple-900 mb-3">⚕️ Safety & Conditions</h3>
+              <ul className="space-y-2 text-xs text-gray-700">
+                <li><a href="/help/exercises-safety/can-i-do-chin-tucks-with-herniated-disc" className="hover:underline hover:text-purple-600">Safe with herniated disc?</a></li>
+                <li><a href="/help/exercises-safety/neck-exercises-with-arthritis" className="hover:underline hover:text-purple-600">Exercises with arthritis</a></li>
+                <li><a href="/help/exercises-safety/exercises-safe-during-pregnancy" className="hover:underline hover:text-purple-600">Safe during pregnancy?</a></li>
+              </ul>
+            </div>
+
+            <div className="bg-white p-5 rounded-lg shadow-sm">
+              <h3 className="text-sm font-semibold text-indigo-900 mb-3">🛠️ Equipment Guides</h3>
+              <ul className="space-y-2 text-xs text-gray-700">
+                <li><a href="/help/product-questions/foam-roller-complete-guide" className="hover:underline hover:text-indigo-600">Foam roller guide</a></li>
+                <li><a href="/help/product-questions/side-sleeper-pillow-guide" className="hover:underline hover:text-indigo-600">Side sleeper pillow guide</a></li>
+                <li><a href="/help/product-questions/best-ergonomic-chairs-neck-hump" className="hover:underline hover:text-indigo-600">Best ergonomic chairs</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="text-center">
+            <a href="/help" className="inline-flex items-center px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold shadow-md hover:shadow-lg">
+              Browse All 60+ Help Articles
+              <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Author & Reviewer Information */}
       <AuthorReviewer 
         reviewer="Dr. Sarah Johnson, DPT"
