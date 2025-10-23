@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Breadcrumbs from '../../components/Breadcrumbs'
 import InternalLinking from '../../components/InternalLinking'
 import AuthorReviewer from '../../components/AuthorReviewer'

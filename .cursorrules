@@ -17,6 +17,13 @@ This is a Next.js website about neck posture and posture correction. The site fo
 
 ## Next.js & SEO
 
+### Next.js Import Requirements
+- **Link Component Must Be Imported**: Every page using `<Link>` component MUST have `import Link from 'next/link'` at the top
+- **Common Build Error**: "'Link' is not defined. react/jsx-no-undef" occurs when Link is used without import
+- **Detection**: Before creating new pages with Link components, verify import statement exists
+- **Fix Pattern**: Always include `import Link from 'next/link'` as first import when using internal navigation
+- **Verification**: Search for `<Link` usage in file and ensure matching import statement exists
+
 ### JSX/React Syntax Rules
 - **HTML Entity Escaping Required**: In JSX text content, comparison operators `<` and `>` followed by numbers MUST be escaped as `&lt;` and `&gt;`
 - **Common Mistake**: Writing `>10%`, `<44 degrees`, `>30 minutes` directly in JSX text causes build errors like "Expected token" or "Unexpected numeric literal"
