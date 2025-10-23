@@ -101,10 +101,28 @@ export default function SolutionsPage() {
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <Link href="/how-to-get-rid-of-neck-hump-fast" className="border-2 border-green-400 bg-green-50 rounded-lg p-4 hover:shadow-md transition-shadow">
+              <h4 className="font-semibold text-gray-900 mb-2">⚡ Get Rid of Neck Hump Fast</h4>
+              <p className="text-sm text-gray-600 mb-2">Intensive 2-4 week rapid correction plan</p>
+              <span className="text-xs text-green-600 font-medium">Fast Results Program →</span>
+            </Link>
+            
             <Link href="/neck-hump-exercises" className="border rounded-lg p-4 hover:shadow-md transition-shadow">
               <h4 className="font-semibold text-gray-900 mb-2">Neck Hump Exercises</h4>
               <p className="text-sm text-gray-600 mb-2">Specific exercises targeting forward head posture</p>
               <span className="text-xs text-blue-600 font-medium">10 Essential Exercises →</span>
+            </Link>
+            
+            <Link href="/dowagers-hump-exercises" className="border rounded-lg p-4 hover:shadow-md transition-shadow">
+              <h4 className="font-semibold text-gray-900 mb-2">Dowager's Hump Exercises</h4>
+              <p className="text-sm text-gray-600 mb-2">Safe exercises for seniors with osteoporosis</p>
+              <span className="text-xs text-blue-600 font-medium">Senior-Safe Exercises →</span>
+            </Link>
+            
+            <Link href="/neck-hump-self-massage" className="border rounded-lg p-4 hover:shadow-md transition-shadow">
+              <h4 className="font-semibold text-gray-900 mb-2">Self-Massage Techniques</h4>
+              <p className="text-sm text-gray-600 mb-2">Release tension with ball and foam roller</p>
+              <span className="text-xs text-blue-600 font-medium">Learn Massage Methods →</span>
             </Link>
             
             <Link href="/exercises/chin-tucks" className="border rounded-lg p-4 hover:shadow-md transition-shadow">
