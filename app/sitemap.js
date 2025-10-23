@@ -85,6 +85,12 @@ export default function sitemap() {
     priority: 0.8,
   },
   {
+    url: 'https://www.neckhump.com/dowagers-hump-exercises',
+    lastModified: new Date('2025-10-23T00:00:00.000Z'),
+    changeFrequency: 'monthly',
+    priority: 0.9,
+  },
+  {
     url: 'https://www.neckhump.com/dowagers-hump-vs-neck-hump',
     lastModified: new Date('2025-10-06T03:06:28.242Z'),
     changeFrequency: 'monthly',
