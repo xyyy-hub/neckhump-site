@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import PeopleAlsoAsk from '../../components/PeopleAlsoAsk'
 import Citations from '../../components/Citations'
+import RelatedArticles from '../../components/RelatedArticles'
 
 export const metadata = {
   title: 'Perfect Desk Setup Guide: Ergonomic Workspace for Better Posture',
@@ -509,6 +510,47 @@ export default function DeskSetupPage() {
           link: "/help/timeline-questions/desk-setup-adjustment-time"
         }
       ]} />
+
+      {/* Related Articles */}
+      <RelatedArticles 
+        articles={[
+          {
+            title: "How to Get Rid of Neck Hump Fast",
+            description: "Intensive 2-4 week plan to correct posture issues caused by poor desk ergonomics.",
+            href: "/how-to-get-rid-of-neck-hump-fast",
+            category: "Fast Results",
+            readTime: "15 min read"
+          },
+          {
+            title: "Neck Hump Self-Massage Techniques",
+            description: "Release desk-induced tension with targeted massage methods for office workers.",
+            href: "/neck-hump-self-massage",
+            category: "Recovery",
+            readTime: "12 min read"
+          },
+          {
+            title: "Tech Neck Prevention Guide",
+            description: "Prevent phone and computer neck pain with proper device positioning habits.",
+            href: "/tech-neck-prevention-guide",
+            category: "Prevention",
+            readTime: "9 min read"
+          },
+          {
+            title: "Ergonomic Workspace Setup",
+            description: "Complete workspace ergonomics beyond just your desk setup.",
+            href: "/ergonomic-workspace-neck-hump",
+            category: "Prevention",
+            readTime: "7 min read"
+          },
+          {
+            title: "Neck Hump Exercises",
+            description: "Exercises to counteract hours of desk work and poor posture.",
+            href: "/neck-hump-exercises",
+            category: "Exercises",
+            readTime: "8 min read"
+          }
+        ]}
+      />
 
       {/* Schema markup */}
       <script
