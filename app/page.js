@@ -131,6 +131,10 @@ export default function HomePage() {
             Essential Information About Neck Hump
           </h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <Link href="/how-to-get-rid-of-neck-hump-fast" className="block p-4 bg-gradient-to-br from-green-50 to-emerald-50 rounded border-2 border-green-400 hover:border-green-600 transition-colors group shadow-sm">
+              <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-green-600">⚡ Get Rid of Neck Hump Fast</h3>
+              <p className="text-sm text-gray-600">Intensive 2-4 week rapid correction plan</p>
+            </Link>
             <Link href="/neck-hump-causes" className="block p-4 bg-white rounded border border-gray-200 hover:border-blue-400 transition-colors group">
               <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-600">What Causes Neck Hump?</h3>
               <p className="text-sm text-gray-600">Understanding forward head posture, tech neck, and computer neck</p>
@@ -138,6 +142,10 @@ export default function HomePage() {
             <Link href="/neck-hump-exercises" className="block p-4 bg-white rounded border border-gray-200 hover:border-blue-400 transition-colors group">
               <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-600">Neck Hump Exercises</h3>
               <p className="text-sm text-gray-600">Targeted exercises to fix forward head posture</p>
+            </Link>
+            <Link href="/dowagers-hump-exercises" className="block p-4 bg-white rounded border border-gray-200 hover:border-blue-400 transition-colors group">
+              <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-600">Dowager's Hump Exercises</h3>
+              <p className="text-sm text-gray-600">Safe exercises for seniors and osteoporosis</p>
             </Link>
             <Link href="/best-pillow-for-neck-hump" className="block p-4 bg-white rounded border border-gray-200 hover:border-blue-400 transition-colors group">
               <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-600">Best Pillows for Neck Hump</h3>
