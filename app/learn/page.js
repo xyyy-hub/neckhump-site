@@ -203,8 +203,20 @@ export default function LearnPage() {
               to professional interventions and surgical considerations.
             </p>
             <div className="space-y-2">
+              <Link href="/how-to-get-rid-of-neck-hump-fast" className="block text-green-600 hover:text-green-800 font-medium">
+                ⚡ Rapid Correction (2-4 Weeks)
+              </Link>
+              <Link href="/neck-hump-exercises" className="block text-blue-600 hover:text-blue-800 font-medium">
+                → Exercise-Based Treatment
+              </Link>
+              <Link href="/dowagers-hump-exercises" className="block text-blue-600 hover:text-blue-800 font-medium">
+                → Senior-Safe Exercises
+              </Link>
+              <Link href="/neck-hump-self-massage" className="block text-blue-600 hover:text-blue-800 font-medium">
+                → Self-Massage Techniques
+              </Link>
               <Link href="/how-to-fix-posture-at-home" className="block text-blue-600 hover:text-blue-800 font-medium">
-                → At-Home Treatment Plans
+                → Complete At-Home Plans
               </Link>
               <Link href="/neck-hump-surgery-guide" className="block text-blue-600 hover:text-blue-800 font-medium">
                 → Surgical Options Guide
