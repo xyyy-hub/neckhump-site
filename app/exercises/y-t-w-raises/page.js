@@ -844,9 +844,21 @@ export default function YTWRaisesPage() {
         <div className="bg-gray-50 p-8 rounded-lg mt-12">
           <h3 className="text-xl font-semibold text-gray-900 mb-6 text-center">Complete Your Comprehensive Routine</h3>
           <div className="grid md:grid-cols-3 gap-6">
+            <a href="/how-to-get-rid-of-neck-hump-fast" className="block text-center bg-gradient-to-br from-green-50 to-emerald-50 p-4 rounded-lg border-2 border-green-400 hover:shadow-md transition-shadow">
+              <div className="text-green-600 font-semibold mb-1">⚡ Intensive Routine</div>
+              <div className="text-sm text-gray-600">Include YTW in 15-20 min daily program</div>
+            </a>
             <a href="/exercises/doorway-pec-stretch" className="block text-center bg-white p-4 rounded-lg hover:shadow-md transition-shadow">
               <div className="text-blue-600 font-semibold mb-1">Previous: Doorway Pec Stretch</div>
               <div className="text-sm text-gray-600">Stretch before strengthening</div>
+            </a>
+            <a href="/dowagers-hump-exercises" className="block text-center bg-white p-4 rounded-lg hover:shadow-md transition-shadow">
+              <div className="text-blue-600 font-semibold mb-1">For Seniors (50+)</div>
+              <div className="text-sm text-gray-600">Gentler upper back alternatives</div>
+            </a>
+            <a href="/neck-hump-self-massage" className="block text-center bg-white p-4 rounded-lg hover:shadow-md transition-shadow">
+              <div className="text-blue-600 font-semibold mb-1">Self-Massage</div>
+              <div className="text-sm text-gray-600">Release upper back after workout</div>
             </a>
             <a href="/neck-hump-guide" className="block text-center bg-white p-4 rounded-lg hover:shadow-md transition-shadow">
               <div className="text-blue-600 font-semibold mb-1">Complete Guide</div>
