@@ -143,6 +143,10 @@ export default function HomePage() {
               <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-600">Best Pillows for Neck Hump</h3>
               <p className="text-sm text-gray-600">Sleep support for neck hump recovery</p>
             </Link>
+            <Link href="/best-neck-hump-corrector-pillows" className="block p-4 bg-green-50 rounded border-2 border-green-400 hover:border-green-600 transition-colors group">
+              <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-green-600">🎯 Neck Hump Corrector Pillows</h3>
+              <p className="text-sm text-gray-600">Specialized corrector pillows for active posture correction</p>
+            </Link>
             <Link href="/neck-hump-guide" className="block p-4 bg-white rounded border border-gray-200 hover:border-blue-400 transition-colors group">
               <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-600">Complete Guide</h3>
               <p className="text-sm text-gray-600">Comprehensive neck hump treatment plan</p>
@@ -262,12 +266,44 @@ export default function HomePage() {
         </div>
       </div>
 
+      {/* What is Neck Hump - Definition Section */}
+      <section className="mb-12 mx-4">
+        <div className="bg-gradient-to-r from-gray-50 to-blue-50 border-2 border-gray-300 p-8 rounded-lg">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">What is Neck Hump?</h2>
+          <p className="text-gray-800 text-lg leading-relaxed mb-4">
+            <strong>Neck hump</strong> (also called forward head posture, tech neck, or computer neck) is a postural condition where your head shifts forward of your shoulders, creating visible rounding at the base of the neck. This forward position puts excessive strain on neck muscles and can cause a noticeable "hump" appearance.
+          </p>
+          <div className="grid md:grid-cols-2 gap-6 mt-4">
+            <div className="bg-white p-4 rounded-lg">
+              <h3 className="font-semibold text-gray-900 mb-2">Common Causes:</h3>
+              <ul className="text-gray-700 text-sm space-y-1">
+                <li>• Prolonged computer/phone use (8+ hours daily)</li>
+                <li>• Poor desk ergonomics and monitor height</li>
+                <li>• Weak deep neck flexor muscles</li>
+                <li>• Tight chest muscles pulling shoulders forward</li>
+                <li>• Sleeping with too-high or unsupportive pillows</li>
+              </ul>
+            </div>
+            <div className="bg-white p-4 rounded-lg">
+              <h3 className="font-semibold text-gray-900 mb-2">Typical Symptoms:</h3>
+              <ul className="text-gray-700 text-sm space-y-1">
+                <li>• Visible forward head position in photos</li>
+                <li>• Rounded upper back and shoulders</li>
+                <li>• Chronic neck stiffness and tension</li>
+                <li>• Headaches by end of day</li>
+                <li>• Head doesn't touch wall in standing test</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* AEO Optimization Blocks */}
       <section className="mb-16 mx-4">
         <div className="bg-emerald-50 border-l-4 border-emerald-400 p-6 mb-8 rounded-lg">
-          <h2 className="text-xl font-semibold mb-4 text-emerald-900" id="short-answer">Short Answer</h2>
+          <h2 className="text-xl font-semibold mb-4 text-emerald-900" id="short-answer">Can You Fix Neck Hump at Home?</h2>
           <p className="text-emerald-800 text-lg leading-relaxed">
-            Can you fix neck hump at home? Yes! Most people see visible improvement within 2-4 weeks by doing a simple 5-minute daily routine (chin tucks, wall angels, stretches) combined with proper desk setup and sleep positioning. Complete correction typically takes 6-12 weeks of consistent practice.
+            Yes! Most people see visible neck hump improvement within 2-4 weeks by doing a simple 5-minute daily routine (chin tucks, wall angels, stretches) combined with proper desk setup and sleep positioning. Complete neck hump correction typically takes 6-12 weeks of consistent practice. No expensive equipment needed.
           </p>
         </div>
 

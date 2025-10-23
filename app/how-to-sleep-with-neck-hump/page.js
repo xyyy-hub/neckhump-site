@@ -792,7 +792,7 @@ export default function HowToSleepWithNeckHumpPage() {
               <strong>Next 2-4 weeks:</strong> Maintain consistency and combine with our <a href="/posture-exercises" className="text-green-600 hover:underline">daily neck exercises</a>.
             </p>
             <p>
-              <strong>Long-term:</strong> Monitor progress and adjust as needed. Consider upgrading your <a href="/best-pillow-for-neck-hump" className="text-green-600 hover:underline">pillow</a> if current one isn't providing adequate support.
+              <strong>Long-term:</strong> Monitor progress and adjust as needed. Consider upgrading your <a href="/best-pillow-for-neck-hump" className="text-green-600 hover:underline">pillow</a> if current one isn't providing adequate support. For more aggressive correction, explore <a href="/best-neck-hump-corrector-pillows" className="text-green-600 hover:underline font-semibold">specialized neck hump corrector pillows</a> designed specifically for active posture correction during sleep.
             </p>
           </div>
         </div>

@@ -848,6 +848,10 @@ export default function BestPillowForNeckHumpPage() {
       <section className="mb-16">
         <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides</h2>
         <div className="grid md:grid-cols-3 gap-6">
+          <a href="/best-neck-hump-corrector-pillows" className="block p-6 bg-green-50 border-2 border-green-300 rounded-lg hover:shadow-md transition-shadow">
+            <h3 className="font-semibold text-gray-900 mb-2">🎯 Neck Hump Corrector Pillows</h3>
+            <p className="text-gray-600 text-sm">Specialized corrector pillows designed specifically for active forward head posture correction</p>
+          </a>
           <a href="/how-to-sleep-with-neck-hump" className="block p-6 bg-white border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
             <h3 className="font-semibold text-gray-900 mb-2">How to Sleep with Neck Hump</h3>
             <p className="text-gray-600 text-sm">Complete positioning guide for better overnight recovery</p>
@@ -855,10 +859,6 @@ export default function BestPillowForNeckHumpPage() {
           <a href="/neck-hump-exercises" className="block p-6 bg-white border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
             <h3 className="font-semibold text-gray-900 mb-2">Neck Hump Exercises</h3>
             <p className="text-gray-600 text-sm">Targeted exercises to accelerate your pillow results</p>
-          </a>
-          <a href="/ergonomic-workspace-neck-hump" className="block p-6 bg-white border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
-            <h3 className="font-semibold text-gray-900 mb-2">Ergonomic Workspace Setup</h3>
-            <p className="text-gray-600 text-sm">Prevent daytime forward head posture at work</p>
           </a>
         </div>
       </section>

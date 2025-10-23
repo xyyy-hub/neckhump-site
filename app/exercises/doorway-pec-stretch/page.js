@@ -1,9 +1,9 @@
 import Breadcrumbs from '../../../components/Breadcrumbs'
 
 export const metadata = {
-  title: 'Doorway Pec Stretch: Open Tight Chest Muscles for Better Posture | Guide',
-  description: 'Master the doorway pec stretch to release tight chest muscles that pull shoulders forward. Complete positioning guide with variations and safety tips for neck hump relief.',
-  keywords: ['doorway pec stretch', 'chest stretch', 'pectoralis stretch', 'shoulder stretch', 'doorway stretch'],
+  title: 'Doorway Pec Stretch: How to Do Chest Stretch in Doorway (Step-by-Step)',
+  description: 'How to do doorway pec stretch? Place forearm on doorframe with elbow at 90°, step forward, lean until you feel chest stretch. Hold 30 seconds per side. Complete guide for chest stretch in doorway to fix forward shoulders.',
+  keywords: ['doorway pec stretch', 'chest stretch in doorway', 'doorway chest stretch', 'pec stretch doorway', 'doorway stretch', 'pectoralis stretch', 'shoulder stretch'],
   alternates: {
     canonical: 'https://www.neckhump.com/exercises/doorway-pec-stretch',
   },
@@ -105,6 +105,59 @@ export default function DoorwayPecStretchPage() {
                     "image": "https://neckhump.com/exercises/doorway-pec-stretch-step4.svg"
                   }
                 ]
+              },
+              {
+                "@type": "FAQPage",
+                "mainEntity": [
+                  {
+                    "@type": "Question",
+                    "name": "How do you do a doorway pec stretch?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Stand in doorway, place forearm vertically on doorframe with elbow at 90 degrees. Step forward with same-side leg and lean forward gently until you feel a stretch across your chest. Hold for 30 seconds, repeat 2-3 times per side."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "How long should you hold a doorway chest stretch?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Hold doorway pec stretch for 30-60 seconds per position. Shorter holds (10-15 seconds) don't allow enough time for muscle lengthening. For best results, do 2-3 repetitions per side at three different arm heights."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "What muscles does the doorway pec stretch target?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Doorway pec stretch primarily targets pectoralis major and pectoralis minor (chest muscles), plus anterior deltoid (front shoulder). Different arm positions target different parts: low position targets lower pecs, middle targets mid-chest, high position targets upper pecs and front shoulders."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Can you do doorway stretch without a doorway?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes, use a corner wall instead. Stand facing corner, place both forearms on each wall, and lean forward into corner. This stretches both sides simultaneously. You can also use a sturdy pole or edge of wall if doorway isn't available."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Why does doorway pec stretch hurt my shoulder?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Sharp shoulder pain during doorway stretch usually means you're stretching too aggressively, arm is positioned too high, or you have underlying shoulder issues. Reduce intensity, lower arm position, and consult healthcare provider if pain persists."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "How often should I do doorway chest stretch?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Do doorway pec stretch 2-3 times daily for best results - morning, midday (office break), and evening. Each session takes only 2-3 minutes. Daily stretching is essential to counteract 8+ hours of sitting and forward posture."
+                    }
+                  }
+                ]
               }
             ]
           }),
@@ -116,7 +169,7 @@ export default function DoorwayPecStretchPage() {
       <article className="article-content">
         <header className="mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-6 leading-tight">
-            Doorway Pec Stretch: Open Tight Chest Muscles for Better Posture
+            Doorway Pec Stretch: How to Do Chest Stretch in Doorway (Complete Guide)
           </h1>
           <p className="text-xl text-gray-600 mb-6 leading-relaxed max-w-3xl mx-auto">
             Learn the essential doorway pec stretch to release tight chest muscles that pull your shoulders forward and contribute to neck hump and poor posture.

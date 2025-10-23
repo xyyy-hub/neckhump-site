@@ -1,9 +1,9 @@
 import Breadcrumbs from '../../../components/Breadcrumbs'
 
 export const metadata = {
-  title: 'Y-T-W Raises: Comprehensive Upper Back Strengthening | Complete Guide',
-  description: 'Master Y-T-W raises for complete upper back strengthening. Step-by-step guide with proper form, progressions, and modifications for fixing forward head posture.',
-  keywords: ['Y-T-W raises', 'upper back strengthening', 'shoulder blade exercise', 'posture strengthening', 'rhomboid exercise'],
+  title: 'YTW Exercises (Y-T-W Raises): Complete Tutorial | YWT Shoulder Exercise',
+  description: 'How to do YTW exercises correctly? Lie face-down, raise arms in Y, T, and W positions for 10 reps each. Complete tutorial for Y-T-W raises (also called YWT raises) - the ultimate upper back strengthening exercise for posture.',
+  keywords: ['Y-T-W raises', 'YTW exercises', 'YWT raises', 'ytw shoulder exercises', 'y t w raises', 'upper back strengthening', 'shoulder blade exercise', 'posture strengthening'],
   alternates: {
     canonical: 'https://www.neckhump.com/exercises/y-t-w-raises',
   },
@@ -105,6 +105,75 @@ export default function YTWRaisesPage() {
                     "image": "https://neckhump.com/exercises/ytw-step4.svg"
                   }
                 ]
+              },
+              {
+                "@type": "FAQPage",
+                "mainEntity": [
+                  {
+                    "@type": "Question",
+                    "name": "What are YTW exercises?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "YTW exercises (also called Y-T-W raises or YWT raises) are a comprehensive upper back strengthening sequence where you raise your arms in three positions: Y-shape overhead, T-shape to the sides, and W-shape with bent elbows. Each position targets different muscle groups for complete posterior chain development."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "How do you do Y-T-W raises correctly?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Lie face-down on floor or mat. Raise arms in Y position (overhead, thumbs up) for 10 reps, then T position (straight out to sides) for 10 reps, then W position (elbows bent at 90 degrees) for 10 reps. Hold each rep for 1-2 seconds at the top, squeezing shoulder blades together."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "What's the difference between YTW and YWT exercises?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "YTW and YWT are the same exercise, just different ways of writing it. Both refer to Y-T-W raises where you perform arm raises in three positions (Y, T, and W) to strengthen your upper back muscles."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "What muscles do YTW exercises work?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "YTW exercises work the entire posterior chain: lower trapezius (Y position), middle trapezius and rhomboids (T position), posterior deltoids and rotator cuff muscles (W position), plus serratus anterior for stabilization."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "How often should I do YTW raises?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Beginners should do YTW raises 2-3 times per week, intermediate level 4-5 times per week, and advanced 5-6 times per week. Allow at least one rest day between sessions when starting out."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Can I do YTW exercises standing up?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes, you can do standing YTW exercises against a wall. Stand with your back against the wall and slide your arms in the Y, T, and W positions while maintaining wall contact. This variation is easier than prone YTW raises and good for office breaks."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Should I use weights for YTW raises?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Start with no weights to master proper form. After 3-4 weeks of bodyweight training, you can add light dumbbells (1-2 lbs) at intermediate level, progressing to 2-5 lbs for advanced training. Most people underestimate the difficulty of bodyweight YTW exercises."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Why are YTW exercises so hard?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "YTW exercises are challenging because they target the often-weak posterior chain muscles, especially the lower trapezius. Working against gravity in a prone position requires significant strength and endurance. The Y position is typically the hardest for most people."
+                    }
+                  }
+                ]
               }
             ]
           }),
@@ -116,7 +185,7 @@ export default function YTWRaisesPage() {
       <article className="article-content">
         <header className="mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-6 leading-tight">
-            Y-T-W Raises: Comprehensive Upper Back Strengthening
+            YTW Exercises: Complete Y-T-W Raises Tutorial (YWT Shoulder Exercise Guide)
           </h1>
           <p className="text-xl text-gray-600 mb-6 leading-relaxed max-w-3xl mx-auto">
             Master the Y-T-W raises exercise sequence for complete upper back strengthening, improved shoulder stability, and better posture support.
@@ -166,6 +235,33 @@ export default function YTWRaisesPage() {
             </ul>
           </div>
         </aside>
+
+        {/* Exercise Name Variations */}
+        <div className="bg-gray-100 border border-gray-300 p-5 rounded-lg mb-8">
+          <h2 className="text-lg font-semibold text-gray-900 mb-3">📝 Also Known As</h2>
+          <p className="text-gray-700 mb-3">This exercise goes by several names. They all refer to the same movement:</p>
+          <div className="grid md:grid-cols-2 gap-3 text-sm text-gray-700">
+            <div>
+              <strong className="text-gray-900">Common Names:</strong>
+              <ul className="mt-1 space-y-1">
+                <li>• <strong>YTW exercises</strong> (no hyphens)</li>
+                <li>• <strong>Y-T-W raises</strong> (with hyphens)</li>
+                <li>• <strong>YWT raises</strong> (different order)</li>
+                <li>• <strong>Y T W shoulder exercises</strong></li>
+              </ul>
+            </div>
+            <div>
+              <strong className="text-gray-900">Technical Names:</strong>
+              <ul className="mt-1 space-y-1">
+                <li>• <strong>YTW lifts</strong></li>
+                <li>• <strong>Prone Y-T-W raises</strong></li>
+                <li>• <strong>Scapular Y-T-W sequence</strong></li>
+                <li>• <strong>Three-position shoulder raises</strong></li>
+              </ul>
+            </div>
+          </div>
+          <p className="text-gray-600 text-xs mt-3 italic">No matter what you call them, the exercise technique remains the same: Y position, T position, W position for complete upper back strengthening.</p>
+        </div>
 
         {/* PAA-Style Questions */}
         <div className="bg-gray-50 p-6 rounded-lg mb-8">

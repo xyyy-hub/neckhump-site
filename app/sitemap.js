@@ -2,7 +2,7 @@ export default function sitemap() {
   return [
   {
     url: 'https://www.neckhump.com/',
-    lastModified: new Date('2025-10-11T04:50:10.030Z'),
+    lastModified: new Date('2025-10-22T12:00:00.000Z'),
     changeFrequency: 'weekly',
     priority: 1,
   },
@@ -33,6 +33,12 @@ export default function sitemap() {
   {
     url: 'https://www.neckhump.com/best-pillow-for-neck-hump',
     lastModified: new Date('2025-10-06T03:05:55.888Z'),
+    changeFrequency: 'monthly',
+    priority: 0.9,
+  },
+  {
+    url: 'https://www.neckhump.com/best-neck-hump-corrector-pillows',
+    lastModified: new Date('2025-10-22T12:00:00.000Z'),
     changeFrequency: 'monthly',
     priority: 0.9,
   },
@@ -146,13 +152,13 @@ export default function sitemap() {
   },
   {
     url: 'https://www.neckhump.com/exercises/chin-tucks',
-    lastModified: new Date('2025-09-27T06:49:41.321Z'),
+    lastModified: new Date('2025-10-22T12:00:00.000Z'),
     changeFrequency: 'monthly',
     priority: 0.7,
   },
   {
     url: 'https://www.neckhump.com/exercises/doorway-pec-stretch',
-    lastModified: new Date('2025-10-11T04:20:55.922Z'),
+    lastModified: new Date('2025-10-22T12:00:00.000Z'),
     changeFrequency: 'monthly',
     priority: 0.7,
   },
@@ -164,13 +170,13 @@ export default function sitemap() {
   },
   {
     url: 'https://www.neckhump.com/exercises/wall-angels',
-    lastModified: new Date('2025-10-11T04:20:55.919Z'),
+    lastModified: new Date('2025-10-22T12:00:00.000Z'),
     changeFrequency: 'monthly',
     priority: 0.7,
   },
   {
     url: 'https://www.neckhump.com/exercises/y-t-w-raises',
-    lastModified: new Date('2025-10-11T04:20:55.925Z'),
+    lastModified: new Date('2025-10-22T12:00:00.000Z'),
     changeFrequency: 'monthly',
     priority: 0.7,
   },

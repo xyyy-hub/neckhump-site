@@ -1461,10 +1461,10 @@ export default function NeckHumpExercisesPage() {
               <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-3">
                 <span className="text-2xl font-bold text-red-600">5</span>
               </div>
-              <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-600">Y-T-W Raises</h3>
+              <h3 className="font-semibold text-gray-900 mb-2 group-hover:text-blue-600">YTW Exercises (Y-T-W Raises)</h3>
             </div>
-            <p className="text-sm text-gray-600 mb-3">Comprehensive upper back strengthening for improved posture and shoulder stability.</p>
-            <p className="text-xs text-blue-600 font-medium">View detailed instructions →</p>
+            <p className="text-sm text-gray-600 mb-3">Complete YTW shoulder exercise tutorial - comprehensive upper back strengthening for improved posture and shoulder stability.</p>
+            <p className="text-xs text-blue-600 font-medium">View detailed YTW instructions →</p>
           </Link>
 
           <Link href="/neck-hump-guide" className="block p-6 bg-blue-50 rounded-lg border border-blue-200 hover:border-blue-300 transition-colors group">

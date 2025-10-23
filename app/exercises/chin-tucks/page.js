@@ -105,6 +105,67 @@ export default function ChinTucksPage() {
                     "image": "https://neckhump.com/exercises/chin-tucks-step4.svg"
                   }
                 ]
+              },
+              {
+                "@type": "FAQPage",
+                "mainEntity": [
+                  {
+                    "@type": "Question",
+                    "name": "How do you do chin tucks correctly?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Sit or stand with neutral posture. Keep eyes level and gently glide your head straight backward (making a double chin) without tilting up or down. Hold for 5 seconds, return to start. Do 10-15 reps, 2-3 times daily. Movement should be subtle - only 1-2 inches of motion."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "How many chin tucks should I do per day?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Do 10-15 chin tucks per set, 2-3 sets per day (total 20-45 reps daily). Spread sets throughout day: morning, midday, evening. Consistency is more important than high reps - daily practice beats occasional intense sessions."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Do chin tucks actually fix neck hump?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes, when done consistently. Chin tucks strengthen deep neck flexors that pull your head back into alignment. Studies show significant forward head posture improvement after 6-8 weeks of daily chin tucks. Must combine with stretching and ergonomic changes for complete correction."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Why do chin tucks hurt my neck?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Neck pain during chin tucks usually means you're doing them too aggressively, tilting your head instead of gliding straight back, or have very tight neck muscles. Reduce range of motion, ensure no tilting, and stop if pain is sharp. Gentle stretch at skull base is normal; sharp pain is not."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Can I do chin tucks lying down?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes, lying chin tucks are actually easier for beginners. Lie on your back, tuck chin to chest (as if nodding yes), and press back of head into floor/pillow. Hold 5 seconds. This removes gravity component and helps learn proper movement pattern."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "How long until chin tucks show results?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "You'll feel muscles activating properly within 1-2 weeks of daily practice. Visible posture improvement typically shows at 4-6 weeks. Significant neck hump reduction requires 8-12 weeks of consistent daily chin tucks combined with other exercises and ergonomic improvements."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Should I do chin tucks standing or sitting?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Both work well - do them in whatever position you'll actually do them consistently. Sitting is convenient for office workers (do at desk). Standing with back against wall provides better form feedback for beginners. Lying down is easiest for learning proper movement."
+                    }
+                  }
+                ]
               }
             ]
           }),

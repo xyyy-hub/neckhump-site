@@ -105,6 +105,67 @@ export default function WallAngelsPage() {
                     "image": "https://neckhump.com/exercises/wall-angels-step4.svg"
                   }
                 ]
+              },
+              {
+                "@type": "FAQPage",
+                "mainEntity": [
+                  {
+                    "@type": "Question",
+                    "name": "How do you do wall angels correctly?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Stand with back flat against wall. Raise arms to goal post position (elbows at 90 degrees, shoulder height). Slide arms up and down wall while maintaining contact with back, arms, and hands. Do 10-15 slow reps, squeezing shoulder blades together. Movement should be smooth and controlled."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Why can't I keep my arms on the wall during wall angels?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Tight chest muscles (pecs) and weak upper back muscles prevent full wall contact. This is common with forward head posture. Modify by reducing range of motion, doing doorway pec stretches first, or moving feet farther from wall. Mobility improves with consistent practice over 2-4 weeks."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "How many wall angels should I do per day?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Do 10-15 wall angels per set, 2-3 sets daily (20-45 total reps). Spread throughout day - morning, after lunch, evening. Frequency matters more than high reps. Every set helps counteract hours of forward posture from sitting."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Are wall angels the same as snow angels?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Similar movement pattern but different purposes. Snow angels are done lying on ground with full range of motion for fun. Wall angels are controlled strengthening exercise against wall to improve posture, with emphasis on maintaining wall contact and squeezing shoulder blades."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Do wall angels fix rounded shoulders?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes, when combined with chest stretching. Wall angels strengthen weak upper back muscles (rhomboids, middle traps) that pull shoulders back. Pair with doorway pec stretches to release tight chest muscles. Most people see noticeable improvement in 4-6 weeks of daily practice."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Should my lower back touch the wall during wall angels?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "No, natural lumbar curve creates small gap between lower back and wall (about hand thickness). Head, shoulder blades, and buttocks should touch wall. Forcing lower back flat against wall causes compensatory movements and defeats the purpose."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Can I do wall angels every day?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes, wall angels are safe for daily practice. They're low-intensity postural exercise, not heavy strength training. Daily practice (2-3 sets) helps combat constant forward posture from sitting. Take a day off if you feel unusual soreness."
+                    }
+                  }
+                ]
               }
             ]
           }),
