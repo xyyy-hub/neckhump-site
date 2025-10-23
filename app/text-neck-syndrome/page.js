@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import PeopleAlsoAsk from '../../components/PeopleAlsoAsk'
+import RelatedArticles from '../../components/RelatedArticles'
 
 export const metadata = {
   title: 'Text Neck Syndrome: Causes, Symptoms & Complete Recovery Guide 2024',
@@ -361,6 +362,47 @@ export default function TextNeckPage() {
             link: "/help/product-questions/phone-positioning-prevent-text-neck"
           }
         ]} />
+
+      {/* Related Articles */}
+      <RelatedArticles 
+        articles={[
+          {
+            title: "Tech Neck Prevention Guide",
+            description: "Complete prevention strategies for smartphone and computer-induced neck pain.",
+            href: "/tech-neck-prevention-guide",
+            category: "Prevention",
+            readTime: "9 min read"
+          },
+          {
+            title: "How to Get Rid of Neck Hump Fast",
+            description: "Intensive 2-4 week plan to correct forward head posture from text neck.",
+            href: "/how-to-get-rid-of-neck-hump-fast",
+            category: "Fast Results",
+            readTime: "15 min read"
+          },
+          {
+            title: "Neck Hump Self-Massage Techniques",
+            description: "Release text neck-induced tension with targeted massage methods.",
+            href: "/neck-hump-self-massage",
+            category: "Recovery",
+            readTime: "12 min read"
+          },
+          {
+            title: "Neck Hump Exercises",
+            description: "Targeted exercises to reverse text neck symptoms and strengthen posture.",
+            href: "/neck-hump-exercises",
+            category: "Exercises",
+            readTime: "8 min read"
+          },
+          {
+            title: "Desk Setup Guide",
+            description: "Ergonomic workspace setup to prevent text neck during computer work.",
+            href: "/desk-setup-guide",
+            category: "Prevention",
+            readTime: "5 min read"
+          }
+        ]}
+      />
       </div>
 
       {/* Schema markup */}
