@@ -814,11 +814,32 @@ export default function CompleteGuidePage() {
       <RelatedArticles 
         articles={[
           {
+            title: "How to Get Rid of Neck Hump Fast",
+            description: "Intensive 2-4 week rapid correction plan with 15-20 minute daily routines for accelerated results.",
+            href: "/how-to-get-rid-of-neck-hump-fast",
+            category: "Fast Results",
+            readTime: "15 min read"
+          },
+          {
             title: "10 Best Neck Hump Exercises",
             description: "Step-by-step exercise routine with rep counts, form tips, and progression timeline. Includes chin tucks, wall angels, and stretches.",
             href: "/neck-hump-exercises",
             category: "Exercises",
             readTime: "8 min read"
+          },
+          {
+            title: "Neck Hump Self-Massage Techniques",
+            description: "Release tension with tennis ball, foam roller, and hands-on methods to complement your exercise routine.",
+            href: "/neck-hump-self-massage",
+            category: "Recovery",
+            readTime: "12 min read"
+          },
+          {
+            title: "Dowager's Hump Exercises for Seniors",
+            description: "Safe, gentle exercises with osteoporosis modifications for older adults and those with bone density concerns.",
+            href: "/dowagers-hump-exercises",
+            category: "Specialized",
+            readTime: "14 min read"
           },
           {
             title: "What Causes Neck Hump?",
