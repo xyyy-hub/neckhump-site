@@ -640,6 +640,10 @@ export default function UpperBackFoamRollingPage() {
         <div className="bg-gray-50 p-8 rounded-lg mt-12">
           <h3 className="text-xl font-semibold text-gray-900 mb-6 text-center">Complete Your Mobility Routine</h3>
           <div className="grid md:grid-cols-3 gap-6">
+            <a href="/how-to-get-rid-of-neck-hump-fast" className="block text-center bg-gradient-to-br from-green-50 to-emerald-50 p-4 rounded-lg border-2 border-green-400 hover:shadow-md transition-shadow">
+              <div className="text-green-600 font-semibold mb-1">⚡ Intensive Routine</div>
+              <div className="text-sm text-gray-600">Combine rolling with daily program</div>
+            </a>
             <a href="/exercises/wall-angels" className="block text-center bg-white p-4 rounded-lg hover:shadow-md transition-shadow">
               <div className="text-blue-600 font-semibold mb-1">Previous: Wall Angels</div>
               <div className="text-sm text-gray-600">Strengthen after releasing tension</div>
@@ -647,6 +651,14 @@ export default function UpperBackFoamRollingPage() {
             <a href="/exercises/doorway-pec-stretch" className="block text-center bg-white p-4 rounded-lg hover:shadow-md transition-shadow">
               <div className="text-blue-600 font-semibold mb-1">Next: Doorway Pec Stretch</div>
               <div className="text-sm text-gray-600">Open tight chest muscles</div>
+            </a>
+            <a href="/neck-hump-self-massage" className="block text-center bg-white p-4 rounded-lg hover:shadow-md transition-shadow">
+              <div className="text-blue-600 font-semibold mb-1">Self-Massage</div>
+              <div className="text-sm text-gray-600">Complement foam rolling techniques</div>
+            </a>
+            <a href="/dowagers-hump-exercises" className="block text-center bg-white p-4 rounded-lg hover:shadow-md transition-shadow">
+              <div className="text-blue-600 font-semibold mb-1">For Seniors (50+)</div>
+              <div className="text-sm text-gray-600">Gentler mobility alternatives</div>
             </a>
             <a href="/neck-hump-guide" className="block text-center bg-white p-4 rounded-lg hover:shadow-md transition-shadow">
               <div className="text-blue-600 font-semibold mb-1">Complete Guide</div>
