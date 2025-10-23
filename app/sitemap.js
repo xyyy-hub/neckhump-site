@@ -49,6 +49,12 @@ export default function sitemap() {
     priority: 0.9,
   },
   {
+    url: 'https://www.neckhump.com/how-to-get-rid-of-neck-hump-fast',
+    lastModified: new Date('2025-10-23T00:00:00.000Z'),
+    changeFrequency: 'monthly',
+    priority: 0.95,
+  },
+  {
     url: 'https://www.neckhump.com/learn',
     lastModified: new Date('2025-10-11T04:50:10.029Z'),
     changeFrequency: 'weekly',
