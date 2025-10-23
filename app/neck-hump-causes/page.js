@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Breadcrumbs from '../../components/Breadcrumbs'
 import PeopleAlsoAsk from '../../components/PeopleAlsoAsk'
+import RelatedArticles from '../../components/RelatedArticles'
 
 export const metadata = {
   title: 'Neck Hump Causes: Why You Have Forward Head Posture',
@@ -346,6 +347,47 @@ export default function NeckHumpPage() {
             link: "/help/symptom-questions/neck-hump-vs-dowagers-hump"
           }
         ]} />
+
+      {/* Related Articles */}
+      <RelatedArticles 
+        articles={[
+          {
+            title: "How to Get Rid of Neck Hump Fast",
+            description: "Intensive 2-4 week rapid correction plan to reverse causes and fix forward head posture.",
+            href: "/how-to-get-rid-of-neck-hump-fast",
+            category: "Fast Results",
+            readTime: "15 min read"
+          },
+          {
+            title: "Dowager's Hump Exercises for Seniors",
+            description: "Address age-related causes with safe, effective exercises for older adults.",
+            href: "/dowagers-hump-exercises",
+            category: "Specialized",
+            readTime: "14 min read"
+          },
+          {
+            title: "Tech Neck Prevention Guide",
+            description: "Prevent the #1 cause of neck hump: prolonged device and computer use.",
+            href: "/tech-neck-prevention-guide",
+            category: "Prevention",
+            readTime: "9 min read"
+          },
+          {
+            title: "Desk Setup Guide",
+            description: "Fix the ergonomic causes of forward head posture at your workstation.",
+            href: "/desk-setup-guide",
+            category: "Prevention",
+            readTime: "5 min read"
+          },
+          {
+            title: "Neck Hump Exercises",
+            description: "Targeted exercises to address muscle imbalances that cause neck hump.",
+            href: "/neck-hump-exercises",
+            category: "Exercises",
+            readTime: "8 min read"
+          }
+        ]}
+      />
       </div>
 
       {/* Schema markup */}
