@@ -848,6 +848,10 @@ export default function BestPillowForNeckHumpPage() {
       <section className="mb-16">
         <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides</h2>
         <div className="grid md:grid-cols-3 gap-6">
+          <a href="/how-to-get-rid-of-neck-hump-fast" className="block p-6 bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-400 rounded-lg hover:shadow-md transition-shadow">
+            <h3 className="font-semibold text-gray-900 mb-2">⚡ Get Rid of Neck Hump Fast</h3>
+            <p className="text-gray-600 text-sm">Intensive 2-4 week rapid correction plan to maximize your pillow's effectiveness</p>
+          </a>
           <a href="/best-neck-hump-corrector-pillows" className="block p-6 bg-green-50 border-2 border-green-300 rounded-lg hover:shadow-md transition-shadow">
             <h3 className="font-semibold text-gray-900 mb-2">🎯 Neck Hump Corrector Pillows</h3>
             <p className="text-gray-600 text-sm">Specialized corrector pillows designed specifically for active forward head posture correction</p>
@@ -855,6 +859,14 @@ export default function BestPillowForNeckHumpPage() {
           <a href="/how-to-sleep-with-neck-hump" className="block p-6 bg-white border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
             <h3 className="font-semibold text-gray-900 mb-2">How to Sleep with Neck Hump</h3>
             <p className="text-gray-600 text-sm">Complete positioning guide for better overnight recovery</p>
+          </a>
+          <a href="/dowagers-hump-exercises" className="block p-6 bg-white border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
+            <h3 className="font-semibold text-gray-900 mb-2">Dowager's Hump Exercises</h3>
+            <p className="text-gray-600 text-sm">Safe exercises for seniors to complement proper pillow support</p>
+          </a>
+          <a href="/neck-hump-self-massage" className="block p-6 bg-white border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
+            <h3 className="font-semibold text-gray-900 mb-2">Self-Massage Techniques</h3>
+            <p className="text-gray-600 text-sm">Release tension before bed to enhance your pillow's effectiveness</p>
           </a>
           <a href="/neck-hump-exercises" className="block p-6 bg-white border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
             <h3 className="font-semibold text-gray-900 mb-2">Neck Hump Exercises</h3>
