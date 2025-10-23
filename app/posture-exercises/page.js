@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import PeopleAlsoAsk from '../../components/PeopleAlsoAsk'
+import RelatedArticles from '../../components/RelatedArticles'
 
 export const metadata = {
   title: '5-Minute Office Posture Break Routine | Desk-Friendly Exercises',
@@ -443,6 +444,47 @@ export default function PostureExercisesPage() {
           {
             question: "Are these exercises better than going to the gym for posture?",
             answer: "These office exercises complement gym workouts by addressing posture issues throughout the workday. For best results, combine daily office exercises with 2-3 weekly strength training sessions focusing on postural muscles."
+          }
+        ]}
+      />
+
+      {/* Related Articles */}
+      <RelatedArticles 
+        articles={[
+          {
+            title: "How to Get Rid of Neck Hump Fast",
+            description: "Intensive 15-20 minute routine for faster results than 5-minute office breaks.",
+            href: "/how-to-get-rid-of-neck-hump-fast",
+            category: "Fast Results",
+            readTime: "15 min read"
+          },
+          {
+            title: "Exercise Library",
+            description: "Browse 16+ exercises organized by difficulty, equipment needed, and target area.",
+            href: "/exercise-library",
+            category: "All Exercises",
+            readTime: "10 min read"
+          },
+          {
+            title: "Dowager's Hump Exercises for Seniors",
+            description: "Modified exercises safe for office workers 50+ with bone density concerns.",
+            href: "/dowagers-hump-exercises",
+            category: "Specialized",
+            readTime: "14 min read"
+          },
+          {
+            title: "Neck Hump Self-Massage",
+            description: "Quick desk massage techniques to complement your office exercise routine.",
+            href: "/neck-hump-self-massage",
+            category: "Recovery",
+            readTime: "12 min read"
+          },
+          {
+            title: "Desk Setup Guide",
+            description: "Optimize your workspace ergonomics to prevent posture issues between exercises.",
+            href: "/desk-setup-guide",
+            category: "Prevention",
+            readTime: "5 min read"
           }
         ]}
       />
