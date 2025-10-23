@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import PeopleAlsoAsk from '../../components/PeopleAlsoAsk'
+import RelatedArticles from '../../components/RelatedArticles'
 
 export const metadata = {
   title: 'Military Neck (Loss of Cervical Lordosis): Causes, Symptoms & Treatment',
@@ -446,6 +447,47 @@ export default function MilitaryNeckPage() {
             link: "/help/timeline-questions/military-neck-recovery-time"
           }
         ]} />
+
+      {/* Related Articles */}
+      <RelatedArticles 
+        articles={[
+          {
+            title: "Neck Hump Exercises",
+            description: "Essential exercises to restore cervical lordosis and improve neck curvature.",
+            href: "/neck-hump-exercises",
+            category: "Exercises",
+            readTime: "8 min read"
+          },
+          {
+            title: "How to Get Rid of Neck Hump Fast",
+            description: "Intensive 2-4 week plan to restore natural neck curve and reduce military neck symptoms.",
+            href: "/how-to-get-rid-of-neck-hump-fast",
+            category: "Fast Results",
+            readTime: "15 min read"
+          },
+          {
+            title: "Neck Hump Self-Massage Techniques",
+            description: "Release tension in straightened neck muscles to improve range of motion.",
+            href: "/neck-hump-self-massage",
+            category: "Recovery",
+            readTime: "12 min read"
+          },
+          {
+            title: "Tech Neck Prevention Guide",
+            description: "Prevent military neck from developing due to forward head posture habits.",
+            href: "/tech-neck-prevention-guide",
+            category: "Prevention",
+            readTime: "9 min read"
+          },
+          {
+            title: "Posture Correction Guide",
+            description: "Complete assessment and correction methods for all neck alignment issues.",
+            href: "/posture-correction-guide",
+            category: "Complete Guide",
+            readTime: "15 min read"
+          }
+        ]}
+      />
       </div>
 
       {/* Schema markup */}
