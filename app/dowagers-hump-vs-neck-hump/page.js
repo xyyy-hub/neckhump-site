@@ -1,5 +1,7 @@
 import { Metadata } from 'next'
+import Link from 'next/link'
 import PeopleAlsoAsk from '../../components/PeopleAlsoAsk'
+import RelatedArticles from '../../components/RelatedArticles'
 
 export const metadata = {
   title: 'Dowager\'s Hump vs Neck Hump: Key Differences & Treatment Options',
@@ -714,6 +716,40 @@ export default function DowagersHumpVsNeckHumpPage() {
           {
             question: "When should I see a doctor for a spinal hump?",
             answer: "See a doctor immediately if you have sudden onset, severe pain, neurological symptoms, or breathing difficulties. Schedule evaluation if you're over 50 with new curvature, have osteoporosis risk factors, or no improvement after 6-8 weeks of conservative treatment."
+          }
+        ]}
+      />
+
+      {/* Related Articles */}
+      <RelatedArticles 
+        articles={[
+          {
+            title: "Dowager's Hump Exercises for Seniors",
+            description: "Comprehensive exercise guide specifically for dowager's hump with osteoporosis-safe modifications.",
+            href: "/dowagers-hump-exercises",
+            category: "Treatment",
+            readTime: "14 min read"
+          },
+          {
+            title: "How to Get Rid of Neck Hump Fast",
+            description: "Intensive 2-4 week plan for correcting forward head posture (neck hump).",
+            href: "/how-to-get-rid-of-neck-hump-fast",
+            category: "Fast Results",
+            readTime: "15 min read"
+          },
+          {
+            title: "Neck Hump Exercises",
+            description: "Targeted exercises for forward head posture correction and prevention.",
+            href: "/neck-hump-exercises",
+            category: "Exercises",
+            readTime: "8 min read"
+          },
+          {
+            title: "Posture Correction Guide",
+            description: "Complete assessment and correction methods for all posture types including both conditions.",
+            href: "/posture-correction-guide",
+            category: "Complete Guide",
+            readTime: "15 min read"
           }
         ]}
       />
