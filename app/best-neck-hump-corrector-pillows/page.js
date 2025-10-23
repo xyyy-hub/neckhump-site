@@ -4,6 +4,7 @@ import ReadingProgress, { ArticleStats } from '../../components/ReadingProgress'
 import AuthorReviewer from '../../components/AuthorReviewer'
 import Citations from '../../components/Citations'
 import Link from 'next/link'
+import RelatedArticles from '../../components/RelatedArticles'
 
 export const metadata = {
   title: '7 Best Neck Hump Corrector Pillows That Actually Work (2025)',
@@ -574,23 +575,45 @@ export default function NeckHumpCorrectorPillowsPage() {
         </article>
 
         {/* Related Articles */}
-        <section className="mb-16 mt-12">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">Complete Your Neck Hump Treatment</h2>
-          <div className="grid md:grid-cols-3 gap-6">
-            <Link href="/best-pillow-for-neck-hump" className="block p-6 bg-white border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
-              <h3 className="font-semibold text-gray-900 mb-2">All Neck Hump Pillows</h3>
-              <p className="text-gray-600 text-sm">Complete pillow guide covering all types and sleep positions</p>
-            </Link>
-            <Link href="/how-to-sleep-with-neck-hump" className="block p-6 bg-white border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
-              <h3 className="font-semibold text-gray-900 mb-2">Sleep Positioning Guide</h3>
-              <p className="text-gray-600 text-sm">Proper sleep positions to maximize your corrector pillow results</p>
-            </Link>
-            <Link href="/neck-hump-exercises" className="block p-6 bg-white border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
-              <h3 className="font-semibold text-gray-900 mb-2">Daily Exercise Routine</h3>
-              <p className="text-gray-600 text-sm">15-minute routine to combine with your corrector pillow</p>
-            </Link>
-          </div>
-        </section>
+        <RelatedArticles 
+          articles={[
+            {
+              title: "Best Pillow for Neck Hump",
+              description: "Complete pillow guide covering all types and sleep positions for general neck support.",
+              href: "/best-pillow-for-neck-hump",
+              category: "Pillows",
+              readTime: "10 min read"
+            },
+            {
+              title: "How to Sleep with Neck Hump",
+              description: "Proper sleep positions to maximize your corrector pillow results overnight.",
+              href: "/how-to-sleep-with-neck-hump",
+              category: "Sleep",
+              readTime: "12 min read"
+            },
+            {
+              title: "How to Get Rid of Neck Hump Fast",
+              description: "Intensive 2-4 week plan combining corrector pillow with daily exercises for faster results.",
+              href: "/how-to-get-rid-of-neck-hump-fast",
+              category: "Fast Results",
+              readTime: "15 min read"
+            },
+            {
+              title: "Neck Hump Self-Massage",
+              description: "Massage techniques to complement your corrector pillow for enhanced overnight recovery.",
+              href: "/neck-hump-self-massage",
+              category: "Recovery",
+              readTime: "12 min read"
+            },
+            {
+              title: "Neck Hump Exercises",
+              description: "Daily exercise routine to combine with your corrector pillow for maximum correction.",
+              href: "/neck-hump-exercises",
+              category: "Exercises",
+              readTime: "8 min read"
+            }
+          ]}
+        />
       </div>
     </>
   )
