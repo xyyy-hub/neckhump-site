@@ -1,7 +1,9 @@
 import { Metadata } from 'next'
+import Link from 'next/link'
 import PeopleAlsoAsk from '../../components/PeopleAlsoAsk'
 import Citations from '../../components/Citations'
 import AuthorReviewer from '../../components/AuthorReviewer'
+import RelatedArticles from '../../components/RelatedArticles'
 
 export const metadata = {
   title: 'How to Sleep with a Neck Hump: Positions & Pillow Tips',
@@ -796,6 +798,47 @@ export default function HowToSleepWithNeckHumpPage() {
             </p>
           </div>
         </div>
+
+        {/* Related Articles */}
+        <RelatedArticles 
+          articles={[
+            {
+              title: "Best Pillow for Neck Hump",
+              description: "Comprehensive guide to choosing the right pillow for optimal sleep support and correction.",
+              href: "/best-pillow-for-neck-hump",
+              category: "Sleep",
+              readTime: "10 min read"
+            },
+            {
+              title: "Best Neck Hump Corrector Pillows",
+              description: "Specialized corrector pillows designed for active posture correction during sleep.",
+              href: "/best-neck-hump-corrector-pillows",
+              category: "Sleep",
+              readTime: "12 min read"
+            },
+            {
+              title: "Neck Hump Self-Massage Techniques",
+              description: "Release tension before bed for better sleep quality and faster recovery.",
+              href: "/neck-hump-self-massage",
+              category: "Recovery",
+              readTime: "12 min read"
+            },
+            {
+              title: "Dowager's Hump Exercises for Seniors",
+              description: "Safe exercises to complement proper sleep positioning for older adults.",
+              href: "/dowagers-hump-exercises",
+              category: "Specialized",
+              readTime: "14 min read"
+            },
+            {
+              title: "Neck Hump Exercises",
+              description: "Daily exercises to accelerate results from proper sleep positioning.",
+              href: "/neck-hump-exercises",
+              category: "Exercises",
+              readTime: "8 min read"
+            }
+          ]}
+        />
 
         <div className="text-sm text-gray-600 mt-12 p-4 bg-gray-50 rounded-lg">
           <p>
