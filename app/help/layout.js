@@ -108,10 +108,11 @@ export default function HelpLayout({ children }) {
             <div>
               <h3 className="font-semibold text-gray-900 mb-3">Main Site</h3>
               <ul className="space-y-2 text-sm">
+                <li><Link href="/how-to-get-rid-of-neck-hump-fast" className="text-gray-600 hover:text-blue-600">Get Rid of Neck Hump Fast</Link></li>
                 <li><Link href="/neck-hump-exercises" className="text-gray-600 hover:text-blue-600">Neck Hump Exercises</Link></li>
-                <li><Link href="/how-to-fix-posture-at-home" className="text-gray-600 hover:text-blue-600">Fix Posture at Home</Link></li>
+                <li><Link href="/dowagers-hump-exercises" className="text-gray-600 hover:text-blue-600">Dowager's Hump Exercises</Link></li>
+                <li><Link href="/neck-hump-self-massage" className="text-gray-600 hover:text-blue-600">Self-Massage Guide</Link></li>
                 <li><Link href="/best-pillow-for-neck-hump" className="text-gray-600 hover:text-blue-600">Best Pillow Guide</Link></li>
-                <li><Link href="/desk-setup-guide" className="text-gray-600 hover:text-blue-600">Desk Setup Guide</Link></li>
               </ul>
             </div>
           </div>
