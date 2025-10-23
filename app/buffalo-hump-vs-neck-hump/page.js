@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import PeopleAlsoAsk from '../../components/PeopleAlsoAsk'
+import RelatedArticles from '../../components/RelatedArticles'
 
 export const metadata = {
   title: 'Buffalo Hump vs Neck Hump: Differences, Causes & Treatment Guide',
@@ -368,6 +369,40 @@ export default function BuffaloHumpPage() {
           {
             question: "When should I see a doctor for a neck hump?",
             answer: "See a doctor if your hump developed rapidly (weeks), is accompanied by weight gain or other symptoms, or if you're over 50 with new spinal curvature. For gradual-onset postural issues, try conservative treatment first but consult a doctor if no improvement after 6-8 weeks."
+          }
+        ]}
+      />
+
+      {/* Related Articles */}
+      <RelatedArticles 
+        articles={[
+          {
+            title: "Dowager's Hump vs Neck Hump",
+            description: "Compare dowager's hump (structural spinal curvature) with neck hump (forward head posture).",
+            href: "/dowagers-hump-vs-neck-hump",
+            category: "Comparison",
+            readTime: "10 min read"
+          },
+          {
+            title: "How to Get Rid of Neck Hump Fast",
+            description: "Intensive 2-4 week plan for correcting forward head posture (applicable to postural neck hump).",
+            href: "/how-to-get-rid-of-neck-hump-fast",
+            category: "Fast Results",
+            readTime: "15 min read"
+          },
+          {
+            title: "Neck Hump Surgery Guide",
+            description: "Surgical options for buffalo hump and severe neck hump conditions when conservative treatment isn't enough.",
+            href: "/neck-hump-surgery-guide",
+            category: "Treatment",
+            readTime: "12 min read"
+          },
+          {
+            title: "Neck Hump Exercises",
+            description: "Exercise-based treatment for postural neck hump (not effective for buffalo hump).",
+            href: "/neck-hump-exercises",
+            category: "Exercises",
+            readTime: "8 min read"
           }
         ]}
       />
