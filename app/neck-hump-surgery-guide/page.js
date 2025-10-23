@@ -1,5 +1,7 @@
 import { Metadata } from 'next'
+import Link from 'next/link'
 import PeopleAlsoAsk from '../../components/PeopleAlsoAsk'
+import RelatedArticles from '../../components/RelatedArticles'
 
 export const metadata = {
   title: 'Neck Hump Surgery: When Surgery is Needed & What to Expect (2024)',
@@ -1199,6 +1201,40 @@ export default function NeckHumpSurgeryGuidePage() {
             link: "/help/product-questions/neck-hump-surgery-insurance"
           }
         ]} />
+
+      {/* Related Articles */}
+      <RelatedArticles 
+        articles={[
+          {
+            title: "How to Get Rid of Neck Hump Fast",
+            description: "Try this intensive 2-4 week non-surgical plan before considering surgery (85-90% success rate).",
+            href: "/how-to-get-rid-of-neck-hump-fast",
+            category: "Non-Surgical",
+            readTime: "15 min read"
+          },
+          {
+            title: "Neck Hump Exercises",
+            description: "Conservative treatment approach that should be attempted for 6-12 months before surgery.",
+            href: "/neck-hump-exercises",
+            category: "Non-Surgical",
+            readTime: "8 min read"
+          },
+          {
+            title: "Dowager's Hump Exercises",
+            description: "Specialized exercises for structural spinal changes that may avoid surgical intervention.",
+            href: "/dowagers-hump-exercises",
+            category: "Non-Surgical",
+            readTime: "14 min read"
+          },
+          {
+            title: "Buffalo Hump vs Neck Hump",
+            description: "Understand different conditions that may require different surgical approaches.",
+            href: "/buffalo-hump-vs-neck-hump",
+            category: "Comparison",
+            readTime: "10 min read"
+          }
+        ]}
+      />
       </article>
     </div>
   )
