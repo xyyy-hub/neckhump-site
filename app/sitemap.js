@@ -121,6 +121,12 @@ export default function sitemap() {
     priority: 0.8,
   },
   {
+    url: 'https://www.neckhump.com/neck-hump-self-massage',
+    lastModified: new Date('2025-10-23T00:00:00.000Z'),
+    changeFrequency: 'monthly',
+    priority: 0.85,
+  },
+  {
     url: 'https://www.neckhump.com/neck-hump-surgery-guide',
     lastModified: new Date('2025-10-06T03:31:08.913Z'),
     changeFrequency: 'monthly',
