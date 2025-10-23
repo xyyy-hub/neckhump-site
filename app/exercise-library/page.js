@@ -501,6 +501,21 @@ export default function ExerciseLibraryPage() {
         </h2>
         
         <div className="grid md:grid-cols-3 gap-4">
+          <Link href="/how-to-get-rid-of-neck-hump-fast" className="block p-4 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border-2 border-green-400 hover:border-green-600 transition-colors">
+            <h3 className="font-semibold text-gray-900 mb-2">⚡ Get Rid of Neck Hump Fast</h3>
+            <p className="text-sm text-gray-600">Intensive 2-4 week rapid correction plan with daily routines</p>
+          </Link>
+
+          <Link href="/dowagers-hump-exercises" className="block p-4 bg-white rounded-lg border border-gray-200 hover:border-blue-400 transition-colors">
+            <h3 className="font-semibold text-gray-900 mb-2">Dowager's Hump Exercises</h3>
+            <p className="text-sm text-gray-600">Safe exercises for seniors and those with osteoporosis</p>
+          </Link>
+
+          <Link href="/neck-hump-self-massage" className="block p-4 bg-white rounded-lg border border-gray-200 hover:border-blue-400 transition-colors">
+            <h3 className="font-semibold text-gray-900 mb-2">Self-Massage Techniques</h3>
+            <p className="text-sm text-gray-600">Release tension with tennis ball and foam roller methods</p>
+          </Link>
+
           <Link href="/posture-correction-guide" className="block p-4 bg-white rounded-lg border border-gray-200 hover:border-blue-400 transition-colors">
             <h3 className="font-semibold text-gray-900 mb-2">Posture Correction Guide</h3>
             <p className="text-sm text-gray-600">Complete guide to all posture types and correction methods</p>
