@@ -1,5 +1,7 @@
 import { Metadata } from 'next'
+import Link from 'next/link'
 import PeopleAlsoAsk from '../../components/PeopleAlsoAsk'
+import RelatedArticles from '../../components/RelatedArticles'
 
 export const metadata = {
   title: 'Ergonomic Workspace for Tech Neck: Monitor Height & Setup',
@@ -1091,6 +1093,47 @@ export default function ErgonomicWorkspaceNeckHumpPage() {
             link: "/help/product-questions/budget-ergonomic-solutions"
           }
         ]} />
+
+        {/* Related Articles */}
+        <RelatedArticles 
+          articles={[
+            {
+              title: "Desk Setup Guide",
+              description: "Perfect desk setup with detailed measurements and ergonomic positioning guidelines.",
+              href: "/desk-setup-guide",
+              category: "Prevention",
+              readTime: "5 min read"
+            },
+            {
+              title: "Tech Neck Prevention Guide",
+              description: "Prevent device-induced posture issues with proper positioning and break strategies.",
+              href: "/tech-neck-prevention-guide",
+              category: "Prevention",
+              readTime: "9 min read"
+            },
+            {
+              title: "How to Get Rid of Neck Hump Fast",
+              description: "Intensive correction plan to fix existing workspace-induced posture issues.",
+              href: "/how-to-get-rid-of-neck-hump-fast",
+              category: "Fast Results",
+              readTime: "15 min read"
+            },
+            {
+              title: "Neck Hump Self-Massage Techniques",
+              description: "Release workspace tension with targeted massage at your desk and after work.",
+              href: "/neck-hump-self-massage",
+              category: "Recovery",
+              readTime: "12 min read"
+            },
+            {
+              title: "Neck Hump Exercises",
+              description: "Counteract hours of desk work with targeted strengthening exercises.",
+              href: "/neck-hump-exercises",
+              category: "Exercises",
+              readTime: "8 min read"
+            }
+          ]}
+        />
       </article>
     </div>
   )
