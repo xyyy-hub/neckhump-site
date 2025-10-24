@@ -44,6 +44,7 @@ This is a Next.js website about neck posture and posture correction. The site fo
 - **Missing Sitemap Entries**: Pages not in sitemap.js won't be discovered by search engines properly
 - **Structured Data Consistency**: JSON-LD @id and url fields must match canonical URL format exactly
 - **Duplicate FAQPage Schema**: Pages with manual FAQPage structured data MUST set `includeSchema={false}` on PeopleAlsoAsk component to prevent duplicate schema errors. GSC validation fails with "Cannot continue validation process" and "Duplicate field 'FAQPage'" error when same @type appears multiple times on one page
+- **Double Redirect Chain**: Vercel's default behavior creates double redirects (HTTP→HTTPS, then non-www→www). Fix with vercel.json to force single-hop redirects directly to canonical HTTPS www URL. Double redirects cause "Page with redirect" GSC validation failures
 
 ### Performance Optimization Patterns
 - **Core Web Vitals Focus**: FCP (<1.2s), LCP (<2.5s), Speed Index (<3.4s) are primary metrics
